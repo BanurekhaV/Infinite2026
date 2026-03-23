@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\bin\Debug\FirstConsole.exe.config
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\bin\Debug\FirstConsole.exe
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\bin\Debug\FirstConsole.pdb
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\obj\Debug\FirstConsole.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\obj\Debug\FirstConsole.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\obj\Debug\FirstConsole.exe
+C:\Banu\2026\DotNet\CSharp\FirstConsole\FirstConsole\obj\Debug\FirstConsole.pdb
