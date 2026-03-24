@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day1\\day1\\implicittypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|solutionrelative:day1\\implicittypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\day1\\programelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|solutionrelative:day1\\programelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day1\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|solutionrelative:day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\day1\\implicittypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6FE0E7-392E-473F-8E94-497AF20FF84A}|Day1\\Day1.csproj|solutionrelative:day1\\implicittypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +22,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProgramElements.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\Day1\\ProgramElements.cs",
+              "RelativeDocumentMoniker": "Day1\\ProgramElements.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\Day1\\ProgramElements.cs",
+              "RelativeToolTip": "Day1\\ProgramElements.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T10:12:14.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ImplicitTypes.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\Day1\\ImplicitTypes.cs",
               "RelativeDocumentMoniker": "Day1\\ImplicitTypes.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\Day1\\ImplicitTypes.cs",
               "RelativeToolTip": "Day1\\ImplicitTypes.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABoAAAAJAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T07:55:29.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T07:55:29.075Z"
             },
             {
               "$type": "Document",
@@ -45,10 +65,9 @@
               "RelativeDocumentMoniker": "Day1\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day1\\Day1\\Program.cs",
               "RelativeToolTip": "Day1\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAywA8AAAAeAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAACMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T05:58:11.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T05:58:11.333Z"
             }
           ]
         }

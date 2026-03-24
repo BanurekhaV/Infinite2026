@@ -24,6 +24,16 @@ namespace Day1
             d = false;
             d = "hello";
             Console.WriteLine(d);
+
+            //anonymous type
+            var mytype = new
+            {
+                data1 = "CSharp",
+                data2 = 10,
+                data3 = true
+            };
+            Console.WriteLine(mytype.data1);
+            Console.WriteLine(mytype.GetType().ToString());
         }
     }
 }
