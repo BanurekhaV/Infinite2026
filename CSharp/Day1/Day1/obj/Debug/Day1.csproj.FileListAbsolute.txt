@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\bin\Debug\Day1.exe.config
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\bin\Debug\Day1.exe
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\bin\Debug\Day1.pdb
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\obj\Debug\Day1.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\obj\Debug\Day1.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\obj\Debug\Day1.exe
+C:\Banu\2026\DotNet\CSharp\Day1\Day1\obj\Debug\Day1.pdb

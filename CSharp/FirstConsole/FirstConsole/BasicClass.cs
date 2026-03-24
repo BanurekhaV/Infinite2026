@@ -30,7 +30,6 @@ namespace FirstConsole
     class Second
 
     {
-
         public static void Display()
 
         {
@@ -43,4 +42,5 @@ namespace FirstConsole
             Console.WriteLine($"Your Name is :{fname} and your Last name is {lname} ");  // string interpolation
         }
     }
+
 }
