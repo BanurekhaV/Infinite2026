@@ -1,0 +1,62 @@
+Operators : 
+    Assignment
+    Arithmetic
+    Relational 
+    Logical
+    Null
+    Misc - sizeof(), typesof()
+
+Program elements : 
+
+Control Statement : execution path of a program
+Selection statement : if, switch
+Iteration Statements : while, do while, for, foreach
+Jump Statements : return, break, continue, throw, goto
+
+Goto : are used to transfer control within a function
+       they are identified with a valid name followed by a ':'
+       unstructured control flow of statements
+
+switch((intval1, strval2, boolval3))
+{
+  case (1,"Hi",false):
+   cw("All correct");
+break;
+ case(2,"Hello",true):
+
+Arrays : Is  a collection of values of the same data type
+    - Single Dimension Array
+    - Two / Multi Dimension Array
+    - Jagged Array
+
+System.Array class : Array class provides functions like sort(), reverse() and properties like rank, length etc.
+
+Single Dimension :
+Datatype[]ArrayName = new Datatype[size]  -- declaring
+int []a = new int[5]; a[0]=1; a[1]=2;
+
+int[]a = new int[5]{1,2,3,4,5};
+
+int[] a = new int[]={1,2,3,4,5};
+
+
+Two dimension Array:
+int[,] arr = new int[4,3]
+
+Jagged Array :
+ - Jagged arrays are often called as array of arrays
+ - An element of a jagged array itself is an array
+int[][] array1 = new int[3][];
+array1[0] = new int[]{1,2,3,4};
+array1[1]= new int[]{5,6};
+array1[2]= new int[]{7,8,9};
+
+
+Strings : are a collection of characters
+          are allocated in the heap memory
+          are predefined reference type
+          are immutable
+          string memory cannot be changed dynamically
+
+
+             
