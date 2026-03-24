@@ -1,56 +1,32 @@
-.Net  / Dotnet Framework : is a software component that runs on the windows operating system
+- Parse : converts a string input, if not possible throws exception
 
-- It provides tools and libraries to enable developers  to create software much faster and easier
+- TryParse: tries to convert a string. if yes, returns the converted values as output and Boolean true, else false. But does not throw any exception
 
+- Boxing n unboxing
 
-CLR : acts as an interface between the application and the O/S
-      Loads and executes the code
-      Converts IL to machine code/native code
-      Separates the process and memory
-      Manages memory and objects
-      Enforces code and access security
-      Provides type - checking
-      Provides code meta data (Reflection )
-      Provides profiling, debugging etc
-      
+- Nullable concept and null coalescing 
 
-- IL/MSIL/CIL/Managed Code
-- Assemblies are the compiled projects that are either an .exe or .dll (only 2 types) depending on the type of application
--  Source code Compilation leads to IL  (Assembly)
-   Execution on JIT - leads to native code
-- The native code is not stored permanently anywhere. Once the execution is complete, it is thrown away. Next time on execution, the native code id generated again
+- Debugging options
 
-
-Assemblies : are the fundamental unit of deployment, version control, reuse and security enabled .net application
- - They contain - PE Header, CLR Header, IL and Manifest
- - Manifest files contain meta data
- - Assemblies can be either private or shared
- - Shared Assemblies are placed in GAC (Global Assembly Cache) 
- - We use ILDASM to peek into an assembly file
- - We use ILASM to reconstruct an assembly
-
-CSharp : a general purpose, modern, OOP language developed by Microsoft
-         Anders Hejlsberg and his team developed C# during the development of .Net Framework
-
-Namespace : It is a collection of Classes, Interfaces, Events, Delegates, Structures, Enumerations and also other namespaces
-            It is a logical way to organize our program components
-            It helps in avoiding nameclashes
-
-Data Types : Are basically either
-        - Value Type  - All integral datatypes(primitive/systemic/fundamental)  
-                        Are derived from System.ValueType
-                        They store the data
-                        These are stored in Stack memory
-   Eg :  int Num; Num=5
+- Methods in C# have parameters of the following type :
+  1. value
+  2. reference
+  3. out
+  4. parameter array 
+         (params keyword helps in giving a variable number of arguments, separated by comma, or zero arguments)
+         Only one params is allowed per function
+         params keyword should be the last in the method declaration
      
-        - Reference Type  - All Arrays, objects/classes, interfaces, delegates etc
-                          They store the address of the memory where data is stored
-                          These types are stored in Heap memory
 
-Literals in C# :
-    String Literals
-    Real Literals 
-    Integer Literals
-    Character Literals
-    Boolean Literals
-    Null Literals
+
+- Implicit Types
+
+   var  : has to be initialized at the time of declaration
+          it will implicitly convert to the initialized value
+          cannot change after initializing
+
+   dynamic : declaration and initialization can be at different times
+             does not convert to the initialized type at the compile time, instead will convert at runtime
+             can be changed with different types of values, hence can become an overhead on performance
+             try to minimise usage of dynamic
+             
