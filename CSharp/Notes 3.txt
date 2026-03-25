@@ -56,5 +56,9 @@ Destructors : is a special function of the class
               cannot be overloaded
               cannot be called explicitly
               are meant for deallocation of memory
+
+this : is a pointer that points to the current instance of the class
+       is used for constructor chaining withn the same class
+       
    
 

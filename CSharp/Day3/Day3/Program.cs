@@ -24,6 +24,14 @@ namespace Day3
             Empid = e;
             EmpName = s;
         }
+
+        //this pointer refers to the instance in question
+        internal Employee(int Empid, string EmpName, float Empsalary)
+        {
+            this.Empid = Empid;
+            this.EmpName = EmpName;
+            this.Empsalary = Empsalary;
+        }
         public void ShowEmp()      // 4
         {
             Console.WriteLine($"Empid :{Empid}, Name : {EmpName} and Salary :{Empsalary}");
