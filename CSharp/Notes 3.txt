@@ -9,20 +9,52 @@ Enumerations : are a set/collection of named constants
                is used when we want to store a list of values that generally correspond to a particular type
 
 Readonly : variable/field that is declared using  'readonly' keyword
-           we can initialize readonly variables/fields either at the time of declaration or thru constructor
-           cannot be modified after initialization
-           constructor initializations has precedence
-           they are similar to non-static members of a class (meaning a copy of the variable/field is maintained in each instance, and it also requires an object instance to access
+          - we can initialize readonly variables/fields either at the time of declaration or thru constructor
+          - cannot be modified after initialization
+          - constructor initializations has precedence
+          - they are similar to non-static members of a class (meaning a copy of the variable/field is maintained in each instance, and it also requires an object instance to access
            they differ from non-static as they cannot be modified unlike non-static field
            
 
+Constants :- are like readonly (meaning once initialized cannot change)
+           - unlike readonly we can initilaize constants only at the time of declaration
+           - are like static members, since there exists only one copy of the constant for the entire class
+           - while the values of static members can be changed, constants cannot be
+            
 
+Classes and Objects : Class is a structural declaration of what is needed and how to access it
 
+Objects : is a working copy of the class (an instance of the class)
+            Data, state, behaviour
 
+OOP :  is a way of designing applications
+
+WYSIWYG
+  1. Encapsulation : Unit of Information that consists of fields and functions
+                     Is a process of enclosing one or more items within a physical or a logical package
+                     It prevents access to implementation details using access specifiers
+
+  2. Abstraction :  Giving away only required data and hiding the rest
+
+  3. Inheritance :  Extensions
+
+  4. Polymorphism : Existing in many forms
 
 
 Constructors : are special functions of a class
                they have the same name as that of the class
                they do not have return types
                used to initialize fields
+               they can be overloaded
+               they can be called explicitly like normal functions using new keyword and function signature
+               they have to be either public, internal, protected but not private
+
+Destructors : is a special function of the class
+              has the same name as that of the class with a tilde '~'
+              no return type
+              no access specifiers
+              cannot be overloaded
+              cannot be called explicitly
+              are meant for deallocation of memory
+   
 

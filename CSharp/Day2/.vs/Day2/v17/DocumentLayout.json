@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3CBAAF5C-9DDB-40AF-9783-FFA6C20ED341}|Day2\\Day2.csproj|solutionrelative:day2\\readonly_constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CBAAF5C-9DDB-40AF-9783-FFA6C20ED341}|Day2\\Day2.csproj|c:\\banu\\2026\\dotnet\\csharp\\day2\\day2\\userdefinedvaluetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CBAAF5C-9DDB-40AF-9783-FFA6C20ED341}|Day2\\Day2.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day2\\day2\\userdefinedvaluetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CBAAF5C-9DDB-40AF-9783-FFA6C20ED341}|Day2\\Day2.csproj|solutionrelative:day2\\userdefinedvaluetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Day2\\ReadOnly_Constants.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day2\\Day2\\ReadOnly_Constants.cs",
               "RelativeToolTip": "Day2\\ReadOnly_Constants.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAFAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T07:40:09.214Z",
               "EditorCaption": ""
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "Day2\\UserDefinedValueTypes.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day2\\Day2\\UserDefinedValueTypes.cs",
               "RelativeToolTip": "Day2\\UserDefinedValueTypes.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAAEMAAAAMAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAUwEIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T05:37:05.324Z",
               "EditorCaption": ""
