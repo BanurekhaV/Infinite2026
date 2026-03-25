@@ -34,7 +34,7 @@ CSharp : a general purpose, modern, OOP language developed by Microsoft
 
 Namespace : It is a collection of Classes, Interfaces, Events, Delegates, Structures, Enumerations and also other namespaces
             It is a logical way to organize our program components
-            It helps in avoiding nameclashes
+            It helps in avoiding name clashes
 
 Data Types : Are basically either
         - Value Type  - All integral datatypes(primitive/systemic/fundamental)  

@@ -1,0 +1,9 @@
+Structures : are user defined value types
+             are used to create and store multiple data of different data types as a single unit            
+
+
+Enumerations : are a set/collection of named constants
+               are user defined value types
+               are declared using Enum keyword
+               the default type of any enumeration list is int
+               is used when we want to store a list of values that generally correspond to a particular type

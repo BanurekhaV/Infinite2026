@@ -59,4 +59,6 @@ Strings : are a collection of characters
           string memory cannot be changed dynamically
 
 
-             
+stringBuilder :  same as strings but are mutable
+
+Instance Members Vs Static Members :         
