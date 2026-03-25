@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Day2
 {
+    enum Cities { Bangalore=2, Agra=1, Chennai=3, Delhi=4,Hyderabad=6, Ghaziabad=5, Vizag=7}
+
     struct Student
     {
        public int Id;
@@ -20,6 +22,27 @@ namespace Day2
     }
     internal class UserDefinedValueTypes
     {
+        public static void UnderstandEnums()
+        {
+            //getting values from the enum
+            foreach (int item in Enum.GetValues(typeof(Cities)))
+            {
+                // Console.WriteLine(item);
+                if (item == 2)
+                    Console.WriteLine(Enum.GetName(typeof(Cities), item) + " is a Garden City");
+                else if (item == 3)
+                    Console.WriteLine(Enum.GetName(typeof(Cities), item) + " is a Temple City");
+                else if(item == 7)
+                    Console.WriteLine(Enum.GetName(typeof(Cities), item) + " is a Steel City");
+                else Console.WriteLine("No details");
+            }
+
+            //getting names from the enum
+            foreach (var name in Enum.GetNames(typeof(Cities)))
+            {
+                Console.WriteLine(name);
+            }
+        }
         public static void Main()
         {
             Student s1 = new Student();
@@ -37,6 +60,11 @@ namespace Day2
             Console.WriteLine("----------------- After changes-------------------");
             s1.ShowStudent();
             s2.ShowStudent();
+            Console.WriteLine("********** Enumerations ***********");
+            UnderstandEnums();
+
+            Console.WriteLine("-----------Working with Readonly Constants-----------");
+            ReadOnly_Constants.UnderstandingReadonlyConstants();
             Console.Read();
         }
     }

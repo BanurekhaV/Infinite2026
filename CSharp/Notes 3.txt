@@ -7,3 +7,22 @@ Enumerations : are a set/collection of named constants
                are declared using Enum keyword
                the default type of any enumeration list is int
                is used when we want to store a list of values that generally correspond to a particular type
+
+Readonly : variable/field that is declared using  'readonly' keyword
+           we can initialize readonly variables/fields either at the time of declaration or thru constructor
+           cannot be modified after initialization
+           constructor initializations has precedence
+           they are similar to non-static members of a class (meaning a copy of the variable/field is maintained in each instance, and it also requires an object instance to access
+           they differ from non-static as they cannot be modified unlike non-static field
+           
+
+
+
+
+
+
+Constructors : are special functions of a class
+               they have the same name as that of the class
+               they do not have return types
+               used to initialize fields
+
