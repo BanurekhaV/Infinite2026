@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\operatoroverloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\operatoroverloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\overloadingeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\overloadingeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\base-derivedeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\base-derivedeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\inheritanceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\inheritanceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A960166C-F768-41BB-9AD2-497B8FC37FA2}|AccessTestPrj\\AccessTestPrj.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\accesstestprj\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A960166C-F768-41BB-9AD2-497B8FC37FA2}|AccessTestPrj\\AccessTestPrj.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\accesstestprj\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A960166C-F768-41BB-9AD2-497B8FC37FA2}|AccessTestPrj\\AccessTestPrj.csproj|solutionrelative:accesstestprj\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\day4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,19 +43,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OperatorOverloading.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\OperatorOverloading.cs",
+              "RelativeDocumentMoniker": "Day4\\OperatorOverloading.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\OperatorOverloading.cs",
+              "RelativeToolTip": "Day4\\OperatorOverloading.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:38:28.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OverloadingEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\OverloadingEg.cs",
+              "RelativeDocumentMoniker": "Day4\\OverloadingEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\OverloadingEg.cs",
+              "RelativeToolTip": "Day4\\OverloadingEg.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:25:25.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Base-DerivedEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\Base-DerivedEg.cs",
+              "RelativeDocumentMoniker": "Day4\\Base-DerivedEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\Base-DerivedEg.cs",
+              "RelativeToolTip": "Day4\\Base-DerivedEg.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAuwDEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T09:56:11.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InheritanceEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\InheritanceEg.cs",
               "RelativeDocumentMoniker": "Day4\\InheritanceEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\InheritanceEg.cs",
               "RelativeToolTip": "Day4\\InheritanceEg.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFAAAAAfAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwFAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T07:50:47.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TestClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\AccessTestPrj\\TestClass.cs",
               "RelativeDocumentMoniker": "AccessTestPrj\\TestClass.cs",
@@ -51,12 +102,11 @@
               "RelativeToolTip": "AccessTestPrj\\TestClass.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T05:29:15.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T05:29:15.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\Program.cs",
               "RelativeDocumentMoniker": "Day4\\Program.cs",
@@ -64,8 +114,7 @@
               "RelativeToolTip": "Day4\\Program.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAACIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T05:21:46.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T05:21:46.326Z"
             }
           ]
         }
