@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79D4A407-3464-4437-9EE6-5052E9C3FA75}</ProjectGuid>
+    <ProjectGuid>{31AFB82D-D747-49A8-92C4-5983285F6739}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day3</RootNamespace>
-    <AssemblyName>Day3</AssemblyName>
+    <RootNamespace>Day4</RootNamespace>
+    <AssemblyName>Day4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day3.ConstructorTypes</StartupObject>
+    <StartupObject>Day4.Marks.InheritanceEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConstructorChaining.cs" />
-    <Compile Include="ConstructorTypes.cs" />
+    <Compile Include="InheritanceEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

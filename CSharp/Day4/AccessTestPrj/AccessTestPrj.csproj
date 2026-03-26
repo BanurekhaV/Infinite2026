@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79D4A407-3464-4437-9EE6-5052E9C3FA75}</ProjectGuid>
+    <ProjectGuid>{A960166C-F768-41BB-9AD2-497B8FC37FA2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day3</RootNamespace>
-    <AssemblyName>Day3</AssemblyName>
+    <RootNamespace>AccessTestPrj</RootNamespace>
+    <AssemblyName>AccessTestPrj</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Day3.ConstructorTypes</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,13 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConstructorChaining.cs" />
-    <Compile Include="ConstructorTypes.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Day4\Day4.csproj">
+      <Project>{31afb82d-d747-49a8-92c4-5983285f6739}</Project>
+      <Name>Day4</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

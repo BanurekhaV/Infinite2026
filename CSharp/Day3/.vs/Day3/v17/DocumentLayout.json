@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|c:\\banu\\2026\\dotnet\\csharp\\day3\\day3\\constructorchaining.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|solutionrelative:day3\\constructorchaining.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|c:\\banu\\2026\\dotnet\\csharp\\day3\\day3\\constructortypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|solutionrelative:day3\\constructortypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|c:\\banu\\2026\\dotnet\\csharp\\day3\\day3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day3\\day3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|solutionrelative:day3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|c:\\banu\\2026\\dotnet\\csharp\\day3\\day3\\constructorchaining.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79D4A407-3464-4437-9EE6-5052E9C3FA75}|Day3\\Day3.csproj|solutionrelative:day3\\constructorchaining.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +22,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConstructorTypes.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day3\\Day3\\ConstructorTypes.cs",
+              "RelativeDocumentMoniker": "Day3\\ConstructorTypes.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day3\\Day3\\ConstructorTypes.cs",
+              "RelativeToolTip": "Day3\\ConstructorTypes.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAABsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T04:34:35.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ConstructorChaining.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day3\\Day3\\ConstructorChaining.cs",
               "RelativeDocumentMoniker": "Day3\\ConstructorChaining.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day3\\Day3\\ConstructorChaining.cs",
               "RelativeToolTip": "Day3\\ConstructorChaining.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwCUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T12:27:48.795Z",
               "EditorCaption": ""

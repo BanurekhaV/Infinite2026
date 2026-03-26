@@ -1,0 +1,61 @@
+Access Specifiers : defines the scope and visibility of a class member. C# Supports the following
+
+Public : All classes within the assembly or outside the assembly with or without derivation can access the public members
+         We just need an object of the class where public members are declared, to access it
+               1. make the class public whose object we need to create
+               2. Add reference to assembly where the public class is written
+               3. Use the assembly in the place were you need it
+
+Private : Accessible only to the class where it is declared 
+          No access anywhere
+
+Protected : Protected members of a class are accessible to all the derived types within the assembly or outside the assembly
+
+Internal : Acts Like public access specifier, allowing both derived and non-derived classes.
+           But only within the assembly
+
+Internal Protected / protected Internal :
+         Internal to all the derived or non-derived classes of the assembly and
+         Protected to all the derived classes of other assembly
+
+Note :
+By Default all classes in CSharp are internal
+By default all members of the class are private
+
+
+                                         internal member                    protected internal
+
+same assembly non derived class             yes                                   yes
+
+same assembly derived type                  yes- via internal                   yes via protected
+
+different assembly non-derived              No                                    No
+
+different assembly derived type             No                                    yes via protected
+      
+ 
+
+Inheritance : extensions of the capabilities of a class
+  C# supports 
+   Single, Multilevel and hybrid inheritance
+   No support for multiple inheritance
+
+2 type of broadly classifiable relations are :
+  1. 'is a'  relation   (inheritance)
+  2. 'has a' relation   (composition/aggregation)
+
+1. class dog(){ }   --> class Labrador :Dog(){}   Labrador is a Dog
+
+2. class Engine{
+     int Engine id; 
+  double Horsepower;
+   
+}
+
+class Car{
+  Engine engine;  an object of engine class declared as a field in car class
+  string Make;
+  double Cost;
+
+}                car 'has' a engine
+

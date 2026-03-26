@@ -58,7 +58,19 @@ Destructors : is a special function of the class
               are meant for deallocation of memory
 
 this : is a pointer that points to the current instance of the class
-       is used for constructor chaining withn the same class
+       is used for constructor chaining within the same class
        
    
 
+Types of Constructors :
+  Private Constructor : supports in object creation where we have to emphasize on singleton object
+  Public constructor 
+  Internal
+  Protected : It is like a private constructor only meant for the class in which it is defined and all the subclasses.
+  Static :  are used to initialize static fields, as soon as the class is referenced the first time (one time), where as an instance constructor is used to create an instance with the new keyword for each and every object
+            A static constructor does not take any modifiers/access specifiers nor any parameters
+            Cannot initialize non static fields
+            Executes at most only one time
+     eg : Log file entries
+
+      

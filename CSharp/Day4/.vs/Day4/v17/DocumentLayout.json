@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\inheritanceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\inheritanceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A960166C-F768-41BB-9AD2-497B8FC37FA2}|AccessTestPrj\\AccessTestPrj.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\accesstestprj\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A960166C-F768-41BB-9AD2-497B8FC37FA2}|AccessTestPrj\\AccessTestPrj.csproj|solutionrelative:accesstestprj\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|c:\\banu\\2026\\dotnet\\csharp\\day4\\day4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AFB82D-D747-49A8-92C4-5983285F6739}|Day4\\Day4.csproj|solutionrelative:day4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InheritanceEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\InheritanceEg.cs",
+              "RelativeDocumentMoniker": "Day4\\InheritanceEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\InheritanceEg.cs",
+              "RelativeToolTip": "Day4\\InheritanceEg.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:50:47.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestClass.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\AccessTestPrj\\TestClass.cs",
+              "RelativeDocumentMoniker": "AccessTestPrj\\TestClass.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\AccessTestPrj\\TestClass.cs",
+              "RelativeToolTip": "AccessTestPrj\\TestClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T05:29:15.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\Program.cs",
+              "RelativeDocumentMoniker": "Day4\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day4\\Day4\\Program.cs",
+              "RelativeToolTip": "Day4\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T05:21:46.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
