@@ -59,3 +59,28 @@ class Car{
 
 }                car 'has' a engine
 
+
+- Base class initialization thru derived class constructor is a must if base class has only parameterized constructors. This is done using base keyword
+
+Polymorphism : Ability of an object to respond differently to different messages or different objects responding differently to the same message
+
+  - Overloading : 1)function overloading
+
+         - are functions with the same name and different signatures in terms of the arguments(i.e. either in the number of arguments or in the data type) 
+         - is a concept within a class
+         - we can achieve static polymorphism/compile time polymorphism/early binding thru overloading
+         - binding means resolving the function calls          
+ 
+                  2)operator overloading :
+              - are also seen within a class
+              - are meant to give similar effects as that of systemic types
+              - have to be declared always as public and static only
+              - the return type is also the same as the enclosing type
+              - we can get static polymorphism 
+
+  - Overriding : is seen across related classes
+                - the signature has to be always the same
+                - does not allow us to change the access specifier, modifier, return type, argument type/nos.
+                - derived class has to always use the override modifier, and the base class has to mark the function as virtual
+                - we can achieve dynamic polymorphism thru co-variance/late binding
+

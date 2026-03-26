@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day4.OperatorOverloading</StartupObject>
+    <StartupObject>Day4.OveridingEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Base-DerivedEg.cs" />
     <Compile Include="InheritanceEg.cs" />
     <Compile Include="OperatorOverloading.cs" />
+    <Compile Include="OveridingEg.cs" />
     <Compile Include="OverloadingEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
