@@ -16,7 +16,9 @@ namespace Day5
     class Employee : IName
     {
         public string Name { get; set; }
-        public int Age { get; set; }        
+        public int Age { get; set; } 
+        
+        public string Myphone {  get; set; }  // property of the employee class
     }
 
     class Company: IName
@@ -41,7 +43,12 @@ namespace Day5
         {
             IName e = new Employee();
             e.Name = "VishnuPriya";
-           
+            
+            //class property accessed via class object and cannot be accesed via interface object
+            Employee emp = new Employee();
+            emp.Myphone = "1234567891";
+            Console.WriteLine(emp.Myphone);
+
             IName c = new Company();
             c.Name = " Infinite Ltd.";
             c.Age = 20;

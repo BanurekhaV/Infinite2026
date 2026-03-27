@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day5.IndexerEg2</StartupObject>
+    <StartupObject>Day5.IndexersEg3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="IndexerEg2.cs" />
     <Compile Include="IndexersEg.cs" />
+    <Compile Include="IndexersEg3.cs" />
     <Compile Include="InterfaceEg.cs" />
     <Compile Include="Interface_ExplicitImplementation.cs" />
     <Compile Include="Interface_with_Properties.cs" />

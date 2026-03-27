@@ -43,7 +43,7 @@ Explicit Implementation of interface methods
 
 Indexers : allow an object to be indexed like an array. 
            If we define an indexer for a class, then the class object behaves similar to an virtual array.
-           cobj[0], cobj[2]
-           indexers are like properties with get and set accessors
+           Indexers are like properties with get and set accessors
            unlike properties they do not have names and uses the 'this' keyword
-           while properties get or set a specific datamember/field value, indexers get or set a value for a field at a particular index.
+           They can be overloaded
+           while properties gets or sets a specific datamember/field value, indexers gets or sets a value for a field at a particular index.
