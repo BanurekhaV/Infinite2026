@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertiesEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\PropertiesEg.cs",
+              "RelativeDocumentMoniker": "Day5\\PropertiesEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\PropertiesEg.cs",
+              "RelativeToolTip": "Day5\\PropertiesEg.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T05:29:25.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Program.cs",
+              "RelativeDocumentMoniker": "Day5\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Program.cs",
+              "RelativeToolTip": "Day5\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAD0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T04:58:08.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

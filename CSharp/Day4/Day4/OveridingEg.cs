@@ -76,7 +76,7 @@ namespace Day4
             //Console.WriteLine("Area and Circumference of Circle is  {0} , {1} ", circle.Area(), circle.Circumference());
 
             Shape s = new Shape();
-            Console.WriteLine(s.Area());
+            Console.WriteLine(s.Area());            
             
             s = new Rectangle();  //co-variance
             Console.WriteLine("The Area of rect is {0} ", s.Area());

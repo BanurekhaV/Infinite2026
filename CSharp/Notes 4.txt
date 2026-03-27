@@ -84,3 +84,4 @@ Polymorphism : Ability of an object to respond differently to different messages
                 - derived class has to always use the override modifier, and the base class has to mark the function as virtual
                 - we can achieve dynamic polymorphism thru co-variance/late binding
 
+Name/method Hiding  : is a concept used with a new keyword to deliberately hide the same fields/functions with signature in the base type as well as the derived type
