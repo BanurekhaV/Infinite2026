@@ -1,0 +1,42 @@
+Abstract Class : is a class that has at least one abstract method
+                 It can have non-abstract methods also
+                 Cannot be instantiated
+                 Can be inherited
+                 The inherited class/s will have to provide implementation/definition/function body to the abstract method
+
+Abstract method : is a method that has only declaration/function signature and no implementation
+
+Mode of Execution :
+---------------
+1. With Base Type object referring the sub type then
+   - Area() of subtype will be executed
+   - Circumference() of base type will be executed if not overridden by the subtype , else subtypes overidden function will be executed
+   - ShapeDetails() of base type only will be executed
+
+2. With subtype object 
+     - Area() of subtype will be executed
+    - Circumference() of base type will be executed if not overridden by the subtype , else subtypes overidden function will be executed
+   - ShapeDetails() of sub type only will be executed
+
+
+Properties : are named members of classes, structures and interfaces
+             member variables of a class/structure are called fields
+             properties are an extension of fields that are accessed using the accessors 
+             the accessors helps to read or write values to the private field
+             do not name the storage locations, instead have accessors to read/write/compute values
+
+-toString()  - overriding from the object class
+
+Interface : are like classes, that can contain methods, properties, events, delegates  but only declarations
+            Interface members are public by default            
+            They do not allow explicit access modifiers
+            A class can implement more that one interface 
+            The class that implements an interface will have to provide implementation for all the methods 
+            One interface can implement other interface
+            An implementing class should define all the methods in the interface chain (one interface implementing many other interface)
+            Cannot instantiate interface, but a reference objects can be created
+
+             
+Explicit Implementation of interface methods 
+      When one or more interface has similar methods with matching signature, and the class wants to implement all the matching methods
+

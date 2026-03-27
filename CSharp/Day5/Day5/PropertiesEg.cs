@@ -8,11 +8,19 @@ namespace Day5
 {
     class Student
     {
+        //automatic properties
+        public float Marks {  get; set; }
+        public char Grade { get; }= 'A';
+        public int Percentage { get; private set; }
+        public string Phone { get; protected set; }
+
+        //declaration of fields
+
         private string code = "N.A";
         private string Name = "Unknown";
         private int age = 30;
 
-        //declaring properties for the above field
+        //declaring properties for the above fields manually
         public string StdCode
         {
             get { return code; }
@@ -36,7 +44,7 @@ namespace Day5
             return "Code = " + code + " , Student Name = "+ Name + " and Age  = "+ age;
         }
     }
-    internal class PropertiesEg
+    internal class PropertiesEg : Student
     {
         static void Main()
         {
@@ -50,6 +58,10 @@ namespace Day5
             s.StdCode = "S005";
             Console.WriteLine("Student Info : " + s.ToString());
 
+            s.Marks = 78;
+            //subtype object to access and set protected property
+            PropertiesEg propertiesEg = new PropertiesEg();
+            propertiesEg.Phone = "234567";
             Console.Read();
         }
     }

@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\interface_explicitimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\interface_explicitimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,19 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Interface_ExplicitImplementation.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Interface_ExplicitImplementation.cs",
+              "RelativeDocumentMoniker": "Day5\\Interface_ExplicitImplementation.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Interface_ExplicitImplementation.cs",
+              "RelativeToolTip": "Day5\\Interface_ExplicitImplementation.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T07:59:16.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InterfaceEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\InterfaceEg.cs",
+              "RelativeDocumentMoniker": "Day5\\InterfaceEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\InterfaceEg.cs",
+              "RelativeToolTip": "Day5\\InterfaceEg.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAC4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T07:27:03.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PropertiesEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\PropertiesEg.cs",
               "RelativeDocumentMoniker": "Day5\\PropertiesEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\PropertiesEg.cs",
               "RelativeToolTip": "Day5\\PropertiesEg.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAAAFAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T05:29:25.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Program.cs",
               "RelativeDocumentMoniker": "Day5\\Program.cs",
@@ -47,8 +81,7 @@
               "RelativeToolTip": "Day5\\Program.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAAAD0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T04:58:08.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T04:58:08.102Z"
             }
           ]
         }
