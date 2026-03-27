@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day5.InterfaceEg</StartupObject>
+    <StartupObject>Day5.IndexerEg2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IndexerEg2.cs" />
+    <Compile Include="IndexersEg.cs" />
     <Compile Include="InterfaceEg.cs" />
     <Compile Include="Interface_ExplicitImplementation.cs" />
+    <Compile Include="Interface_with_Properties.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesEg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

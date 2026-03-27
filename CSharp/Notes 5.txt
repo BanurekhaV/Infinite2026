@@ -40,3 +40,10 @@ Interface : are like classes, that can contain methods, properties, events, dele
 Explicit Implementation of interface methods 
       When one or more interface has similar methods with matching signature, and the class wants to implement all the matching methods
 
+
+Indexers : allow an object to be indexed like an array. 
+           If we define an indexer for a class, then the class object behaves similar to an virtual array.
+           cobj[0], cobj[2]
+           indexers are like properties with get and set accessors
+           unlike properties they do not have names and uses the 'this' keyword
+           while properties get or set a specific datamember/field value, indexers get or set a value for a field at a particular index.

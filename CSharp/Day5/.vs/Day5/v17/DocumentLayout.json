@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\indexerseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\indexerseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\indexereg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\indexereg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\interface_with_properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\interface_with_properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\interface_explicitimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\interface_explicitimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\day5\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\interfaceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|c:\\banu\\2026\\dotnet\\csharp\\day5\\day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA002398-6810-46BA-B59E-EA74D6705A13}|Day5\\Day5.csproj|solutionrelative:day5\\propertieseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +46,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexerEg2.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\IndexerEg2.cs",
+              "RelativeDocumentMoniker": "Day5\\IndexerEg2.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\IndexerEg2.cs",
+              "RelativeToolTip": "Day5\\IndexerEg2.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T11:24:34.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IndexersEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\IndexersEg.cs",
+              "RelativeDocumentMoniker": "Day5\\IndexersEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\IndexersEg.cs",
+              "RelativeToolTip": "Day5\\IndexersEg.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T10:32:59.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interface_with_Properties.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Interface_with_Properties.cs",
+              "RelativeDocumentMoniker": "Day5\\Interface_with_Properties.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Interface_with_Properties.cs",
+              "RelativeToolTip": "Day5\\Interface_with_Properties.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T09:57:24.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Interface_ExplicitImplementation.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Interface_ExplicitImplementation.cs",
               "RelativeDocumentMoniker": "Day5\\Interface_ExplicitImplementation.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Interface_ExplicitImplementation.cs",
               "RelativeToolTip": "Day5\\Interface_ExplicitImplementation.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAABIAAAAUAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T07:59:16.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "InterfaceEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\InterfaceEg.cs",
               "RelativeDocumentMoniker": "Day5\\InterfaceEg.cs",
@@ -55,12 +106,11 @@
               "RelativeToolTip": "Day5\\InterfaceEg.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAAAC4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:27:03.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T07:27:03.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PropertiesEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\PropertiesEg.cs",
               "RelativeDocumentMoniker": "Day5\\PropertiesEg.cs",
@@ -68,12 +118,11 @@
               "RelativeToolTip": "Day5\\PropertiesEg.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T05:29:25.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T05:29:25.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day5\\Day5\\Program.cs",
               "RelativeDocumentMoniker": "Day5\\Program.cs",
