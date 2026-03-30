@@ -65,3 +65,13 @@ Types of classes :
 2. Static class : can neither be inherited nor instantiated. All members have to be static only. Is called using the classname
 3. Sealed Class : Can be instantiated, but cannot be inherited
 4. Partial class : Can be defined in multiple files since multiple developers work simultaneously
+
+Strutures : are user defined value types, that allows us to create a single variable to store multiple related data items of diffrenet types to gether
+- They are light weight that represent small amount of data
+- As they are alloted in stack memory, they are more memory - efficient
+- hence can give better performance (garbage overhead not applicable)
+- Can be used as safer alternates to primitive datatypes. By encapslating related data, and provide methods to access
+- Cannot have empty constructors unlike classes
+- Cannot have partial initialization of fields in the constructor (should initialize all fields before exitting constructor)
+
+
