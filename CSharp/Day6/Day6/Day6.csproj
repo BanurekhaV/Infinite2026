@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day6.OperatorsEg</StartupObject>
+    <StartupObject>Day6.ComparissionEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComparissionEg.cs" />
     <Compile Include="DisposeEg.cs" />
     <Compile Include="OperatorsEg.cs" />
     <Compile Include="Program.cs" />

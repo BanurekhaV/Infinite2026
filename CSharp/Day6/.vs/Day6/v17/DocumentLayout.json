@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|c:\\banu\\2026\\dotnet\\csharp\\day6\\day6\\comparissioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\comparissioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|c:\\banu\\2026\\dotnet\\csharp\\day6\\day6\\operatorseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\operatorseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|c:\\banu\\2026\\dotnet\\csharp\\day6\\day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|c:\\banu\\2026\\dotnet\\csharp\\day6\\day6\\disposeeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\day6\\disposeeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\disposeeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ComparissionEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\ComparissionEg.cs",
+              "RelativeDocumentMoniker": "Day6\\ComparissionEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\ComparissionEg.cs",
+              "RelativeToolTip": "Day6\\ComparissionEg.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAFUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:13:25.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OperatorsEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\OperatorsEg.cs",
               "RelativeDocumentMoniker": "Day6\\OperatorsEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\OperatorsEg.cs",
               "RelativeToolTip": "Day6\\OperatorsEg.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAsAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T05:45:35.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DisposeEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\DisposeEg.cs",
               "RelativeDocumentMoniker": "Day6\\DisposeEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\DisposeEg.cs",
               "RelativeToolTip": "Day6\\DisposeEg.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAUwBsAAAAFAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T05:22:59.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\Program.cs",
               "RelativeDocumentMoniker": "Day6\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\Program.cs",
               "RelativeToolTip": "Day6\\Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDEAAAAxAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwD4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T04:25:42.045Z",
               "EditorCaption": ""

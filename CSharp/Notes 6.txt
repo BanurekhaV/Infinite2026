@@ -1,3 +1,15 @@
+                          Interface                                      Abstract Class
+
+Multiple Inheritance     A class may inherit several interfaces     A class can inherit only one abstract class 
+Default Implementation   No code, only signature                    complete/default code / or just signature 
+Access Modifiers         No access modifiers, all are public        Can contain access modifiers(functions/properties etc)
+Core Vs Peripheral       Are used to define peripheral abilities    Are used to define the core identity, and used by objects of same 									type 
+Speed                 Requires more time to find the actual method    Fast
+Fields and Constants  No                                               Yes
+Adding Functionality   Involves tracking down all the implementation   Have options to provide default implementation.
+
+
+
 GoTo Labels : are used to transfer control within the function
               they are used with any valid identifiers followed by ':'
               they are unstructured way to control flow of statements
@@ -38,3 +50,18 @@ Using clause in c# : The usage of using has 3 functionalities
    2. static class usage
    3. code block usage - the using block will dispose all objects created without having to explicitly call the Dispose()
 
+Equals : Equality operator == checks whether two operands are equal or not, and the Object.Equals() checks if 2 object instances are equal or not
+
+ReferenceEquals : Checks if 2 objects are pointing to the same location. The data pointed to is not compared
+
+CompareTo : This method acts upon 2 values (like strings or numbers). It returns an int value
+        (-1,1,0)
+ A negative number indicates the first value is smaller.
+ A positive number indicates the first value is bigger
+ A Zero indicates both are equal
+
+Types of classes : 
+1. Abstract class - cannot be instantiated, but can be inherited
+2. Static class : can neither be inherited nor instantiated. All members have to be static only. Is called using the classname
+3. Sealed Class : Can be instantiated, but cannot be inherited
+4. Partial class : Can be defined in multiple files since multiple developers work simultaneously

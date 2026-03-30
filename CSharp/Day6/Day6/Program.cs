@@ -52,4 +52,13 @@ namespace Day6
         }
         
     }
+
+    //partial class example
+   partial class Marks
+   {
+        public void sampleFunc()
+        {
+            WriteLine("Hi Partial");
+        }
+   } 
 }
