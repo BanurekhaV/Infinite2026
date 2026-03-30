@@ -1,0 +1,40 @@
+GoTo Labels : are used to transfer control within the function
+              they are used with any valid identifiers followed by ':'
+              they are unstructured way to control flow of statements
+
+
+Garbage Collection : GC always works on managed heap
+                     It internally has a n engine called Optimization Engine.
+                     Garbage collection occurs if at least one of the below condition is satisfied
+                        1. if the systems has low physical memory
+                        2. if the memory allocated to various objects in the heap exceeds a pre-set threshold
+                        3. if forceful collection using GC.Collect() is issued/called
+
+3 Phases of GC :
+   1. Marking Phase : List of all live objects that are created
+   2. Re Locating Phase : Live objects references are updated
+   3. Compacting Phase : heap gets compacted and the space occupied by the dead objects are released
+
+3 generations of GC : 
+    1. generation 0 : newly allocated objects
+    2. generation 1 : objects left after generation 0 garbage
+    3. generation 2 : objects left after generation 1 garbage
+
+Important methods of Gc:
+     1. GC.GetGeneration() : return the generation number
+     2. GC.GetTotalMemory() : returns the number of bytes allocated
+     3. GC.Collect();
+
+Dispose  : is usually written and called by our code.
+           The resources are freed instantly on call
+           To implement dispose(), the class has to implement IDisposable interface
+           
+
+Finalize : is meant to be called by the GC and not by our 
+
+
+Using clause in c# : The usage of using has 3 functionalities
+   1. namespace usage
+   2. static class usage
+   3. code block usage - the using block will dispose all objects created without having to explicitly call the Dispose()
+
