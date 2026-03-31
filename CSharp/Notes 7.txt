@@ -23,5 +23,36 @@ User Defined Exceptions : 1. create an exception class
                           3. throw the exception
                           4. handle the exception
 
+Checked and unchecked : is an arithmetic wrap around overflow of int values
+  checked  : control overflows over performance
+  unchecked : favours performance over overflow
 
-                          
+Exceptions provide a mechanism for identifying and responding to errors /conditions
+   1. what went wrong  - type of exception thrown
+   2. where did it go wrong  - stacktrace
+   3. why did it go wrong - message
+
+Do's : use try/finally blocks around that block of code where there are potential errors
+       make all catches centralized
+       finally to be used to clean up 
+
+Don'ts : Avoid throwing exceptions if you can check with a simple if clause
+         Avoid throwing Exception() class object as it swallows all other exceptions as it is broad class
+         Do not have empty catches 
+ 
+         
+Collections : are a set of values, that may be of different types and can be dynamic in size
+some common classes :
+   ArrayList : 
+   SortedList
+   Stacks
+   Queues
+   HashTable  : works with key value pairs
+                Keys have to be non-null and unique
+                values can be null or duplicates
+                The data is sorted using hashing technique
+                iterates with either keys or values
+                if we need to iterate with both keys and values, then we use a variable of DictionaryEntry structure to iterate.
+                Works efficiently in data search and retrieval
+
+                         
