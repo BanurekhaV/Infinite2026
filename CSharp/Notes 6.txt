@@ -50,6 +50,8 @@ Using clause in c# : The usage of using has 3 functionalities
    2. static class usage
    3. code block usage - the using block will dispose all objects created without having to explicitly call the Dispose()
 
+Operators :
+
 Equals : Equality operator == checks whether two operands are equal or not, and the Object.Equals() checks if 2 object instances are equal or not
 
 ReferenceEquals : Checks if 2 objects are pointing to the same location. The data pointed to is not compared
@@ -66,12 +68,12 @@ Types of classes :
 3. Sealed Class : Can be instantiated, but cannot be inherited
 4. Partial class : Can be defined in multiple files since multiple developers work simultaneously
 
-Strutures : are user defined value types, that allows us to create a single variable to store multiple related data items of diffrenet types to gether
+Structures : are user defined value types, that allows us to create a single variable to store multiple related data items of different types together
 - They are light weight that represent small amount of data
-- As they are alloted in stack memory, they are more memory - efficient
+- As they are allotted in stack memory, they are more memory - efficient
 - hence can give better performance (garbage overhead not applicable)
-- Can be used as safer alternates to primitive datatypes. By encapslating related data, and provide methods to access
+- Can be used as safer alternates to primitive datatypes. By encapsulating related data, and provide methods to access
 - Cannot have empty constructors unlike classes
-- Cannot have partial initialization of fields in the constructor (should initialize all fields before exitting constructor)
+- Cannot have partial initialization of fields in the constructor (should initialize all fields before exiting constructor)
 
 

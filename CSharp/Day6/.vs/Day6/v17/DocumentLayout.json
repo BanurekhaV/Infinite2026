@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\comparissioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|c:\\banu\\2026\\dotnet\\csharp\\day6\\day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CF950E6-CE66-4D36-B816-DC627BE80672}|Day6\\Day6.csproj|solutionrelative:day6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Day6\\Workingwith_Structures.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day6\\Day6\\Workingwith_Structures.cs",
               "RelativeToolTip": "Day6\\Workingwith_Structures.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAqwEEAAAAZAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAC4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T12:13:02.108Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Day6\\ComparissionEg.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAAA0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T10:13:25.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T10:13:25.195Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Day6\\Program.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAgwDkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T04:25:42.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T04:25:42.045Z"
             }
           ]
         }

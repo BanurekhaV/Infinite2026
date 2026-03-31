@@ -1,0 +1,19 @@
+Exceptions : is an unwanted or unexpected event, which occurs during the execution of the program, i.e at runtime. This disrupts the flow and exposes the code
+- In order to avoid these events from exposing or disruoting the flow of execution, we have to handle them to come out very subtly
+
+Handling Exceptions :
+ try{} - a block that identifies the code of probable exceptions
+ catch(){} - handles the thrown exception
+ finally{} - is used to execute statements irrespective of exceptions or not 
+ throw - a jump statement meant to make use of a relevant exception class and throw it to the source of the problem
+
+
+Exception Classes in c# :
+ All exceptions are represented by classes
+     System.Exception is the base class for all exceptions. There are 2 derived types of exception viz SystemExceptions (all predefined exception classes)  and ApplicationExceptions(user defined exception classes)
+
+
+try is followed by one or more catch blocks only
+
+User -> ExceptionEvent -> an object of the exception class will be thrown to the program -> catch will handle the exception else the code disrupts
+ 

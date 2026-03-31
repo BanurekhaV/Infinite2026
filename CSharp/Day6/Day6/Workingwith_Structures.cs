@@ -11,6 +11,8 @@ namespace Day6
 
     public int x;
     public int y; 
+
+       
         //2. parameterized constructor
         public Point(int x, int y)
         {
@@ -41,6 +43,8 @@ namespace Day6
 
             Rectangle rectangle = new Rectangle(5.0,4.0);
             Console.WriteLine(rectangle.GetArea());
+            int n = 10;
+            Console.WriteLine(10 / n); 
             Console.Read();
         }
     }
