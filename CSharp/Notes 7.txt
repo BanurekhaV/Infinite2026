@@ -15,5 +15,13 @@ Exception Classes in c# :
 
 try is followed by one or more catch blocks only
 
-User -> ExceptionEvent -> an object of the exception class will be thrown to the program -> catch will handle the exception else the code disrupts
+User -> Exception Event -> an object of the exception class will be thrown to the program -> catch will handle the exception else the code disrupts
  
+
+User Defined Exceptions : 1. create an exception class
+                          2. decide when to raise an exception (code wise)
+                          3. throw the exception
+                          4. handle the exception
+
+
+                          
