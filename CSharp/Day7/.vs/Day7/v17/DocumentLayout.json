@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\collectioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\collectioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\gradingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\day7\\gradingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\gradingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\userexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\userexceptioneg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\day7\\userexceptioneg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\userexceptioneg2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ToDoList.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\ToDoList.cs",
+              "RelativeDocumentMoniker": "Day7\\ToDoList.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\ToDoList.cs",
+              "RelativeToolTip": "Day7\\ToDoList.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:42:23.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CollectionEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\CollectionEg.cs",
               "RelativeDocumentMoniker": "Day7\\CollectionEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\CollectionEg.cs",
               "RelativeToolTip": "Day7\\CollectionEg.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAkwHEAAABHAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T10:42:32.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GradingSystem.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\GradingSystem.cs",
               "RelativeDocumentMoniker": "Day7\\GradingSystem.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "Day7\\GradingSystem.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAAACEAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T09:50:45.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T09:50:45.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserExceptionEg2.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\UserExceptionEg2.cs",
               "RelativeDocumentMoniker": "Day7\\UserExceptionEg2.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "Day7\\UserExceptionEg2.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAABEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T07:23:17.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:23:17.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserExceptions.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\UserExceptions.cs",
               "RelativeDocumentMoniker": "Day7\\UserExceptions.cs",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "Day7\\UserExceptions.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:51:26.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T06:51:26.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\Program.cs",
               "RelativeDocumentMoniker": "Day7\\Program.cs",
@@ -98,8 +112,7 @@
               "RelativeToolTip": "Day7\\Program.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAAACkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:13:17.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T05:13:17.797Z"
             }
           ]
         }

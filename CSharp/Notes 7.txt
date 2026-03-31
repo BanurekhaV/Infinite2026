@@ -45,8 +45,8 @@ Collections : are a set of values, that may be of different types and can be dyn
 some common classes :
    ArrayList : 
    SortedList
-   Stacks
-   Queues
+   Stacks : Last-in First - out
+   Queues : First-in , First-out
    HashTable  : works with key value pairs
                 Keys have to be non-null and unique
                 values can be null or duplicates

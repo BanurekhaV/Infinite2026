@@ -13,6 +13,9 @@ namespace Day7
         {
             // ArrayListEg();
             HashTableEg();
+           // SortedList();
+            // StacksEg();
+           // QueuesEg();
             Console.Read();
         }
 
@@ -78,6 +81,7 @@ namespace Day7
             ht.Add("E006", "Kishore");
             ht.Add("E002", "Arun");
             ht.Add("E008", null);
+            ht.Add(23, "Poornima");
 
             //1. iterating using keys
             foreach (var item in ht.Keys)
@@ -116,6 +120,60 @@ namespace Day7
         public static void SortedList()
         {
             SortedList sl = new SortedList();
+            sl.Add("ora", "Oracle");
+            sl.Add("vb", "Visual Basic");
+            sl.Add("cs", "CSharp");
+            sl.Add("asp", "Asp.Net");           
+
+            foreach(DictionaryEntry d in sl)
+            {
+                Console.Write(d.Key + " " + d.Value);
+                Console.WriteLine();
+
+            }
+        }
+
+        public static void StacksEg()
+        {
+            Stack st = new Stack();
+            st.Push(1);
+            st.Push('a');
+            st.Push(true);
+
+            foreach(object obj in st)
+            {
+                Console.WriteLine(obj);
+            }
+
+            Console.WriteLine("------------------");
+            st.Pop();
+            foreach (object obj in st)
+            {
+                Console.WriteLine(obj);
+            }
+            Console.WriteLine("Next element in Stack " + " " + st.Peek());
+        }
+        public static void QueuesEg()
+        {
+            Queue q = new Queue();
+            q.Enqueue(1);
+            q.Enqueue("CS");
+            q.Enqueue(123.4f);
+            q.Enqueue('b');
+
+            foreach(object obj in q)
+            {
+                Console.WriteLine(obj);
+            }
+
+            q.Dequeue();
+            Console.WriteLine("-------------------");
+            foreach (object obj in q)
+            {
+                Console.WriteLine(obj);
+            }
         }
     }
+
+    
 }
