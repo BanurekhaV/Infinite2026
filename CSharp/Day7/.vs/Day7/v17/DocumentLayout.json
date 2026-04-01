@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\collectioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\day7\\collectioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\collectioneg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\day7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|c:\\banu\\2026\\dotnet\\csharp\\day7\\day7\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|solutionrelative:day7\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CDA6123-C845-4A1A-A4DD-4308CF3090D6}|Day7\\Day7.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\day7\\gradingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,26 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ToDoList.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\ToDoList.cs",
               "RelativeDocumentMoniker": "Day7\\ToDoList.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\ToDoList.cs",
               "RelativeToolTip": "Day7\\ToDoList.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAACkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T12:42:23.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CollectionEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\CollectionEg.cs",
               "RelativeDocumentMoniker": "Day7\\CollectionEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\CollectionEg.cs",
               "RelativeToolTip": "Day7\\CollectionEg.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAA9wCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T10:42:32.809Z",
               "EditorCaption": ""
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day7\\Day7\\Program.cs",
               "RelativeDocumentMoniker": "Day7\\Program.cs",
@@ -112,7 +112,8 @@
               "RelativeToolTip": "Day7\\Program.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAAACkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:13:17.797Z"
+              "WhenOpened": "2026-03-31T05:13:17.797Z",
+              "EditorCaption": ""
             }
           ]
         }

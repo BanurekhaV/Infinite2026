@@ -1,4 +1,4 @@
-Exceptions : is an unwanted or unexpected event, which occurs during the execution of the program, i.e at runtime. This disrupts the flow and exposes the code
+Exceptions : is an unwanted or unexpected event, which occurs during the execution of the program, i.e. at runtime. This disrupts the flow and exposes the code
 - In order to avoid these events from exposing or disruoting the flow of execution, we have to handle them to come out very subtly
 
 Handling Exceptions :
@@ -50,7 +50,7 @@ some common classes :
    HashTable  : works with key value pairs
                 Keys have to be non-null and unique
                 values can be null or duplicates
-                The data is sorted using hashing technique
+                The data is sorted using hashing technique, hence the data is neither in the inserted order nor in the sorted order
                 iterates with either keys or values
                 if we need to iterate with both keys and values, then we use a variable of DictionaryEntry structure to iterate.
                 Works efficiently in data search and retrieval

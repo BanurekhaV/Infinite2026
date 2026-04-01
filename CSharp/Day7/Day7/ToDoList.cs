@@ -12,7 +12,7 @@ namespace Day7
         public string Task { get; set; }
         public string Priority { get; set; }
 
-        ArrayList todoArray = new ArrayList();
+       static ArrayList todoArray = new ArrayList();
 
         //adding tasks with priority into the arraylist
         public void AddTask(string usertask, string userpriority)
@@ -34,7 +34,7 @@ namespace Day7
             {
                 if (item.Task == usertask)
                 {
-                    todoArray.Remove(item);
+                    todoArray.Remove(item.Task);
                 }
             }
         }

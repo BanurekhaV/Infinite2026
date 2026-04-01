@@ -1,6 +1,7 @@
 ﻿using System;
 using static System.Console;
 using static System.Convert;
+using System.Collections;
 
 namespace Day6
 {    
@@ -48,6 +49,7 @@ namespace Day6
             DisposeEg dobj = new DisposeEg();
             dobj.justlikethat();
           //  dobj.Dispose();  calling explicitly
+        
             Read();
         }
         
