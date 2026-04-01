@@ -1,0 +1,29 @@
+Generics : are a way to write classes/Interface/Methods/properties/indexers etc. decoupled with datatypes
+           is a type safe mechanism to define the various elements without compromising
+              - type safety
+              - performance
+              - productivity
+
+Common Generic Classes :
+
+   Collections                          Generics
+  ArrayList                            List
+  HashTable                            Dictionary
+  SortedList                           SortedList
+  Stack                                Stack
+  Queues                               Queues
+
+Delegates : An object that refers to a method. Holds reference to methods of a class
+            Provides a good way to encapsulate the methods
+            Type-safe pointer of any method
+            Delegates are used to implement call back and event driven program
+            Delegates can be chained together as 2 or more methods called on an event
+            Delegates are used to invoke anonymous methods
+
+Note : A delegate/s can point to method/s which agree on the signature (matching signatures)          
+ 
+Multicasting : Is an phenomenon where we can make use of one delegate object to refer to various methods.
+     - The delegate object invokes the methods in succession.
+     - We can add or remove methods to the multi casted object using a '+' and '-'
+     - Since it works in succession, we need to be aware that we cannot get any return values of individual methods, and only the last method in the call stack.
+   

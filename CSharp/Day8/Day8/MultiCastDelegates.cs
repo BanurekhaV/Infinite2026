@@ -28,7 +28,7 @@ namespace Day8
 
             MultiDel m = new MultiDel(Method1);
             m += Method2;
-            m+= Method3;
+            m += Method3;
             m();
             Console.WriteLine("--------------------");
             m -= Method2;

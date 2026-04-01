@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day8.MultiCastDelegates</StartupObject>
+    <StartupObject>Day8.MultiCast</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="DictionaryEg.cs" />
     <Compile Include="Generics1.cs" />
     <Compile Include="MultiCastDelegates.cs" />
+    <Compile Include="MultiCastDelegates2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
