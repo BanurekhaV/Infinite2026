@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|c:\\banu\\2026\\dotnet\\csharp\\day8\\day8\\multicastdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|solutionrelative:day8\\multicastdelegates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|c:\\banu\\2026\\dotnet\\csharp\\day8\\day8\\delegateseg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|solutionrelative:day8\\delegateseg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|c:\\banu\\2026\\dotnet\\csharp\\day8\\day8\\allgenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|solutionrelative:day8\\allgenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|c:\\banu\\2026\\dotnet\\csharp\\day8\\day8\\generics1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\day8\\generics1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|solutionrelative:day8\\generics1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|c:\\banu\\2026\\dotnet\\csharp\\day8\\day8\\dictionaryeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\day8\\dictionaryeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F6DDEA4-2B64-483E-BFE2-97F7EF56A41C}|Day8\\Day8.csproj|solutionrelative:day8\\dictionaryeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,19 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MultiCastDelegates.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\MultiCastDelegates.cs",
+              "RelativeDocumentMoniker": "Day8\\MultiCastDelegates.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\MultiCastDelegates.cs",
+              "RelativeToolTip": "Day8\\MultiCastDelegates.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwCMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T10:44:28.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DelegatesEg1.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\DelegatesEg1.cs",
+              "RelativeDocumentMoniker": "Day8\\DelegatesEg1.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\DelegatesEg1.cs",
+              "RelativeToolTip": "Day8\\DelegatesEg1.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T10:11:09.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AllGenerics.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\AllGenerics.cs",
               "RelativeDocumentMoniker": "Day8\\AllGenerics.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\AllGenerics.cs",
               "RelativeToolTip": "Day8\\AllGenerics.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAgwCoAAAAJAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAcwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T07:39:34.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Generics1.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\Generics1.cs",
               "RelativeDocumentMoniker": "Day8\\Generics1.cs",
@@ -55,12 +89,11 @@
               "RelativeToolTip": "Day8\\Generics1.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T07:20:17.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T07:20:17.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DictionaryEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\DictionaryEg.cs",
               "RelativeDocumentMoniker": "Day8\\DictionaryEg.cs",
@@ -68,12 +101,11 @@
               "RelativeToolTip": "Day8\\DictionaryEg.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAgwBkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T05:26:16.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T05:26:16.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day8\\Day8\\Program.cs",
               "RelativeDocumentMoniker": "Day8\\Program.cs",

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day8.Tester</StartupObject>
+    <StartupObject>Day8.MultiCastDelegates</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllGenerics.cs" />
+    <Compile Include="DelegatesEg1.cs" />
     <Compile Include="DictionaryEg.cs" />
     <Compile Include="Generics1.cs" />
+    <Compile Include="MultiCastDelegates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
