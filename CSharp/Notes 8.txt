@@ -22,8 +22,9 @@ Delegates : An object that refers to a method. Holds reference to methods of a c
 
 Note : A delegate/s can point to method/s which agree on the signature (matching signatures)          
  
-Multicasting : Is an phenomenon where we can make use of one delegate object to refer to various methods.
+Multicasting : Is a phenomenon(or extension to normal delegates) where we can make use of one delegate object to refer to various methods.
      - The delegate object invokes the methods in succession.
+     - All methods are called in FIFO (First in First Out)
      - We can add or remove methods to the multi casted object using a '+' and '-'
      - Since it works in succession, we need to be aware that we cannot get any return values of individual methods, and only the last method in the call stack.
    
