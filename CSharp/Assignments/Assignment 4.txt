@@ -1,0 +1,26 @@
+1. Write a C# Sharp program to remove the character at a given position in the string. The given position will be in the range 0..(string length -1) inclusive.
+
+Sample Input:
+"Python", 1
+"Python", 0
+"Python", 4
+Expected Output:
+Pthon
+ython
+Pythn
+
+
+2. Write a C# Sharp program to exchange the first and last characters in a given string and return the new string.
+
+Sample Input:
+"abcd"
+"a"
+"xy"
+Expected Output:
+
+dbca
+a
+yx
+
+3. Write a C# program to sort the elements of a given stack in descending order. 
+  Take inputs from the user
