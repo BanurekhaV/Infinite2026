@@ -30,4 +30,7 @@ Limitations of Anonymous Methods :
    1. Cannot contain jump statements like break, continue or goto
    2. Cannot access ref or out parameters of an outer method
     
- Events : 
+ Events : Declare a delegate
+          Declare an event
+          Associate Events to delegates
+          Invoke events

@@ -22,7 +22,7 @@ namespace Day9
 
         public EventsEg(int n)
         {
-            this.changeNum += new numberManipulator(this.onNumChange);
+            this.changeNum += new numberManipulator(this.onNumChange);            
             setValue(n);           
         }
 
@@ -32,6 +32,7 @@ namespace Day9
             {
                 value = x;
                 onNumChange(x);
+
             }
             else
             {
