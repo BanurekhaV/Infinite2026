@@ -1,0 +1,33 @@
+function :   with a name
+             may be with or without arguments
+             may return or may not return any value
+             enclosed within curly braces
+             has a set of executable statements
+
+
+Anonymous Functions : are inline functions similar to the regular functions, that do not have a specific name to call upon.
+ - Anonymous methods must be assigned to a delegate type
+ - These can access outer variables or functions except for the ref or out parameters
+ - They can be passed as a parameter 
+ 
+ 
+Types of Delegates : 3 types of delegates
+  1. Function : a built-in delegate type
+                Func delegates have to return a value
+                can take 0 - 16 inputs 
+                does not allow usage of ref and out parameters
+                can be used with anonymous methods or lambda expressions
+
+  2. Action Delegates : a built-in delegate type
+                        are delegates that refer to anonymous methods which has one or more arguments
+ and does not return any data (All void anonymous functions can be given to action delegate)
+
+  3. Predicate Delegates : a built-in delegate type
+                           are delegates that refer to anonymous methods which must have at least 1 argument
+ and returns either a true or a false
+
+Limitations of Anonymous Methods :
+   1. Cannot contain jump statements like break, continue or goto
+   2. Cannot access ref or out parameters of an outer method
+    
+ Events : 

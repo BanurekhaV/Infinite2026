@@ -13,6 +13,8 @@ Common Generic Classes :
   Stack                                Stack
   Queues                               Queues
 
+Generic Constraints : are constraints that can be applied to a class to decide the pattern of usage
+
 Delegates : An object that refers to a method. Holds reference to methods of a class
             Provides a good way to encapsulate the methods
             Type-safe pointer of any method
@@ -28,3 +30,4 @@ Multicasting : Is a phenomenon(or extension to normal delegates) where we can ma
      - We can add or remove methods to the multi casted object using a '+' and '-'
      - Since it works in succession, we need to be aware that we cannot get any return values of individual methods, and only the last method in the call stack.
    
+

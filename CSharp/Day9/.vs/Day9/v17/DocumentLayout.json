@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|c:\\banu\\2026\\dotnet\\csharp\\day9\\day9\\eventseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|solutionrelative:day9\\eventseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|c:\\banu\\2026\\dotnet\\csharp\\day9\\day9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|solutionrelative:day9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EventsEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\Day9\\EventsEg.cs",
+              "RelativeDocumentMoniker": "Day9\\EventsEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\Day9\\EventsEg.cs",
+              "RelativeToolTip": "Day9\\EventsEg.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T11:11:32.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\Day9\\Program.cs",
               "RelativeDocumentMoniker": "Day9\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\Day9\\Program.cs",
               "RelativeToolTip": "Day9\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwDkAAAA/AAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T07:25:48.077Z",
               "EditorCaption": ""

@@ -43,7 +43,7 @@ Data Types : Are basically either
                         These are stored in Stack memory
    Eg :  int Num; Num=5
      
-        - Reference Type  - All Arrays, objects/classes, interfaces, delegates etc
+        - Reference Type  - All Arrays, objects/classes, interfaces, delegates, Events etc
                           They store the address of the memory where data is stored
                           These types are stored in Heap memory
 
