@@ -1,0 +1,20 @@
+IEnumerable                       vs           IEnumerator
+
+Implements IEnumerator (GetEnumerator)        Defines iterations thru MoveNext(), and Current Property
+Meant for Iterating a collection              Meant for Iterating a collection
+Very Simple during iterations                 Uses additional method and property to iterate
+
+
+Iterators : are methods which are used to retrieve elements from a collection
+            uses yield return to return the element
+            uses yield break  to stop iteration
+            return types of iterators are IEnumerable, IEnumerator, IEnumerable<T>, IEnumerator<T>
+            yield is not a reserved word, but when used with return or a break statement, they have a special meaning. Works only with iterator interface
+            cannot use multiple yields
+            
+
+Shallow 								Vs Deep Copy
+
+Stores the reference of objects to the original address       Stores copies of object values
+Reflects changes made to the new/ or copied object            Changes are not reflected in both
+Is Faster                                                     Comparatively slow

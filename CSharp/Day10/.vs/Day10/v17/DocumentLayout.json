@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\shallowvsdeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\shallowvsdeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\iterators2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\iterators2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\ilisteg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\ilisteg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,25 +39,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ObjectPooling.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\ObjectPooling.cs",
+              "RelativeDocumentMoniker": "Day10\\ObjectPooling.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\ObjectPooling.cs",
+              "RelativeToolTip": "Day10\\ObjectPooling.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwF0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T11:15:32.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShallowVsDeepCopy.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\ShallowVsDeepCopy.cs",
+              "RelativeDocumentMoniker": "Day10\\ShallowVsDeepCopy.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\ShallowVsDeepCopy.cs",
+              "RelativeToolTip": "Day10\\ShallowVsDeepCopy.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwBsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T10:44:29.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Iterators2.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\Iterators2.cs",
+              "RelativeDocumentMoniker": "Day10\\Iterators2.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\Iterators2.cs",
+              "RelativeToolTip": "Day10\\Iterators2.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T10:07:09.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IListEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\IListEg.cs",
               "RelativeDocumentMoniker": "Day10\\IListEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\IListEg.cs",
               "RelativeToolTip": "Day10\\IListEg.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABUAAAAFAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T07:58:33.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\Program.cs",
               "RelativeDocumentMoniker": "Day10\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\Program.cs",
               "RelativeToolTip": "Day10\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBUAAAAzAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T07:29:56.548Z",
               "EditorCaption": ""
