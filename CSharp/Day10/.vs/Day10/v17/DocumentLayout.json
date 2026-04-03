@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\objectpooling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\shallowvsdeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\day10\\shallowvsdeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\shallowvsdeepcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\iterators2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\day10\\iterators2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\iterators2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|c:\\banu\\2026\\dotnet\\csharp\\day10\\day10\\ilisteg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\day10\\ilisteg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F688B96-B441-492C-A53B-32A2B39F7901}|Day10\\Day10.csproj|solutionrelative:day10\\ilisteg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Day10\\ObjectPooling.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day10\\Day10\\ObjectPooling.cs",
               "RelativeToolTip": "Day10\\ObjectPooling.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAkwF0AAAAkAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T11:15:32.804Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Day10\\ShallowVsDeepCopy.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAiwBsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T10:44:29.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T10:44:29.829Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Day10\\Iterators2.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T10:07:09.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T10:07:09.405Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "Day10\\Program.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAuwBUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T07:29:56.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T07:29:56.548Z"
             }
           ]
         }
