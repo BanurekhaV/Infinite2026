@@ -35,29 +35,12 @@ Limitations of Anonymous Methods :
   - Allows multiple subscribers
   - Promotes loose coupling
   - Are built on delegates
-	  Declare a delegate
-          Declare an event
+	  Declare a delegate / or use inbuilt EventHandler 
+          Declare an event for a delegate
           Associate Events to delegates
           Invoke events
 
 
-PriceChangeEventArgs : EventArgs
-{
-   public readonly decimal oldprice;
-   public readonly decimal newprice;
 
-constructor for the above class
 
-publisher class Stocks
 
-string symbol, decimal price;
-
-constructor for the above (only for symbol)
-
-event eventhandler<PriceChangeEventArgs> PriceChanged;
-
-onPriceChanged(args e)
-{
- if(Pricechanged !-null)
-{  pricechanged(this, e)
-}

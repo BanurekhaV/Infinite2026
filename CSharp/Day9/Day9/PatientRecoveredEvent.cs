@@ -16,6 +16,8 @@ namespace Day9
     {
         public event EventHandler<PatientRecoveredEvent> PatientRecovered;
 
+
+        //notifyying the subscribers
         protected virtual void OnPatientRecovered(string patientname)
         {
             PatientRecovered?.Invoke(this, new PatientRecoveredEvent
@@ -24,6 +26,7 @@ namespace Day9
             });
         }
 
+        //raising an event
         public void TriggerRecovery(string patientname)
         {
             {
@@ -35,7 +38,8 @@ namespace Day9
     //3. subscriber class (that provides methods that match the signature of the delegate)
     public class Doctor
     {
-        public void OnPatientRecovered(object sender, PatientRecoveredEvent e)
+        //event handlers from doctor
+        public void OnDoctorsPatientRecovered(object sender, PatientRecoveredEvent e)
         {
             Console.WriteLine($"Doctor notified : Patient :{e.PatientName} has Recovered ");
         }
@@ -43,9 +47,10 @@ namespace Day9
 
     public class Nurse
     {
-        public void OnPatientRecovered(object sender, PatientRecoveredEvent e)
+        public void OnNursePatientRecovered(object sender, PatientRecoveredEvent e)
         {
             Console.WriteLine($"Nurse notified : Patient :{e.PatientName} has Recovered ");
+            Console.WriteLine("Nurse checking all vital parameters of the patient");
         }
     }
 
@@ -58,8 +63,8 @@ namespace Day9
             var doctor = new Doctor();
             var nurse = new Nurse();
 
-            publisher.PatientRecovered += doctor.OnPatientRecovered;
-            publisher.PatientRecovered += nurse.OnPatientRecovered;
+            publisher.PatientRecovered += doctor.OnDoctorsPatientRecovered;
+            publisher.PatientRecovered += nurse.OnNursePatientRecovered;
 
 
             Console.WriteLine("enter Patient name :");

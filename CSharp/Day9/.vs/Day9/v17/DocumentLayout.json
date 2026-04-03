@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|solutionrelative:day9\\employeework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|c:\\banu\\2026\\dotnet\\csharp\\day9\\day9\\events egeasy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\day9\\events egeasy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|solutionrelative:day9\\events egeasy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|solutionrelative:day9\\eventseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|c:\\banu\\2026\\dotnet\\csharp\\day9\\day9\\buttonclickedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\day9\\buttonclickedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ECCA555-97B8-42A6-B3FD-E745DE261FF8}|Day9\\Day9.csproj|solutionrelative:day9\\buttonclickedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Day9\\PatientRecoveredEvent.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day9\\Day9\\PatientRecoveredEvent.cs",
               "RelativeToolTip": "Day9\\PatientRecoveredEvent.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T05:02:28.645Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "Day9\\Events EgEasy.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAAACUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T12:51:32.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T12:51:32.27Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Day9\\EmployeeWork.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAAAA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T12:30:59.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T12:30:59.217Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Day9\\EventsEg.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T11:11:32.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T11:11:32.637Z"
             },
             {
               "$type": "Document",
