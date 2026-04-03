@@ -30,7 +30,34 @@ Limitations of Anonymous Methods :
    1. Cannot contain jump statements like break, continue or goto
    2. Cannot access ref or out parameters of an outer method
     
- Events : Declare a delegate
+ Events : An event is a mechanism that allows a class (Publisher) to notify one or more other classes(subscribers) whenever a specific change occurs (value/information/alert)
+  - Supports publisher-subscribers pattern
+  - Allows multiple subscribers
+  - Promotes loose coupling
+  - Are built on delegates
+	  Declare a delegate
           Declare an event
           Associate Events to delegates
           Invoke events
+
+
+PriceChangeEventArgs : EventArgs
+{
+   public readonly decimal oldprice;
+   public readonly decimal newprice;
+
+constructor for the above class
+
+publisher class Stocks
+
+string symbol, decimal price;
+
+constructor for the above (only for symbol)
+
+event eventhandler<PriceChangeEventArgs> PriceChanged;
+
+onPriceChanged(args e)
+{
+ if(Pricechanged !-null)
+{  pricechanged(this, e)
+}

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day9.Events_EgEasy</StartupObject>
+    <StartupObject>Day9.HMS</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonClickedEvent.cs" />
     <Compile Include="EmployeeWork.cs" />
     <Compile Include="Events EgEasy.cs" />
     <Compile Include="EventsEg.cs" />
+    <Compile Include="PatientRecoveredEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
