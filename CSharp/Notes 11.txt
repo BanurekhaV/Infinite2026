@@ -1,0 +1,40 @@
+Covariance : allowing objects, variables, parameters of more derived types to be assigned to less derived types
+- is a concept in C# that helps in preserving assignment compatability
+- is an implicit operation
+
+ Eg : Object initialization
+     Shape shape = new Rectangle();
+
+Contravariance : Is the reverse assignment of covariance compatabilty
+                allowing objects, variables, parameters of less derived types to be assigned to more derived types
+                is applied more to parameters to functions than object assignment
+   Rectangle rectangle = (Rectangle)new Shape();
+
+void func1(Rectangle rect)
+{
+}
+
+func1(Shape shape)
+
+Base Type : generally has common information (less derived but bigger object)
+Sub Types : have common info + specific info (more derived, but smaller object)
+
+Windows Programming :
+ Common Event Handler for multiple Buttons
+
+
+File Handling : To persist data for future use, we may want to save the data of the objects. Hence we can use file serialization to store the data and reuse 
+
+- System.IO namespace 
+- System. Runtime.Serialization
+
+
+-Serialization : The process of converting object types into byte streams
+-DeSerialization : is the reverse of Serialization
+
+There are multiple formats for serialization
+  - Binary
+  - XML
+  - SOAP
+  - JSON
+

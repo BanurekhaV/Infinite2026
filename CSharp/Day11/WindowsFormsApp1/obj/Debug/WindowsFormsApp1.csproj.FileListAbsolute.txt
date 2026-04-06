@@ -1,0 +1,11 @@
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Banu\2026\DotNet\CSharp\Day11\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
