@@ -3,31 +3,39 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\day11\\directory_fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\directory_fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\day11\\delegateswithfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\delegateswithfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\day11\\binaryreadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\binaryreadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -51,19 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Directory_FileInfo.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\Directory_FileInfo.cs",
+              "RelativeDocumentMoniker": "Day11\\Directory_FileInfo.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\Directory_FileInfo.cs",
+              "RelativeToolTip": "Day11\\Directory_FileInfo.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T07:45:05.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DelegatesWithFile.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\DelegatesWithFile.cs",
+              "RelativeDocumentMoniker": "Day11\\DelegatesWithFile.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\DelegatesWithFile.cs",
+              "RelativeToolTip": "Day11\\DelegatesWithFile.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T07:32:40.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BinaryReadWrite.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\BinaryReadWrite.cs",
               "RelativeDocumentMoniker": "Day11\\BinaryReadWrite.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\BinaryReadWrite.cs",
               "RelativeToolTip": "Day11\\BinaryReadWrite.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAzwCQAAAAYAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T05:47:11.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Form2.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form2.cs",
@@ -71,24 +105,22 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form2.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAwB4AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T05:25:09.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T05:25:09.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Form2.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form2.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Form2.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T05:24:45.349Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-06T05:24:45.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
@@ -96,12 +128,11 @@
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAAABoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T04:58:36.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T04:58:36.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
@@ -109,24 +140,22 @@
               "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T04:55:40.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T04:55:40.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\WindowsFormsApp1\\Form1.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T04:53:30.758Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-06T04:53:30.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\Program.cs",
               "RelativeDocumentMoniker": "Day11\\Program.cs",
@@ -134,8 +163,7 @@
               "RelativeToolTip": "Day11\\Program.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAwwCoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T04:29:26.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T04:29:26.639Z"
             }
           ]
         }
