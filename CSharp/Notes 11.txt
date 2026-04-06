@@ -38,3 +38,11 @@ There are multiple formats for serialization
   - SOAP
   - JSON
 
+- All the above requires different namespaces accordingly for serializing and deserializing objects
+
+Attributes : are special information/custom information to the running code. They are also referred to as
+    "Annotations"
+    "Meta data"
+    "Decorators"
+Serializable
+NonSerialized

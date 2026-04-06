@@ -18,3 +18,5 @@ Shallow 								Vs Deep Copy
 Stores the reference of objects to the original address       Stores copies of object values
 Reflects changes made to the new/ or copied object            Changes are not reflected in both
 Is Faster                                                     Comparatively slow
+
+Object Pooling
