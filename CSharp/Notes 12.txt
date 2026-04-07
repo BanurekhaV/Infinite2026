@@ -33,4 +33,14 @@ Thread Pool : is a collection of threads that can be used to perform various tas
 ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
  ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
 
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+
               

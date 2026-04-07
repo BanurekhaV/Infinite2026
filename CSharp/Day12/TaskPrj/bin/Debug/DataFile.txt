@@ -1,0 +1,315 @@
+Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+
+              Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+
+              Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+
+              Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+
+              Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+
+              Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+Thread Synchronization:
+
+
+Blocking Methods   - Join
+Locking Constructs
+No Blocking Synchronization
+Signalling
+
+
+              
+
+
+              

@@ -1,0 +1,10 @@
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\bin\Debug\TaskPrj.exe.config
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\bin\Debug\TaskPrj.exe
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\bin\Debug\TaskPrj.pdb
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.Form1.resources
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.Properties.Resources.resources
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.csproj.GenerateResource.cache
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.exe
+C:\Banu\2026\DotNet\CSharp\Day12\TaskPrj\obj\Debug\TaskPrj.pdb
