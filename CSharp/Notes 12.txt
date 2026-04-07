@@ -1,0 +1,28 @@
+Threads : Is defined as the execution path of a program
+          is a light weight process
+          the thread that is executed first in the entire process is Main thread, that is created automatically on execution
+          Can create other child threads for a main thread which does a particular job
+          CurrentThread property is used to access a thread
+      
+Important Properties of a thread
+   - CurrentThread
+   - Name
+   - Is Alive
+   - ThreadState
+   - IsThreadpoolThread
+   - IsBackground
+   - ManagedThreadID
+
+Functionalities
+ - Sleep
+ - Abort
+ - Suspend
+ - Resume
+ - Start
+
+Life Cycle of a Thread :
+  - Unstarted
+  - Runnable
+  - Running
+  - Not Runnable
+  - Dead

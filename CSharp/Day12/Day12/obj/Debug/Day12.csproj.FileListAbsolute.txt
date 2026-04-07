@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\bin\Debug\Day12.exe.config
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\bin\Debug\Day12.exe
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\bin\Debug\Day12.pdb
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\obj\Debug\Day12.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\obj\Debug\Day12.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\obj\Debug\Day12.exe
+C:\Banu\2026\DotNet\CSharp\Day12\Day12\obj\Debug\Day12.pdb
