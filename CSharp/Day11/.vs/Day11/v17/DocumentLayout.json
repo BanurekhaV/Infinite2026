@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\serializationeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\day11\\binaryreadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\binaryreadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\delegateswithfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|c:\\banu\\2026\\dotnet\\csharp\\day11\\day11\\directory_fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\day11\\directory_fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\directory_fileinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\day11\\binaryreadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6704B3B2-351B-422D-901F-771D79FC0DBD}|Day11\\Day11.csproj|solutionrelative:day11\\binaryreadwrite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72B3732E-296C-4BBD-86CA-5EE09C203BD8}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\windowsformsapp1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,14 +64,14 @@
               "RelativeDocumentMoniker": "Day11\\SerializationEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\SerializationEg.cs",
               "RelativeToolTip": "Day11\\SerializationEg.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAwwC8AAAAFAAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAADwv2AAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T12:19:20.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DelegatesWithFile.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\DelegatesWithFile.cs",
               "RelativeDocumentMoniker": "Day11\\DelegatesWithFile.cs",
@@ -79,20 +79,20 @@
               "RelativeToolTip": "Day11\\DelegatesWithFile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T07:32:40.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T07:32:40.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BinaryReadWrite.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\BinaryReadWrite.cs",
               "RelativeDocumentMoniker": "Day11\\BinaryReadWrite.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\BinaryReadWrite.cs",
               "RelativeToolTip": "Day11\\BinaryReadWrite.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T05:47:11.944Z"
+              "WhenOpened": "2026-04-06T05:47:11.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\Program.cs",
               "RelativeDocumentMoniker": "Day11\\Program.cs",
@@ -139,12 +139,11 @@
               "RelativeToolTip": "Day11\\Program.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAwwCoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T04:29:26.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T04:29:26.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Directory_FileInfo.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day11\\Day11\\Directory_FileInfo.cs",
               "RelativeDocumentMoniker": "Day11\\Directory_FileInfo.cs",
@@ -152,8 +151,7 @@
               "RelativeToolTip": "Day11\\Directory_FileInfo.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T07:45:05.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T07:45:05.978Z"
             },
             {
               "$type": "Document",
