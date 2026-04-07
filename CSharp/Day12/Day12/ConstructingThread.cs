@@ -28,6 +28,30 @@ namespace Day12
            
             //2.3
             t2.Start();
+
+            //other ways to instantiate a thread class and hence a threadstart delegate
+            //1.
+            Thread t1obj = new Thread(new ThreadStart(DisplayNumbers));
+
+            //2.
+            Thread t2obj = new Thread(delegate () { DisplayNumbers(); });
+
+            //3. 
+            Thread t3obj = new Thread(() => { DisplayNumbers(); });
+
+            //4.
+            Thread T4obj = new Thread(() => DisplayNumbers());
+
+            //using anonymous methods assigned to threadstart 
+
+            Thread Tanonymous = new Thread(() =>
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    Console.WriteLine(i);
+                }
+            });
+            Tanonymous.Start();
             Console.Read();
         }
 

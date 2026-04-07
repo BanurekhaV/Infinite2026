@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|c:\\banu\\2026\\dotnet\\csharp\\day12\\day12\\threadpooleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|solutionrelative:day12\\threadpooleg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|c:\\banu\\2026\\dotnet\\csharp\\day12\\day12\\constructingthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|solutionrelative:day12\\constructingthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|c:\\banu\\2026\\dotnet\\csharp\\day12\\day12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\day12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E1AB192-54A3-43BA-94F5-0B9733877D67}|Day12\\Day12.csproj|solutionrelative:day12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ThreadPoolEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\Day12\\ThreadPoolEg.cs",
+              "RelativeDocumentMoniker": "Day12\\ThreadPoolEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\Day12\\ThreadPoolEg.cs",
+              "RelativeToolTip": "Day12\\ThreadPoolEg.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T10:15:08.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ConstructingThread.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\Day12\\ConstructingThread.cs",
               "RelativeDocumentMoniker": "Day12\\ConstructingThread.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\Day12\\ConstructingThread.cs",
               "RelativeToolTip": "Day12\\ConstructingThread.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAkwA4AAAA3AAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwDoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T07:55:39.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day12\\Day12\\Program.cs",
               "RelativeDocumentMoniker": "Day12\\Program.cs",

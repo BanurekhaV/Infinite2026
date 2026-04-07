@@ -26,3 +26,11 @@ Life Cycle of a Thread :
   - Running
   - Not Runnable
   - Dead
+
+Thread Pool : is a collection of threads that can be used to perform various tasks in the background
+              once the thread completes the given task, it is sent to the pool for reuse
+
+ThreadPool class is responsible for queueing and work items(methods) and informing once the thread is available in the pool.
+ ThreadPool.QueueUserWorkItem(new WaitCallback(MyMethod));
+
+              
