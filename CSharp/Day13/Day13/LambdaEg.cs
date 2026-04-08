@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Day13
-{
+{ 
     internal class LambdaEg
     {
+        
         static void Main()
         {
             List<int> numbers = new List<int>() { 36, 71, 12, 15, 29, 28, 27, 17, 9, 34 };

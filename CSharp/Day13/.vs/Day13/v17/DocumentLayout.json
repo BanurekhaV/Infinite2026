@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\circle1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\circle1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\circle2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\circle2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\nestesclasseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\nestesclasseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\lambdaeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\lambdaeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +50,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circle2.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Circle2.cs",
+              "RelativeDocumentMoniker": "Day13\\Circle2.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Circle2.cs",
+              "RelativeToolTip": "Day13\\Circle2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:51:01.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Circle1.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Circle1.cs",
+              "RelativeDocumentMoniker": "Day13\\Circle1.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Circle1.cs",
+              "RelativeToolTip": "Day13\\Circle1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:49:19.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NestesClassEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\NestesClassEg.cs",
+              "RelativeDocumentMoniker": "Day13\\NestesClassEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\NestesClassEg.cs",
+              "RelativeToolTip": "Day13\\NestesClassEg.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T12:21:39.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LambdaEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\LambdaEg.cs",
               "RelativeDocumentMoniker": "Day13\\LambdaEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\LambdaEg.cs",
               "RelativeToolTip": "Day13\\LambdaEg.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAIAAAASAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T07:55:24.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CalculatorExtension.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\CalculatorExtensionDll\\CalculatorExtension.cs",
               "RelativeDocumentMoniker": "CalculatorExtensionDll\\CalculatorExtension.cs",
@@ -63,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Calculatordll\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculatordll\\Calculator.cs",
@@ -75,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ExtensionClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\ExtensionClass.cs",
               "RelativeDocumentMoniker": "Day13\\ExtensionClass.cs",
@@ -87,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Program.cs",
               "RelativeDocumentMoniker": "Day13\\Program.cs",

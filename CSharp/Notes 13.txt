@@ -55,3 +55,13 @@ Linq provides 2 different behaviours of query expression
 - Select, selectmany, take, skip, where				    Aggregate functions,first, toArray,ToList
 
 
+Nested Classes : are logically grouped classes
+                 provides encapsulation
+                 Readable code
+
+We cannot access the members of the inner class with an outer class object
+We can access outer class members inside the inner class with the outer class object
+We can inherit the outer class
+We can inherit the inner class only with reference to the outer class and the inner class be public/ or internal
+
+

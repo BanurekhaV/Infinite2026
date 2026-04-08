@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day13.LambdaEg</StartupObject>
+    <StartupObject>Day13.NestesClassEg</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle1.cs" />
+    <Compile Include="Circle2.cs" />
     <Compile Include="ExtensionClass.cs" />
     <Compile Include="LambdaEg.cs" />
+    <Compile Include="NestesClassEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
