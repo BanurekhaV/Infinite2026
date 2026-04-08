@@ -1,0 +1,9 @@
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\bin\Debug\CalculatorExtensionDll.dll
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\bin\Debug\CalculatorExtensionDll.pdb
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\bin\Debug\Calculatordll.dll
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\bin\Debug\Calculatordll.pdb
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\obj\Debug\CalculatorExtensionDll.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\obj\Debug\CalculatorExtensionDll.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\obj\Debug\Calculat.CC1485B0.Up2Date
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\obj\Debug\CalculatorExtensionDll.dll
+C:\Banu\2026\DotNet\CSharp\Day13\CalculatorExtensionDll\obj\Debug\CalculatorExtensionDll.pdb

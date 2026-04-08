@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\lambdaeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\lambdaeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46BC24D3-B729-4F0B-BD75-9924595572CE}|CalculatorExtensionDll\\CalculatorExtensionDll.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\calculatorextensiondll\\calculatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46BC24D3-B729-4F0B-BD75-9924595572CE}|CalculatorExtensionDll\\CalculatorExtensionDll.csproj|solutionrelative:calculatorextensiondll\\calculatorextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C783CC1-E42D-4602-94DB-51CC79031CF1}|Calculatordll\\Calculatordll.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\calculatordll\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C783CC1-E42D-4602-94DB-51CC79031CF1}|Calculatordll\\Calculatordll.csproj|solutionrelative:calculatordll\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|c:\\banu\\2026\\dotnet\\csharp\\day13\\day13\\extensionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A075350-4C3D-4169-BE06-B252969852CE}|Day13\\Day13.csproj|solutionrelative:day13\\extensionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LambdaEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\LambdaEg.cs",
+              "RelativeDocumentMoniker": "Day13\\LambdaEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\LambdaEg.cs",
+              "RelativeToolTip": "Day13\\LambdaEg.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T07:55:24.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculatorExtension.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\CalculatorExtensionDll\\CalculatorExtension.cs",
+              "RelativeDocumentMoniker": "CalculatorExtensionDll\\CalculatorExtension.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\CalculatorExtensionDll\\CalculatorExtension.cs",
+              "RelativeToolTip": "CalculatorExtensionDll\\CalculatorExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T07:20:28.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Calculatordll\\Calculator.cs",
+              "RelativeDocumentMoniker": "Calculatordll\\Calculator.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Calculatordll\\Calculator.cs",
+              "RelativeToolTip": "Calculatordll\\Calculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T07:06:14.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExtensionClass.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\ExtensionClass.cs",
+              "RelativeDocumentMoniker": "Day13\\ExtensionClass.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\ExtensionClass.cs",
+              "RelativeToolTip": "Day13\\ExtensionClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T06:48:00.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Program.cs",
+              "RelativeDocumentMoniker": "Day13\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day13\\Day13\\Program.cs",
+              "RelativeToolTip": "Day13\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T06:45:00.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\Day13.exe.config
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\Day13.exe
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\Day13.pdb
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\obj\Debug\Day13.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\obj\Debug\Day13.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\obj\Debug\Day13.exe
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\obj\Debug\Day13.pdb
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\Calculatordll.dll
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\Calculatordll.pdb
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\obj\Debug\Day13.csproj.Up2Date
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\CalculatorExtensionDll.dll
+C:\Banu\2026\DotNet\CSharp\Day13\Day13\bin\Debug\CalculatorExtensionDll.pdb
