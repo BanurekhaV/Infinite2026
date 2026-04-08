@@ -1,0 +1,57 @@
+Extension Methods : a concept that allows us to add new methods to the existing class or structure without modifying the source code of the original type. Also this does not need any special permission nor re-compilation of the original type
+- Are methods that are always marked static, but when they are bound with other class/structure, they convert into non-static 
+- We can also add extension methods to sealed classes
+- When an extension method is defined with the same name and signature of the existing method, then the compiler will resolve only the existing method, and not the extension method (Hence extension methods do not support overriding)
+
+
+- Scenarios like a sealed class or when the source code is not available with us, but we want to add new features(methods) to them, then we go for extension methods
+
+
+Class Library : are applications/project types that creates .dll assemblies. They cannot be executed on their own. In order to execute they need a Host (exe)
+
+Lambda expressions
+
+int a,b,c;
+c= a+b;
+
+int sum(int a, int b)
+{
+return a+b;
+}
+
+LINQ - Language Integrated Query 
+       is a uniform syntax for retrieving data from different sources and formats
+       it is integrated in C#
+       eliminates mismatches between programming lang and database by providing a single query interface for all types of sources
+
+Linq 
+queries returns results as objects
+
+1 Query Syntax/Expression : similar to SQL for database
+                            starts with a from clause and ends with either a select or groupby
+
+  Syntax: from <rangevariable> in <IEnumerable><IQuerybale><Collection>
+             <standard query operators> <lambda expressions>
+<select or group by operator>  <result formation>
+
+2. Method Syntax/Expression/Extensions/Fluent
+  - also known as fluent syntax uses extension methods to form results
+  - also includes lambda
+
+Query syntax is easier to read, but method syntax are more powerful way of writing queries
+Both do not support all query operators.
+Always prefer query syntax over method until requirements demand
+
+Lambda Expressions : also known as lambda functions
+                     essentially they are blocks of code that can be assigned to variables, passed as an argument, or returned from a function call
+- divided into 2 parts . the left side is the input and the right side is the expression
+- the '=>' operator means 'Goes To'
+
+Linq provides 2 different behaviours of query expression
+
+ Deferred                  vs                        			 Immediate
+- are lazy operators                                			 Greedy Operators
+- Query is not executed at the time of declaration/construction      Query is executed at the time of declaration/construction
+- Select, selectmany, take, skip, where				    Aggregate functions,first, toArray,ToList
+
+
