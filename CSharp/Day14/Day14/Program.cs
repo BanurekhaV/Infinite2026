@@ -11,7 +11,8 @@ namespace Day14
     {
         static void Main(string[] args)
         {
-            SimpleExpressions();   
+           // SimpleExpressions();
+            ProductFilter.ExpressionswithFilter();
             Console.Read();
         }
 
@@ -49,5 +50,42 @@ namespace Day14
             //invoke the delegate
             Console.WriteLine(CompiledExpr());
         }
+    }
+
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+
+    }
+
+    public class  ProductFilter
+    {
+        public Expression<Func<Product, bool>> FilterCriteria { get; set; }
+
+        public static void ExpressionswithFilter()
+        {
+            var products = new List<Product>()
+            {
+                new Product { Id = 1, Name = "Pens", Price = 50 },
+                new Product { Id = 2, Name = "Pencils", Price = 20 },
+                new Product { Id = 3, Name = "USBs", Price = 350 },
+                new Product { Id = 4, Name = "Memory Cards", Price = 500 },
+            };
+
+            var filter = new ProductFilter
+            {
+                FilterCriteria = p => p.Price < 100
+            };
+
+            var lesspricedProducts = products.AsQueryable().Where(filter.FilterCriteria).ToList();
+
+            foreach (var p in lesspricedProducts)
+            {
+                Console.WriteLine(p.Name + " " + p.Price);
+            }
+        }
+
     }
 }
