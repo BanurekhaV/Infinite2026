@@ -35,7 +35,48 @@ namespace Day14
 
             Console.WriteLine("----------Optional Parameters----------");
             Console.WriteLine(Add2Nos(x:20));
+
+            Console.WriteLine("----Exception Filters-----");
+
+            int[] numbers = { 1, 2, 3 };
+            int index = 4;
+            try
+            {
+                Console.WriteLine(numbers[index]);
+            }
+            catch(IndexOutOfRangeException ex) when (index <0)
+            {
+                Console.WriteLine("Negative Index not allowed..");
+            }
+            catch (IndexOutOfRangeException ex) when(index >=numbers.Length)
+            {
+                Console.WriteLine("Index is beyond the size..");
+            }
+
+            try
+            {
+                int num = 0;
+                int x = 5 / num;
+            }
+            catch(DivideByZeroException ex) when(DateTime.Now.DayOfWeek == DayOfWeek.Tuesday)
+            {
+                Console.WriteLine("Sorry cannot handle as it is Tuesday");
+            }
+            catch(DivideByZeroException ex) when (DateTime.Now.DayOfWeek.Equals(DayOfWeek.Friday))
+            {
+                Console.WriteLine("Handled since it is thursday");
+                SomeotherFunction();
+            }
+            catch(Exception ex) when (ex.GetType().ToString() == "System.DivideByZeroException")
+            {
+                Console.WriteLine("Continue, Handled..");
+            }
             Console.Read();
+        }
+
+        static void SomeotherFunction()
+        {
+            Console.WriteLine("A new Task started to run....");
         }
     }
 }

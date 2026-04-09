@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{FFF87245-8B87-49BA-984E-C39635EE91BB}|Day14\\Day14.csproj|solutionrelative:day14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFF87245-8B87-49BA-984E-C39635EE91BB}|Day14\\Day14.csproj|c:\\banu\\2026\\dotnet\\csharp\\day14\\day14\\taksprg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FFF87245-8B87-49BA-984E-C39635EE91BB}|Day14\\Day14.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day14\\day14\\taksprg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF87245-8B87-49BA-984E-C39635EE91BB}|Day14\\Day14.csproj|solutionrelative:day14\\taksprg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Day14\\SomeEnhancements.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day14\\Day14\\SomeEnhancements.cs",
               "RelativeToolTip": "Day14\\SomeEnhancements.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwCQAAAAtAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T11:23:02.817Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Day14\\TaksPrg.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAAADoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T10:12:52.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T10:12:52.332Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Day14\\ExpressionEg2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T07:34:03.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T07:34:03.185Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Day14\\Program.cs",
               "ViewState": "AQIAADoAAAAAAAAAAAAxwEoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T05:40:45.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T05:40:45.173Z"
             }
           ]
         }

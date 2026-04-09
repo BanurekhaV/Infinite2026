@@ -34,8 +34,17 @@ can have multiple process hapoening at the     one jib at a time
 
 A task is a higher level concept of thread
 
-Enhancements :
+C# Lang Enhancements :
 
 Literal Movements : readability of code when we have big sequence of any literals
        
+Named and Option/default arguments
+
+Exception Filter :is a Boolean expression attached with catch block. 
+                  when is used to filter a condition and take action in the catch block, else we can continue with the next catch
+                  Allows precise and readable exception handling
+                  Filters are evaluated before catch block executes, hence retaining the call stack
+                  Same exception type can be handled differently based on runtime conditions
+                  
+
 
