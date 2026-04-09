@@ -72,6 +72,7 @@ namespace Day14
                 new Product { Id = 2, Name = "Pencils", Price = 20 },
                 new Product { Id = 3, Name = "USBs", Price = 350 },
                 new Product { Id = 4, Name = "Memory Cards", Price = 500 },
+               // new Product {Name = "Phones", Price = 35000,Id = 5}
             };
 
             var filter = new ProductFilter
