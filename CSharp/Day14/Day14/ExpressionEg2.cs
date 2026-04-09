@@ -22,13 +22,13 @@ namespace Day14
             Console.WriteLine("------Expressions with Parameters -------");
             ExpressionsWithParameters();
 
-            Console.WriteLine("--------Using some functions-------");
+            //Console.WriteLine("--------Using some functions-------");
 
-            Expression<Func<Product, bool>> expr1 = p => p.Price > 100;
-            Expression<Func<Product, bool>> expr2 = p => p.Id==3;
+            //Expression<Func<Product, bool>> expr1 = p => p.Price > 100;
+            //Expression<Func<Product, bool>> expr2 = p => p.Id==3;
 
-            var combinedexpr = Expression.Lambda<Func<Product, bool>>(
-                Expression.AndAlso(expr1.Body, expr2.Body));
+            //var combinedexpr = Expression.Lambda<Func<Product, bool>>(
+            //    Expression.AndAlso(expr1.Body, expr2.Body));
             Console.Read();
 
         }
@@ -53,8 +53,10 @@ namespace Day14
 
             //6. Execute the expression
             Console.WriteLine("Expression using API resulted in {0} ", CompileFunc(25, 30));
-        
-        
+
+            Console.WriteLine("Node Type : " + " " + exprbody.NodeType);
+            Console.WriteLine("Parameter Type [1] : " + " " + expr.Parameters[1].Name);
+            Console.WriteLine("Return type of the Expression : " + " " + expr.ReturnType);
         }
     }
 

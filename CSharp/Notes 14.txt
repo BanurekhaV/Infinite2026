@@ -1,0 +1,41 @@
+Expression Trees : Feature that allows representation of code as data
+They are Tree like structures where each node represents operations, variables, constants and other code elements
+Expressions are not Compile time Units. We need to compile during execution to delegates
+They may return a value or just perform an action such as calling a method
+Expressions trees that represent lambda expressions can be executed
+Compiled expressions can be reused 
+
+Common classes in System.Linq.Expression namespace
+  - Expression - base class for all expressions
+  - LambdaExpressions : Representation of lambda functions
+  - BinaryExpressions : Represents binary operations
+  - MethodCallExpressions : Represents method calls
+
+Usages : are invaluable tool to dynamically create, manipulate or inspect code in a flexible and efficient way
+         - are used in implementing dynamic filtering, sorting and pagination
+         - used to build complex custom queries (Linq queries to SQL database)
+
+Limitations : not used for all c# constructs (like loops, try catch blocks...)
+              performance overhead
+              complexity in managing and manipulating complex queries using expression trees
+
+
+Task : Task Parallel Library (TPL) dotnet framework 4.0
+       any job that gets executed asynchronously on a threadpool is a task
+       TPL makes developers more productive by adding parallelism and concurrency to applications
+       TPL handles work partitioning, scheduling of threads on the pool, state management, cancellation support and other low level details
+       
+
+Task                                              Threads
+represents async operations                    used for managing work flow
+they can return results                        no direct mechanism to return a result
+can have multiple process hapoening at the     one jib at a time
+       same time
+
+A task is a higher level concept of thread
+
+Enhancements :
+
+Literal Movements : readability of code when we have big sequence of any literals
+       
+
