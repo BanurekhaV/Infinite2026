@@ -65,3 +65,12 @@ We can inherit the outer class
 We can inherit the inner class only with reference to the outer class and the inner class be public/ or internal
 
 
+Partial Methods :
+- Declared with partial keyword
+- Must always exist inside a partial class or partial struct
+- Can have a declaration and an optional implementation
+- If no implementation is provided, declaration will be removed by the compiler
+- Must always return only void type
+- Cannot be associated with access modifiers
+- Can be static, but cannot be virtual, abstract, async, extern
+- out parameters are not allowed

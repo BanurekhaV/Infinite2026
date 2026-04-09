@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Day13
 {
-    public partial class Circle2
+    public partial class Circle
     {
-        public void area(int z)
-        {
+         partial void area(int z)
+         {
             double area = 3.14 * z * z;
-            Console.WriteLine("Area is : {0} ",area);
-        }
+            Console.WriteLine("Area is : {0} ", area);
+         }
     }
 }

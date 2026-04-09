@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Day13
 {
-    public partial class Circle1
+    public partial class Circle
     {
 
         //this file contains only declaration
 
-        partial  void area(int a);
+        partial void area(int a);
 
         public void Display()
         {
