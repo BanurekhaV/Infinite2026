@@ -29,7 +29,7 @@ Task : Task Parallel Library (TPL) dotnet framework 4.0
 Task                                              Threads
 represents async operations                    used for managing work flow
 they can return results                        no direct mechanism to return a result
-can have multiple process hapoening at the     one jib at a time
+can have multiple process happening at the     one job at a time
        same time
 
 A task is a higher level concept of thread

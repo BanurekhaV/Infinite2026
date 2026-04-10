@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FFF87245-8B87-49BA-984E-C39635EE91BB}</ProjectGuid>
+    <ProjectGuid>{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day14</RootNamespace>
-    <AssemblyName>Day14</AssemblyName>
+    <RootNamespace>Day15</RootNamespace>
+    <AssemblyName>Day15</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Day14.AsyncPrg</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncPrg.cs" />
-    <Compile Include="ExpressionEg2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SomeEnhancements.cs" />
-    <Compile Include="TaksPrg.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
