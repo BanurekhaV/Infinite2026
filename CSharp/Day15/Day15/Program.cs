@@ -10,9 +10,11 @@ namespace Day15
 {
     class Employee
     {
-        public int Id { get; private set; }
-        public string Name { get; set; } = "Janani";
-        public double Salary { get; protected set; } = 30000;
+        public int Id { get; set; }
+        public string Name { get; set; } 
+        public string Gender { get; set; }
+        public double Salary { get;  set; } 
+        public string Department {  get; set; }
     }
     internal class Program
     {

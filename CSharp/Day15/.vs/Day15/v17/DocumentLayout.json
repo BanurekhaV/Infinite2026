@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\day15\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\day15\\externaliaseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\externaliaseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20976639-E72C-49CE-B5D6-5AAE46F43D8A}|Lib1\\Lib1.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\lib1\\libclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\day15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20976639-E72C-49CE-B5D6-5AAE46F43D8A}|Lib1\\Lib1.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\lib1\\libclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20976639-E72C-49CE-B5D6-5AAE46F43D8A}|Lib1\\Lib1.csproj|solutionrelative:lib1\\libclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60E7F31E-F9E5-4E03-B97A-132253779F01}|Lib2\\Lib2.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\lib2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60E7F31E-F9E5-4E03-B97A-132253779F01}|Lib2\\Lib2.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\lib2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60E7F31E-F9E5-4E03-B97A-132253779F01}|Lib2\\Lib2.csproj|solutionrelative:lib2\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\day15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TuplesEg.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\TuplesEg.cs",
+              "RelativeDocumentMoniker": "Day15\\TuplesEg.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\TuplesEg.cs",
+              "RelativeToolTip": "Day15\\TuplesEg.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAowDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T11:02:38.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ExternAliasEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\ExternAliasEg.cs",
               "RelativeDocumentMoniker": "Day15\\ExternAliasEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\ExternAliasEg.cs",
               "RelativeToolTip": "Day15\\ExternAliasEg.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T07:51:45.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Lib2\\Class1.cs",
               "RelativeDocumentMoniker": "Lib2\\Class1.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Lib2\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T07:49:18.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T07:49:18.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LibClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Lib1\\LibClass.cs",
               "RelativeDocumentMoniker": "Lib1\\LibClass.cs",
@@ -68,18 +84,17 @@
               "RelativeToolTip": "Lib1\\LibClass.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T07:48:26.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T07:48:26.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\Program.cs",
               "RelativeDocumentMoniker": "Day15\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\Program.cs",
               "RelativeToolTip": "Day15\\Program.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAAEsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T05:44:21.1Z",
               "EditorCaption": ""
