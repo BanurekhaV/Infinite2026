@@ -1,0 +1,52 @@
+Await in catch/finally
+
+ 
+Expression Bodied Method :is a feature that simplifies/reduces the programming code by creating expression bodies for functions and properties. It is similar to that of lambda expressions, but an extension
+
+
+Name of : Expression produces the name of a variable, type, or member as string constants
+         Is used to point out errors if any in our code during compilation time and has no effect during runtime
+
+Throw Expression : enhancement of code to throw an exception thru an expression 
+
+
+Extern Aliases : When we have name clashes between 1 or more libraries that are included in a project, then we may avoid the ambiguity by creating extern aliases. (Are alias names given to libraries that have same class names/function names/member names)
+
+
+Local Functions : If we want to execute some piece of code multiple times within a function, then we can place such codes as inner functions called as local function
+ Note : 1. We cannot overload Local Functions
+        2. Cannot alter access modifiers such as private, public, protected, internal etc
+        3. All variables in the enclosing scope, including local variables can be accessed
+        4. Compiler throws a warning, if the parent function does not call the local function
+
+
+Tuples: Is a data structure that contains a sequence of elements of different data types. It can hold objects with its properties, and we don't have to create a separate type for it
+
+Why Tuples : If we wish to have multiple return values from a method, then we can use tuples
+
+Different ways in which we can return multiple values 
+1. Using Custom Datatype : Eg Employee object . We can return multiple values(properties) from a method using a custom object (i.e class). But in some scenarios, we may not need all the date.
+
+2. using Ref and out : We can return multiple values from a method using 'out', but understanding and internal implementations are a bit difficult. out and ref are not allowed with async methods
+
+3. Use Dynamic type : We can return multiple values from a method using dynamic datatype. But from performance point of view, we may not want to use Dynamic types
+
+Hence preference is to go for tuples
+
+Pattern matching: allows testing an expression for a given pattern. Results in either matching or not (true or a false )
+
+1. type pattern 
+2. Constant Pattern
+3. Comparison
+4. Relational 
+5. Position
+6. var pattern
+7. Property pattern
+
+static void PrintUppercase(object arg)
+{
+  if arg is a string then convert
+if(arg is string)
+{ cw(arg.ToUpper())
+}
+     

@@ -43,6 +43,9 @@ namespace Day15
             //{
 
             //};
+
+            (string Name, double Sal, string Dept) = InnerFunctionUsecase.GetEmployeedDetails(1);
+            Console.WriteLine(Name + " " + Sal +  " " + Dept);
             Console.Read();        
         }
 
@@ -71,6 +74,12 @@ namespace Day15
 
     class InnerFunctionUsecase
     {
+
+        public static (string name,double salary,string dept)GetEmployeedDetails(int eid)
+        {
+            Employee e = new Employee() { Name = "Banurekha", Salary = 45000, Department = "HR" };
+            return (e.Name, e.Salary, e.Department);
+        }
         //parent function
         public static bool AddEmployee(Employee request)
         {
