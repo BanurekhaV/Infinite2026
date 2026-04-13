@@ -1,0 +1,30 @@
+Software Engg. Principles : Guidelines for developing Quality, Maintainability, Code efficiency, code reuse etc applications
+
+1. Separation of Concern
+2. Modularization
+3. Abstraction (what rather than how)
+4. Anticipation of Changes 
+         - General code (de-couple codes)
+         - Incremental Development
+         - Consistent Look and Feel
+5. DRY - Do not Repeat Yourselves
+6. KISS - Keep it Simple Stupid
+7. YAGNI - You Aren't Gonna Need It (unnecessary features and functionalities to be avoided)
+8. SOLID - Are design principles
+
+S  -  Single Responsibility principle (SRP) a class, struct in the code should always have one job to do
+O  -  Open Close Principle (OCP) : a s/w module/class is open for extension and closed for modifications
+L  -  Liskovs Substitution Principle (LSP) : It is an extension to OCP, where derived types should not change the behaviour of the super types (Usage of Interface)
+I  -  Interface Segregation Principle(ISP): Instead of one Thick Interface, try creating more thin interfaces with minimum methods. Since implementing class are not be forced to implement all methods of the interface 
+D   Dependency Inversion principle (DIP) : States no high level modules/classes(consumers/clients) should interact with low level modules/classes (implementing classes). Both should depend on abstraction(layered architecture)
+
+DIP - a design principle suggest solutions to dependency problem, and not any techniques
+
+- IOC (Inversion of Control) - is the actual mechanism for implementing DIP
+-  DI - Dependency Injection - is a design pattern to inject concrete implementations of the low level module/components into the high level components
+
+ DI can be used  as below
+
+1. Constructor injections :Instance of the dependency type can be passed as an argument to the constructor of the dependent type
+2. Method Injection : Instance of the dependency type can be passed as an argument to the method of a class(dependant  type)
+3. Property Injection : Instance of the dependency type can be passed as an argument to the property of a class(dependant  type)

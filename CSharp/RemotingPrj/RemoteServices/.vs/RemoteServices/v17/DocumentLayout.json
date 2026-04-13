@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\RemotingPrj\\RemoteServices\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1C65DC74-F992-43B7-BDC6-EC07A3611695}|Server\\Server.csproj|c:\\banu\\2026\\dotnet\\csharp\\remotingprj\\remoteservices\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C65DC74-F992-43B7-BDC6-EC07A3611695}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00169B19-3F9B-490A-988C-D882BCC6D986}|RemoteServices\\RemoteServices.csproj|c:\\banu\\2026\\dotnet\\csharp\\remotingprj\\remoteservices\\remoteservices\\remoteserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00169B19-3F9B-490A-988C-D882BCC6D986}|RemoteServices\\RemoteServices.csproj|solutionrelative:remoteservices\\remoteserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,32 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\RemotingPrj\\RemoteServices\\Server\\Program.cs",
-              "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\RemotingPrj\\RemoteServices\\Server\\Program.cs",
-              "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T07:05:56.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RemoteServer.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\RemotingPrj\\RemoteServices\\RemoteServices\\RemoteServer.cs",
-              "RelativeDocumentMoniker": "RemoteServices\\RemoteServer.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\RemotingPrj\\RemoteServices\\RemoteServices\\RemoteServer.cs",
-              "RelativeToolTip": "RemoteServices\\RemoteServer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwA8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T06:56:33.725Z",
-              "EditorCaption": ""
             }
           ]
         }
