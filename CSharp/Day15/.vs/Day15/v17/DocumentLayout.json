@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\patternmatchingeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\day15\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|c:\\banu\\2026\\dotnet\\csharp\\day15\\day15\\fewpatterntypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\fewpatterntypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\day15\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF9D25D0-C8C3-4351-8B0A-3217F5BDD5FB}|Day15\\Day15.csproj|solutionrelative:day15\\tupleseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +50,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FewPatternTypes.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\FewPatternTypes.cs",
+              "RelativeDocumentMoniker": "Day15\\FewPatternTypes.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\FewPatternTypes.cs",
+              "RelativeToolTip": "Day15\\FewPatternTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T04:31:05.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PatternmatchingEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\PatternmatchingEg.cs",
               "RelativeDocumentMoniker": "Day15\\PatternmatchingEg.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\PatternmatchingEg.cs",
               "RelativeToolTip": "Day15\\PatternmatchingEg.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAowIsAAAABAAAA",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAYwJwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T12:28:04.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TuplesEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\TuplesEg.cs",
               "RelativeDocumentMoniker": "Day15\\TuplesEg.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Day15\\TuplesEg.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAgwBoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T11:02:38.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T11:02:38.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ExternAliasEg.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\ExternAliasEg.cs",
               "RelativeDocumentMoniker": "Day15\\ExternAliasEg.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "Day15\\ExternAliasEg.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T07:51:45.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T07:51:45.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Lib2\\Class1.cs",
               "RelativeDocumentMoniker": "Lib2\\Class1.cs",
@@ -97,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LibClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Lib1\\LibClass.cs",
               "RelativeDocumentMoniker": "Lib1\\LibClass.cs",
@@ -109,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Day15\\Day15\\Program.cs",
               "RelativeDocumentMoniker": "Day15\\Program.cs",

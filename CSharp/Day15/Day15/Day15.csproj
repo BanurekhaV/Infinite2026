@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExternAliasEg.cs" />
+    <Compile Include="FewPatternTypes.cs" />
     <Compile Include="PatternmatchingEg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

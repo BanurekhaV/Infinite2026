@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Markup;
 
 namespace Day15
 {
@@ -31,7 +32,7 @@ namespace Day15
             Length = l;
             Breadth = b;
         }
-
+    }
         public class Triangle : Shape
         {
             public double Base { get; }
@@ -120,6 +121,29 @@ namespace Day15
                 }
             }
 
+            public static void DisplayAreaSwitch(Shape shape)
+            {
+                switch(shape)
+                {
+                    case Rectangle r when r.Length == r.Breadth:
+                        Console.WriteLine("Area of Square is :" + r.Length * r.Breadth);
+                        break;
+                    case Rectangle r:
+                        Console.WriteLine("Area of Rectangle is :" + r.Length * r.Breadth);
+                        break;
+                    case Circle c:
+                        Console.WriteLine("Area of circle is : " + c.Radius * c.Radius * Shape.PI);
+                        break;
+                       
+                    case Triangle t:
+                        Console.WriteLine("Area of Triangle is :" + 0.5 * t.Base * t.Height);
+                        break;
+                    case null:
+                        throw new ArgumentNullException(nameof(shape));
+                    default:
+                        throw new ArgumentException(message:"Invalid Shape",paramName: nameof(shape));
+                }
+            }
             static void Main()
             {
                 var emp = new Employee() { Name = "Infinite" };
@@ -129,12 +153,17 @@ namespace Day15
                 PrintType("Hello");
 
                 ManyPattern();
-                Console.WriteLine("-----------Pattern---------");
-                Rectangle r = new Rectangle(5, 7);
-                DisplayArea(r);
+               // Console.WriteLine("-----------Pattern---------");
+                Rectangle r = new Rectangle(5, 5);
+              //  DisplayArea(r);
+                Console.WriteLine("---------Case Pattern----------");
+                DisplayAreaSwitch(r);
+                Rectangle r1 = new Rectangle(5, 8);   //
+                DisplayAreaSwitch(r1);
+
                 Console.Read(); ;
             }
 
         }
-    }
+    
 }

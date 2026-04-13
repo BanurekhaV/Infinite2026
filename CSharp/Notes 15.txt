@@ -33,14 +33,14 @@ Different ways in which we can return multiple values
 
 Hence preference is to go for tuples
 
-Pattern matching: allows testing an expression for a given pattern. Results in either matching or not (true or a false )
+Pattern matching: allows testing an expression for a given pattern. Results in either matching or not (true or a false ), without extra casting or checks 
 
 1. type pattern 
-2. Constant Pattern
+2. Constant Pattern    
 3. Comparison
 4. Relational 
-5. Position
-6. var pattern
+5. Position  (5,10) ("Bob",27)(true, false)
+6. var pattern 
 7. Property pattern
 
 static void PrintUppercase(object arg)
@@ -50,3 +50,17 @@ if(arg is string)
 { cw(arg.ToUpper())
 }
      
+3 main constructs for pattern matching
+
+1. is operator
+2. switch statement
+3. switch expression
+     var result = expression switch
+{
+  pattern1 => value1,
+  pattern2 => value2,
+ -=>default value
+};
+
+Non-Nullable 
+
