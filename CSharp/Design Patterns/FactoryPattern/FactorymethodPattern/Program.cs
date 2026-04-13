@@ -13,10 +13,14 @@ namespace FactorymethodPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Card type");
-            string cardType = Console.ReadLine();
-
             CreditCard card = new PlatinumFactory().CreateCard();
+            if(card!=null)
+            {
+                Console.WriteLine($"CardType : {card.GetCardType()}");
+                Console.WriteLine($"CardLimit : {card.GetCardLimit()}");
+                Console.WriteLine($"CardAnnual Charges : {card.GetAnnualCharges()}");
+            }
+            Console.Read();
         }
     }
 }

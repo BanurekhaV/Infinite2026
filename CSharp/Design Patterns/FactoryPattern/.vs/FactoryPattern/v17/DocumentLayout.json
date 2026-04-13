@@ -3,48 +3,44 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\implementations\\platinumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\implementations\\platinumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\creditcardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\creditcardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\creditcardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\creditcardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\implementations\\platinumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\implementations\\platinumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\implementations\\titaniumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\implementations\\titaniumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\implementations\\moneybackfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\implementations\\moneybackfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\interfaces\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\interfaces\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\products\\titanium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\products\\titanium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\products\\platinum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\products\\platinum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\products\\platinum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorymethodpattern\\products\\moneyback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\interfaces\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\interfaces\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\implementations\\titaniumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\implementations\\titaniumfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\implementations\\moneybackfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\implementations\\moneybackfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\products\\titanium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\products\\titanium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorymethodpattern\\products\\moneyback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F800CB28-71DB-4123-BE19-8567EF8F653E}|FactorymethodPattern\\FactorymethodPattern.csproj|solutionrelative:factorymethodpattern\\products\\moneyback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01132295-879A-4803-9944-B8D9B37F258B}|FactoryPattern\\FactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern\\implementors\\moneyback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01132295-879A-4803-9944-B8D9B37F258B}|FactoryPattern\\FactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\factorypattern\\implementors\\moneyback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01132295-879A-4803-9944-B8D9B37F258B}|FactoryPattern\\FactoryPattern.csproj|solutionrelative:factorypattern\\implementors\\moneyback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01132295-879A-4803-9944-B8D9B37F258B}|FactoryPattern\\FactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01132295-879A-4803-9944-B8D9B37F258B}|FactoryPattern\\FactoryPattern.csproj|solutionrelative:factorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,28 +50,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Program.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Program.cs",
               "RelativeToolTip": "FactorymethodPattern\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABBAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:35:10.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Titanium.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Products\\Titanium.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Products\\Titanium.cs",
@@ -83,25 +83,24 @@
               "RelativeToolTip": "FactorymethodPattern\\Products\\Titanium.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T11:24:03.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T11:24:03.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Platinum.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Products\\Platinum.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Products\\Platinum.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Products\\Platinum.cs",
               "RelativeToolTip": "FactorymethodPattern\\Products\\Platinum.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:23:28.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MoneybackFactory.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Implementations\\MoneybackFactory.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Implementations\\MoneybackFactory.cs",
@@ -114,13 +113,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlatinumFactory.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Implementations\\PlatinumFactory.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Implementations\\PlatinumFactory.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Implementations\\PlatinumFactory.cs",
               "RelativeToolTip": "FactorymethodPattern\\Implementations\\PlatinumFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:20:16.598Z",
               "EditorCaption": ""
@@ -133,14 +132,14 @@
               "RelativeDocumentMoniker": "FactorymethodPattern\\CreditCardFactory.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\CreditCardFactory.cs",
               "RelativeToolTip": "FactorymethodPattern\\CreditCardFactory.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:15:16.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TitaniumFactory.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Implementations\\TitaniumFactory.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Implementations\\TitaniumFactory.cs",
@@ -153,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CreditCard.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactorymethodPattern\\Interfaces\\CreditCard.cs",
               "RelativeDocumentMoniker": "FactorymethodPattern\\Interfaces\\CreditCard.cs",
@@ -174,8 +173,7 @@
               "RelativeToolTip": "FactorymethodPattern\\Products\\MoneyBack.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAowAUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T11:23:47.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T11:23:47.526Z"
             },
             {
               "$type": "Document",
@@ -187,25 +185,7 @@
               "RelativeToolTip": "FactoryPattern\\Implementors\\MoneyBack.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T11:22:40.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern\\Program.cs",
-              "RelativeDocumentMoniker": "FactoryPattern\\Program.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern\\Program.cs",
-              "RelativeToolTip": "FactoryPattern\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:26:43.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T11:22:40.988Z"
             }
           ]
         }
