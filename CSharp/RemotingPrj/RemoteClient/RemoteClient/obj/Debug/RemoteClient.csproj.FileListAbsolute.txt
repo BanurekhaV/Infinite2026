@@ -1,0 +1,10 @@
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\bin\Debug\RemoteClient.exe.config
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\bin\Debug\RemoteClient.exe
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\bin\Debug\RemoteClient.pdb
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\bin\Debug\RemoteServices.dll
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\bin\Debug\RemoteServices.pdb
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\obj\Debug\RemoteClient.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\obj\Debug\RemoteClient.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\obj\Debug\RemoteCl.989A280E.Up2Date
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\obj\Debug\RemoteClient.exe
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteClient\RemoteClient\obj\Debug\RemoteClient.pdb

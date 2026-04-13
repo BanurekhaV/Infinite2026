@@ -1,0 +1,6 @@
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\RemoteServices\bin\Debug\RemoteServices.dll
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\RemoteServices\bin\Debug\RemoteServices.pdb
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\RemoteServices\obj\Debug\RemoteServices.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\RemoteServices\obj\Debug\RemoteServices.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\RemoteServices\obj\Debug\RemoteServices.dll
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\RemoteServices\obj\Debug\RemoteServices.pdb

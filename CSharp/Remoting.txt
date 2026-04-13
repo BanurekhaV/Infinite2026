@@ -32,3 +32,8 @@ Other options of communication :
  Web Services
  WCF  - Windows communication Framework
  API  - Application Programming Interface
+
+
+Create a class library
+Host the class lib {} in a console application
+Console client

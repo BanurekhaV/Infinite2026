@@ -1,0 +1,10 @@
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\bin\Debug\Server.exe.config
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\bin\Debug\Server.exe
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\bin\Debug\Server.pdb
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\bin\Debug\RemoteServices.dll
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\bin\Debug\RemoteServices.pdb
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\obj\Debug\Server.csproj.Up2Date
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\obj\Debug\Server.exe
+C:\Banu\2026\DotNet\CSharp\RemotingPrj\RemoteServices\Server\obj\Debug\Server.pdb
