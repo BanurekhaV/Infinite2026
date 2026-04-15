@@ -1,0 +1,11 @@
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\bin\Debug\Client2.exe.config
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\bin\Debug\Client2.exe
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\bin\Debug\Client2.pdb
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\bin\Debug\SingleTonPattern.exe
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\bin\Debug\SingleTonPattern.pdb
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\bin\Debug\SingleTonPattern.exe.config
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\obj\Debug\Client2.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\obj\Debug\Client2.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\obj\Debug\Client2.csproj.Up2Date
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\obj\Debug\Client2.exe
+C:\Banu\2026\DotNet\CSharp\Design Patterns\SingleTonPattern\Client2\obj\Debug\Client2.pdb

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTonPattern", "SingleT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleTonPattern2", "SingleTonPattern2\SingleTonPattern2.csproj", "{4FD878B1-EB4B-4887-91E3-935030DB7F5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client2", "Client2\Client2.csproj", "{9742025F-5514-4C78-A4F4-E237CD79F1F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4FD878B1-EB4B-4887-91E3-935030DB7F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD878B1-EB4B-4887-91E3-935030DB7F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD878B1-EB4B-4887-91E3-935030DB7F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9742025F-5514-4C78-A4F4-E237CD79F1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9742025F-5514-4C78-A4F4-E237CD79F1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9742025F-5514-4C78-A4F4-E237CD79F1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9742025F-5514-4C78-A4F4-E237CD79F1F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

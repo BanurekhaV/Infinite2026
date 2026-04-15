@@ -64,7 +64,7 @@ Guidelines for Singleton DP
 Note : If we do not make our dependency class sealed , then there are possibilities of derivation inside the parent class, even though the constructor is private. This will create multiple instances violating singleton Pattern
 
 
-Id    Name   Gender  Salary   Dept
+
 
 Hands On:
 
