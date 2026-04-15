@@ -66,30 +66,4 @@ Note : If we do not make our dependency class sealed , then there are possibilit
 
 
 
-Hands On:
-
-1. Document conversion system using both factory and factory method pattern)
-TxtConverter
-PdfConverter
-DocxConverter
-
-public interface IDocumentConverter
-{
-   string Convert(string content);
-   string TargetExtension {get ;}
-}
-
-DocumentConverterFactory{}
-
-
-2. Abstract Factory pattern in Furniture Shop
-
- IChair => Siton() , ISofa  => Layon()
-
-ModernChair, ModernSofa , VintageChair, VintageSofa
-
-IFurniturefactory => IChair CreateChair();,  ISofa CreateSofa();
-
-ModerFurtinuteFactory{}
-VintageFurnitureFactory{}
 
