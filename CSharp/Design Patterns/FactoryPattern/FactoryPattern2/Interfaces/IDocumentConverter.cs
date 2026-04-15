@@ -8,7 +8,7 @@ namespace FactoryPattern2.Interfaces
 {
     public interface IDocumentConverter
     {
-        string Convert(string content);
+         string Convert(string content);
         string TargetExtension { get; }
     }
 }

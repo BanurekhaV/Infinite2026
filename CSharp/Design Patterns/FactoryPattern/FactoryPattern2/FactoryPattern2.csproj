@@ -46,6 +46,8 @@
     <Compile Include="DocumentConverterFactory.cs" />
     <Compile Include="Interfaces\IDocumentConverter.cs" />
     <Compile Include="Products\DocxConverter.cs" />
+    <Compile Include="Products\PDFConverter.cs" />
+    <Compile Include="Products\TxtConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

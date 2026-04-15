@@ -43,15 +43,28 @@ Categories of Design Patterns
          Concrete creators : class/es that implement the abstract creator (MBfac, Titfac, Platfac)
          Client : consumer 
 
-    c) Abstract Factory Pattern
-   	
-		AbstractFactory : Declares an Interface for operations (IVehicleFactory)
-                ConcreteFactory  : implements the abstract factory methods (RegularVehicleFactory , SportsVehicleFactory)
+    c) Abstract Factory Pattern  : Encapsulating group of factories with a common theme 	
+		
                 AbstractProduct :  Interface for a type of a product (IBike, ICar)
                 ConcreteProducts : implements the abstract product (RegularBike, SportsBike, RegularCar, SportsCar)
+		AbstractFactory : Declares an Interface for operations (IVehicleFactory)
+                ConcreteFactory  : implements the abstract factory methods (RegularVehicleFactory , SportsVehicleFactory)
                 Client : consumer 
 
-    d) SingleTon Pattern
+    d) SingleTon Pattern : Is used to ensure only one instance of a class is provided as a global point of access.
+                       Eg : Shared resources (database, configuration files, filesystem, logging, caching etc)
+
+
+Guidelines for Singleton DP
+1. Private , parameter less constructor (this will restrict other classes to create instances. Only instances are possible within
+2. Sealed class(to avoid inheritance and inner class usage) 
+3. Private static variable ( that holds a single instance)
+4. Public static Method or property (this method will return a singleton instance)
+
+Note : If we do not make our dependency class sealed , then there are possibilities of derivation inside the parent class, even though the constructor is private. This will create multiple instances violating singleton Pattern
+
+
+Id    Name   Gender  Salary   Dept
 
 Hands On:
 
@@ -69,7 +82,7 @@ public interface IDocumentConverter
 DocumentConverterFactory{}
 
 
-2. Abstract Factory pattern in Furtinute Shop
+2. Abstract Factory pattern in Furniture Shop
 
  IChair => Siton() , ISofa  => Layon()
 

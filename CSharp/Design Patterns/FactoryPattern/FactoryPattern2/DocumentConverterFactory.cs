@@ -16,8 +16,10 @@ namespace FactoryPattern2
             {
                 case "docx":
                     return new DocxConverter();
-                 
-
+                case "pdf":
+                    return new PDFConverter();
+                case "txt":
+                    return new TxtConverter();
                 default:
                     throw new ArgumentException("Format not Supported");
             }

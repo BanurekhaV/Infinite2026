@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\products\\txtconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\products\\txtconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\documentconverterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\documentconverterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\products\\docxconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\products\\docxconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\interfaces\\idocumentconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\interfaces\\idocumentconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\products\\pdfconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\products\\pdfconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\factorypattern\\factorypattern2\\interfaces\\idocumentconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB37A43A-8A54-4717-BF57-207C7CAACE77}|FactoryPattern2\\FactoryPattern2.csproj|solutionrelative:factorypattern2\\interfaces\\idocumentconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,67 +34,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DocumentConverterFactory.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\DocumentConverterFactory.cs",
-              "RelativeDocumentMoniker": "FactoryPattern2\\DocumentConverterFactory.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\DocumentConverterFactory.cs",
-              "RelativeToolTip": "FactoryPattern2\\DocumentConverterFactory.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:21:00.768Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IDocumentConverter.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
-              "RelativeDocumentMoniker": "FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
-              "RelativeToolTip": "FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:15:43.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocxConverter.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\DocxConverter.cs",
-              "RelativeDocumentMoniker": "FactoryPattern2\\Products\\DocxConverter.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\DocxConverter.cs",
-              "RelativeToolTip": "FactoryPattern2\\Products\\DocxConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:17:00.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Program.cs",
               "RelativeDocumentMoniker": "FactoryPattern2\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Program.cs",
               "RelativeToolTip": "FactoryPattern2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:14:55.869Z",
+              "WhenOpened": "2026-04-15T09:49:41.476Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentConverterFactory.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\DocumentConverterFactory.cs",
+              "RelativeDocumentMoniker": "FactoryPattern2\\DocumentConverterFactory.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\DocumentConverterFactory.cs",
+              "RelativeToolTip": "FactoryPattern2\\DocumentConverterFactory.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:46:24.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TxtConverter.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\TxtConverter.cs",
+              "RelativeDocumentMoniker": "FactoryPattern2\\Products\\TxtConverter.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\TxtConverter.cs",
+              "RelativeToolTip": "FactoryPattern2\\Products\\TxtConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:43:40.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PDFConverter.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\PDFConverter.cs",
+              "RelativeDocumentMoniker": "FactoryPattern2\\Products\\PDFConverter.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\PDFConverter.cs",
+              "RelativeToolTip": "FactoryPattern2\\Products\\PDFConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:42:01.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocxConverter.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\DocxConverter.cs",
+              "RelativeDocumentMoniker": "FactoryPattern2\\Products\\DocxConverter.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Products\\DocxConverter.cs",
+              "RelativeToolTip": "FactoryPattern2\\Products\\DocxConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:41:25.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDocumentConverter.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
+              "RelativeDocumentMoniker": "FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\FactoryPattern\\FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
+              "RelativeToolTip": "FactoryPattern2\\Interfaces\\IDocumentConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T09:40:37.633Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,43 +3,79 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\concreteproducts\\shark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\concreteproducts\\shark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\concretefactory\\seaanimalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\concretefactory\\seaanimalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\concretefactory\\landanimalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\concretefactory\\landanimalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\abstractfactory\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\abstractfactory\\animalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\concreteproducts\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\concreteproducts\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\concreteproducts\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\concreteproducts\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\concreteproducts\\octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\concreteproducts\\octopus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern2\\abstractproduct\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB1FFE9-25B7-4A68-A082-BF6888169E5D}|AbstractFactoryPattern2\\AbstractFactoryPattern2.csproj|solutionrelative:abstractfactorypattern2\\abstractproduct\\ianimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\factoryimplementors\\sportsvehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\factoryimplementors\\sportsvehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\factoryimplementors\\sportsvehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\factoryimplementors\\regularvehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\factoryimplementors\\regularvehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\factoryimplementors\\regularvehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\factory\\ivehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\factory\\ivehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\factory\\ivehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\interfaces\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\interfaces\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\interfaces\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\products\\sportscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\products\\sportscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\products\\sportscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\products\\regularcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\products\\regularcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\products\\regularcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\products\\regularbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\products\\regularbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\products\\regularbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\products\\sportsbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\products\\sportsbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\products\\sportsbike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\abstractfactorypattern\\abstractfactorypattern\\interfaces\\ibike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\abstractfactorypattern\\interfaces\\ibike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2B3715E-BF21-49AB-8A14-E56BD00AAF5A}|AbstractFactoryPattern\\AbstractFactoryPattern.csproj|solutionrelative:abstractfactorypattern\\interfaces\\ibike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,11 +86,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeaAnimalFactory.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteFactory\\SeaAnimalFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\ConcreteFactory\\SeaAnimalFactory.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteFactory\\SeaAnimalFactory.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\ConcreteFactory\\SeaAnimalFactory.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:16:55.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LandAnimalFactory.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteFactory\\LandAnimalFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\ConcreteFactory\\LandAnimalFactory.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteFactory\\LandAnimalFactory.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\ConcreteFactory\\LandAnimalFactory.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:16:43.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimalFactory.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\AbstractFactory\\AnimalFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\AbstractFactory\\AnimalFactory.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\AbstractFactory\\AnimalFactory.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\AbstractFactory\\AnimalFactory.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:12:15.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Octopus.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Octopus.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\ConcreteProducts\\Octopus.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Octopus.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\ConcreteProducts\\Octopus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:08:58.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Shark.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Shark.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\ConcreteProducts\\Shark.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Shark.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\ConcreteProducts\\Shark.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:08:33.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cat.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Cat.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\ConcreteProducts\\Cat.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Cat.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\ConcreteProducts\\Cat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:07:48.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Dog.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\ConcreteProducts\\Dog.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\ConcreteProducts\\Dog.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\ConcreteProducts\\Dog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:07:11.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\Program.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:04:17.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -62,7 +202,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "IAnimal.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\AbstractProduct\\IAnimal.cs",
+              "RelativeDocumentMoniker": "AbstractFactoryPattern2\\AbstractProduct\\IAnimal.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern2\\AbstractProduct\\IAnimal.cs",
+              "RelativeToolTip": "AbstractFactoryPattern2\\AbstractProduct\\IAnimal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T10:05:07.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SportsVehicleFactory.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\FactoryImplementors\\SportsVehicleFactory.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\FactoryImplementors\\SportsVehicleFactory.cs",
@@ -70,12 +223,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\FactoryImplementors\\SportsVehicleFactory.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:57:47.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:57:47.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "RegularVehicleFactory.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\FactoryImplementors\\RegularVehicleFactory.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\FactoryImplementors\\RegularVehicleFactory.cs",
@@ -83,12 +235,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\FactoryImplementors\\RegularVehicleFactory.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:57:27.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:57:27.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "IVehicleFactory.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Factory\\IVehicleFactory.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Factory\\IVehicleFactory.cs",
@@ -96,12 +247,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Factory\\IVehicleFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:55:03.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:55:03.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "SportsCar.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Products\\SportsCar.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Products\\SportsCar.cs",
@@ -109,12 +259,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Products\\SportsCar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:50:17.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:50:17.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "RegularCar.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Products\\RegularCar.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Products\\RegularCar.cs",
@@ -122,25 +271,24 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Products\\RegularCar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:50:08.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:50:08.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Program.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Program.cs",
               "RelativeToolTip": "AbstractFactoryPattern\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwCEAAAAbAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T05:47:50.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "SportsBike.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Products\\SportsBike.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Products\\SportsBike.cs",
@@ -148,12 +296,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Products\\SportsBike.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:49:58.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:49:58.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "RegularBike.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Products\\RegularBike.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Products\\RegularBike.cs",
@@ -161,12 +308,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Products\\RegularBike.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:49:45.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:49:45.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "ICar.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Interfaces\\ICar.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Interfaces\\ICar.cs",
@@ -174,12 +320,11 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Interfaces\\ICar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:48:40.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:48:40.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "IBike.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\AbstractFactoryPattern\\AbstractFactoryPattern\\Interfaces\\IBike.cs",
               "RelativeDocumentMoniker": "AbstractFactoryPattern\\Interfaces\\IBike.cs",
@@ -187,8 +332,7 @@
               "RelativeToolTip": "AbstractFactoryPattern\\Interfaces\\IBike.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T05:48:30.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-15T05:48:30.505Z"
             }
           ]
         }
