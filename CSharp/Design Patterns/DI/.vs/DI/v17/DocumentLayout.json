@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\employeebal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employeebal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\iemployeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\iemployeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeDAL.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\IEmployeeDAL.cs",
+              "RelativeDocumentMoniker": "DI\\IEmployeeDAL.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\IEmployeeDAL.cs",
+              "RelativeToolTip": "DI\\IEmployeeDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T07:11:55.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeBAL.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeBAL.cs",
+              "RelativeDocumentMoniker": "DI\\EmployeeBAL.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeBAL.cs",
+              "RelativeToolTip": "DI\\EmployeeBAL.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T07:07:13.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeDAL.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeDAL.cs",
+              "RelativeDocumentMoniker": "DI\\EmployeeDAL.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeDAL.cs",
+              "RelativeToolTip": "DI\\EmployeeDAL.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T07:04:05.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Employee.cs",
+              "RelativeDocumentMoniker": "DI\\Employee.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Employee.cs",
+              "RelativeToolTip": "DI\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T07:02:08.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Program.cs",
+              "RelativeDocumentMoniker": "DI\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Program.cs",
+              "RelativeToolTip": "DI\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T07:00:32.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

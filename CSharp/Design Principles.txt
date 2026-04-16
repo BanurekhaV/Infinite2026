@@ -64,6 +64,18 @@ Guidelines for Singleton DP
 Note : If we do not make our dependency class sealed , then there are possibilities of derivation inside the parent class, even though the constructor is private. This will create multiple instances violating singleton Pattern
 
 
+Static Class Vs Singleton
+
+Is a class                                               is a design Pattern
+static constructor                                       private constructor
+Cannot inherit by default                                Unless used with sealed modifier, we can inherit (inner class)
+Cannot pass the static object as a parameter             We can pass the dependency class object as a parameter
+has only instance                                        has only one instance
+
+DI allows loosely coupled software components
+1. Client Class : dependant class on some service/s
+2. Service Class : dependency class (that serves the clients)
+3. Injector : Inject the service onto the client
 
 
 
