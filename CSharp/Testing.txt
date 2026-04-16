@@ -1,0 +1,10 @@
+Software Development Life Cycle  : SDLC is a process of developing software
+
+ Development Models :
+
+ Waterfall
+ prototype
+ Iterators
+ V-Shaped
+ Spiral
+ Agile

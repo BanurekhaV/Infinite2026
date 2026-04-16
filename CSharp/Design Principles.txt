@@ -77,5 +77,34 @@ DI allows loosely coupled software components
 2. Service Class : dependency class (that serves the clients)
 3. Injector : Inject the service onto the client
 
+DI is simply creating dependency objects and giving it to the dependant class rather than the dependant creating for itself
 
 
+Unity Container : is an inversion of control container, which is a general purpose extensible opensource 
+
+ - Specifies the type of objects to be created and injected
+ - Registering the types
+ - Resolving concrete types with the registered types
+
+Registered Types (interface/abstract classes)
+Concrete Types (interface/abstract class, implementing classes)
+
+Resolving is basically mapping the registered type with the concrete type
+
+Layered Architecture : where components of specific functionalities can be grouped as one
+
+User Interface - UI
+Business Layer - where all business rules are implemented
+Data Layer - where all data related activities happen (database connection, command, retrieval of data etc..)
+
+IOC products in the Market
+
+Unity
+CastleWindsor
+StructureMap
+Spring.Net
+Ninject 
+
+2. Structural Pattern :Modifications to the structure of a class, interface or struct
+
+3. Behaviour Pattern : Modifications to the functionality of a class

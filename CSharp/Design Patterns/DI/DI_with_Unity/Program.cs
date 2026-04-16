@@ -16,20 +16,27 @@ namespace DI_with_Unity
         static void Main(string[] args)
         {
             //create a unity container object
-            UnityContainer uc = new UnityContainer();
+            //UnityContainer uc = new UnityContainer();
 
-            uc.RegisterType<IProducts,ProductClass>();
-            uc.RegisterType<IOrders,OrderClass>();
-            uc.RegisterType<ICourse,CourseClass>();
+            //uc.RegisterType<IProducts, ProductClass>();
+            //uc.RegisterType<IOrders, OrderClass>();
+            //uc.RegisterType<ICourse, CourseClass>();
 
-            //invoking the DI enabled methods thru dependant object
-            BusinessClass bc = uc.Resolve<BusinessClass>();
-            Business2 bc2 = uc.Resolve<Business2>();
+            ////invoking the DI enabled methods thru dependant object
+            //BusinessClass bc = uc.Resolve<BusinessClass>();
+            //Business2 bc2 = uc.Resolve<Business2>();
 
-            bc.Insert();
-            bc.ShowOrders();
+            //bc.Insert();
+            //bc.ShowOrders();
 
-            bc2.GetCourse();
+            //bc2.GetCourse();
+
+            var (obj1, obj2) = UnityResolver.DIInjector();
+
+            obj1.Insert();
+            obj1.ShowOrders();
+
+            obj2.GetCourse();
             Console.Read();
         }
     }
