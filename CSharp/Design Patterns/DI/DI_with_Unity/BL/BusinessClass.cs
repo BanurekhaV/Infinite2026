@@ -1,4 +1,5 @@
 ﻿using DI_with_Unity.Abstracts;
+using DI_with_Unity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace DI_with_Unity.BL
         public void Insert()
         {
             _products.InsertProducts(); // this call is actually invoking the productclass InsertProducts()
+            _products.ShowProducts();
         }
 
         public void ShowOrders()

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DI_with_Unity
+namespace DI_with_Unity.Abstracts
 {
-    internal interface IProducts
+    internal interface ICourse
     {
-        string InsertProducts();
-
-        void ShowProducts();
+        void GetAllCourses();
     }
 }

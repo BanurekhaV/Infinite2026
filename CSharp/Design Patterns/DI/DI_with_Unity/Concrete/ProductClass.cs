@@ -14,5 +14,10 @@ namespace DI_with_Unity.Concrete
             Console.WriteLine(str);
             return str;
         }
+
+        public void ShowProducts()
+        {
+            Console.WriteLine("No Products");
+        }
     }
 }

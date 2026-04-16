@@ -20,12 +20,16 @@ namespace DI_with_Unity
 
             uc.RegisterType<IProducts,ProductClass>();
             uc.RegisterType<IOrders,OrderClass>();
+            uc.RegisterType<ICourse,CourseClass>();
 
             //invoking the DI enabled methods thru dependant object
             BusinessClass bc = uc.Resolve<BusinessClass>();
+            Business2 bc2 = uc.Resolve<Business2>();
 
             bc.Insert();
             bc.ShowOrders();
+
+            bc2.GetCourse();
             Console.Read();
         }
     }

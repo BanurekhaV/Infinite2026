@@ -74,9 +74,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\ICourse.cs" />
     <Compile Include="Abstracts\IOrders.cs" />
     <Compile Include="Abstracts\IProducts.cs" />
+    <Compile Include="BL\Business2.cs" />
     <Compile Include="BL\BusinessClass.cs" />
+    <Compile Include="Concrete\CourseClass.cs" />
     <Compile Include="Concrete\OrderClass.cs" />
     <Compile Include="Concrete\ProductClass.cs" />
     <Compile Include="Program.cs" />

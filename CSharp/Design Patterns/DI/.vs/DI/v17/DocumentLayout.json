@@ -7,44 +7,52 @@
       "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\iemployeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\iemployeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\employeebal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employeebal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\bl\\businessclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di_with_unity\\bl\\businessclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\bl\\businessclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\concrete\\orderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\concrete\\orderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\bl\\business2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\bl\\business2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\concrete\\productclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\concrete\\courseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\concrete\\courseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\abstracts\\icourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\abstracts\\icourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di_with_unity\\concrete\\productclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\concrete\\productclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\abstracts\\iorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\abstracts\\iorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di_with_unity\\abstracts\\iproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\abstracts\\iproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|c:\\banu\\2026\\dotnet\\csharp\\design patterns\\di\\di_with_unity\\abstracts\\iproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\abstracts\\iproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di\\employeebal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employeebal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di\\iemployeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\iemployeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35989CA-9790-44C6-B8CE-2DAC01D360CC}|DI\\DI.csproj|solutionrelative:di\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di_with_unity\\concrete\\orderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\concrete\\orderclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\di_with_unity\\abstracts\\iorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8747A55-6D5B-4794-9A00-0749E2183BB2}|DI_with_Unity\\DI_with_Unity.csproj|solutionrelative:di_with_unity\\abstracts\\iorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,67 +70,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Business2.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\BL\\Business2.cs",
+              "RelativeDocumentMoniker": "DI_with_Unity\\BL\\Business2.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\BL\\Business2.cs",
+              "RelativeToolTip": "DI_with_Unity\\BL\\Business2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:55:30.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseClass.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Concrete\\CourseClass.cs",
+              "RelativeDocumentMoniker": "DI_with_Unity\\Concrete\\CourseClass.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Concrete\\CourseClass.cs",
+              "RelativeToolTip": "DI_with_Unity\\Concrete\\CourseClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:53:24.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICourse.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\ICourse.cs",
+              "RelativeDocumentMoniker": "DI_with_Unity\\Abstracts\\ICourse.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\ICourse.cs",
+              "RelativeToolTip": "DI_with_Unity\\Abstracts\\ICourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:52:57.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Program.cs",
               "RelativeDocumentMoniker": "DI\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Program.cs",
               "RelativeToolTip": "DI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowA4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:37:27.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "IEmployeeDAL.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\IEmployeeDAL.cs",
               "RelativeDocumentMoniker": "DI\\IEmployeeDAL.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\IEmployeeDAL.cs",
               "RelativeToolTip": "DI\\IEmployeeDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:37:21.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeDAL.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeDAL.cs",
-              "RelativeDocumentMoniker": "DI\\EmployeeDAL.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeDAL.cs",
-              "RelativeToolTip": "DI\\EmployeeDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:37:17.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "EmployeeBAL.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeBAL.cs",
               "RelativeDocumentMoniker": "DI\\EmployeeBAL.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\EmployeeBAL.cs",
               "RelativeToolTip": "DI\\EmployeeBAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:37:14.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Employee.cs",
-              "RelativeDocumentMoniker": "DI\\Employee.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Employee.cs",
-              "RelativeToolTip": "DI\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:37:11.035Z",
               "EditorCaption": ""
             },
             {
@@ -133,40 +154,65 @@
               "RelativeDocumentMoniker": "DI_with_Unity\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Program.cs",
               "RelativeToolTip": "DI_with_Unity\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:11:04.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "BusinessClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\BL\\BusinessClass.cs",
               "RelativeDocumentMoniker": "DI_with_Unity\\BL\\BusinessClass.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\BL\\BusinessClass.cs",
               "RelativeToolTip": "DI_with_Unity\\BL\\BusinessClass.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA8AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:05:13.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ProductClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Concrete\\ProductClass.cs",
               "RelativeDocumentMoniker": "DI_with_Unity\\Concrete\\ProductClass.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Concrete\\ProductClass.cs",
               "RelativeToolTip": "DI_with_Unity\\Concrete\\ProductClass.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T10:03:41.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "IProducts.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\IProducts.cs",
+              "RelativeDocumentMoniker": "DI_with_Unity\\Abstracts\\IProducts.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\IProducts.cs",
+              "RelativeToolTip": "DI_with_Unity\\Abstracts\\IProducts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:00:01.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Employee.cs",
+              "RelativeDocumentMoniker": "DI\\Employee.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI\\Employee.cs",
+              "RelativeToolTip": "DI\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:37:11.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "OrderClass.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Concrete\\OrderClass.cs",
               "RelativeDocumentMoniker": "DI_with_Unity\\Concrete\\OrderClass.cs",
@@ -174,12 +220,11 @@
               "RelativeToolTip": "DI_with_Unity\\Concrete\\OrderClass.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAswA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:02:17.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:02:17.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IOrders.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\IOrders.cs",
               "RelativeDocumentMoniker": "DI_with_Unity\\Abstracts\\IOrders.cs",
@@ -187,21 +232,7 @@
               "RelativeToolTip": "DI_with_Unity\\Abstracts\\IOrders.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:01:07.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProducts.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\IProducts.cs",
-              "RelativeDocumentMoniker": "DI_with_Unity\\Abstracts\\IProducts.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\CSharp\\Design Patterns\\DI\\DI_with_Unity\\Abstracts\\IProducts.cs",
-              "RelativeToolTip": "DI_with_Unity\\Abstracts\\IProducts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T10:00:01.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T10:01:07.732Z"
             }
           ]
         }
