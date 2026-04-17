@@ -105,6 +105,24 @@ StructureMap
 Spring.Net
 Ninject 
 
+steps for DI
+ - Installation of unity.ioc.framework
+ - create Ioc objects
+ - Register the service and concrete types
+ - Resolve the dependencies
+ - Start calling the service methods
+
+Pros and Cons of DI
+
+Pros : Isolation (Works well for both Testing and development)
+       Clear definition of dependency classes (service classes)
+       Facilitating Good Design
+       Quick switching of implementations
+
+Cons  : Increased number of classes
+        Creation of many Interfaces
+
 2. Structural Pattern :Modifications to the structure of a class, interface or struct
 
 3. Behaviour Pattern : Modifications to the functionality of a class
+

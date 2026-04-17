@@ -1,0 +1,6 @@
+C:\Banu\2026\DotNet\Testing\MainPrj_NUnit\MainPrj_NUnit\bin\Debug\MainPrj_NUnit.dll
+C:\Banu\2026\DotNet\Testing\MainPrj_NUnit\MainPrj_NUnit\bin\Debug\MainPrj_NUnit.pdb
+C:\Banu\2026\DotNet\Testing\MainPrj_NUnit\MainPrj_NUnit\obj\Debug\MainPrj_NUnit.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\Testing\MainPrj_NUnit\MainPrj_NUnit\obj\Debug\MainPrj_NUnit.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\Testing\MainPrj_NUnit\MainPrj_NUnit\obj\Debug\MainPrj_NUnit.dll
+C:\Banu\2026\DotNet\Testing\MainPrj_NUnit\MainPrj_NUnit\obj\Debug\MainPrj_NUnit.pdb

@@ -8,3 +8,47 @@ Software Development Life Cycle  : SDLC is a process of developing software
  V-Shaped
  Spiral
  Agile
+
+The various phases involved in SDLC
+
+1. Initiation : Begins when a sponsor identifies a need or an business opportunity. Concept Proposal is created
+2. System Concept Development : Defines the scope and boundary of the concepts. Includes system, document, cost benefit analysis, risk analysis, feasibility study etc.
+3. Planning : Development Management Plan(acquiring resources, documents, specification of timelines
+4. Requirement Analysis : user needs are analysed. Functional Requirements are documented 
+5. Design : Transforming requirements into system design
+6. Development : Designs undergo transformations into IT(Test Driven Development) 
+7. Integration and Testing : All s/w 's are integrated and tested for confirmation to requirements (quality assurance)
+8. Implementation : Preparation of the systems into the production server
+9. Operations and Maintenance : Post Implementation , In-Process Reviews
+10.Disposition : End of system activities
+
+
+Testing : Is a process of validating and verifying a software application / product
+
+Unit Testing : Unit is a small piece of code.
+
+NUnit : is an open source testing framework
+
+All unit testing's include a structure of Triple A's
+  - Arrange : Arrange all objects, variables required to test
+  - Act     : Invoking the methods to be tested
+  - Assert  : Checking the correctness of the code.
+
+- Install NUnit and Nunit3Testadapter 
+
+Example
+
+//arrange
+var a = 5, b=5, c=0;
+
+//act
+c = sum(a,b);
+
+//assert
+
+Assert.AreEqual(c,10);
+
+- All test cases are to be public and void only
+- All test cases to be decorated with [Test]
+- All test cases should have a meaningful name , suggesting what the test is 
+- 
