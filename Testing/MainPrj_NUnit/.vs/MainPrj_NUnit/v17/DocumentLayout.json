@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|c:\\banu\\2026\\dotnet\\testing\\mainprj_nunit\\mainprj_nunit\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|solutionrelative:mainprj_nunit\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A979C5D-26A5-4DDB-8C57-5E76B0670235}|TestAccounts\\TestAccounts.csproj|c:\\banu\\2026\\dotnet\\testing\\mainprj_nunit\\testaccounts\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A979C5D-26A5-4DDB-8C57-5E76B0670235}|TestAccounts\\TestAccounts.csproj|solutionrelative:testaccounts\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|c:\\banu\\2026\\dotnet\\testing\\mainprj_nunit\\mainprj_nunit\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|solutionrelative:mainprj_nunit\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A979C5D-26A5-4DDB-8C57-5E76B0670235}|TestAccounts\\TestAccounts.csproj|c:\\banu\\2026\\dotnet\\testing\\mainprj_nunit\\testaccounts\\testingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A979C5D-26A5-4DDB-8C57-5E76B0670235}|TestAccounts\\TestAccounts.csproj|solutionrelative:testaccounts\\testingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|c:\\banu\\2026\\dotnet\\testing\\mainprj_nunit\\mainprj_nunit\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\mainprj_nunit\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7E9EB41-E898-4BEC-9360-B1813E9DDD75}|MainPrj_NUnit\\MainPrj_NUnit.csproj|solutionrelative:mainprj_nunit\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\MainPrj_NUnit\\User.cs",
+              "RelativeDocumentMoniker": "MainPrj_NUnit\\User.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\MainPrj_NUnit\\User.cs",
+              "RelativeToolTip": "MainPrj_NUnit\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:29:20.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestClass.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\TestAccounts\\TestClass.cs",
+              "RelativeDocumentMoniker": "TestAccounts\\TestClass.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\TestAccounts\\TestClass.cs",
+              "RelativeToolTip": "TestAccounts\\TestClass.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T06:55:53.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\MainPrj_NUnit\\Employee.cs",
+              "RelativeDocumentMoniker": "MainPrj_NUnit\\Employee.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\MainPrj_NUnit\\Employee.cs",
+              "RelativeToolTip": "MainPrj_NUnit\\Employee.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T06:48:15.987Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -34,26 +85,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TestingAccount.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\TestAccounts\\TestingAccount.cs",
               "RelativeDocumentMoniker": "TestAccounts\\TestingAccount.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\TestAccounts\\TestingAccount.cs",
               "RelativeToolTip": "TestAccounts\\TestingAccount.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABkAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T05:25:44.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Accounts.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\MainPrj_NUnit\\Accounts.cs",
               "RelativeDocumentMoniker": "MainPrj_NUnit\\Accounts.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MainPrj_NUnit\\MainPrj_NUnit\\Accounts.cs",
               "RelativeToolTip": "MainPrj_NUnit\\Accounts.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T05:18:25.44Z",
               "EditorCaption": ""
