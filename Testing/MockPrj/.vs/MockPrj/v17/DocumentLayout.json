@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2244CBA-B3DE-4161-B195-775846B94150}|MockPrj\\MockPrj.csproj|c:\\banu\\2026\\dotnet\\testing\\mockprj\\mockprj\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2244CBA-B3DE-4161-B195-775846B94150}|MockPrj\\MockPrj.csproj|solutionrelative:mockprj\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFB6DA54-8C0B-4495-B69B-A1CD61CC62C6}|TestCalculator\\TestCalculator.csproj|c:\\banu\\2026\\dotnet\\testing\\mockprj\\testcalculator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFB6DA54-8C0B-4495-B69B-A1CD61CC62C6}|TestCalculator\\TestCalculator.csproj|solutionrelative:testcalculator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2244CBA-B3DE-4161-B195-775846B94150}|MockPrj\\MockPrj.csproj|c:\\banu\\2026\\dotnet\\testing\\mockprj\\mockprj\\icalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2244CBA-B3DE-4161-B195-775846B94150}|MockPrj\\MockPrj.csproj|solutionrelative:mockprj\\icalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2244CBA-B3DE-4161-B195-775846B94150}|MockPrj\\MockPrj.csproj|c:\\banu\\2026\\dotnet\\testing\\mockprj\\mockprj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2244CBA-B3DE-4161-B195-775846B94150}|MockPrj\\MockPrj.csproj|solutionrelative:mockprj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\TestCalculator\\Class1.cs",
+              "RelativeDocumentMoniker": "TestCalculator\\Class1.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\TestCalculator\\Class1.cs",
+              "RelativeToolTip": "TestCalculator\\Class1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:23:05.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\MockPrj\\Calculator.cs",
+              "RelativeDocumentMoniker": "MockPrj\\Calculator.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\MockPrj\\Calculator.cs",
+              "RelativeToolTip": "MockPrj\\Calculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:21:10.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICalculator.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\MockPrj\\ICalculator.cs",
+              "RelativeDocumentMoniker": "MockPrj\\ICalculator.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\MockPrj\\ICalculator.cs",
+              "RelativeToolTip": "MockPrj\\ICalculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:20:20.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\MockPrj\\Class1.cs",
+              "RelativeDocumentMoniker": "MockPrj\\Class1.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MockPrj\\MockPrj\\Class1.cs",
+              "RelativeToolTip": "MockPrj\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T11:18:06.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

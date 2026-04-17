@@ -1,0 +1,14 @@
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\MockPrj.dll
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\MockPrj.pdb
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\Castle.Core.dll
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\Moq.dll
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\Castle.Core.xml
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\obj\Debug\MockPrj.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\obj\Debug\MockPrj.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\obj\Debug\MockPrj.csproj.Up2Date
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\obj\Debug\MockPrj.dll
+C:\Banu\2026\DotNet\Testing\MockPrj\MockPrj\obj\Debug\MockPrj.pdb

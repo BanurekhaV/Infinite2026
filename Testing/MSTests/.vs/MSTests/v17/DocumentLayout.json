@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Testing\\MSTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0048C8C-B204-45DD-9324-0F572133323C}|MSTest2\\MSTest2.csproj|c:\\banu\\2026\\dotnet\\testing\\mstests\\mstest2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0048C8C-B204-45DD-9324-0F572133323C}|MSTest2\\MSTest2.csproj|solutionrelative:mstest2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E41AEB6-CD19-4BA3-BDA9-673C5E673238}|MSTests\\MSTests.csproj|c:\\banu\\2026\\dotnet\\testing\\mstests\\mstests\\mstestclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E41AEB6-CD19-4BA3-BDA9-673C5E673238}|MSTests\\MSTests.csproj|solutionrelative:mstests\\mstestclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MSTestClass.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MSTests\\MSTests\\MSTestClass.cs",
+              "RelativeDocumentMoniker": "MSTests\\MSTestClass.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MSTests\\MSTests\\MSTestClass.cs",
+              "RelativeToolTip": "MSTests\\MSTestClass.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:53:25.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Testing\\MSTests\\MSTest2\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MSTest2\\UnitTest1.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Testing\\MSTests\\MSTest2\\UnitTest1.cs",
+              "RelativeToolTip": "MSTest2\\UnitTest1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T10:44:07.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

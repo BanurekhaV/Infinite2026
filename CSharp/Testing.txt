@@ -51,4 +51,29 @@ Assert.AreEqual(c,10);
 - All test cases are to be public and void only
 - All test cases to be decorated with [Test]
 - All test cases should have a meaningful name , suggesting what the test is 
-- 
+
+
+[TestFixture] - to mark a class as testable
+[Test] - to mark the methods that have to be executed by the test runner
+[SetUp] - method/s marked with setup will execute once before each test
+[Ignore] - marks the test method to be ignored with a reason
+[TestCases] - multiple test values
+
+MSTest  : Microsoft testing Framework
+  - is a utility for running unit test in Visual studio
+  - provides lots of attributes
+  - similar to Testng
+
+[TestClass]
+[TestMethod]
+[TestInitialize]
+[TestCleanUp]
+[ClassInitialize]  - once for the entire class, to be marked as public static void with a TestContext Object
+[ClassCleanUp] - once , at the time of class disposal , to be marked as public static void
+
+[AssemblyInitialize] -  once for the entire assembly, to be marked as public static void with a TestContext Objec
+[AssemblyCleanUp] -  once for the entire assembly disposal , to be marked as public static void
+
+Mock - is a process of creating simulated objects that mimic the behaviour of the real object
+     - is used to isolate the testing unit from external dependencies, such as database, webservices, or other components
+ 

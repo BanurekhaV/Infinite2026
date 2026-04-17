@@ -1,0 +1,15 @@
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\MSTest2.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\MSTest2.pdb
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\obj\Debug\MSTest2.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\obj\Debug\MSTest2.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\obj\Debug\MSTest2.csproj.Up2Date
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\obj\Debug\MSTest2.dll
+C:\Banu\2026\DotNet\Testing\MSTests\MSTest2\obj\Debug\MSTest2.pdb
