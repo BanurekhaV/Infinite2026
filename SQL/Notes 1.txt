@@ -1,0 +1,82 @@
+Database : is the storage of inter related data, that can be organized  in such a  manner, that the process of retrieving the data becomes effective and efficient
+
+DBMS : is a collection of inter related data
+       is a set of programs to access the data
+       is an environment which is both convenient and efficient to use
+
+
+Drawbacks of earlier file systems to store data
+1. Data redundancy and inconsistency
+2. Difficulty in accessing data
+3. Data Isolation - multiple files and formats
+4. Integrity Problems
+5. Atomicity of updates (no partial transactions)
+6. Concurrent access to users
+7. Security 
+
+Data Model : is a collection of tools for describing
+  - Data
+  - Data Relationships
+  - Data Semantics
+  - Data Constraints
+
+Types of Data Models :
+  - HDBMS Hierarchical Database management system
+  - NDBMS Network Database management system
+  - RDBMS Relational database management system
+
+E-R Modelling 
+  Entity : is anything that exists and is distinguishable 
+  Relationship : an association between entities
+  Entity Set : a group of similar entities
+
+Types of Relationship :
+ - one to one
+ - one to many
+ - many to many
+
+Terms in RDBMS :
+ - Table  - Relation
+ - Tuple  - a row of a table
+ - Attribute - a column of a table
+ - Degree - number of attributes 
+ - Cardinality - number of tuples
+
+Key Concepts of RDBMS
+ - Candidate Keys
+ - Primary Key
+ - Alternate Key
+ - Composite/Compounded Key
+ - Foreign Key
+ - Unique Key
+
+Integrity Constraints : are rules enforced on the data columns of a table. These are used to limit the type of data that can go into the table. This ensures accuracy, reliability and integrity
+3 types
+ 1. Domain Integrity : check, default, null
+ 2. Entity Integrity : every table to have a Primary key that is neither null nor duplicates, in order to identify a unique tuple. Primary Key
+ 3. Referential Integrity : a tuple in one relation refers to another relation - Foreign Key (always takes values that are in the primary key or can take nulls)
+
+SQL - Structured Query Language
+ Components of SQL
+  - DDL (Data Definition Language - create, alter, drop, truncate)
+  - DML (Data Manipulation lang  - insert, update, delete)
+  - DQL (Data Query Lang - select)
+  - DCL ( Data Control Lang - grant, revoke)
+  - TCL ( Transaction Control Lang - commit, rollback)
+
+Data Types in SQL
+char(n)
+varchar(n)
+varchar(max)
+nvarchar(n),
+nvarchar(max)
+number(p,d)
+float
+date
+time
+datetime
+
+Architecture of RDBMS
+Logical design   
+Physical design
+Application design  (multiple views)

@@ -1,0 +1,42 @@
+create database InfiniteDB
+
+use InfiniteDB;
+
+-- create department table
+create table tblDepartment
+(
+DeptId int primary key,
+DeptName varchar(30) not null,
+DeptBudget float
+)
+
+sp_help tblEmployee
+
+select * from tblDepartment
+select * from tblemployee where empid = 104
+
+
+--create employee table
+create table tblEmployee
+(EmpId int not null,
+EmpName varchar(50) not null,
+Gender char(7),
+Salary decimal,
+DepartmentId int references tblDepartment(DeptId))
+
+--insert some records/rows/tuples into each table
+
+insert into tbldepartment values(5,'HR', null),
+(4, 'Payroll',450000), (2, 'Admin',500000), (3,'Operations',null)
+
+insert into tbldepartment(DeptId,DeptName) values(1,'IT')
+
+insert into tblEmployee values(105,'Poornima','Female',5000,2),(103,'Arun','Male',5400,2),(101,'Arul','Male',5700,1),
+(102,'Gopika','Female',5850,4)
+
+--altering a table, the below throws error as there are already duplicate values
+alter table tblemployee
+add constraint pkempid primary key(Empid)
+
+--update the row and then apply pk constraint
+update tblemployee set empid = 110 where empname = 'subhash'
