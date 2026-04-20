@@ -105,3 +105,17 @@ Retains the structure                                            Retains structu
 Note : Truncated details with data can also be rolled back as a part of the transaction using
   - log files
   - backup files - SQL recovery tool
+
+Operators :
+  - Arithmetic
+  - Relational
+  - Logical
+
+Rules of precedence on the operators
+ 1. Arithmetic
+ 2. Concatenation
+ 3. Comparisons
+ 4. Is[not] null, like, not[in]
+ 5. [not] between
+ 6. Not, and, or
+to override the precedence use parenthesis ()

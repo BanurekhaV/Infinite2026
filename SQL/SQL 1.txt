@@ -120,3 +120,55 @@ delete from student where marks<70
 
 --delete
 delete from student where StdId=2
+
+--Select Clause
+--Alias name
+select StdId as 'Student Id', sname 'Student Name', marks as StudentMarks
+from student
+
+select * from tblEmployee
+--top selects
+select top 3 * from tblemployee
+
+select top 13 percent * from tblemployee
+
+select top 2 empname, salary from tblemployee
+
+--relational operators
+select empname from tblemployee where salary >= 5700
+
+select empname from tblemployee where salary <> 5700
+
+--logical operators
+select empname, salary from tblemployee where salary >= 5600 and salary <=6000
+
+select empname, DepartmentId from tblemployee where DepartmentId <5 and Salary > 5600
+
+--between operator
+select empname, salary from tblemployee where salary between 5600 and 6000
+
+--not between
+select empname, salary from tblemployee where salary not between 5600 and 6000
+
+--null values
+select empname, salary from tblemployee where DepartmentId is null
+
+select empname, salary from tblemployee where DepartmentId is not null
+
+--in / not in
+select empname, salary , departmentid from tblemployee where DepartmentId in(1,2,4)
+
+select empname, salary , departmentid from tblemployee where DepartmentId not in(1,2)
+
+--arithmetic operators
+select empname 'Employee Name',Salary, (Salary*12) as 'Yearly Salary' from tblEmployee
+
+select empname, salary , (Salary +1000) 'Revised Salary'  
+from tblemployee where DepartmentId in(1,2,4)
+
+--usage of functions with select clause
+select avg(salary) 'Average Salary' from tblemployee
+
+select sum(salary) as 'Total Salary' from tblemployee
+select min(salary) as 'Minimum Salary', max(salary) 'Maximum Salary', avg(salary) 'Average Salary'
+from tblemployee
