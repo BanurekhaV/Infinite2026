@@ -40,3 +40,83 @@ add constraint pkempid primary key(Empid)
 
 --update the row and then apply pk constraint
 update tblemployee set empid = 110 where empname = 'subhash'
+
+--drop a constraint
+alter table tbldepartment
+drop constraint [PK__tblDepar__014881AE40C9C5F8]
+
+alter table tblemployee
+drop constraint pkempid
+
+--table level constraints
+create table tbldummy
+(
+dummyid char(5),
+dummyname varchar(20),
+dummyreference int,
+constraint dumcon primary key(dummyid),
+constraint dumref foreign key(dummyreference) references tbldepartment(deptid))
+
+sp_help tblEmployee
+select * from tblemployee
+--adding a column after table creation
+
+alter table tblemployee
+add Phoneno varchar(10)  -- unique constraint does not work on table with data
+
+
+update tblemployee
+set phoneno = null where empid = 105
+
+alter table tblemployee
+add constraint uniq_ph unique(phoneno)
+
+alter table tbldummy
+add dummyphone varchar(20) unique
+
+--if constraints are attached to a column, then we have to
+--  first drop the constraint and then the column
+
+alter table tblemployee
+drop constraint uniq_ph
+
+--drop a column
+alter table tblemployee
+drop column phoneno
+
+--applying check constraint after table creation with data
+alter table tblemployee
+add constraint salcheck check(salary >=5000 and salary <=10000)
+
+--to disable the check constraint
+alter table tblemployee
+nocheck constraint salcheck
+
+--to enable
+alter table tblemployee
+check constraint salcheck
+
+--table with all constraints
+drop table student
+
+create table Student
+(
+StdId int identity(1,1) primary key,
+SName varchar(30) not null,
+Marks float not null check(Marks > 40),
+SchoolName  varchar(20) default 'HydPublic')
+
+insert into Student(sname,marks) values('bbb',80),('ppp',65),('zzz',76)
+
+select * from student
+
+select stdid,sname from student
+where marks>60
+
+sp_help student
+
+truncate table student where marks<70
+delete from student where marks<70
+
+--delete
+delete from student where StdId=2

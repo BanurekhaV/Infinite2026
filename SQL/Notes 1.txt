@@ -80,3 +80,28 @@ Architecture of RDBMS
 Logical design   
 Physical design
 Application design  (multiple views)
+
+Identity Column : can be applied to integer type of columns. This acts like a primary key, since 
+  - it is inserted automatically by the system
+  - it cannot have null
+  - it increments the next number and hence cannot have duplicates
+
+RDBMS are based on relational algebraic principles
+ - Selection
+ - Projection
+ - Restriction
+ - Join
+ - Union
+ - Difference
+ 
+
+delete                                 vs                             truncate
+is a DML command                                                 Is a DDL Command
+Can apply predicate (where)                                      Cannot apply predicates, as it operates on the schema
+Is slower                                                        is faster
+Can be rolled back                                               Cannot rollback
+Retains the structure                                            Retains structure
+
+Note : Truncated details with data can also be rolled back as a part of the transaction using
+  - log files
+  - backup files - SQL recovery tool
