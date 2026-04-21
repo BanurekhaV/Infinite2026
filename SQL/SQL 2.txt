@@ -236,3 +236,31 @@ having min(salary) > (select min(salary) as Minimum from tblemployee where Depar
  select e.empname, e.salary,e.departmentid from tblemployee e
  where e.salary > (select avg(salary) from tblemployee e1
            where e1.DepartmentId = e.DepartmentId)
+
+
+--the above with inner join
+ select e.empname, e.salary,e.departmentid from tblemployee e inner join
+  (select departmentid, avg(salary) as Average from tblemployee group by departmentid)
+  as e2 on e.DepartmentId = e2.DepartmentId where e.salary > e2.Average
+
+  --using corelated subquery in updations
+
+  --update the salary for all employees, whose salary is minimum in that department
+
+ update tblemployee set salary = salary + 500
+ from tblemployee e where salary = 
+            (select min(e1.salary) from tblemployee e1 where e1.DepartmentId = e.DepartmentId)
+
+select * from tblemployee
+
+--bulk copy
+drop table dummy2
+create table dummy2 (did int, dname varchar(10), dcity varchar(20))
+
+insert into dummy1 values(1,'AA'),(2,'BB'),(3,'CC')
+
+select * from dummy1
+select * from dummy2
+insert into dummy2 select * from dummy1
+
+insert into dummy2(did,dname) select * from dummy1

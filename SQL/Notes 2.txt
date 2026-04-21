@@ -59,5 +59,8 @@ We can use multi row operator in conjunction with the single row operator
 
 Corelated Sub query : is one way of reading every row in a table and comparing values in each row against related data
  - is used when a subquery must return different result set or set of results for each candidate row by the main query
-
-
+ - is executed once for each row of the outer query
+ - the inner query uses the outer query value for its execution and hence becomes dependent
+ - used for row-specific filtering, ranking, or any calculations based on the related data
+ - Can use any all operators in corelated subquery
+ - can use for update and delete as well
