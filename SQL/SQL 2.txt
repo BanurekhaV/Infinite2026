@@ -1,0 +1,71 @@
+--select with aggregates
+
+select * from tblemployee
+insert into tblemployee values(200,'ABCD',null,5400,3)
+select count(departmentid) from tblemployee  -- count ignores null but counts duplicates
+
+select count(*) from tblemployee
+
+select distinct(departmentid)from tblemployee -- distinct ignores duplicates but counts null
+
+select count(distinct(departmentid)) from tblemployee
+
+select distinct(count(departmentid)) from tblemployee
+
+--wild card characters with like
+--% [percentile] - substitution of 0,1,or more characters
+--_ [underscore] - substitutes exactly one character
+--[range] - substitutes characters within the given range
+-- ^[] [Caret] - substitutes characters that are not within the range
+
+--get all employees where empname starts with 'a' or ends with 'a'
+select * from tblemployee where empname like 'a%'
+select * from tblemployee where empname like '%a'
+select * from tblemployee where empname like '%h%'
+
+--a,r,o as their second character
+select * from tblemployee where empname like '_[aro]%'
+select * from tblemployee where empname like '_[^aro]%'
+select * from tblemployee where empname like '__[bo]%'
+select * from tblemployee where empname like '__[^bo]%'
+select * from tblemployee where empname like '[akg]%'
+select * from tblemployee where empname like '[akg]_v%'
+
+--string operations
+select concat('Happy' , ' Birthday ', ' to', ' you' , ' 2026')
+select ASCII('e')
+select replace('Jack and Jill', 'J', 'Bl')
+
+--date operations
+select getdate()
+select convert(varchar(11), getdate())
+select datename(dw, getdate())
+select convert(varchar(20), getdate(),2) as [MM/DD/YYYY]
+
+select convert(varchar(8),getdate(),3)
+select substring(convert(varchar(8), getdate(),3),4,5) as [YY-MM-DD]
+
+--sorting
+select * from tblemployee
+order by empname
+
+--multiple column sort
+select * from tblemployee order by DepartmentId, salary desc
+
+--alias name sort
+select empname as 'Employee Name' , salary as 'Employee Salary', departmentid from
+tblemployee order by DepartmentId,[Employee Salary] desc
+
+--sorting on columns not in the select list
+select empname as 'Employee Name' , salary as 'Employee Salary' from tblemployee 
+order by departmentid
+
+--group by
+--write a query to find all employees who earn more than the average salary
+
+--department wise average salary
+select departmentid ,avg(salary)  from tblemployee
+group by DepartmentId
+
+-- deptwise, gender wise average salary
+-- count no,of males and females

@@ -1,0 +1,14 @@
+Sorting
+--order by
+   -- is used to sort the output of a query
+   -- can sort in asc or desc order (asc is default)
+   -- can sort on multiple columns separated by a comma
+   -- can sort on alias names
+   -- can sort on a column that is not in the select list
+
+Group by -- divides the tuples of a relation into sub sets/smaller data sets         
+         -- cannot group on alias names
+         -- can group on multiple columns
+         -- we have to group on all the columns that are a part of the select list, except aggregate
+         -- We may apply group by clause on columns that are not a part of the select list but
+             may end up getting non meaningful results that do not convey any status
