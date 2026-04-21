@@ -25,6 +25,18 @@ Query execution order
   - order by
   - select
 
+Joins : -- Cross Join (cartesian product)
+ -- Equi Join/Natural/inner Join
+ -- Non Equi Join 
+ -- Outer Join (matching + non matching)
+   -- left outer 
+   -- right outer
+   -- full outer
+-- self join 
+
+-- calculated or computed columns at the time of table definition
+
+
 Sub Queries: Nested queries that can go up to 16 levels
         - the inner query executes first and the result/s are used by the outer query
         - after inner queries execution, it is removed from the program space 
@@ -43,3 +55,9 @@ any : - Compares values with each value returned by the subquery, to see is any 
 all : - Compares values with each value returned by the subquery, to see is all value matches the criteria
 
 We can use multi row operator in conjunction with the single row operator
+
+
+Corelated Sub query : is one way of reading every row in a table and comparing values in each row against related data
+ - is used when a subquery must return different result set or set of results for each candidate row by the main query
+
+

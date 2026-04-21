@@ -131,3 +131,108 @@ where salary >any
 select empname, salary from tblemployee
 where salary >=all 
                 (select salary from tblemployee where departmentid in(1,2))
+
+
+--display all employees who work in dept as that of 103 and earns salary > 105
+
+--this involves 2 subqueries
+select Empname, Salary, Departmentid from tblemployee where departmentid =  
+                       (select departmentid from tblemployee where empid = 103)
+			   and Salary > 
+					   (select salary from tblemployee where empid=105)
+
+-- find employee names and salary whose salary >= to the minimum salary
+select empname, salary from tblemployee where salary >=
+                            (select min(salary) from tblemployee)
+
+--list dept wise minimum salary that are > than the minimum salary of dept 4
+select departmentid, min(salary) as 'Min Salary' from tblemployee
+group by DepartmentId
+having min(salary) > (select min(salary) as Minimum from tblemployee where DepartmentId = 3)
+
+--Joins
+/* 
+ -- Cross Join (cartesian product)
+ -- Equi Join/Natural/inner Join
+ -- Non Equi Join 
+ -- Outer Join (matching + non matching)
+   -- left outer 
+   -- right outer
+   -- full outer
+-- self join */
+
+-- 1.cross Join
+   select * from tblemployee, tblDepartment
+
+   --or
+   select * from tblemployee cross join tblDepartment
+
+   select * from tblDepartment
+   select * from tblEmployee
+   --2. Equi/Natural/Inner
+   select deptname,empname,salary from tblemployee, tblDepartment
+   where tblEmployee.DepartmentId = tblDepartment.DeptId
+
+ --or
+ select deptname,empname,salary from tblemployee e join tblDepartment d
+ on e.DepartmentId = d.DeptId
+ --or
+  select deptname,empname,salary from tblemployee e inner join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+ --3. outer join
+ -- left outer
+   select deptname,DeptBudget,empname,salary from tblemployee e left outer join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+ --or
+
+    select deptname,DeptBudget,empname,salary from tblemployee e left join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+ --right outer join
+    select deptname,DeptBudget,empname,salary from tblemployee e right outer join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+ --or
+
+    select deptname,DeptBudget,empname,salary from tblemployee e right join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+ -- full outer join
+    select deptname,DeptBudget,empname,salary from tblemployee e full outer join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+  --or
+   select deptname,DeptBudget,empname,salary from tblemployee e full join tblDepartment d
+ on e.DepartmentId = d.DeptId
+
+ --self Join
+ --display all supervisor names and their subordinate names
+ -- giving table alias names are mandatory
+
+ select t1.empname as 'Supervisor' , t2.empname as 'Subordinate'
+ from tblemployee t1 join tblemployee t2
+ on t1.EmpId = t2.mgrid
+
+ --define calculated columns
+ drop table tbldummy
+
+ create table tbldummy
+ ( did int,
+ dname varchar(20),
+ dprice int,
+ dqty int,
+ dtotal as (dprice * dqty))
+
+ sp_help tbldummy
+
+ insert into tbldummy values(2,'Pens',25,30)
+
+ select * from tbldummy
+
+ --corelated subquery
+ --write a query to find all employees who earn more than their department average 
+ select e.empname, e.salary,e.departmentid from tblemployee e
+ where e.salary > (select avg(salary) from tblemployee e1
+           where e1.DepartmentId = e.DepartmentId)
