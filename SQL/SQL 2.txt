@@ -69,3 +69,65 @@ group by DepartmentId
 
 -- deptwise, gender wise average salary
 -- count no,of males and females
+
+
+--department wise average salary
+select departmentid ,avg(salary)  from tblemployee
+group by DepartmentId
+
+-- deptwise, gender wise average salary
+select departmentid, gender, avg(salary)'Average Salary' from tblemployee
+group by DepartmentId,gender
+
+
+order by DepartmentId
+
+-- count no,of males and females
+select gender, count(gender) from tblemployee
+group by gender
+
+--no.of males and females per department
+
+select departmentId, gender, count(*) from tblemployee
+where departmentid is not null
+group by DepartmentId, gender
+having count(*) > 1
+order by DepartmentId
+
+--Note : cannot have aggregates to the RHS of a where clause
+select * from tblemployee where avg(salary) > 5544
+
+select departmentid, avg(salary) from tblemployee
+group by departmentid
+having avg(salary) > 5544
+
+--employees having average salary > 5544 , departname wise 
+select deptname, avg(salary) as 'Average Salary' from tblemployee, tbldepartment
+where tblEmployee.DepartmentId = tblDepartment.DeptId
+group by deptname having avg(salary) > 5544
+order by deptname
+
+--above query using table aliases
+select d.DeptName 'Department name', avg(salary) as 'Average Salary' from tblemployee e, tbldepartment d
+where e.DepartmentId = d.DeptId
+group by deptname having avg(salary) > 5544
+order by deptname
+
+--Repeat ques to find correct solution
+--write a query to find all employees who earn more than the average salary
+select empname, salary from tblemployee
+where Salary > (select avg(salary) from tblemployee)
+
+
+--write a query to find all employees who earn more than their department average
+select empname, salary from tblemployee
+where DepartmentId in
+              (select distinct(departmentid) from tblemployee)
+
+select empname, salary from tblemployee
+where salary >any
+                (select salary from tblemployee where departmentid in(1,2))
+
+select empname, salary from tblemployee
+where salary >=all 
+                (select salary from tblemployee where departmentid in(1,2))

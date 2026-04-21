@@ -12,3 +12,34 @@ Group by -- divides the tuples of a relation into sub sets/smaller data sets
          -- we have to group on all the columns that are a part of the select list, except aggregate
          -- We may apply group by clause on columns that are not a part of the select list but
              may end up getting non meaningful results that do not convey any status
+
+Having clause : restricts the no. of groups , where as a 'where' clause restricts the no. of rows
+- to filter some subsets from the query, we use having
+
+Query execution order
+
+  - from
+  - where
+  - group by
+  - having
+  - order by
+  - select
+
+Sub Queries: Nested queries that can go up to 16 levels
+        - the inner query executes first and the result/s are used by the outer query
+        - after inner queries execution, it is removed from the program space 
+
+Guidelines for using sub queries
+ - Enclose the subquery in parenthesis
+ - Always place the subquery to the right hand side of the operator
+ - Use single row operators for single row subquery and multi row operators for multi row subquery
+
+Single Row Operators : =, >, <, <=, >=, <>
+
+Multi Row Operators : in - Matches any member in the list (works like a logical or), 
+
+any : - Compares values with each value returned by the subquery, to see is any one value matches the criteria,
+
+all : - Compares values with each value returned by the subquery, to see is all value matches the criteria
+
+We can use multi row operator in conjunction with the single row operator
