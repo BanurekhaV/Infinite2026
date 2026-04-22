@@ -322,3 +322,35 @@ select @sal = salary from tblemployee where empid=@min_id
 	end
 
 	select * from tblemployee
+
+	-- stored procedure
+create procedure sp_greetings
+ as
+  begin
+   select 'Hello and Welcome to SQL Procedures'
+end
+
+--to execute the procedure
+ execute sp_greetings
+ exec sp_greetings
+ sp_greetings
+
+ sp_helptext sp_greetings
+
+ --eg 2
+ create or alter proc sp_employeedata
+ as
+  begin 
+  select * from tblemployee where departmentid=1
+  end
+
+  exec sp_employeedata
+
+  --eg 3 proc with parameter
+  create or alter proc sp_Welcome @name varchar(20)
+   as
+    begin
+	 select concat('Hello ', @name)
+	 end
+
+ exec sp_Welcome 'Infinite Associates'

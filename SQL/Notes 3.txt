@@ -54,3 +54,15 @@ Transact SQL TSQL - programming with SQL
  -case
  - while
  - break, continue
+
+All Queries : Any query will have to be parsed, compiled with a query plan for execution, and then executes the plan
+
+Stored Procedures : Are SQL Statements that are parsed, compiled with an execution plan. Once Executed, the plan along with the query will be saved as an object in the database schema
+ - This allows reusability
+ - Provides better performance than normal queries
+ - Can take input parameters
+ - Can give away output parameters
+ - Every procedure returns an integer value only
+ - Can be used to implement DML operations
+ - Can call other procedures from within
+ - Can call other functions from within
