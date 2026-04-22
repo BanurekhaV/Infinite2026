@@ -119,3 +119,83 @@ else
 
  select * from Stable1
  select * from Stable2
+
+
+update stable2 set sgrade ='A' , spercentage = 80 where sname = 'Athish'
+ select sname, sgrade, spercentage from Stable1
+   union
+ select sname, sgrade, spercentage from Stable2
+
+ select sname, sgrade, spercentage from Stable1
+   union all
+ select sname, sgrade, spercentage from Stable2
+
+ -- intersect
+ select sname, sgrade, spercentage from Stable1
+  intersect
+ select sname, sgrade, spercentage from Stable2
+
+ select  sgrade from Stable1
+   intersect
+ select sgrade from Stable2
+
+ -- except
+ select sname, sgrade, spercentage from Stable1
+   except
+ select sname, sgrade, spercentage from Stable2
+
+ --for except
+ create table empdata(Id int identity, Ename varchar(20), Age int, City varchar(30))
+ insert into empdata values('Kishore',21,'Noida'),('Saravana',20,'Chennai'),('Barani',21,'Bangalore')
+
+ create table Bonusdata(Bid int, Eid int, BonusAmt int)
+ insert into Bonusdata values(100, 4, 5000),(101,1,6000),(102,3,6500)
+
+ select * from empdata
+ select * from Bonusdata
+
+ select Id, Ename, BonusAmt from empdata left join
+ Bonusdata on empdata.Id = Bonusdata.Eid
+    except
+  select Id, Ename, BonusAmt from empdata right join
+ Bonusdata on empdata.Id = Bonusdata.Eid
+   
+ --also
+
+  select Id, Ename, BonusAmt from empdata right join
+ Bonusdata on empdata.Id = Bonusdata.Eid
+    except
+  select Id, Ename, BonusAmt from empdata left join
+ Bonusdata on empdata.Id = Bonusdata.Eid
+
+ --CTE's
+ --constructing our first cte
+ with firstcte(EmployeeName, AnnualSalary,DepartmentName)
+  as (select empname, (salary*12),tbldepartment.DeptName from tblemployee join tbldepartment
+    on tblemployee.DepartmentId = tblDepartment.DeptId) ,    -- , is used to include multiple cte 
+	--main query
+	--select * from firstcte where AnnualSalary > 66000
+
+	--cte2 using firstcte
+	cte2 as(select Departmentname, avg(AnnualSalary) 'Dept Annual Salary' from firstcte
+	  group by DepartmentName having avg(annualsalary)> 70000)
+
+	  --using the above 2 ctes in another query
+	select * from cte2 where [Dept Annual Salary]>70000
+	
+
+--eg 2 for cte with dml
+with dmlcte(DepartmentNumber, DepartmentName, NewBudget)
+ as (select deptid, deptname, deptbudget from tbldepartment)
+
+ --insertion
+ --insert into dmlcte values(10,'New Department', 2500000)
+ --select * from tbldepartment
+
+ --updation
+ --update dmlcte set NewBudget = 100000 where DepartmentNumber = 5
+ --select * from tblDepartment
+
+ --deletion
+ delete from dmlcte where DepartmentNumber = 10
+ select * from tblDepartment

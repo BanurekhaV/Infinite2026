@@ -24,3 +24,16 @@ Union All -- includes duplicates
 Intersect - includes only common values of 2 result sets
 Except - includes unique values of the first result set as against the 2nd result set
  
+CTE : Common Table Expression 
+     - Are expressions that allow us to define the query output as a temporary storage, which is available only within the execution scope
+     - We can perform DML operations
+     - We can have multiple CTE's separated with a ','
+     - One CTE can refer to another CTE
+     - We can have recursive CTE's
+     - On being referred or used once, the CTE will no longer be available
+
+Advantages of CTE's
+  - Reusability
+  - More Readable
+  - Does not occupy memory
+  - Used for complex queries that can be broken into multiple CTE's
