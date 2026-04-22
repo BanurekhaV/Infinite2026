@@ -1,0 +1,121 @@
+--to check if employees have a reporting manager (t/f)
+
+select empid, mgr-id as Manager, empname, departmentid from tblemployee tout
+where exists(select mgr_id from tblemployee where empid = tout.empid)
+
+select empid, mgr-id as Manager, empname, departmentid from tblemployee tout
+where exists(select 'm' from tblemployee where empid = tout.empid)
+
+--to check for employees who do not have a reporting manager
+
+select empid, mgr-id as Manager, empname, departmentid from tblemployee tout
+where not exists(select 'm' from tblemployee where empid = tout.empid)
+
+-- find managers who have atleast one employee reporting to them
+--exits can be replaced with in, not exists with not in
+select  empid, mgr_id as Manager, empname, job, departmentid from tblemployee
+where empid in (select mgr_id from tblemployee where mgr_id is not null)
+
+select  empid, mgr_id as Manager, empname, job, departmentid from tblemployee
+where empid not in (select mgr_id from tblemployee where mgr_id is not null)
+
+--find all the departments that have employees
+select deptid, deptname from tbldepartment
+where exists(select 'X' from tblemployee where departmentid= tblDepartment.deptid)
+
+select deptid, deptname from tbldepartment
+where deptid in(select Departmentid from tblemployee where departmentid= tblDepartment.deptid)
+
+-- find all employees who are not saleman and whose salary is less than any salesman
+
+select * from tblemployee
+where job <> 'Salesman'
+and Salary <any(select Salary from tblemployee where job='salesman') -- 1600, 1250,1250,1500,
+
+--or
+select * from tblemployee
+where job <>'Salesman'
+and salary < (select min(salary) from tblemployee where job = 'Salesman')
+
+--simple case
+create table casetable(cid int, cname varchar(20))
+
+insert into casetable values(5,'White'),(3, 'Blue'),(2,'Green'),(4, 'Red')
+
+select * from casetable
+
+select cid,cname,
+ case cname 
+   when 'Red' then 'Danger'
+   when 'Blue' then 'Primary'
+   when 'Green' then 'Success'
+ end as 'Color Remarks'
+ from casetable
+
+ --simple case with else
+ select cid,cname,
+ case cname 
+   when 'Red' then 'Danger'
+   when 'Blue' then 'Primary'
+   when 'Green' then 'Success'
+   else 'No Remarks'
+ end as 'Color Remarks'
+ from casetable
+
+ --searched case
+ select cid, cname,
+ case  
+   when cname = 'Red' then 'Danger'
+   when cname = 'Blue' then 'Primary'
+   when cname = 'Green' then 'Success'
+   else 'Invalid Color'
+end as 'Color Status'
+from casetable
+
+-- nested case
+--@@  - global variables
+--@  - local variables
+declare @totalsales int   -- decl of a variable of int data type
+set @totalsales = 600
+select case
+  when @totalsales >= 500 then 'Bumper Sales'
+  when @totalsales <500 then
+     case
+	   when @totalsales between 100 and 200 then 'Poor Sales'
+	   when @totalsales between 201 and 300 then 'OK Sales'
+	   when @totalsales between 301 and 400 then 'Good Sales'
+	   when @totalsales between 401 and 499 then 'Ver Good Sales'
+	   else 'No Sales'
+	 end
+  end as SalesDetails
+   
+--nested case with if else
+declare @sales int   -- decl of a variable of int data type
+set @sales = 245
+select @sales as 'Total sales'
+print @sales 
+print 'The Total sales made is ' + ' ' + cast(@sales as varchar(5))
+if @sales >= 500
+   select 'Bumper Sales'
+else
+  begin
+  select case
+  	   when @sales between 100 and 200 then 'Poor Sales'
+	   when @sales between 201 and 300 then 'OK Sales'
+	   when @sales between 301 and 400 then 'Good Sales'
+	   when @sales between 401 and 499 then 'Ver Good Sales'
+	   else 'No Sales'
+   end as 'Sales Status'
+ end
+
+ -- set commands
+ create table Stable1(s_id int identity, sname varchar(20), sgrade char(1),spercentage int)
+ insert into stable1 values('Sivaguru','A',85),('Naveen','A',80),
+ ('Rithika','B',65),('Rekhashini','B',60)
+
+ create table Stable2(s_id int identity, sname varchar(20), sgrade char(1),spercentage int)
+ insert into stable2 values('Vilvapriya','A',85),('VishnuPriya','A',82),
+ ('Athish','B',65),('Subhashini','B',60)
+
+ select * from Stable1
+ select * from Stable2
