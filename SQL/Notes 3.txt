@@ -37,3 +37,20 @@ Advantages of CTE's
   - More Readable
   - Does not occupy memory
   - Used for complex queries that can be broken into multiple CTE's
+
+Recursive CTE's :
+ with <expression name>(columnlist)
+   as 
+   (--Anchor Members/ initial query
+      union all
+    -- recursive member that references the <expressionname>
+     recursive query
+    -- includes a terminator
+  )
+    
+Transact SQL TSQL - programming with SQL
+ -variables
+ -if and else
+ -case
+ - while
+ - break, continue
