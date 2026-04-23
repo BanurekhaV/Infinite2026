@@ -25,11 +25,17 @@ as
   select @esal = salary from tblemployee where empname= @empname
   end
 
-  -- to execute the above proc
+ -- to execute the above proc with output value option 1
+
   declare @empsal decimal
   exec sp_getEmpSalary 'subhash', @empsal output
   select @empsal
   print 'Salary of the employee is : ' + cast(@empsal as varchar(8))
+
+ -- to execute the above proc with output value option 2
+ declare @employeesal decimal
+ exec sp_getEmpSalary  @esal = @employeesal output, @empname = 'subhash'  -- named argument
+ select @employeesal
 
   --eg 7 dml ops with proc
   create or alter proc sp_addEmployee (@eid int, @ename varchar(20),
@@ -68,3 +74,55 @@ exec sp_TaxCalculator 105, @annsal output
 set @tax = @annsal * 10/100
 print 'salary earned is : ' + cast(@annsal as varchar(8))
 print 'Tax deducted is : ' + cast(@tax as varchar(6))
+
+
+--procedures with return type of only int
+--eg 9
+create or alter proc sp_getdept @eid int
+as
+ begin 
+  return (select departmentid from tblemployee where empid =@eid)
+  end
+
+  --
+  declare @depid int
+
+  exec @depid = sp_getdept 111
+  select @depid
+
+  -- eg 10
+  -- given a deptno/id, return the count of employees in that dept
+  create or alter proc sp_getempCount @deptid int, @totsal decimal output
+  as
+   begin 
+    select @totsal = sum(salary) from tblemployee where departmentid = @deptid
+	exec sp_greetings  -- calling another proc 
+	return (select count(empid) from tblemployee where departmentid = @deptid)
+	end
+
+	--to execute
+	declare @count int, @totalsal decimal
+	exec @count = sp_getempCount 1, @totalsal output
+	select @count as 'count of Employees', @totalsal as TotalSalary
+
+	select * from tblemployee
+
+	-- to drop procedures
+	drop proc sp_getempCount
+
+	--error handling
+--eg 11
+create or alter proc sp_errorhandler
+ as
+  begin
+   begin try
+   select salary + empname from tblemployee where empid =102
+   end try
+   begin catch
+     select 'Some Conversion error occurred.. Pls check'
+	-- throw 52000,' Error due to data conversion', 8
+	-- raiserror(52000,16,8)
+   end catch
+end
+
+sp_errorhandler

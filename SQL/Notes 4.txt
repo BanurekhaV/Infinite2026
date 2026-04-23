@@ -1,0 +1,13 @@
+Error Handling in SQL 
+
+Error Number : Unique identifiers for every error. All predefined errors are below 50000, and all user defined errors are above 50000
+
+Error Message : Is a piece of brief information describing the error. This can be up to 2047 characters
+
+Severity Level : Tells about the importance of the error which ranges between 0-24
+  0-9 : are just status information
+  11-16 : Indicates errors of the user
+  17-19 : software errors that cannot be corrected by the user. To be reported to sys admin
+  20-24 : fatal errors that can damage the system and database. Immediately terminates the connection
+
+State : It is an arbitrary value not very important. It ranges between 0 and 127. 
