@@ -1,0 +1,70 @@
+contd.. procedures
+
+--eg 4
+create or alter proc sp_getSalary @eid int 
+as
+ begin
+  select empname, salary from tblemployee where EmpId = @eid
+  end
+
+  sp_getsalary 111
+
+  --eg 5 find all employees of a given department, who earn more than the given salary
+  create or alter proc sp_empdetails(@did int, @sal decimal)
+   as
+    begin
+	 select * from tblemployee where departmentid = @did and salary > @sal
+	 end
+
+	 sp_empdetails 2,5900
+
+--eg 6 get the salary of an employee using output parameter
+create or alter proc sp_getEmpSalary @empname varchar(20), @esal decimal output
+as
+ begin
+  select @esal = salary from tblemployee where empname= @empname
+  end
+
+  -- to execute the above proc
+  declare @empsal decimal
+  exec sp_getEmpSalary 'subhash', @empsal output
+  select @empsal
+  print 'Salary of the employee is : ' + cast(@empsal as varchar(8))
+
+  --eg 7 dml ops with proc
+  create or alter proc sp_addEmployee (@eid int, @ename varchar(20),
+  @gen char(7),@sal decimal,@did int)
+  as
+   begin
+   insert into tblemployee values(@eid,@ename,@gen,@sal,@did)
+    select * from tblemployee where empid = @eid
+	
+	update tblemployee set departmentid=4 where departmentid = @did
+	select * from tblEmployee
+	end
+
+	sp_addemployee 112,'Suriya','Female',5800, 3
+
+	--eg 8
+--write a procedure that calculates whether an employee is eligible for tax
+--calculate the annual salary 
+	create or alter proc sp_TaxCalculator @eid int, @annualsal decimal output
+	 as
+	  begin
+	   declare @tempsal decimal
+	   select @tempsal = (salary * 12) from tblemployee where empid = @eid
+	   if(@tempsal > 66000)
+	    begin
+		 set @annualsal = @tempsal
+		 end
+		else
+		 begin
+		  Print 'No tax levied as annual salary is within tax limits'
+		 end
+	end
+
+declare @annsal decimal, @tax float
+exec sp_TaxCalculator 105, @annsal output
+set @tax = @annsal * 10/100
+print 'salary earned is : ' + cast(@annsal as varchar(8))
+print 'Tax deducted is : ' + cast(@tax as varchar(6))
