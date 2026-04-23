@@ -126,3 +126,78 @@ create or alter proc sp_errorhandler
 end
 
 sp_errorhandler
+
+--full example with error handlers, global variables and dml thru procedure
+
+create table Products
+(ProductId int primary key,
+ProductName varchar(30),
+Price int,
+QuantityAvailable int)
+
+insert into Products values(101, 'Laptops',55000,100),(102,'Desktops',38000,50),
+(103,'Tablets',65000,35),(104, 'Mobiles',75000,70)
+
+-- for transactions let us create another table productsales
+drop table Productsales
+
+create  table ProductSales
+( SaleId int primary key,
+PrdId int references Products(ProductId),
+QuantitySold int)
+
+
+create or alter proc Sp_ProductSalesMade
+@prdid int, @qty_tosell int
+as
+ begin
+  -- first let us check if the stock is available for the product
+  declare @stockavailable int 
+  select @stockavailable = QuantityAvailable from products where productid = @prdid
+
+  -- if the qtytosell is more than the available stock, if yes then raise an error
+   if(@stockavailable is null)
+    begin
+	  raiserror('Wrong Product or No Stock', 15,1)
+	end
+	if(@stockavailable < @qty_tosell)
+	  begin
+	    raiserror('Not Enough Stock to sell', 16,1)
+	  end
+	  else
+	  begin
+	    -- let us start the dml of updating the products table by reducing the quantityavailable
+		update products set QuantityAvailable = QuantityAvailable - @qty_tosell 
+		where productid= @prdid
+
+		-- next let us insert one row in the productsales table
+		--check if the table is having any data. If no then we need to insert a correct value
+		--, else value + 1
+		declare @maxsaleid int
+
+		select @maxsaleid = case  
+		  when max(saleid) is null  then 0
+		  else max(saleid)
+		  end from productsales
+
+		  --increment @maxsaleid by 1, to avoid PK violation
+		  set @maxsaleid = @maxsaleid + 1
+		  --we can start inserting now
+		  insert into productsales values(@maxsaleid, @prdid, @qty_tosell)
+		  end
+		--@@error - a global variable that keeps track of errors. If 0, then no error, else error
+		if(@@ERROR <> 0)
+		 begin
+		  print 'Error occurred.. rolling back'
+		 end
+		 else
+		  begin
+		  print 'Success'
+		  end
+	end
+
+	select * from products
+	select * from productsales
+
+	--execute the above procedure
+	exec Sp_ProductSalesMade 104, 20
