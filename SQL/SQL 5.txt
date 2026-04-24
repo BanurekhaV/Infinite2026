@@ -1,0 +1,35 @@
+--Functions :
+
+--eg 1
+create or alter function fnDisplayDetails(@ename varchar(20), @deptname varchar(20))
+returns nvarchar(100)  -- tells the db engine that this function returns a scalar nvarchar
+as
+ begin
+  return (select @ename + ' ' + ' is working with the department ' + @deptname)
+  end
+
+  --to execute the above function
+  select fnDisplayDetails('Adithya', 'IT')  -- does not work
+
+  --option 1, 2 part qualifier
+  select dbo.fnDisplayDetails('Adithya', 'IT')
+
+  --option 2, 3 part qualifier
+  select InfiniteDb.dbo.fnDisplayDetails('AAA' ,' HR')
+
+select dbo.fnDisplayDetails(e.empname, d.deptname) from tblemployee e, tbldepartment d
+where e.DepartmentId = d.DeptId
+
+-- write a function that takes employee id and returns the salary
+-- write a function to calculate the Area of a rectangle
+
+create or alter  function fn_deptdetails(@empname varchar(20))
+returns int
+as
+begin
+ return (select Departmentid from tblemployee where empname =@empname )
+ end
+
+ select dbo.fn_deptdetails(empname) as Employeedepartment from tblemployee
+
+  --eg 2

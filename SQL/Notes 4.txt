@@ -11,3 +11,30 @@ Severity Level : Tells about the importance of the error which ranges between 0-
   20-24 : fatal errors that can damage the system and database. Immediately terminates the connection
 
 State : It is an arbitrary value not very important. It ranges between 0 and 127. 
+
+throw : throw<errorno>,<errormsg>,<severity level>
+
+raiserror : raiserror(<errormsg>/errorno,<severity>,<error state>)
+
+User defined error messages :
+  syntax : sp_addmessage <error num>, <severity>,<error message>
+
+Functions: are reusable piece of code 
+          - may or may not take arguments
+          - will have to return a scalar value, or table value
+          - cannot return text, ntext, images, cursors, timestamps etc.
+
+there are 2 types of functions:
+  1. Scalar : functions that return any one single type
+  2. TableValued : 
+        - Inline Table Valued :
+         - are functions that return a table (rows n columns)
+         - are not enclosed with a begin and end statements
+         - can be used in where, select and join clauses
+         - provide better performance than the multistatement table valued function
+
+    Multistatement table valued :
+         - are functions that return table like structures (user created)
+         - are enclosed with a begin and end clause
+
+     
