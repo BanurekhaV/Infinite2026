@@ -1,0 +1,55 @@
+Differences between Functions and Stored Procedure
+- A function must return a scalar value, whereas a procedure returns an integer value
+ - A function can take only input parameters, whereas a procedure can have input, output parameters
+ - A function do not support data modifications using dml statements, whereas procedures can
+ - A function does not support transactions, error handling. whereas the procedures can
+ - A function can call only other functions, whereas a procedure can call other procedures as well as functions
+ - A function can be used in select, join and where clauses, whereas a procedure needs explicit execution
+
+
+Transactions :A set of SQL statements that are executed together or not executed at all
+   - A database transactions consists of
+      DML Statements
+      DDL
+      DCL
+      DQL
+      Group logically related operations/
+
+Begins with the first DML statement execution and ends with any one of the following
+    - A commit or a rollback
+    - An auto commit
+    - User exits
+    - System crashes
+
+With commit or rollback, we ensure
+  - Data Consistency
+  - Preview the data changes before and after by the current user
+  
+Save points : are logical blocks/markers applied to a set of operations in a transaction
+              It is not an ANSI standard SQL
+
+
+begin
+ update tblemployee set salary = salary +50 where empid=105
+ commit
+end
+
+Implicit transactions mode enables or disables auto commit (default)
+ - when off , auto commit is on
+ - when on, auto commit is off
+
+Indexes : are mechanisms to sort the data physically in the database
+Why Indexes :
+
+Indexes are of 3 types :
+  1. Clustered Index : can have only one per table
+                       sorts the physical table on every dml operation
+                       does not occupy additional memory
+                       can be just clustered or unique clustered (ensures no duplicates)
+  
+  2. Non Clustered Index : table can have many non-clustered
+                           occupies additional disk space, as it creates an index table 
+                           any dml operations does not effect the original table, instead only the index table will be be sorted
+                           can be either unique or just non-clustered
+                           
+                          

@@ -165,3 +165,33 @@ cast(R.Route + '->'  + cd.cityname as varchar(max)),
 
  --main query
  select Route, Distance from Destination where Sourcecityid = 3
+
+
+ WITH tpattern(n) AS (
+    SELECT 20   -- initial value
+    UNION ALL
+    SELECT n - 1
+    FROM tpattern
+    WHERE n > 1
+)
+SELECT Replicate('* ', n) AS TrainglePattern
+FROM tpattern
+
+-- indexes
+sp_help tblemployee
+
+create table testtable(tid int, tname varchar(20), tcity varchar(30))
+insert into testtable values(10,'Infinite','Chennai'),(100,'AAA','Acity')
+select * from testtable
+
+create clustered index idx_tid on Testtable(tid)
+
+create unique clustered index idx_tid on testtable(tid)
+
+sp_help testtable
+delete from testtable where tname='TTT'
+--drop an index
+drop index testtable.idx_tid
+
+--nonclustered non unique index
+create nonclustered index idx_nc on testtable(tid)
