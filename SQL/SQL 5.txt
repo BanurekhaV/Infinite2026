@@ -33,3 +33,71 @@ begin
  select dbo.fn_deptdetails(empname) as Employeedepartment from tblemployee
 
   --eg 2
+
+--inline table valued function
+create or alter function fn_getAllEmpData(@did int)
+returns table
+ as
+  return(select empno, ename,job,dname,emp.deptno, sal from emp join dept on
+  emp.deptno = dept.deptno where emp.deptno = @did)
+
+  --executing
+  select ename, job,sal from dbo.fn_getAllEmpData(20) where job='clerk'
+
+  select * from fn_getAllEmpData(20)
+
+  declare @deptno int
+  select @deptno = deptno from dept where loc='dallas'
+ select * from fn_getAllEmpData(@deptno) where job ='Analyst' and sal > 2000
+
+   select job, avg(sal) from dbo.fn_getAllEmpData(20) group by job
+    having avg(sal) > 1000
+
+	-- multistatement table valued
+	create or alter function fn_GetEmpByGender(@gen varchar(8))
+	returns
+	 @EmpByGender table(EmpNumber int, EmployeeName varchar(max), Gender varchar(8))
+	 as
+	  begin
+	   --bulk insertion
+	   insert into @EmpByGender select empid,empname,gender from tblemployee
+	      where gender = @gen
+		  -- incase we are not able to insert due to datatype / no of column mismatch
+		  if @@ROWCOUNT = 0
+		   begin
+		    insert into @EmpByGender values(0, 'No Employee found with the given gender',null)
+		   end
+	 return
+	end
+
+	--to execute the above
+	 select * from fn_GetEmpByGender('others')
+	  select * from dbo.fn_GetEmpByGender('Male')
+	  select * from dbo.fn_GetEmpByGender('Female')
+
+--eg from northwind
+use Northwind
+
+select * from customers
+
+create or alter function fn_GetCustomersByCountry(@country varchar(20))
+returns
+ @CustomersByCountry table (
+  Cust_id varchar(10),
+  Cust_Name varchar(30),
+  Country varchar(30))
+  as
+   begin
+    insert into @CustomersByCountry select
+	customerid, contactname,country from customers
+	where country = @country
+
+	if @@Rowcount = 0
+	 begin
+	  insert into @CustomersByCountry 
+	  values('','No Customers Found',null)
+	  end
+	  return
+	  end
+
+	  select * from fn_GetCustomersByCountry('India')
