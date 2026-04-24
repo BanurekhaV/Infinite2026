@@ -101,3 +101,67 @@ returns
 	  end
 
 	  select * from fn_GetCustomersByCountry('India')
+
+--Transactions
+
+--outside transactions
+
+set implicit_transactions off
+	 select * from tbldummy
+insert into tbldummy values(4,'Notebooks',15,20)
+rollback
+
+--eg 1
+begin transaction
+ select * from tbldummy
+ update tbldummy set dprice = 50 where did=4
+  select * from tbldummy
+  save tran t1
+  delete from tbldummy where did=3
+  select * from tbldummy
+  save tran t2
+insert into tbldummy values(5,'Water Bottle',150,20)
+select * from tbldummy
+rollback tran t2
+
+--rollback tran t1
+--rollback
+select * from tbldummy
+commit
+
+select * from emp
+--Hierachial queries using recursive ctes:
+ with hcte(EmpNo,EName,Manager,Emplevel)
+  as(select empno,ename,[mgr-id],1 EmpLevel
+   from emp where [mgr-id] is null      --- initial or first level / anchor member
+   union all
+   select e.empno,e.ename,e.[mgr-id], oq.emplevel  + 1  --  recursive value
+    from emp e join hcte oq on e.[mgr-id] = oq.empno where e.[mgr-id] is not null)
+
+	--main query
+	select * from hcte
+	order by emplevel
+
+
+--recursive cte
+create table cityData(Id int identity,cityname varchar(20), CityPopulation int)
+
+insert into citydata values('Mumbai',12468898),('Delhi',11034567),('Chennai',672700),('Bangalore',854467)
+
+create table cityRoute(RouteId int, Sourcecityid int, DestinationcityId int, distance int)
+
+insert into cityRoute values(1,1,2, 1400),(2,1,3,1200),(3,2,3,1500),(4,3,4,350),(5,2,4,800)
+
+with Destination as
+(select Routeid,sourcecityid,destinationcityid,cast(cityname as varchar(max))as Route,
+distance from cityRoute cr join cityData cd on cr.Sourcecityid = cd.Id
+
+union all
+select cr.routeid, cr.sourcecityid,cr.destinationcityid,
+cast(R.Route + '->'  + cd.cityname as varchar(max)),
+ r.distance + cr.distance from Destination R
+ join cityRoute cr on r.DestinationcityId = cr.Sourcecityid
+ join cityData cd on cr.DestinationcityId = cd.Id)
+
+ --main query
+ select Route, Distance from Destination where Sourcecityid = 3
