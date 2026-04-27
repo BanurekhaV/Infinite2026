@@ -170,3 +170,111 @@ as
    insert into tblemployee values(210,'Banurekha','Female',6000,3)
 
    select * from Auditlog
+
+ --trigger for updation along with audit log
+
+   alter table auditlog add auditdate date
+
+   create or alter trigger trgUpdateAudit
+   on tblemployee
+   for update
+   as
+   begin
+    declare @id int, @olddept int, @newdept int
+	declare @oldname varchar(20), @newname varchar(20)
+	declare @oldsal decimal, @newsal decimal
+
+	--declare a variable to build the audit string
+	declare @auditdata varchar(max)
+	select * from deleted
+	select * from inserted
+
+	--store the inserted data into temporary table or we can directly use the inserted table
+	select * into #temptable from inserted
+	select * into #temptable2 from deleted
+	--select * from #temptable 
+	-- loop thru all the updated records if incase we have updated mny rows/columns etc
+	while(exists(select empid from #temptable))
+	 begin
+	   set @auditdata = ' '
+-- let us select the first row of the temp table
+
+  select top 1 @id = empid, @newname = empname, @newsal = salary,
+    @newdept = departmentid from #temptable
+
+	--now let us slect data from the deleted table for old values
+	select top 1 @id = empid, @oldname = empname,@oldsal = salary 
+	,@olddept =departmentid from #temptable2
+
+	set @auditdata = 'Employee with ID : ' + ' ' + cast(@id as varchar(5)) +
+	'  changed  '
+	--if old data is updated with new data, then we should track them individually
+	
+	 --for salary
+	 if(@oldsal <> @newsal)
+	  begin
+	   set @auditdata = @auditdata + ' the Salary from ' + cast(@oldsal as varchar(8)) + 
+	   ' to ' + cast(@newsal as varchar(8)) 
+	  end
+	  --for department
+	    if(@olddept <> @newdept)
+		 begin
+	    set @auditdata = @auditdata + ' the Department from ' + cast(@olddept as varchar(5)) + ' to '
+		+ cast(@newdept as varchar(5)) 
+	    end
+		 if(@oldname <> @newname)
+		 begin
+	      set @auditdata = @auditdata + ' the name from ' + @oldname + ' to ' + @newname 
+	    end
+		
+		  -- now the entire audit string is ready for insertion into the auditlog table
+	   insert into Auditlog values(@auditdata, getdate())
+
+	   -- now we should move to the second row
+	   delete from #temptable where empid = @id
+	   delete from #temptable2 where empid=@id
+      end
+ end
+
+ select * from tblemployee
+ select * from tblDepartment
+ insert into tblDepartment values(10,'Newdept',4567890)
+
+update tblemployee set salary =6700, departmentid =10 where gender = 'Male'
+
+update tblemployee set empname = 'PoornimaDevi', salary = 6200 where empid = 105
+select * from auditlog
+
+delete from auditlog
+
+--instead of triggers
+select * from vwEmpByDept
+insert into vwEmpByDept values(250,'New employee',5800,'IT')
+
+-- we may resolve the above view insertion failures thru instead of triggers
+select * from tblDepartment
+
+create or alter trigger trg_view_insteadof
+on vwempBydept    -- applyying trigger on a view table
+instead of insert
+as
+ begin
+  declare @departmentid int
+
+  --first let us check if the given department name in the insert clause of the view is valid
+  set @departmentid = (select deptid from tblDepartment d, inserted  where inserted.deptname = d.DeptName)
+
+  --next let us verify if @departmentid is having any value or not
+  if(@departmentid is null)
+    begin
+	 raiserror('Invalid Department name.. terminating', 16,1)
+	 return
+    end
+
+	--if @departmentid is valid
+	insert into tblemployee(empid,empname,salary,departmentid)
+	select empid,empname,salary,@departmentid from inserted
+end
+
+insert into vwEmpByDept values(251,'New employee',5800,'Accounts')
+select * from tblemployee

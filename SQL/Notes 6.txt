@@ -23,3 +23,6 @@ Magic Tables : are temporary tables/storage that gets created within a trigger b
      2. Deleted Table
 
 updation is always delete followed by insert 
+
+-- Instead of Triggers are triggers that execute the body of the trigger instead of the actual event
+-- helps resolve issues with view updates/inserts 
