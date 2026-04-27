@@ -64,3 +64,109 @@ as select empid,empname,salary from tblemployee where empid < 112
 with check option
 
 insert into empview values(208,'Prabhas',6000)   -- fails as it is checked with the view definition (empid <112)
+
+
+--Triggers
+create or alter trigger trgEmpInsert
+on tblemployee   --object/entity on which the trigger is placed
+for insert      -- event on which the trigger would automatically fire
+as
+ begin
+ print 'Trigger trgEmpInsert is fired'
+ select * from inserted
+ select * from tblEmployee
+end
+
+-- the above trigger will be called automatically by th engine
+-- whenever we insert records into the tblemployee table
+
+insert into tblemployee values(500,'Mahesh','Male',5800,3)
+
+insert into empview values(100,'Kaniga',5900)
+
+sp_helptext empview
+
+create or alter trigger trgEmpDelete
+on tblemployee
+for delete
+as
+ begin
+  select * from deleted
+  select * from tblemployee
+  end
+
+  set implicit_transactions on
+  delete from tblemployee where empid=500
+
+  rollback
+
+  --eg 3 
+  create trigger trgEmpUpdate
+  on tblemployee
+  for update
+  as
+   begin
+    select * from deleted
+	select * from inserted
+
+	declare @oldsal decimal, @newsal decimal
+	select @oldsal = salary from deleted
+	select @newsal = salary from inserted
+	print @oldsal
+	print @newsal
+	if(@newsal > @oldsal)
+	 begin
+	  print 'Salary increased'
+	  end
+	  else
+	   begin
+	  print 'Salary decreased'
+	  end
+	end
+
+update tblemployee set salary=8000, empname='Suresh' where empid=500
+
+	select * from tblemployee where empid=500
+
+
+
+--eg 4
+create or alter trigger trg_Nochanges
+on tblemployee
+for insert,update,delete
+as
+ begin
+  select 'Permission denied... contact admin'
+  rollback
+  end
+
+  insert into tblemployee values(600,'Deadly','Others',10000,5)
+
+  select * from tblemployee
+
+  delete from tblemployee where empid=100
+
+  drop trigger trg_nochanges
+
+  --eg 5
+  --trigger for logging details
+  create table AuditLog(msg nvarchar(max))
+
+  create or alter trigger trgAudit
+  on tblemployee
+  for insert 
+  as
+  begin
+   declare @id int
+   select @id = empid from inserted
+
+   --dml ops inside trigger body
+   insert into AuditLog(msg)
+   values('New Employee with Employee id : ' + cast(@id as varchar(5)) +
+   ' ' + ' is added at ' + cast(getdate() as varchar(20)))
+   end
+
+   --verify the above trigger
+   insert into tblemployee values(210,'Banurekha','Female',6000,3)
+
+   select * from Auditlog

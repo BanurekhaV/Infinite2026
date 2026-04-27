@@ -7,3 +7,19 @@ Views : are relations that are not of the conceptual model, but is made visible 
 
 -- multiple base table views
    -- dml operations may not succeed or may effect updations that were not intended, making the database less integrated
+
+used defined constraints :
+Check : enforcing certain type of values only 
+Triggers : are reusable piece of code like any procedure or function
+           they are used to enforce/define business rules or constraints
+           they are not called explicitly, instead they get fired automatically on certain events
+           they can be written as before/after or instead of the event
+           they are dml or ddl based
+
+Magic Tables : are temporary tables/storage that gets created within a trigger body during its execution
+  - their scope is within the trigger body only
+  - they are 2 in number
+     1. Inserted table
+     2. Deleted Table
+
+updation is always delete followed by insert 
