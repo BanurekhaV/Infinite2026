@@ -195,3 +195,14 @@ drop index testtable.idx_tid
 
 --nonclustered non unique index
 create nonclustered index idx_nc on testtable(tid)
+
+create nonclustered index idxname on tblemployee(empname)
+
+select empid,empname from tblemployee
+
+--filtered indexes
+
+select * from tblemployee
+create index idx_sal on tblemployee(salary) where salary >5500 
+
+select salary from tblemployee where salary between 5600 and 6500

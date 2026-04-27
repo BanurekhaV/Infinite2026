@@ -52,4 +52,26 @@ Indexes are of 3 types :
                            any dml operations does not effect the original table, instead only the index table will be be sorted
                            can be either unique or just non-clustered
                            
+  3. Filtered Index : are non clustered index with a predicate
+                      used in situations where we need only portion of the index
+
+ Guidelines for indexing :
+ - columns to index :
+   Primary and Foreign key columns
+   Those columns that are frequently searched in ranges
+   Those columns which are accessed frequently  in sorted order
+   Those columns which are grouped together during aggregation
+
+ - columns non to index :
+    Columns that are seldom referred in queries
+    Columns that contain very few data
+    Columns that are defined with text, ntext, images etc types
+
+when to create index : 
+   - when the table is large and most of the queries are expected to retrieve less than 2-4% of rows
+
+when not to create index :
+   - when the table is small
+   - columns are referred often
+   - more than 4% of rows are retrieved as a result of queries
                           

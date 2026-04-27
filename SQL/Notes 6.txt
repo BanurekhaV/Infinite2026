@@ -1,0 +1,9 @@
+Views : are relations that are not of the conceptual model, but is made visible to the user as virtual relation
+        - the database will have only the view definition but no data
+        - Every time we query a view, the definition constructs the actual query using the base/underlying or original tables
+
+-- all dml operations are successful thru a view, when the view is made out of a single table
+    - provided the other columns of the base table can take either a null or default values
+
+-- multiple base table views
+   -- dml operations may not succeed or may effect updations that were not intended, making the database less integrated

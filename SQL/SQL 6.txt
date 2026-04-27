@@ -1,0 +1,66 @@
+--Views
+--1. single table view
+create view vwEmpdata
+as select empid,empname,salary from tblemployee
+
+sp_help vwempdata
+select * from tblemployee
+select * from vwempdata
+
+--dml with single table views
+insert into vwempdata values(205,'Infinite',5700)  -- worked
+
+update vwEmpdata set empname ='Hariharasudhan' where empid=205  -- worked
+
+delete from vwempdata where empid=200 -- worked
+
+create nonclustered index idxname on vwempdata(empname)
+
+--multiple table views
+create view vwEmpByDept
+as select empid, empname, salary, d.deptname from tblemployee e join tblDepartment d
+on e.DepartmentId = d.DeptId
+
+select * from vwEmpByDept
+
+--dml with multitable views
+
+select * from tblEmployee
+select * from tbldepartment
+
+insert into vwEmpByDept values(500,'Banurekha',5800,'IT')  -- failed
+
+update vwEmpByDept set DeptName = 'Operations' where empid=205   -- failed
+
+delete from vwEmpByDept where DeptName = 'Payroll'   -- failed
+
+delete from vwEmpByDept where empid=300    --- failed
+
+drop view vwempdata
+
+
+--now let us update one employees dept
+update vwEmpByDept set DeptName = 'IT' where empid = 112
+
+select empname, tblDepartment.deptname from tblemployee join tbldepartment on
+tblemployee.DepartmentId = tblDepartment.DeptId 
+
+update tbldepartment set DeptName='Payroll' where DeptId = 4
+
+
+--views with no check option
+create or alter view empview
+as select empid,empname,salary from tblemployee where empid < 112
+
+select * from empview
+
+insert into empview values(207,'Praveena',5550)
+update empview set salary = 5700 where empid=206  -- successfully executed, but no modification in the base table
+                                          -- as the row is out of scope in the view (<112)
+  update empview set salary = 5900 where empid=102   -- succesful with modification as the view carries 103 (<112)
+
+create or alter view empview
+as select empid,empname,salary from tblemployee where empid < 112
+with check option
+
+insert into empview values(208,'Prabhas',6000)   -- fails as it is checked with the view definition (empid <112)
