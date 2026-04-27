@@ -278,3 +278,54 @@ end
 
 insert into vwEmpByDept values(251,'New employee',5800,'Accounts')
 select * from tblemployee
+
+--DDL Triggers
+--database scoped triggers
+create or alter trigger trg_restrict_create_table
+on database
+for create_table,alter_table,drop_table
+as
+begin
+ print 'You do not have permission for the same..'
+ rollback transaction
+end
+
+create table tblsample (sampleid int, sname varchar(30))
+select * from tblsample
+
+alter table tblsample
+add phone varchar(11)
+
+drop table tblsample
+
+create proc sp_sample
+as
+begin
+ select * from emp
+ end
+
+ -- to drop a database level trigger
+ drop trigger if exists [trg_restrict_create_table] on database
+
+ --server scopped triggers
+ create or alter trigger trg_restrict_all
+ on all server             --- all databases of the server
+  for create_table,drop_table
+  as
+  begin
+   print' You are not allowed to create or drop table objects in this server'
+   rollback
+ end
+
+ drop table tblsample
+ create table t1(tid char(5),tname varchar(20))
+
+ drop table test
+
+ --to drop server scopped triggers
+ drop trigger trg_restrict_all on all server
+
+  drop trigger if exists trg_restrict_all on all server
+
+-- soft delete : when a row that has to be deleted is updated with some value in one of the columns
+

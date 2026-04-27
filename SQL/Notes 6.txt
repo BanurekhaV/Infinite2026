@@ -26,3 +26,7 @@ updation is always delete followed by insert
 
 -- Instead of Triggers are triggers that execute the body of the trigger instead of the actual event
 -- helps resolve issues with view updates/inserts 
+
+DDL Triggers : are of 2 types
+  1. Database Scoped Triggers : are applicable on the DDL events of a particular database
+  2. Server Scoped Triggers : are applicable on the DDL events of all the databases of the server
