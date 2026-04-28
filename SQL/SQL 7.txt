@@ -250,4 +250,37 @@ select coalesce(d.deptname, 'All Departments') as Department, coalesce(e.gender,
 sum(e.salary) as 'Total Salary' from tblemployee e, tbldepartment d
 where e.departmentid=d.deptid
 group by cube(d.deptname, e.gender)
-order by d.deptname, e.gender
+
+
+--addl functions
+create table students(stdname varchar(20),subject varchar(20),Markscored int)
+
+insert into students values('Tarun','Maths',80),('Tarun','Science',70),('Tarun','English',65),
+('Nishitha','Maths',68),('Nishitha','Science',85),('Nishitha','English',90),
+('Swetha','Maths',65),('Swetha','Science',90),('Swetha','English',60)
+
+update students set markscored= 70 where stdname='nishitha' and subject='maths'
+
+-- row_number() - allocates numbers based on the rows over a particular column
+
+select stdname,subject,markscored,row_number() over(order by markscored desc)as RowNumbers
+from students
+
+-- rank() - allocates numbers based on the rows over a particular column, 
+-- but skips the sequence of the next number whenever there are 2 or more rows with the same value
+
+select stdname,subject,markscored,rank() over(order by markscored desc)as RankNumbers
+
+--dense_rank() - allocates numbers based on the rows over a particular column,
+-- without skipping any sequence
+
+select stdname,subject,markscored,dense_rank() over(order by markscored desc)as RankNumber
+
+-- output seggregation based on particular columns, can be achieved using partitions
+
+
+select stdname,subject,markscored,rank() over(partition by subject order by markscored desc)as RankNumber
+from students
+
+select stdname,subject,markscored,dense_rank() over(partition by stdname order by markscored desc)as RankNumber
+from students

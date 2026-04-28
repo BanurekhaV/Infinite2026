@@ -76,5 +76,21 @@ The above 2 functions are very useful in handling null values and serves a quick
 
 4. Cube : is an operator that extends the functionality of a group by clause in finding the sub and grand totals for all permutations and combinations of the columns specified in the query
 
+Note : The difference between rollup and cube is that - Rollup generates aggregated results for the selected columns ina a hierarchical manner, where as
+cube generates aggregated results that contains all the possible combinations for the selected columns
 
+--addl functions
+  1. row_number()
+  2. rank()
+  3. dense_rank()
+
+Calculated/Computed Columns : are columns that are computed from an expression that makes use of other columns of the same table
+ - are virtual columns by default, and hence the data is not stored in the disk
+ - are computed at the time of execution using reference expression
+ - we can use the persistence property and can save the data to the disk
+ - if the computed column is persisted, then we can also create index on such a computed column for efficient retrieval
+ - we can apply foreign key, check constraint on the persisted column
+ - can be used in select/where, order by and dml clauses
+
+Limitations : cannot refer to columns of the other table
 
