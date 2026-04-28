@@ -51,3 +51,17 @@ Pros : are faster than cursors
 
 Cons : Moving back and forth is not possible
        Risk of infinite looping
+
+
+File Groups : are basically a collection of file objects. 
+    primary group is the default group where all data and transaction files are stored
+
+whenever we create a database, sql server creates 2 files
+   - A data file (.mdf)
+   - A Transaction Log file (.ldf)
+
+Secondary file group (.ndf)
+
+Misc Functions :
+
+isnull() - 

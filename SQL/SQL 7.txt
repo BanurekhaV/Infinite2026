@@ -104,3 +104,74 @@ while @@FETCH_STATUS = 0
 	close empdynamic
 	deallocate empdynamic
 
+--file groups
+
+	sp_help tblemployee
+
+	create database OurTestDB on primary
+	(
+	--primary group
+	Name='OurTestDB',
+	filename='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\TestDBfile.mdf',
+	size=5mb,
+	maxsize=unlimited,
+	filegrowth=1024kb
+	),
+	--secondary file group
+	filegroup OurTestGP1   -- secondary file group
+	(
+	Name='FileGP1',
+	filename='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\FileGP1.ndf',
+	size= 1mb,
+	maxsize=unlimited,
+	filegrowth=1024kb),
+	--like above we can create more no.of secondary groups
+
+	--now let us create a group for log files
+	filegroup OurTestLogGP
+	(Name='OurTestLog',
+	filename='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\OutTestLog.ldf',
+	size=5mb,
+	maxsize=unlimited,
+	filegrowth=1024kb)
+
+	dbcc showfilestats
+
+	--now let us attempt to create a table
+	create table OurTesttable(testid int, testname varchar(10)) -- created in primary group
+
+	sp_help ourtesttable
+
+	drop table OurTesttable
+
+	create table OurTesttable(testid int, testname varchar(10)) on ourtestgp1
+
+	--sys.database_files
+	select * from sys.database_files
+
+	select db_name() as[Database Name], FILE_ID,Physical_name,
+	(size * 8.0/1024)as Size,((size*8.0/1024)-(FILEPROPERTY(name,'SpaceUsed')* 8.0/1024)) as 'Free Space'
+	from sys.database_files
+
+--Misc Functions
+
+	select isnull('hello','world')as 'IsNull' -- here the expression value is not null
+	                                           -- hence the function returns actual value
+											   
+	select isnull(null,'replaced value')as 'IsNull' -- here the expression value is null
+	                                           -- hence the function returns the replacement value
+			create table NullFuncCheck
+				(serialNo int, name varchar(20), loc varchar(20),
+				 age int, occupation varchar(20))
+
+				 insert into NullFuncCheck values(1,'Suriya', 'India',21,'Software Engg'),
+				 (2,'Praveen','UK',null,'Artist'),(2,'Baraniharan','USA',null,'Writer'),
+				 (4,'Rithika','India',22,'Prefessor')
+
+ select * from NullFuncCheck
+
+ select *, isnull(age,25) as 'New Age' from NullFuncCheck
+
+ update NullFuncCheck set age = isnull(age,24) where loc='UK'
+
+ select isnull(null,isnull(5,10))
