@@ -175,3 +175,79 @@ while @@FETCH_STATUS = 0
  update NullFuncCheck set age = isnull(age,24) where loc='UK'
 
  select isnull(null,isnull(5,10))
+
+
+select isnull(null,isnull(5,10))
+
+--coalesce
+declare @c1 char, @c2 char, @c3 char
+select coalesce(@c1,@c2) as 'Coalesce Results',
+ case  
+   when @c1 is not null then @c1
+   when @c2 is null then ' is a null value'
+   end as 'CaseResult'
+
+select coalesce(null,null,null,5,null,'abc')
+select isnull(null,isnull(null,isnull(null,5)))
+
+
+
+select * from Emp
+
+update emp set ename = null, fname = 'Smith' where empno = 7369
+
+alter table emp
+add fname varchar(20)
+
+select coalesce(ename,'-') + ' ' + coalesce(fname,'-') as 'Full Name' from emp
+select ename, fname from emp
+
+use Northwind
+
+select titleofcourtesy,firstname,lastname,titleofcourtesy + ' ' +
+coalesce(firstname,' ') + ' '+ coalesce(lastname,' ') as 'Employee Full Name'
+from employees
+
+
+select coalesce(ename,empno)as 'emp Details' from emp
+
+select coalesce(ename,convert(varchar(6),empno))as 'emp Details' from emp
+
+--roll up and cube
+
+select * from tblemployee
+
+update tblemployee set departmentid=null where empid > 240
+
+select departmentid, sum(salary) as 'Total salary' from tblemployee
+group by departmentid
+
+select departmentid, sum(salary) as 'Total salary' from tblemployee
+group by rollup(departmentid)
+
+-- to display the above output with meaningful column value, we can use coalesce
+select coalesce(departmentid,500)as Department, sum(salary) as 'Total Department Salary'
+from tblemployee
+group by rollup(departmentid)
+
+--eg 2
+--dept wise , gender wise total salary without coalesce
+select Departmentid, Gender, sum(salary)TotalSalary from tblemployee
+group by rollup(departmentid,gender)
+
+--with coalesce
+select coalesce(departmentid, 100) as Department, coalesce(gender,'All Genders'),
+sum(salary) as 'ToTal Salary' from tblemployee
+group by rollup(departmentid, gender)
+
+--cube eg
+select coalesce(departmentid, 100) as Department, coalesce(gender,'All Genders'),
+sum(salary) as 'Total Salary' from tblemployee
+group by cube(departmentid, gender)
+order by departmentid, gender
+
+select coalesce(d.deptname, 'All Departments') as Department, coalesce(e.gender,'All Genders')as Gender,
+sum(e.salary) as 'Total Salary' from tblemployee e, tbldepartment d
+where e.departmentid=d.deptid
+group by cube(d.deptname, e.gender)
+order by d.deptname, e.gender

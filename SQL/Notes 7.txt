@@ -64,4 +64,17 @@ Secondary file group (.ndf)
 
 Misc Functions :
 
-isnull() - 
+1. isnull() - checks for null values in the expression. If null returns the replacement value,
+ else returns the expression value itself
+  - takes only 2 arguments
+
+2. coalesce() - takes many arguments and tries to return the very first non - null value
+ 
+The above 2 functions are very useful in handling null values and serves a quick and easy alternative
+
+3. Rollup : is an operator that extends the functionality of a group by clause in finding the sub and grand totals
+
+4. Cube : is an operator that extends the functionality of a group by clause in finding the sub and grand totals for all permutations and combinations of the columns specified in the query
+
+
+
