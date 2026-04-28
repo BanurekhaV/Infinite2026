@@ -1,0 +1,106 @@
+use InfiniteDB
+
+--cursors
+--eg 1
+--declare all required variables
+declare @pname varchar(20),@price int, @qty int
+--declare cursor
+declare prd_cursor cursor
+for select productname, price, QuantityAvailable from products
+
+--open the cursor
+open prd_cursor
+--read the data
+fetch next from prd_cursor into @pname,@price,@qty
+
+--iterate the cursor set as long as there are records
+while @@FETCH_STATUS = 0
+ begin
+  print 'The Product named : ' + ' ' + @pname + ' ' + ' costs Rs : ' + cast(@price as varchar(6)) +
+   ' and the Availabilty is : ' + cast(@qty as varchar(5))
+   --start to fetch again
+fetch next from prd_cursor into @pname,@price,@qty
+end
+--close the cursor
+close prd_cursor
+--deallocate the cursor
+deallocate prd_cursor
+
+--eg 2 curosr with tsql
+declare @sal decimal, @ename varchar(30)
+declare empcursor cursor
+for select empname, salary from tblemployee
+open empcursor
+fetch next from empcursor into @ename,@sal
+ while @@FETCH_STATUS = 0
+  begin
+   if(@sal > 7000)
+     begin 
+	 print @ename + ' Earns ' + cast(@sal as varchar(6)) 
+	 end
+	 else
+	  begin
+	  print @ename + ' needs Increment '
+	  end
+	  fetch next from empcursor into @ename, @sal
+	  end
+	  close empcursor
+ deallocate empcursor
+
+ --eg 3
+ --static cursors
+ declare @staticname varchar(20), @staticsal float
+ declare empstatic cursor static
+ for select empname, salary from tblemployee
+ open empstatic
+ fetch relative 3 from empstatic into @staticname, @staticsal
+ while @@FETCH_STATUS = 0
+  begin
+  if(@staticsal > 6600)
+    begin
+	 print @staticname + ' Earns : ' +  cast(@staticsal as varchar(6))
+    end
+	 else
+	  begin
+	   print @staticname + ' needs Increment '
+	  end
+	 fetch prior from empstatic into @staticname, @staticsal
+ end   -- end of while loop
+ fetch relative 7 from empstatic into @staticname, @staticsal
+ set @staticsal = @staticsal + 100
+ print @staticname
+ print @staticsal
+ fetch next from empstatic into @staticname, @staticsal
+  print @staticname
+
+  close empstatic
+  deallocate empstatic
+	
+--eg 4 dynamic cursor 
+declare @empname varchar(20), @empsal float
+declare empdynamic cursor dynamic
+for select empname, salary from tblemployee
+open empdynamic
+fetch next from empdynamic into @empname,@empsal
+
+while @@FETCH_STATUS = 0
+ begin
+  if(@empsal < 6600)
+   begin
+    print 'Current Salary of : '+ @empname + 'is : ' + cast(@empsal as varchar(6))
+	 update tblEmployee
+	 set salary = salary + 200 where current of empdynamic
+
+	 --let us get the updated salary from the table
+	 select @empsal = salary from tblemployee where empname = @empname
+	 print 'Revised Salary of : ' + @empname + ' is : ' + cast(@empsal as varchar(6))
+	end
+	 else
+	  begin
+	   print @empname + 'is earning well '
+	  end
+	  fetch next from empdynamic into @empname,@empsal
+	end
+	close empdynamic
+	deallocate empdynamic
+

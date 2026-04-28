@@ -1,0 +1,53 @@
+Transaction Management : ACID properties help in managing transactions efficiently
+
+Atomicity : requires the transaction that involves more parts of changes/info. to commit fully or rollback fully
+
+Consistency : requires the transaction to have a valid state of the data(either post changes or pre changes)
+
+Isolation : requires the transaction which is still running, and yet to be committed does not interfere with other transactions
+
+Durability : requires the transaction to preserve all committed data so that it can be made available to others
+
+Locking : is a mechanism of saving the state of the object/entity during transaction
+   - with 2 types of locks
+    1. Shared Lock
+    2. Exclusive Lock
+locks are applied on
+   - rows
+   - pages
+   - tables
+
+Cursors : are objects that store the result set of any query and allows traversal over the rows
+They are of 2 types 
+  1. Implicit cursors : are created by the database engine automatically and are processed
+  2. Explicit Cursors : are user defined that can be created, traversed, manipulated by user programs
+
+Life Cycle :
+ 1. Declare a cursor
+ 2. Open the cursor
+ 3. Fetch the data as long as there are rows
+ 4. Close the cursor
+ 5. Deallocate the cursor
+
+Cursor Traversal : 
+ 1. Forward only : cursors that can move forward only
+ 2. static cursors : cursors that do not reflect any changes made after opening it
+ 3. Dynamic cursor : cursors that reflect any changes made after opening it
+ 4. Keyset cursor : cursors that are driven by unique value
+
+ About cursors
+ Pros:
+  - cursors are updatable
+  - cursors can move forward, backwards using first, last, next, prior, relative, absolute
+  - cursors have varied options to behave with regards to locking while updations
+  - Global cursors can be passed as an argument to stored procedure 
+
+Cons : are slower in performance than a While or a CTE
+
+About While Loops :
+Pros : are faster than cursors
+       less usage of temp storage
+       uses less amounts of lock
+
+Cons : Moving back and forth is not possible
+       Risk of infinite looping
