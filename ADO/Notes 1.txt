@@ -1,0 +1,26 @@
+ADO  : Activex Data Objects.
+ - Provides a bridge between front end controls and backend data. 
+ - encapsulates all the data access operations, and hides the data movement between the applications
+
+Architecture of ADO supports
+ 1. Connected : applications remain connected to the database through out irrespective of whether currently working or not
+
+ 2. Disconnected : applications can automatically connect/disconnect with the database
+                   - makes use of the temporary data storage structures like Datasets at the application space
+
+Important Classes/Objects
+1. Connection  : takes all relevant details for connecting to a database of a server
+2. Command : Sql commands that can be used to query or manipulate data
+             For execution of the commands
+              - executeReader() - returns an object of type DataReader (used with DQL/Select)
+              - executeNonQuery() - returns an int (rows affected) (used with DML commands)
+              - executeScalar() - returns a single value (any type)
+3. DataReader : a storage unit (result sets / data sets/ record sets)
+
+4. DataAdapter :
+5. DataSet : container objects that contains
+        - Data Tables
+        - Data Rows
+        - Data Columns
+        - Data Constraints
+        - DataRelationships

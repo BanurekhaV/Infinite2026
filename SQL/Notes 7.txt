@@ -94,3 +94,6 @@ Calculated/Computed Columns : are columns that are computed from an expression t
 
 Limitations : cannot refer to columns of the other table
 
+
+
+

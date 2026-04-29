@@ -1,0 +1,29 @@
+Normalization : is a process of decomposing a larger complex dataset into several smaller and simpler data sets
+ - move from a lower form to a higher form
+ - a process based on the candidate keys of a relation and functional dependencies amongst the other columns
+
+Why Normalization : Redundancy is the root cause for several problems associated with the relational schemas
+  - can cause insert/update delete anomalies
+  - wastage of storage
+
+Normal Forms : 
+1 NF : A relation/table is said to be in 1 NF, when every row contains exactly one value for each attribute/column
+
+Eg Employee {Eno, Dept, PrjCode, Hours} => {Eno,Prjcode}
+
+2 NF : A relation/Table is already in 1 NF, every non prime attribute should be fully, functionally dependent on the whole key( primary keys), and not partial dependencies (2 NF prohibits partial dependencies)
+    - remove all partial dependencies
+
+On decomposition
+  Emp {Eno} -> {Dept}
+  Empprj {Eno,Prjcode} -> {Hours}
+
+3 NF : A relation/table is already in 2 NF, and no non prime arrtibute should have transitive/indirect dependencies
+  - remove all transitive dependencies
+
+Emp {Eno, Dept, Dept_head}
+
+on decomposition
+
+Emp {Eno} -> {Dept}
+Dept {Dept -> {Depthead}
