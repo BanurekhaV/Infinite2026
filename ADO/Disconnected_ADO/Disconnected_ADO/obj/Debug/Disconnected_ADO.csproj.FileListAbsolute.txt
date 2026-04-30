@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\bin\Debug\Disconnected_ADO.exe.config
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\bin\Debug\Disconnected_ADO.exe
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\bin\Debug\Disconnected_ADO.pdb
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\obj\Debug\Disconnected_ADO.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\obj\Debug\Disconnected_ADO.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\obj\Debug\Disconnected_ADO.exe
+C:\Banu\2026\DotNet\ADO\Disconnected_ADO\Disconnected_ADO\obj\Debug\Disconnected_ADO.pdb
