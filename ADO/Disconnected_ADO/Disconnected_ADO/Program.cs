@@ -16,7 +16,9 @@ namespace Disconnected_ADO
 
         static void Main(string[] args)
         {
-            DisconnectedDataRead();
+            AddShipper();
+           // DisconnectedDataRead();
+
             Console.Read();
         }
 
@@ -43,6 +45,90 @@ namespace Disconnected_ADO
                 }
                 Console.WriteLine();
             }
+            //adding one more datatable to the dataset
+            Console.WriteLine("=============================");
+            adapter = new SqlDataAdapter("select * from Shippers", con);
+            adapter.Fill(ds, "NShippers");
+            dataTable = ds.Tables["NShippers"];
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                foreach (DataColumn dc in dataTable.Columns)
+                {
+                    Console.Write(row[dc] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            //procedure call
+            Console.WriteLine("******** Procedure Call **********");
+            Console.WriteLine("-----------------------");
+            adapter = new SqlDataAdapter("[ten most expensive products]", con);
+            adapter.SelectCommand.CommandType = CommandType.StoredProcedure;
+            adapter.Fill(ds, "ExpProducts");
+
+            dataTable = ds.Tables["ExpProducts"];
+
+            foreach (DataRow row in dataTable.Rows)
+            {
+                foreach (DataColumn dc in dataTable.Columns)
+                {
+                    Console.Write(row[dc] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        //let us try to add one row of data to a Table
+        public static void AddShipper()
+        {
+            con = new SqlConnection("Server = laptop-tjj7d977; Database = Northwind; Integrated security=true;");
+            con.Open();
+
+            adapter = new SqlDataAdapter("select * from Shippers", con);
+            ds = new DataSet();
+            adapter.Fill(ds, "NShippers");
+            DataTable dt = ds.Tables["NShippers"];
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                foreach (DataColumn dc in dt.Columns)
+                {
+                    Console.Write(dr[dc] + " ");
+                }
+                Console.WriteLine();                
+            }
+            //now add one row to the shipper table
+            DataRow row = ds.Tables["NShippers"].NewRow();
+
+            //now let us give values to the columns of the new row
+            row["Companyname"] = "Fedex";
+            row["phone"] = "(110) - 234567";
+
+            //now the new row with data has to be added to the rows collection of the datatable
+            ds.Tables["NShippers"].Rows.Add(row);
+
+            //now this new row needs to be inserted in the physical table
+            SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+            adapter.InsertCommand = builder.GetInsertCommand();
+
+            int res = adapter.Update(ds, "NShippers"); // this statement actually updates the table
+            Console.WriteLine("*************** New Row Updation ************");
+            Console.WriteLine(res + " No of Rows Affected...");
+
+            adapter.Fill(ds, "Nshippers");
+
+            dt = ds.Tables["NShippers"];
+
+            foreach(DataRow dr in dt.Rows)
+            {
+                foreach(DataColumn dc in dt.Columns)
+                {
+                    Console.Write(dr[dc] + " ");
+                }
+                Console.WriteLine();
+            }
+
         }
     }
 }
