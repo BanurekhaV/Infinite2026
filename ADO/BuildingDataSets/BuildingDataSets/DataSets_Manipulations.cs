@@ -89,10 +89,15 @@ namespace BuildingDataSets
 
             //sorting on custnames
 
+            DataView view = tableCust.DefaultView;
+            view.Sort = "CustomerName";
+            DataTable sortedTable = view.ToTable();
+
+
             tableCust.DefaultView.Sort = "CustomerName";
             
 
-            foreach (DataRow dr1 in tableCust.Rows)
+            foreach (DataRow dr1 in sortedTable.Rows)
             {
                 Console.WriteLine(dr1["CustomerId"] + " " + dr1["CustomerName"] + " " + dr1["AId"]);
             }
