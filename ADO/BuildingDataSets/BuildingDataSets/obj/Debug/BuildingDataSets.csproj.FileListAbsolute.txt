@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\bin\Debug\BuildingDataSets.exe.config
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\bin\Debug\BuildingDataSets.exe
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\bin\Debug\BuildingDataSets.pdb
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.exe
+C:\Banu\2026\DotNet\ADO\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.pdb

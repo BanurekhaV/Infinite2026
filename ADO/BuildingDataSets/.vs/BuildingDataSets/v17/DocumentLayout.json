@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|c:\\banu\\2026\\dotnet\\ado\\buildingdatasets\\buildingdatasets\\dataconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|solutionrelative:buildingdatasets\\dataconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|c:\\banu\\2026\\dotnet\\ado\\buildingdatasets\\buildingdatasets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|solutionrelative:buildingdatasets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataConstraints.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\DataConstraints.cs",
+              "RelativeDocumentMoniker": "BuildingDataSets\\DataConstraints.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\DataConstraints.cs",
+              "RelativeToolTip": "BuildingDataSets\\DataConstraints.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T10:56:34.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\Program.cs",
+              "RelativeDocumentMoniker": "BuildingDataSets\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\Program.cs",
+              "RelativeToolTip": "BuildingDataSets\\Program.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAIUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:43:12.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
