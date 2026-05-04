@@ -16,7 +16,8 @@ namespace Disconnected_ADO
 
         static void Main(string[] args)
         {
-            AddShipper();
+            // AddShipper();
+            Update_Region();
            // DisconnectedDataRead();
 
             Console.Read();
@@ -129,6 +130,53 @@ namespace Disconnected_ADO
                 Console.WriteLine();
             }
 
+        }
+
+        //update a record
+        public static void Update_Region()
+        {
+            try
+            {
+                con = new SqlConnection("Server = laptop-tjj7d977; Database = Northwind; Integrated security=true;");
+                con.Open();
+                string query = "Select * from Region";
+                adapter = new SqlDataAdapter(query, con);
+                ds = new DataSet();
+                adapter.Fill(ds);
+                DataTable dt = ds.Tables[0];
+                foreach (DataRow dr in dt.Rows)
+                {
+                    foreach (DataColumn dc in dt.Columns)
+                    {
+                        Console.Write(dr[dc] + " ");
+                    }
+                    Console.WriteLine();
+                }
+
+                //update a row
+                dt = ds.Tables[0];
+                dt.Rows[5]["RegionDescription"] = "Non Cyclonic Region";
+                SqlCommandBuilder scb = new SqlCommandBuilder(adapter);
+                adapter.UpdateCommand = scb.GetUpdateCommand();
+                adapter.Update(ds);
+                Console.WriteLine();
+               // adapter.Fill(ds);
+                Console.WriteLine("-------Post Updation--------");
+               
+
+                foreach (DataRow dr1 in dt.Rows)
+                {
+                    foreach (DataColumn dc1 in dt.Columns)
+                    {
+                        Console.Write(dr1[dc1] + " ");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            catch(SqlException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }

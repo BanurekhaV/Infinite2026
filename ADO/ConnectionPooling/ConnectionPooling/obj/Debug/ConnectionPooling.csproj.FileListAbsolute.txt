@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\bin\Debug\ConnectionPooling.exe.config
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\bin\Debug\ConnectionPooling.exe
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\bin\Debug\ConnectionPooling.pdb
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\obj\Debug\ConnectionPooling.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\obj\Debug\ConnectionPooling.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\obj\Debug\ConnectionPooling.exe
+C:\Banu\2026\DotNet\ADO\ConnectionPooling\ConnectionPooling\obj\Debug\ConnectionPooling.pdb

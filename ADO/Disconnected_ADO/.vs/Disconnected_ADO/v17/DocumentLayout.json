@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -36,9 +32,9 @@
               "RelativeDocumentMoniker": "Disconnected_ADO\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\Disconnected_ADO\\Disconnected_ADO\\Program.cs",
               "RelativeToolTip": "Disconnected_ADO\\Program.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAAwHoAAAAqAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T07:44:12.457Z",
+              "WhenOpened": "2026-05-04T05:12:55.21Z",
               "EditorCaption": ""
             }
           ]
