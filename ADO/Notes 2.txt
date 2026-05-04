@@ -1,0 +1,46 @@
+Transaction management System : Locking mechanism, works on the locking policy that changes based on the level of isolation
+
+Transaction Isolation levels :
+ 1. Serializable : Highest level of isolation. Exclusive range of locks are applied
+ 2. Repeatable Read : Second highest level of isolation. Same as serializable, but does not acquire range of locks. Phantom reads are possible.
+ 3. Read Committed : Acquires a shared lock and allows reading only committed data. Avoids read changes as a part of the transaction
+ 4. Read Uncommitted : Lowest level. Dirty reads
+
+Reading Mechanisms :
+ - Dirty Reads
+
+ - Non Repeatable Reads :
+
+ - Phantom Reads :
+
+Transaction Scope : is when an object ensures all operations within the scope are treated as a single unit of work, maintaining consistency and integrity
+  - It does not require us to create a separate transaction
+  - It will automatically manage ambient transactions and does not need connection transaction
+
+Ambient Transaction : A transaction which identifies on its own a block of code that needs the support of transaction, without we explicitly mentioning it.
+
+Connection Transaction : Transactions that are tied directly to the SqlConnection object.
+
+
+DataSets : Building Applications using Datasets
+When to use DataSets :
+---------------------
+Datasets : complex structures in an application with multiple datatables, relationships, rows, columns, constraints etc
+         - acts like a mirror to the datasource
+         - Disconnected manipulation : When we need to work offline. All changes are made locally to the dataset and then updated to the data source
+         - Data Serialization
+         - Data Reporting and Data Analysis
+         - Data Transformations
+         - Hierarchical Data
+
+Cons : Usage of memory -  is more
+       Performance - flexibility can impact performance sometimes
+       Data access : can be a bottleneck when applications are performing heavy reads
+
+When to use DataReaders : When there is heavy reading
+                          Works like a forward only cursor
+                          Uses memory efficiently
+                          Better Performance
+
+Cons : always connected.
+       
