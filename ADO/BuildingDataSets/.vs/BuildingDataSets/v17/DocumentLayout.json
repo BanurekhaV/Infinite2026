@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|c:\\banu\\2026\\dotnet\\ado\\buildingdatasets\\buildingdatasets\\datasets_manipulations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|solutionrelative:buildingdatasets\\datasets_manipulations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|c:\\banu\\2026\\dotnet\\ado\\buildingdatasets\\buildingdatasets\\dataconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|solutionrelative:buildingdatasets\\dataconstraints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|c:\\banu\\2026\\dotnet\\ado\\buildingdatasets\\buildingdatasets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\buildingdatasets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046DB70D-E71C-47C9-AFD4-C8C01EEECC1B}|BuildingDataSets\\BuildingDataSets.csproj|solutionrelative:buildingdatasets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataSets_Manipulations.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\DataSets_Manipulations.cs",
+              "RelativeDocumentMoniker": "BuildingDataSets\\DataSets_Manipulations.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\DataSets_Manipulations.cs",
+              "RelativeToolTip": "BuildingDataSets\\DataSets_Manipulations.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T12:12:36.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DataConstraints.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\DataConstraints.cs",
               "RelativeDocumentMoniker": "BuildingDataSets\\DataConstraints.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\DataConstraints.cs",
               "RelativeToolTip": "BuildingDataSets\\DataConstraints.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAwwFYAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwE8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T10:56:34.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\BuildingDataSets\\BuildingDataSets\\Program.cs",
               "RelativeDocumentMoniker": "BuildingDataSets\\Program.cs",
@@ -51,8 +68,7 @@
               "RelativeToolTip": "BuildingDataSets\\Program.cs",
               "ViewState": "AQIAAIUAAAAAAAAAAAAAAIUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T09:43:12.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T09:43:12.95Z"
             }
           ]
         }
