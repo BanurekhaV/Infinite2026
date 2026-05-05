@@ -52,4 +52,18 @@ LINQ : Language Integrated Query
 LINQ to collections
 LINQ to Objects
 LINQ to Data Tables
-LINQ to SQL
+LINQ to SQL 
+
+Linq to SQL : is an infrastructure(runtime) for relational data to be managed as an object representation
+
+Table  ---------------  Class
+Column ---------------- Properties
+Rows ------------------ Instances
+Stored Procedures ------ Methods/Functions
+
+To work with Linq to Sql, we need to convert all entities to objects. This process is known as ORM
+ object relational mapper
+
+- We can generate mapped objects using
+1. Visual Studio (Linq to Sql classes)
+2. SqlMetal .exe

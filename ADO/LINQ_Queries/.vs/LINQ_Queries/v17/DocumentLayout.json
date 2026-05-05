@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\ADO\\LINQ_Queries\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F3BE3F1-1F50-4998-B1F8-00ACD8C74D7E}|LINQ_Queries\\LINQ_Queries.csproj|c:\\banu\\2026\\dotnet\\ado\\linq_queries\\linq_queries\\linq_with_datatables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F3BE3F1-1F50-4998-B1F8-00ACD8C74D7E}|LINQ_Queries\\LINQ_Queries.csproj|solutionrelative:linq_queries\\linq_with_datatables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F3BE3F1-1F50-4998-B1F8-00ACD8C74D7E}|LINQ_Queries\\LINQ_Queries.csproj|c:\\banu\\2026\\dotnet\\ado\\linq_queries\\linq_queries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F3BE3F1-1F50-4998-B1F8-00ACD8C74D7E}|LINQ_Queries\\LINQ_Queries.csproj|solutionrelative:linq_queries\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Linq_with_Datatables.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\LINQ_Queries\\LINQ_Queries\\Linq_with_Datatables.cs",
+              "RelativeDocumentMoniker": "LINQ_Queries\\Linq_with_Datatables.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\LINQ_Queries\\LINQ_Queries\\Linq_with_Datatables.cs",
+              "RelativeToolTip": "LINQ_Queries\\Linq_with_Datatables.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAwHUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T09:39:43.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ADO\\LINQ_Queries\\LINQ_Queries\\Program.cs",
               "RelativeDocumentMoniker": "LINQ_Queries\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\ADO\\LINQ_Queries\\LINQ_Queries\\Program.cs",
               "RelativeToolTip": "LINQ_Queries\\Program.cs",
-              "ViewState": "AQIAAPMAAAAAAAAAAAAAAAYBAAAoAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T05:38:07.332Z",
               "EditorCaption": ""

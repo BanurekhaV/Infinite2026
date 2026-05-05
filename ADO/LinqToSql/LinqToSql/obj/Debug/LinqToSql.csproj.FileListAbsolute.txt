@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\bin\Debug\LinqToSql.exe.config
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\bin\Debug\LinqToSql.exe
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\bin\Debug\LinqToSql.pdb
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\obj\Debug\LinqToSql.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\obj\Debug\LinqToSql.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\obj\Debug\LinqToSql.exe
+C:\Banu\2026\DotNet\ADO\LinqToSql\LinqToSql\obj\Debug\LinqToSql.pdb

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="InfiniteDB" Class="vsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-TJJ7D977;Initial Catalog=InfiniteDB;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="LinqToSql.Properties.Settings" SettingsPropertyName="InfiniteDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblEmployee" Member="tblEmployees">
+    <Type Name="tblEmployee">
+      <Column Name="EmpId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmpName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="Char(7)" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="DepartmentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Emp" Member="Emps">
+    <Type Name="Emp">
+      <Column Name="empno" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ename" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="job" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="[mgr-id]" Member="mgr_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hiredate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[comm.]" Member="comm_" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="deptno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fname" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.sp_getEmpSalary" Method="sp_getEmpSalary">
+    <Parameter Name="empname" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="esal" Type="System.Decimal" DbType="Decimal(18,0)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

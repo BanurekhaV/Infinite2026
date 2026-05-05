@@ -22,8 +22,9 @@ namespace LINQ_Queries
             //Group_Join();
             // Skip_Func();
             // Skip_While_fn();
-            Take_Func();
-            TakeWhile_Func();
+            //Take_Func();
+            //TakeWhile_Func();
+            Select_Many();
             Console.Read();
         }
 
@@ -254,6 +255,27 @@ namespace LINQ_Queries
             foreach(int n in result)
             {
                 Console.WriteLine(n);
+            }
+        }
+
+        //select many -- cross join
+
+        static void Select_Many()
+        {
+            string[] fruits = { "Grape", "Apple", "Orange" };
+            int[] amounts = { 1, 2, 3 };
+
+            var result = fruits.SelectMany(f => amounts, (f, a) => new
+            {
+                Fruit = f,
+                Amount = a
+            });
+
+            Console.WriteLine("Selectiong all values -------------");
+
+            foreach(var o in result)
+            {
+                Console.WriteLine(o.Fruit + " " + o.Amount);
             }
         }
     }
