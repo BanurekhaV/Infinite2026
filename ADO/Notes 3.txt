@@ -1,0 +1,55 @@
+XML : extensible Mark Up Language
+      - It is a text based mark up Lang
+      - It is derived from SGML ( standard generalized mark up Lang)
+      - It is a public standard ( W3 open standards)
+      - Xml tags identify the data that are used to store and organize
+      - User defined tags are possible
+
+XML Usage : Simplifies creation of html documents for both small and large scale application/website
+            - Used for storing and exchanging data
+            - Can express any data type
+
+&lt  = <
+&amp = &
+&apos = '
+&quot = "
+
+Xml documents can be created and validated against well formed documents
+ 1. DTD - Document Type Definition
+ 2. XSD - Xml Schema Definition
+
+DTD :
+<?xml version="1.0">
+<!Doctype "Employee Management System" employee.dtd>
+<Employees>
+  <employee>
+   <id>1</id>
+   <name>Nawin</name>                     
+  </employee>                           
+ <employee>
+   <id>2</id>
+   <name>Praveen</name>
+  </employee>
+</Employees>
+
+XSD :
+<?xml version="1.0">
+<Employee
+   xmlns="https://www.infinite.com"
+   xmlns:xsi="http://www.w3.org/2001/xmlschema-instance
+   xsi:schemaLocation="https://www.infinite.com employee.xsd>
+
+
+LINQ : Language Integrated Query
+  - is a query standard to query any data source
+  - less code
+  - more readable
+  - intellisense support
+  - compile time safe
+  - English like
+  - no need to learn many query languages
+
+LINQ to collections
+LINQ to Objects
+LINQ to Data Tables
+LINQ to SQL

@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\bin\Debug\LINQ_Queries.exe.config
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\bin\Debug\LINQ_Queries.exe
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\bin\Debug\LINQ_Queries.pdb
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\obj\Debug\LINQ_Queries.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\obj\Debug\LINQ_Queries.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\obj\Debug\LINQ_Queries.exe
+C:\Banu\2026\DotNet\ADO\LINQ_Queries\LINQ_Queries\obj\Debug\LINQ_Queries.pdb
