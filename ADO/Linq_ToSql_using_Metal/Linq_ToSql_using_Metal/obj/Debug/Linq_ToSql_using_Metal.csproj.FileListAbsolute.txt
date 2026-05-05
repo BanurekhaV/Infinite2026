@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\bin\Debug\Linq_ToSql_using_Metal.exe.config
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\bin\Debug\Linq_ToSql_using_Metal.exe
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\bin\Debug\Linq_ToSql_using_Metal.pdb
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\obj\Debug\Linq_ToSql_using_Metal.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\obj\Debug\Linq_ToSql_using_Metal.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\obj\Debug\Linq_ToSql_using_Metal.exe
+C:\Banu\2026\DotNet\ADO\Linq_ToSql_using_Metal\Linq_ToSql_using_Metal\obj\Debug\Linq_ToSql_using_Metal.pdb
