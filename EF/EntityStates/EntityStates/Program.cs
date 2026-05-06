@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Objects;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Data;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -30,12 +33,12 @@ namespace EntityStates
             // UpdateEmp();
             //Console.WriteLine("------------------ Deletion --------------------");
             //DeleteEmp();
-            Console.WriteLine("-------------- All Employees ----------------");
-            ShowEmp();
-            //Console.WriteLine("--------------- Stored Procedure------------------");
-            //CallProcedure();
-            Console.WriteLine("--------------- Function call ---------------------");
-            CallFunction();
+            //Console.WriteLine("-------------- All Employees ----------------");
+            //ShowEmp();
+            Console.WriteLine("--------------- Stored Procedure------------------");
+            CallProcedure();
+            //Console.WriteLine("--------------- Function call ---------------------");
+            //CallFunction();
             Console.Read();
         }
 
@@ -95,11 +98,124 @@ namespace EntityStates
 
         static void CallProcedure()
         {
+            ObjectParameter param = new ObjectParameter("eSal",typeof(decimal));
+            ObjectParameter param2 = new ObjectParameter("Empname", typeof(string));
+            param2.Value = "Banurekha";
+            db.sp_getEmpSalary(param2.Value.ToString(), param);
+            Console.WriteLine((param.Value).ToString());
 
+
+            Console.WriteLine("----------- Employee Total Sal and Count for a Department-------");
+
+            //option 1
+            //var Empcount = new SqlParameter
+            //{
+            //    ParameterName = "@ReturnValue",
+            //    SqlDbType = System.Data.SqlDbType.Int,
+            //    Direction = System.Data.ParameterDirection.ReturnValue
+            //};
+
+            //var TotSalary = new SqlParameter
+            //{
+            //    ParameterName = "@totsal",
+            //    SqlDbType = System.Data.SqlDbType.Decimal,
+            //    Direction = System.Data.ParameterDirection.Output
+            //};
+
+            //var Deptid = new SqlParameter
+            //{
+            //    ParameterName = "@deptid",
+            //    //Value = 2,
+            //    SqlDbType = System.Data.SqlDbType.Int,
+            //    Direction = System.Data.ParameterDirection.Input,
+            //};
+            ////calling the proc sp_getempcount
+
+            //var employees = db.Database.SqlQuery<tblEmployee>(
+            //    "Exec @ReturnValue = sp_getEmpcount 2,@totsal output", Empcount, TotSalary
+            //    ).ToList();
+
+            //int TotEmp = (int)Empcount.Value;
+            //decimal Deptsalary = (decimal)TotSalary.Value;
+
+            //Console.WriteLine($"No of Employees in Dept 2 : {TotEmp} and the Total Salary for the Dept : {Deptsalary}");
+
+            //option 2
+
+            var results = from e in db.tblEmployees
+                          group e by e.DepartmentId into deptgp
+                          select new
+                          {
+                              Deptid = deptgp.Key,
+                              Empcount = deptgp.Count(),
+                              TotSal = deptgp.Sum(emp => emp.Salary)
+                          };
+
+            foreach(var e in results )
+            {
+                Console.WriteLine($"Department Id : {e.Deptid} has  {e.Empcount} no. of Employees and the Department Total salary is :{e.TotSal}");
+            }
+
+            //option 3
+
+            Console.WriteLine("------------------------Using ADO classes--------------");
+            using(var context = new InfiniteDBEntities())
+            {
+                //ensure the connection is open
+                var connection = context.Database.Connection;
+                if(connection.State != ConnectionState.Open)
+                    connection.Open();
+
+                using(var command = connection.CreateCommand())
+                {
+                    command.CommandText = "dbo.sp_getEmpCount";
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    //input parameter
+                    Console.WriteLine("Enter The dept Id : ");
+                    int did = Convert.ToInt32(Console.ReadLine());
+
+                    var DeptIdParam = new SqlParameter("@deptid", SqlDbType.Int)
+                    {
+                        Direction = ParameterDirection.Input,
+                        Value = did
+                    };
+
+                    //output parameter
+
+                    var DeptTotSalParam = new SqlParameter
+                    {
+                        ParameterName = "@totsal",
+                        SqlDbType = SqlDbType.Decimal,
+                        Direction = ParameterDirection.Output,
+                    };
+
+                    //return value parameter
+                    var EmpCountParam = new SqlParameter
+                    {
+                        ParameterName = "@ReturnValue",
+                        SqlDbType = SqlDbType.Int,
+                        Direction = ParameterDirection.ReturnValue,
+                    };
+
+                    command.Parameters.Add(DeptIdParam);
+                    command.Parameters.Add(EmpCountParam);
+                    command.Parameters.Add(DeptTotSalParam);
+
+                    command.ExecuteNonQuery();
+
+                    //let us het the values from the procedure
+
+                    decimal totempsal = Convert.ToDecimal(DeptTotSalParam.Value);
+                    int empcount = (int)EmpCountParam.Value;
+
+                    Console.WriteLine($" Dept Total Salary : {totempsal},and No.Of Employees:{empcount}");
+                }
+            }
         }
 
         static void CallFunction()
-        {
+        { 
             var results = db.fn_GetEmpByGender("Female");
 
             foreach(var item in  results)
