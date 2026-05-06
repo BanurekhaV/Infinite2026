@@ -1,0 +1,12 @@
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityStates.exe.config
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityStates.exe
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityStates.pdb
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityFramework.dll
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityFramework.SqlServer.dll
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityFramework.xml
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\bin\Debug\EntityFramework.SqlServer.xml
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\obj\Debug\EntityStates.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\obj\Debug\EntityStates.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\obj\Debug\EntitySt.60A9261F.Up2Date
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\obj\Debug\EntityStates.exe
+C:\Banu\2026\DotNet\EF\EntityStates\EntityStates\obj\Debug\EntityStates.pdb
