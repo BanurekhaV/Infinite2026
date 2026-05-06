@@ -108,40 +108,46 @@ namespace EntityStates
             Console.WriteLine("----------- Employee Total Sal and Count for a Department-------");
 
             //option 1
-            //var Empcount = new SqlParameter
-            //{
-            //    ParameterName = "@ReturnValue",
-            //    SqlDbType = System.Data.SqlDbType.Int,
-            //    Direction = System.Data.ParameterDirection.ReturnValue
-            //};
+            Console.WriteLine("Enter Dept id for the procedure :");
+            int depid = Convert.ToInt32(Console.ReadLine());
 
-            //var TotSalary = new SqlParameter
-            //{
-            //    ParameterName = "@totsal",
-            //    SqlDbType = System.Data.SqlDbType.Decimal,
-            //    Direction = System.Data.ParameterDirection.Output
-            //};
+            using (var context = new InfiniteDBEntities())
+            {
+                var ReturnValue = new SqlParameter
+                {
+                    ParameterName = "@ReturnVal",
+                    SqlDbType = System.Data.SqlDbType.Int,
+                    Direction = System.Data.ParameterDirection.Output,
+                };
 
-            //var Deptid = new SqlParameter
-            //{
-            //    ParameterName = "@deptid",
-            //    //Value = 2,
-            //    SqlDbType = System.Data.SqlDbType.Int,
-            //    Direction = System.Data.ParameterDirection.Input,
-            //};
-            ////calling the proc sp_getempcount
+                var TotSalary = new SqlParameter
+                {
+                    ParameterName = "@totsal",
+                    SqlDbType = System.Data.SqlDbType.Decimal,
+                    Direction = System.Data.ParameterDirection.Output
+                };
 
-            //var employees = db.Database.SqlQuery<tblEmployee>(
-            //    "Exec @ReturnValue = sp_getEmpcount 2,@totsal output", Empcount, TotSalary
-            //    ).ToList();
+                var Deptid = new SqlParameter
+                {
+                    ParameterName = "@deptid",
+                    Value = depid,
+                    SqlDbType = System.Data.SqlDbType.Int,
+                };
+                //calling the proc sp_getempcount
 
-            //int TotEmp = (int)Empcount.Value;
-            //decimal Deptsalary = (decimal)TotSalary.Value;
+                 db.Database.ExecuteSqlCommand(
+                  "Exec @ReturnVal = sp_getEmpCount @deptid,@totsal OUTPUT",
+                  ReturnValue,Deptid,TotSalary);
 
-            //Console.WriteLine($"No of Employees in Dept 2 : {TotEmp} and the Total Salary for the Dept : {Deptsalary}");
+
+                int TotEmp = (int)ReturnValue.Value;
+                decimal Deptsalary = (decimal)TotSalary.Value;
+
+                Console.WriteLine($"No of Employees in Dept  : {Deptid.Value} is  {TotEmp} and the Total Salary for the Dept : {Deptsalary}");
+            }
 
             //option 2
-
+            Console.WriteLine("---------- Linq based procedure output--------");
             var results = from e in db.tblEmployees
                           group e by e.DepartmentId into deptgp
                           select new
@@ -151,7 +157,7 @@ namespace EntityStates
                               TotSal = deptgp.Sum(emp => emp.Salary)
                           };
 
-            foreach(var e in results )
+            foreach (var e in results)
             {
                 Console.WriteLine($"Department Id : {e.Deptid} has  {e.Empcount} no. of Employees and the Department Total salary is :{e.TotSal}");
             }
@@ -159,14 +165,14 @@ namespace EntityStates
             //option 3
 
             Console.WriteLine("------------------------Using ADO classes--------------");
-            using(var context = new InfiniteDBEntities())
+            using (var context = new InfiniteDBEntities())
             {
                 //ensure the connection is open
                 var connection = context.Database.Connection;
-                if(connection.State != ConnectionState.Open)
+                if (connection.State != ConnectionState.Open)
                     connection.Open();
 
-                using(var command = connection.CreateCommand())
+                using (var command = connection.CreateCommand())
                 {
                     command.CommandText = "dbo.sp_getEmpCount";
                     command.CommandType = CommandType.StoredProcedure;

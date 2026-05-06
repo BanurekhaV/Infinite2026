@@ -116,13 +116,13 @@ namespace EntityStates
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_getdept", eidParameter);
         }
     
-        public virtual ObjectResult<string> sp_getempCount(Nullable<int> deptid, ObjectParameter totsal)
+        public virtual ObjectResult<sp_getempCount_Result> sp_getempCount(Nullable<int> deptid, ObjectParameter totsal)
         {
             var deptidParameter = deptid.HasValue ?
                 new ObjectParameter("deptid", deptid) :
                 new ObjectParameter("deptid", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("sp_getempCount", deptidParameter, totsal);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_getempCount_Result>("sp_getempCount", deptidParameter, totsal);
         }
     
         public virtual int sp_getEmpSalary(string empname, ObjectParameter esal)

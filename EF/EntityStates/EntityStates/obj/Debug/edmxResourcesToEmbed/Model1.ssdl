@@ -1,25 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="InfiniteDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.AuditLog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="AuditLog">
-          <Property Name="msg" Type="nvarchar(max)" />
-          <Property Name="auditdate" Type="date" />
-        </EntityType>-->
-  <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.Bonusdata' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="Bonusdata">
-          <Property Name="Bid" Type="int" />
-          <Property Name="Eid" Type="int" />
-          <Property Name="BonusAmt" Type="int" />
-        </EntityType>-->
-  <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.casetable' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="casetable">
-          <Property Name="cid" Type="int" />
-          <Property Name="cname" Type="varchar" MaxLength="20" />
-        </EntityType>-->
-  <!--Errors Found During Generation:
 warning 6002: The table/view 'InfiniteDB.dbo.cityData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="cityData">
     <Key>
@@ -128,13 +109,6 @@ warning 6002: The table/view 'InfiniteDB.dbo.Stable2' does not have a primary ke
     <Property Name="Salary" Type="decimal" Precision="18" Scale="0" />
     <Property Name="DepartmentId" Type="int" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.tblsample' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="tblsample">
-          <Property Name="sampleid" Type="int" />
-          <Property Name="sname" Type="varchar" MaxLength="30" />
-          <Property Name="phone" Type="varchar" MaxLength="11" />
-        </EntityType>-->
   <Association Name="FK__Emp__deptno__5FB337D6">
     <End Role="Dept" Type="Self.Dept" Multiplicity="0..1" />
     <End Role="Emp" Type="Self.Emp" Multiplicity="*" />

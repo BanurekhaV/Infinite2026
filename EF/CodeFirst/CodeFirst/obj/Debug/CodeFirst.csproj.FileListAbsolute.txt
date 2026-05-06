@@ -1,0 +1,15 @@
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\CodeFirst.exe.config
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\CodeFirst.exe
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\CodeFirst.pdb
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\EntityFramework.dll
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\EntityFramework.xml
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.Up2Date
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.exe
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.pdb
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.InitialCreate.resources
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.csproj.GenerateResource.cache
+C:\Banu\2026\DotNet\EF\CodeFirst\CodeFirst\obj\Debug\CodeFirst.Migrations.RatingColumntoBooksadded.resources

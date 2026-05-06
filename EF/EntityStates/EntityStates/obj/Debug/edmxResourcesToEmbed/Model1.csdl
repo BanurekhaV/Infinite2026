@@ -202,7 +202,7 @@
     <FunctionImport Name="sp_getdept">
       <Parameter Name="eid" Mode="In" Type="Int32" />
     </FunctionImport>
-    <FunctionImport Name="sp_getempCount" ReturnType="Collection(String)">
+    <FunctionImport Name="sp_getempCount" ReturnType="Collection(InfiniteDBModel.sp_getempCount_Result)">
       <Parameter Name="deptid" Mode="In" Type="Int32" />
       <Parameter Name="totsal" Mode="InOut" Type="Decimal" />
     </FunctionImport>
@@ -262,5 +262,8 @@
     <Property Type="Int32" Name="comm_" Nullable="true" />
     <Property Type="Int32" Name="deptno" Nullable="true" />
     <Property Type="String" Name="fname" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="sp_getempCount_Result">
+    <Property Type="String" Name="Column1" Nullable="false" MaxLength="35" />
   </ComplexType>
 </Schema>

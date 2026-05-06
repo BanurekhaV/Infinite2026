@@ -102,6 +102,9 @@
     <Compile Include="sp_employeedata_Result.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="sp_getempCount_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="sp_getSalary_Result.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

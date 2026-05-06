@@ -169,7 +169,13 @@
     </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="sp_errorhandler" FunctionName="InfiniteDBModel.Store.sp_errorhandler" />
     <FunctionImportMapping FunctionImportName="sp_getdept" FunctionName="InfiniteDBModel.Store.sp_getdept" />
-    <FunctionImportMapping FunctionImportName="sp_getempCount" FunctionName="InfiniteDBModel.Store.sp_getempCount" />
+    <FunctionImportMapping FunctionImportName="sp_getempCount" FunctionName="InfiniteDBModel.Store.sp_getempCount">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.sp_getempCount_Result">
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="sp_getEmpSalary" FunctionName="InfiniteDBModel.Store.sp_getEmpSalary" />
     <FunctionImportMapping FunctionImportName="sp_getSalary" FunctionName="InfiniteDBModel.Store.sp_getSalary">
       <ResultMapping>

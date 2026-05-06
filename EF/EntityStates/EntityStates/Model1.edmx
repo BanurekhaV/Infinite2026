@@ -6,25 +6,6 @@
     <edmx:StorageModels>
     <Schema Namespace="InfiniteDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.AuditLog' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="AuditLog">
-          <Property Name="msg" Type="nvarchar(max)" />
-          <Property Name="auditdate" Type="date" />
-        </EntityType>-->
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.Bonusdata' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="Bonusdata">
-          <Property Name="Bid" Type="int" />
-          <Property Name="Eid" Type="int" />
-          <Property Name="BonusAmt" Type="int" />
-        </EntityType>-->
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.casetable' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="casetable">
-          <Property Name="cid" Type="int" />
-          <Property Name="cname" Type="varchar" MaxLength="20" />
-        </EntityType>-->
-        <!--Errors Found During Generation:
 warning 6002: The table/view 'InfiniteDB.dbo.cityData' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="cityData">
           <Key>
@@ -133,13 +114,6 @@ warning 6002: The table/view 'InfiniteDB.dbo.Stable2' does not have a primary ke
           <Property Name="Salary" Type="decimal" Precision="18" Scale="0" />
           <Property Name="DepartmentId" Type="int" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6013: The table/view 'InfiniteDB.dbo.tblsample' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="tblsample">
-          <Property Name="sampleid" Type="int" />
-          <Property Name="sname" Type="varchar" MaxLength="30" />
-          <Property Name="phone" Type="varchar" MaxLength="11" />
-        </EntityType>-->
         <Association Name="FK__Emp__deptno__5FB337D6">
           <End Role="Dept" Type="Self.Dept" Multiplicity="0..1" />
           <End Role="Emp" Type="Self.Emp" Multiplicity="*" />
@@ -508,7 +482,7 @@ warning 6013: The table/view 'InfiniteDB.dbo.tblsample' does not have a primary 
           <FunctionImport Name="sp_getdept">
           <Parameter Name="eid" Mode="In" Type="Int32" />
           </FunctionImport>
-          <FunctionImport Name="sp_getempCount" ReturnType="Collection(String)">
+          <FunctionImport Name="sp_getempCount" ReturnType="Collection(InfiniteDBModel.sp_getempCount_Result)">
             <Parameter Name="deptid" Mode="In" Type="Int32" />
             <Parameter Name="totsal" Mode="InOut" Type="Decimal" />
           </FunctionImport>
@@ -568,6 +542,9 @@ warning 6013: The table/view 'InfiniteDB.dbo.tblsample' does not have a primary 
           <Property Type="Int32" Name="comm_" Nullable="true" />
           <Property Type="Int32" Name="deptno" Nullable="true" />
           <Property Type="String" Name="fname" Nullable="true" MaxLength="20" />
+        </ComplexType>
+        <ComplexType Name="sp_getempCount_Result">
+          <Property Type="String" Name="Column1" Nullable="false" MaxLength="35" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -743,7 +720,13 @@ warning 6013: The table/view 'InfiniteDB.dbo.tblsample' does not have a primary 
           </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="sp_errorhandler" FunctionName="InfiniteDBModel.Store.sp_errorhandler" />
           <FunctionImportMapping FunctionImportName="sp_getdept" FunctionName="InfiniteDBModel.Store.sp_getdept" />
-          <FunctionImportMapping FunctionImportName="sp_getempCount" FunctionName="InfiniteDBModel.Store.sp_getempCount" />
+          <FunctionImportMapping FunctionImportName="sp_getempCount" FunctionName="InfiniteDBModel.Store.sp_getempCount" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="InfiniteDBModel.sp_getempCount_Result">
+                <ScalarProperty Name="Column1" ColumnName="Column1" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="sp_getEmpSalary" FunctionName="InfiniteDBModel.Store.sp_getEmpSalary" />
           <FunctionImportMapping FunctionImportName="sp_getSalary" FunctionName="InfiniteDBModel.Store.sp_getSalary">
             <ResultMapping>

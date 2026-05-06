@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\entitystates\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|solutionrelative:entitystates\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|c:\\banu\\2026\\dotnet\\ef\\entitystates\\entitystates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|solutionrelative:entitystates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\entitystates\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|solutionrelative:entitystates\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\entitystates\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|solutionrelative:entitystates\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D72D0A92-E49D-41C9-98EA-49082E6825BF}|EntityStates\\EntityStates.csproj|C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\entitystates\\fn_getallempdata_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,41 +82,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Model1.Context.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\EntityStates\\Model1.Context.cs",
               "RelativeDocumentMoniker": "EntityStates\\Model1.Context.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\EntityStates\\Model1.Context.cs",
               "RelativeToolTip": "EntityStates\\Model1.Context.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAIsAAAAwAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAB0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T04:59:43.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\EntityStates\\Program.cs",
               "RelativeDocumentMoniker": "EntityStates\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\EntityStates\\Program.cs",
               "RelativeToolTip": "EntityStates\\Program.cs",
-              "ViewState": "AQIAAJ0AAAAAAAAAAAAAAIwAAAB6AAAA",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAAJUAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T04:46:32.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\EntityStates\\Model1.edmx",
               "RelativeDocumentMoniker": "EntityStates\\Model1.edmx",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\EF\\EntityStates\\EntityStates\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "EntityStates\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-05-06T04:56:59.874Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2026-05-06T04:56:59.874Z"
             },
             {
               "$type": "Document",
@@ -164,8 +163,7 @@
               "RelativeToolTip": "EntityStates\\Model1.Context.tt",
               "ViewState": "AQIAAPQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-06T04:59:28.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T04:59:28.674Z"
             }
           ]
         }
