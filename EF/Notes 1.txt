@@ -23,3 +23,7 @@ Life Cycle of an entity object / Entity States
 
 Entity Framework supports 3 approaches to ORM
 1. Database First : (Existing Database) - Relations/Tables are simply mapped to classes as Models
+
+2. Code First : (No existing Database) - Classes get mapped to relations using a technique called migrations
+
+3. Model First : Create Models in the design mode, then convert the models to classes, and the classes to realtions
