@@ -1,0 +1,17 @@
+﻿body
+{
+    background-image:url("IMG/Tree.webp");
+    background-position:center;
+}
+div{
+    background-color:burlywood;
+    height:300px;
+    width:200px;
+    color:chocolate;
+}
+#myid{
+    color:darkred;
+}
+.cls{
+    color:darkblue;
+}

@@ -48,9 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="IMG\Tree.webp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ExternalStyle.html" />
+    <Content Include="Form.html" />
+    <Content Include="Audio_Video.html" />
+    <Content Include="MultiColumn.html" />
+    <Content Include="MyStyle.css" />
+    <Content Include="PostRegistration.html" />
     <Content Include="Sample.html" />
+    <Content Include="Table.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
