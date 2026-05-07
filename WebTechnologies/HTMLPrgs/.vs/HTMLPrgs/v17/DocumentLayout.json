@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\sample.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\sample.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sample.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Sample.html",
+              "RelativeDocumentMoniker": "HTMLPrgs\\Sample.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Sample.html",
+              "RelativeToolTip": "HTMLPrgs\\Sample.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-07T07:53:00.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Program.cs",
+              "RelativeDocumentMoniker": "HTMLPrgs\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Program.cs",
+              "RelativeToolTip": "HTMLPrgs\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T07:51:58.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

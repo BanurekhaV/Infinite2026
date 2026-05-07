@@ -1,0 +1,60 @@
+Web Technologies :
+ 
+   WWW ? World Wide Web
+Network of Information
+A Uniform naming scheme for locating a resource on the web (URI)
+Protocol, for accessing the named resources over the web (HTTP)
+Content/hyper text - for easy navigation amongst the resources (HTML)
+
+W3C. org - World Wide Web Consortium 
+
+Resource : (document, image, audio, video, program, application etc...) will have to have an address that can be accessed using the URI
+Eg : https://www.mysite.com/mypage
+      1         2              3
+
+1. Protocol, 2. Machine/Domain , 3. Actual resource
+
+URI > (URN || URL)
+Uniform Resource Name ( defines an item's identity)
+Uniform Resource Locator (provides methods to find a resource)
+
+Web Pages : a document
+Architecture : DOM  Model (Document Object Model)
+
+HTML + CSS + JavaScript = Content + Style + Behaviour
+
+HTML : Hyper Text Mark Up Lang
+       It is known as a publishing lang of WWW
+       Made up of predefined tags, elements, attributes and values
+
+Versions : 1,2,3,4,5  (Non semantic and Semantic tags)
+
+Semantic Tags : are tags or elements that describe the meaning both to the browser as well as the developer
+  <form><table><article><section>
+
+Non Semantic Tags : are tags that do not convey anything
+  <div><p><h1><span>
+
+Paired and Unpaired tags
+
+HTTP : Hyper Text Transfer Protocol
+       is a network protocol, used to deliver virtually any resource on the web
+       is an HTTP Client , as it sends/receives request to and from the server
+       operates on a default port 8080, to listen to requests
+
+CSS : Cascading Style Sheets
+  3 types :
+     1. inline
+     2. internal
+     3. external
+can be applied as selectors, properties and values
+  -- Tag selectors
+  -- ID Selectors
+  -- Class Selectors
+
+Grouping and Nesting with CSS3
+ Grouping : 
+ Nesting
+ Shorthand Properties
+
+CSS 3 ( Responsive design, Advance Layouts, Visual enhancements)
