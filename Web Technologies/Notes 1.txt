@@ -48,7 +48,7 @@ CSS : Cascading Style Sheets
      2. internal
      3. external
 can be applied as selectors, properties and values
-  -- Tag selectors
+  -- Tag/Element selectors
   -- ID Selectors
   -- Class Selectors
 
@@ -58,3 +58,11 @@ Grouping and Nesting with CSS3
  Shorthand Properties
 
 CSS 3 ( Responsive design, Advance Layouts, Visual enhancements)
+
+Web-Kit : is a html/css web browser rendering engine
+IE :Engine - Trident, css prefix : -ms
+Edge : Engine - EdgeHTML, css prefix :-ms
+Firefox : engine - Gecko, css prefix : -moz
+Opera : Engine - Presto, css prefix : -o
+Chrome : Engine -Webkit->Blink2, css prefix : -webkit
+Safari : Engine - Webkit, css prefix :-webkit

@@ -51,6 +51,7 @@
     <None Include="IMG\Tree.webp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2D-3D.html" />
     <Content Include="ExternalStyle.html" />
     <Content Include="Form.html" />
     <Content Include="Audio_Video.html" />
