@@ -1,0 +1,16 @@
+1. Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7.
+
+
+2. Write a JavaScript program to construct the following pattern, using a nested for loop.
+
+*  
+* *  
+* * *  
+* * * *  
+* * * * *
+
+
+3. Write a JavaScript program to determine whether a given year is a leap year
+
+
+4. Write a JavaScript program that calculates the number of days left until Independence Day by comparing the current date with August 15th of the current year. If today is after August 15th, it calculates the days until next year's Independence Day. The difference in days is then logged to the console.
