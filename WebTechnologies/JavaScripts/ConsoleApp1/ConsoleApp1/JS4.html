@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        outerloop:
+        for (var i = 0; i < 5; i++) {
+            document.write("Outer Loop : " + i + "<br/>");
+
+            innerloop:
+            for (var j = 0; j < 5; j++) {
+                if (j > 3) break;  // quits the innermost loop
+                if (i == 2) break innerloop;  // quits the innermost loop also
+                if (i == 4) break outerloop; // quits the outerloop
+                document.write("Inner Loop : " + j + "<br/>")
+            }
+        }
+    </script>
+    <hr/>
+    <script>
+        const dt = new Date("May 8, 2026 18:26:00");
+        dt.setFullYear(2027);
+        console.log(dt.getFullYear());
+        const dt2 = Date.now(); 
+
+        console.log(dt2);  //milliseconds elapsed since Epoch (i.e Jan 1 1970)
+
+        var currentdate = new Date();
+        console.log(currentdate);
+        currentdate.setDate(currentdate.getDate() + 60);
+        alert(currentdate);
+    </script>
+
+</body>
+</html>
