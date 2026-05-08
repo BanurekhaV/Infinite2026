@@ -66,3 +66,14 @@ Firefox : engine - Gecko, css prefix : -moz
 Opera : Engine - Presto, css prefix : -o
 Chrome : Engine -Webkit->Blink2, css prefix : -webkit
 Safari : Engine - Webkit, css prefix :-webkit
+
+Scalable Vector Graphics (SVG)
+ - are defined using xml format
+ - all elements to be properly closed
+ - are case sensitive and hence any element/attributes which are predefined is to be given in lower case
+ - all attribute values must be within " ", including numbers
+
+Ways to integrate SVG with HTML
+ - inline SVG, using <svg> element
+ - External SVG , using <object> <img>
+ - SVG as background

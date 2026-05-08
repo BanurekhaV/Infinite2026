@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\2d-3d.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\2d-3d.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\svg_ex1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\svg_ex1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\multicolumn.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\multicolumn.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\canvas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\canvas.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\htmlprgs\\audio_video.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\audio_video.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\animation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\animation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\htmlprgs\\htmlprgs\\2d-3d.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\2d-3d.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\htmlprgs\\multicolumn.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|solutionrelative:htmlprgs\\multicolumn.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3A62CF1-DA72-48DC-9F8A-1E617CDD2A9B}|HTMLPrgs\\HTMLPrgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\htmlprgs\\form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,14 +71,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "2D-3D.html",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\2D-3D.html",
-              "RelativeDocumentMoniker": "HTMLPrgs\\2D-3D.html",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\2D-3D.html",
-              "RelativeToolTip": "HTMLPrgs\\2D-3D.html",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Title": "SVG_Ex1.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\SVG_Ex1.html",
+              "RelativeDocumentMoniker": "HTMLPrgs\\SVG_Ex1.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\SVG_Ex1.html",
+              "RelativeToolTip": "HTMLPrgs\\SVG_Ex1.html",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-07T12:43:13.247Z",
+              "WhenOpened": "2026-05-08T05:25:52.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Canvas.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Canvas.html",
+              "RelativeDocumentMoniker": "HTMLPrgs\\Canvas.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Canvas.html",
+              "RelativeToolTip": "HTMLPrgs\\Canvas.html",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAC0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-08T05:01:21.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animation.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Animation.html",
+              "RelativeDocumentMoniker": "HTMLPrgs\\Animation.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Animation.html",
+              "RelativeToolTip": "HTMLPrgs\\Animation.html",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-08T04:21:20.017Z",
               "EditorCaption": ""
             },
             {
@@ -75,7 +113,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "2D-3D.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\2D-3D.html",
+              "RelativeDocumentMoniker": "HTMLPrgs\\2D-3D.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\2D-3D.html",
+              "RelativeToolTip": "HTMLPrgs\\2D-3D.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-07T12:43:13.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MultiColumn.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\MultiColumn.html",
               "RelativeDocumentMoniker": "HTMLPrgs\\MultiColumn.html",
@@ -83,8 +134,7 @@
               "RelativeToolTip": "HTMLPrgs\\MultiColumn.html",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAAAkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-07T11:27:31.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T11:27:31.106Z"
             },
             {
               "$type": "Document",
@@ -94,13 +144,14 @@
               "RelativeDocumentMoniker": "HTMLPrgs\\Audio_Video.html",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Audio_Video.html",
               "RelativeToolTip": "HTMLPrgs\\Audio_Video.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAC8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-07T11:26:49.042Z"
+              "WhenOpened": "2026-05-07T11:26:49.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PostRegistration.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\PostRegistration.html",
               "RelativeDocumentMoniker": "HTMLPrgs\\PostRegistration.html",
@@ -112,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Form.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Form.html",
               "RelativeDocumentMoniker": "HTMLPrgs\\Form.html",
@@ -124,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ExternalStyle.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\ExternalStyle.html",
               "RelativeDocumentMoniker": "HTMLPrgs\\ExternalStyle.html",
@@ -136,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MyStyle.css",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\MyStyle.css",
               "RelativeDocumentMoniker": "HTMLPrgs\\MyStyle.css",
@@ -148,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Table.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Table.html",
               "RelativeDocumentMoniker": "HTMLPrgs\\Table.html",
@@ -160,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Sample.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Sample.html",
               "RelativeDocumentMoniker": "HTMLPrgs\\Sample.html",
@@ -172,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\HTMLPrgs\\HTMLPrgs\\Program.cs",
               "RelativeDocumentMoniker": "HTMLPrgs\\Program.cs",

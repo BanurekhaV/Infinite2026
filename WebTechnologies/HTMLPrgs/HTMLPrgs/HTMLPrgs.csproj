@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="2D-3D.html" />
+    <Content Include="Animation.html" />
+    <Content Include="Canvas.html" />
     <Content Include="ExternalStyle.html" />
     <Content Include="Form.html" />
     <Content Include="Audio_Video.html" />
@@ -59,6 +61,7 @@
     <Content Include="MyStyle.css" />
     <Content Include="PostRegistration.html" />
     <Content Include="Sample.html" />
+    <Content Include="SVG_Ex1.html" />
     <Content Include="Table.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
