@@ -1,0 +1,99 @@
+JavaScript : is a programming language for web appln. Has built in API's. It makes the html document dynamic and interactive
+ - invented by Brendan Eich
+
+-Usage : Browser detection and control
+         Cookies
+         Validations (client side)
+
+-What javascript can do ?
+  - Modify the HTML document, write text, add or remove elements, change styles etc.
+  - Execute events (mouse movements, keyboard inputs)
+  - Send requests to server, load data without reloading the page
+ 
+
+external script
+<script  src="<path>" </script>
+
+<a href="aa.html" onClick=" ">Click here</a>
+
+Display Options :
+ Windows.alert();
+ document.write();
+ innerHtml/innerText
+ Console.log
+
+A javascript can contain variables, values, operators, expressions, keyword, comments etc
+
+//, /*  */
+
+Data Type supported :
+Numeric primitive:
+ Number
+ Bigint
+
+Non Numeric primitive :
+ string
+ Boolean
+ null
+ symbol
+ undefined
+
+Non-primitive types
+ objects
+ arrays
+ function
+ Date
+ Regular Expressions
+
+var x
+x=""
+x=null
+
+5+5 = 10
+"5"+5 = 55
+
+==(is variable equal to a value)
+===(checks both the values as well the types)
+!=(checks value not equal)
+!==(checks for not equal values and types)
+
+typeof "Hello"  - returns a string
+typeof[1,2,3] - returns an object
+typeof{name:'Banu',address:'chennai',age:25} - returns an object
+
+var x = 5;
+var x=25;  // redeclaring and reassigning are allowed
+
+Various ways to write a function in JS
+ 1. Function declaration :
+  function add(x,y){
+ Console.log(x+y)
+}
+
+add(3,4);
+
+2. Function expressions :
+ const addnum = function(x,y){
+   Console.log(x+y);
+}
+
+addnum(5,5)
+console.addnum(5,5)
+
+3. Arrow Functions 
+  a) single line
+    let addnew = (x,y)=> x+y;
+console.log(addnew(2,4));
+
+ b) multiline
+
+ const check =(x,y) =>{
+  if(x>y)
+    return "x is greater";
+  else
+   return "y is greater"
+}
+
+console.log(check(5,10));
+
+

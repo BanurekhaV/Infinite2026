@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Eg 1
+    <p id="n1">JavaScript can change HTML Doc</p>
+    <p id="str">Persons Name </p>
+    <p id="obj"> Object Data</p>
+    <script>
+        var length = 10;
+        var pname = "Dr. Abdul Kalam";
+        var ob = { firstname: "Infinite Ltd.", age: 20 };
+
+        //document.getElementById("n1").innerHTML = length;
+        //document.getElementById("str").innerHTML = pname;
+        //document.getElementById("obj").innerHTML = ob.firstname + " " + ob.age;
+    </script>
+    <button type="button" onclick="document.getElementById('n1').innerText = length">Change to Number</button>
+    <button type="button" onclick="document.getElementById('str').innerHTML = pname"> Get Persons name</button>
+    <button type="button" ondblclick="document.getElementById('obj').innerHTML = ob.firstname +' ' + ob.age">Get Object Info</button> -->
+    <!-- Eg 2
+    <h2>interactive JS</h2>
+    <input id="userinput" size="40" />
+    <br/>
+    <button onclick="userSubmit()">Submit</button>
+    <br/>
+    <div id="results">
+        <script type="text/javascript">
+            function userSubmit() {
+                var ui = document.getElementById('userinput').value;
+                document.getElementById("results").innerText = "You typed : " + ui;
+            }
+        </script>
+    </div>  -->
+
+    <!-- Eg 3-->
+    <script>
+        function change() {
+            var param = document.getElementsByTagName("p");
+            document.getElementById('demo').innerHTML = param[1].innerHTML;
+        }
+    </script>
+     
+    <h1> Tagnames and Arrays Example</h1>
+    <p id="demo">This is to show JS Functionality</p>
+    <p>It is Para of the doc</p>
+    <h2> Head 2</h2>
+    <p>Para 3</p>
+    <p>Para 4</p>
+
+    <button onclick="change()">Click here for changes</button>
+</body>
+ 
+ 
+</html>
