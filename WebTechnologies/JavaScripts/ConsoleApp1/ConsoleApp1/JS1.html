@@ -36,15 +36,14 @@
             }
         </script>
     </div>  -->
-
-    <!-- Eg 3-->
+    <!-- Eg 3
     <script>
         function change() {
             var param = document.getElementsByTagName("p");
             document.getElementById('demo').innerHTML = param[1].innerHTML;
         }
     </script>
-     
+
     <h1> Tagnames and Arrays Example</h1>
     <p id="demo">This is to show JS Functionality</p>
     <p>It is Para of the doc</p>
@@ -52,7 +51,49 @@
     <p>Para 3</p>
     <p>Para 4</p>
 
-    <button onclick="change()">Click here for changes</button>
+    <button onclick="change()">Click here for changes</button>  -->
+    <!--eg 4 css change
+    <div id="results">Hello Div</div>
+    <script>
+        document.getElementById('results').innerHTML = '<p><font color="blue" size ="40px";>Hello New DIV</font></p>';
+    </script> -->
+
+    <!--eg 5 operators-->
+    <script>
+        var v1 = null;
+        var v2 = '';
+        var v3 = 'hi';
+
+       // var result = v1 && v2;
+        //document.write(result);
+        result = v2 || v1 || v3; 
+        document.write(result);
+
+        var res = v2 || v3 || v1;  // short circuiting at v3 and not evaluating v1
+       // document.write(res);
+        window.alert(res);
+
+        var a = 5;
+        var b = 5;
+        console.log(a ^ b);
+
+        console.log(~13);
+        console.log(~-15);
+
+        let s = "";
+        if (s) {
+            console.log("truthy");
+        }
+        else { console.log("falsy"); }
+
+        console.log(true && "JS")
+        console.log(false || "Hello");
+        console.log(0 || null);
+
+        //explicit boolean conversion
+        console.log(Boolean(12));
+        console.log(Boolean(""));
+    </script>
 </body>
  
  

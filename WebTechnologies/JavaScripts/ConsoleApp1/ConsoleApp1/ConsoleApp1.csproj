@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="JS1.html" />
+    <Content Include="JS2.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

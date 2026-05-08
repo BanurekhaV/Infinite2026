@@ -97,3 +97,17 @@ console.log(addnew(2,4));
 console.log(check(5,10));
 
 
+Bitwise & operator
+Bitwise || operator
+Bitwise Xor ^ 
+Bitwise Not ~
+
+Truthy and falsy values in javascript
+
+if(10) - truthy
+if("hi") - truthy
+if({}) - truthy
+
+if(0) - falsy
+if("") - falsy
+if(null) - falsy
