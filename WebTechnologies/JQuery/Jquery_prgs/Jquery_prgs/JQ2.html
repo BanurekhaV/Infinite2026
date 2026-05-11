@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+    <!-- Hiding and showing-->
+    <!--<script>
+        $(document).ready(function () {
+            $('#hide').click(function () {
+                $('p').hide();
+            });
+            $('#show').click(function () {
+                $('p').show();
+            })
+        })
+    </script>-->
+    <!-- toggle
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $('div').toggle();
+            });
+        });
+    </script>  -->
+    <!-- CSS manipulations
+    <script>
+        $(document).ready(function () {
+            var clicked = true;
+            $('button').click(function () {
+                if (clicked) {
+                    $('div').css('background-color', 'red');
+                    clicked = false;
+                } else {
+                    $('div').css('background-color', 'blue');
+                    clicked = true;
+                }
+            });
+        });
+    </script>  -->
+    <!-- callback eg-->
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $('p').slideToggle("slow", function () {
+                    alert("slide toggle effect seen..")
+                })
+            })
+        })
+    </script>
+
+    <style>
+        p{
+            padding:7px;
+            font-size:20px;
+            background-color:cornflowerblue;
+            border:1px solid red;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <!--<p> I am the first Para</p>
+    <p> I am the Second Para</p>
+    <p> and I am the third</p>-->
+
+    <button id="hide">Hide</button>
+     <button id="show">Show</button>
+    <hr/>
+    <!--<h2> Toggle Effects</h2>
+    <button>Toggle</button>
+    <div>
+        <img src="C:\Banu\2026\DotNet\WebTechnologies\Images\doll.jpg" alt="Doll" height="100" width="100" />
+        <p> Here we Go..</p>
+    </div>-->
+    <hr/>
+    <h2> CSS Manipulations</h2>
+    <button>Click here</button>
+    <div style="height:60px;width:60px"></div>
+
+    <hr/>
+    <h2>Slide Toggle</h2>
+    <p> Hey I am a Para here..</p>
+
+    <button>click to toggle</button>
+</body>
+</html>

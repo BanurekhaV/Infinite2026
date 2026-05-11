@@ -16,13 +16,13 @@
             var username = document.getElementById('username');
             var email = document.getElementById('email');
 
-            //check the user input in the same order
-            if (isAlphabet(firstname, "Please enter only characters for Name..")) {
-                if (isAlphaNumeric(addr, "Address can have only characters and numbers")) {
-                    if (isNumeric(zip, "Please enter a valid 6 digit number")) {
+            //check if the user input is in order
+            if (isAlphabet(firstname, "Please enter only Characters for Name")) {
+                if (isAlphaNumeric(addr, "Address can have only characters and numbers.")) {
+                    if (isNumeric(zip, "Please enter valid 6 digits number")) {
                         if (madeSelection(state, "Please choose a state from the list")) {
                             if (lengthRestriction(username, 6, 12)) {
-                                if (emailValidate(email, "Please eneter email in correct format")) {
+                                if (emailValidate(email, "Please enter email in correct format")) {
                                     return true;
                                 }
                             }
@@ -33,21 +33,22 @@
             return false;
         }
 
-        //let us now write individual functions
+        //let us now write individual functions 
+        
 
-       function isAlphabet(elem, helpmsg) {
-            var alphaexpr = /^[a-z][A-Z]+$/;
+        function isAlphabet(elem, helpmsg) {
+            var alphaexpr = /^[a-zA-Z]+$/;
             if (elem.value.match(alphaexpr)) {
                 return true;
             } else {
                 alert(helpmsg);
-                elem.focus()
+                elem.focus();
                 return false;
             }
         }
 
         function isAlphaNumeric(elem, helpmsg) {
-            var alphanum = /^[a-z][A-Z][0-9]+$/;
+            var alphanum = /^[0-9a-zA-Z]+$/;
             if (elem.value.match(alphanum)) {
                 return true;
             } else {
@@ -68,6 +69,17 @@
             }
         }
 
+        function lengthRestriction(elem, min, max) {
+            var uname = elem.value;
+            if (uname.length >= min && uname.length <= max) {
+                return true;
+            } else {
+                alert("User name to be between " + min + " " + max + " characters only");
+                elem.focus();
+                return false;
+            }
+        }
+
         function madeSelection(elem, helpmsg) {
             if (elem.value == "Choose State") {
                 alert(helpmsg);
@@ -75,17 +87,6 @@
                 return false;
             } else {
                 return true;
-                   }
-        }
-
-        function lengthRestriction(elem, min, max) {
-            var uname = elem.value;
-            if (uname.length >= min && uname.length <= max) {
-                return true;
-            } else {
-                alert("User name to be between  " + min + " and " + max + " characters only");
-                elem.focus();
-                return false;
             }
         }
 
@@ -99,7 +100,10 @@
                 return false;
             }
         }
+
+
     </script>
+
     <h1 style="color:orangered;font-weight:bolder"> Registration Form</h1>
     <form onsubmit="FormValidator()">
         First Name            : <input type="text" id="fname" /><br /><br />
