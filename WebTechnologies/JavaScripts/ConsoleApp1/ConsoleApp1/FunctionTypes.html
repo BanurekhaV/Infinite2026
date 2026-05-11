@@ -48,6 +48,23 @@
         }
 
         console.log(func_ret(2, 3));
-    </script>
+
+        var num = prompt("Enter a Number");
+        if (num > 10)
+            console.log('Entered number is grater than 10');
+        else
+            console.log("number less than 10");
+
+        //javascript methods - when a property of an object contains a function
+        let employee = {
+            empname: "Surekha",
+            dept: "IT",
+            details: function () {
+                return this.empname + " works for the department " + this.dept;
+            }
+        };
+        console.log(employee.details());
+
+         </script>
 </body>
 </html>

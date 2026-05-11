@@ -57,6 +57,7 @@
     <Content Include="JS3.html" />
     <Content Include="JS4.html" />
     <Content Include="JS5.html" />
+    <Content Include="Validations.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

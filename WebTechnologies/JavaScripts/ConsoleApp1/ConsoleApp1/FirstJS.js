@@ -29,7 +29,7 @@ function letconcepts() {
 
 //const
 function constantconcepts() {
-    const c = 'a'; 
+    const c = 'a';
     const c1 = 10;
     console.log(c, c1);
     //const with objects and arrays
@@ -37,12 +37,26 @@ function constantconcepts() {
     console.log(cobj.cname);
     cobj.cname = "New Infinite Ltd.";
     console.log(cobj.cname);
+}
 
+    //hoisting behaviour of var, let and const
+
+    function HoistingFunc() {
+        console.log(x);  // undefined 
+        var x = 15;
+
+        console.log(y);  // reference error, since variables with let remain in Temporarily dead zone (TDZ)
+        let y = 10;
+
+        console.log(z);  // reference error, since variables with let remain in Temporarily dead zone (TDZ)
+        const z = 5;
+}
 
     const carr = [2, 4, 6, 8];
     carr.push(10);
-    console.log(carr); //will display [2,4,6,8,10]
-}
+   console.log(carr); //will display [2,4,6,8,10]
+  //  carr = [7, 8];  // not possible to reassign
+
 
 //global variables
 
