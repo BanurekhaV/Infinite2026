@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\javascripts\\consoleapp1\\consoleapp1\\functiontypes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\functiontypes.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\javascripts\\consoleapp1\\consoleapp1\\js5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\js5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\javascripts\\consoleapp1\\consoleapp1\\js4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\js4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\js3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\javascripts\\consoleapp1\\consoleapp1\\firstjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\consoleapp1\\firstjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{481044C7-A7E7-448F-A8BB-5706D207F733}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\firstjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
@@ -43,14 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JS4.html",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS4.html",
-              "RelativeDocumentMoniker": "ConsoleApp1\\JS4.html",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS4.html",
-              "RelativeToolTip": "ConsoleApp1\\JS4.html",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBoAAAAmAAAA",
+              "Title": "FunctionTypes.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\FunctionTypes.html",
+              "RelativeDocumentMoniker": "ConsoleApp1\\FunctionTypes.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\FunctionTypes.html",
+              "RelativeToolTip": "ConsoleApp1\\FunctionTypes.html",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwCwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-08T12:40:57.897Z",
+              "WhenOpened": "2026-05-11T05:55:11.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JS5.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS5.html",
+              "RelativeDocumentMoniker": "ConsoleApp1\\JS5.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS5.html",
+              "RelativeToolTip": "ConsoleApp1\\JS5.html",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-11T05:30:46.583Z",
               "EditorCaption": ""
             },
             {
@@ -59,7 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "JS4.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS4.html",
+              "RelativeDocumentMoniker": "ConsoleApp1\\JS4.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS4.html",
+              "RelativeToolTip": "ConsoleApp1\\JS4.html",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-08T12:40:57.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "JS3.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS3.html",
               "RelativeDocumentMoniker": "ConsoleApp1\\JS3.html",
@@ -67,12 +101,11 @@
               "RelativeToolTip": "ConsoleApp1\\JS3.html",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-08T11:28:18.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T11:28:18.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FirstJS.js",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\FirstJS.js",
               "RelativeDocumentMoniker": "ConsoleApp1\\FirstJS.js",
@@ -80,12 +113,11 @@
               "RelativeToolTip": "ConsoleApp1\\FirstJS.js",
               "ViewState": "AQIAACMAAAAAAAAAAAAAADAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-08T11:10:15.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T11:10:15.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "JS2.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS2.html",
               "RelativeDocumentMoniker": "ConsoleApp1\\JS2.html",
@@ -97,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "JS1.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\JS1.html",
               "RelativeDocumentMoniker": "ConsoleApp1\\JS1.html",
@@ -109,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JavaScripts\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",

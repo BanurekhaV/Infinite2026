@@ -51,10 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FirstJS.js" />
+    <Content Include="FunctionTypes.html" />
     <Content Include="JS1.html" />
     <Content Include="JS2.html" />
     <Content Include="JS3.html" />
     <Content Include="JS4.html" />
+    <Content Include="JS5.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
