@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+    <style>
+        .tclass{
+            margin:10px;
+            padding:5px;
+            color:deeppink;
+            border:2px solid grey;
+            display:block;
+        }
+        div{
+            width:300px;
+            height:300px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('span').parents('ul').css({ color: "red", border: "2px solid blue" });
+        })
+    </script>
+</head>
+<body class="tclass">
+    <h2> Jquery for descendants</h2>
+    <div>
+        (GGParents)
+        <ul>UL(G Parents)
+            <li>
+                LI(Parent)
+                <span>Child Element</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

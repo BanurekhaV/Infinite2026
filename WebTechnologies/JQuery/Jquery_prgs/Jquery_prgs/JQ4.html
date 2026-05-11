@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('button').click(function () {
+           // $('div').remove(); //remove the selected element and all its child elements
+            $('div').empty(); //removes all child elements only
+        });
+    });
+</script>
+
+</head>
+<body>
+    <h2> Removing Elements</h2>
+    <div style="height:550px;width:300px;border:1px solid red;background-color:dodgerblue;">
+        We can have some more child elements
+        <p>Para 1</p>
+        <h4>head 4</h4>
+        <img src="C:\Banu\2026\DotNet\WebTechnologies\Images\toys.jpg" />
+        <p> Para 2</p>
+    </div>
+    <button>Remove</button>
+</body>
+</html>

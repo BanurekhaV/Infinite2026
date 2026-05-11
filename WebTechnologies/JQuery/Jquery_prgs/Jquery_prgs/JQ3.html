@@ -1,41 +1,48 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
-<style>
-     #board {
-        padding: 7px;
-        font-size: 20px;
-        background-color:chocolate;
-        border: 1px solid blue;
-        text-align: center;
-    }
-
     
-</style>
+    <style>
+        #b1, #board {
+            padding: 7px;
+            font-size: 20px;
+            background-color: orange;
+            border: 1px solid red;
+            text-align: center;
+        }
+
+        #board {
+            padding: 40px;
+            display: none;
+        }
+    </style>
+
     <script>
+
         $(document).ready(function () {
-            $('#c1').click(function () {
-                $('div').slideDown(5000);
-            });
-            $('#c2').click(function () {
-                $('div').stop();
+            $('#b1').click(function () {
+                $('#board').slideDown(5000);
+            })
+            $('#b2').click(function () {
+                $('#board').stop();
             })
         })
-    </script>
-</head>
+</script>
+
+</head >
 <body>
-    <h2> Slide and Stop</h2>
-    <button id="c2">Stop Sliding</button>
-    <br/>
-    <button id="c1">Start Sliding</button>
+    <h2>Slide and Stop</h2>
+    <button id="b2">Stop Sliding</button>
+    <br />
+    <button id="b1">Start Sliding</button>
 
     <div id="board">
-        <p> This is to slide and stop</p>
+        <p>This is to slide and stop</p>
     </div>
-
 </body>
-</html>
+</html >

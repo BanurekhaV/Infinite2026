@@ -53,6 +53,9 @@
     <Content Include="JQ1.html" />
     <Content Include="JQ2.html" />
     <Content Include="JQ3.html" />
+    <Content Include="JQ4.html" />
+    <Content Include="JQ5.html" />
+    <Content Include="JqueryTraversal.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
