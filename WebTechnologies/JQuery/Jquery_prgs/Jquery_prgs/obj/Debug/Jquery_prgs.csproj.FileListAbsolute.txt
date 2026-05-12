@@ -1,0 +1,7 @@
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\bin\Debug\Jquery_prgs.exe.config
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\bin\Debug\Jquery_prgs.exe
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\bin\Debug\Jquery_prgs.pdb
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\obj\Debug\Jquery_prgs.csproj.AssemblyReference.cache
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\obj\Debug\Jquery_prgs.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\obj\Debug\Jquery_prgs.exe
+C:\Banu\2026\DotNet\WebTechnologies\JQuery\Jquery_prgs\Jquery_prgs\obj\Debug\Jquery_prgs.pdb

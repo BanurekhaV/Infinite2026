@@ -25,4 +25,21 @@ methods : hide(),show(),toggle(), fadein(), fadeout(), slide(),animate(), callba
 
 Get and Set
 
-Ajax with Jquery 
+Ajax with Jquery :
+
+what is a jquery ajax method()
+- ajax() is used to do an ajax(asynchronous http) request
+- provides more control of the data, sending or response data
+- allows error handling during a call, using callbacks of either success or failure
+
+some basic parameters to be passed on call
+ -type : specifies get or post method
+ -url : specifies the url to send the request to
+ -contentType:what type of content is used to send data to the server 
+ -datatype : the datatype expected as server respone
+ -data:specifies the data
+ -success(result,status,xhr)- is a callback that should be run when success
+ -error(xhr,status,error) -  is a callback that should be run when request fails
+$.ajax()
+
+

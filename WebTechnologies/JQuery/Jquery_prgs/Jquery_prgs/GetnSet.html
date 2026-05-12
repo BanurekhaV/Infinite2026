@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            //jquery get
+            //$('#b1').click(function () {
+            //    alert('The Got Data is ' + $('#t1').text());
+            //})
+            //$('#b2').click(function () {
+            //    alert('The Got Data is ' + $('#t1').html());
+            //})
+            //$('#b3').click(function () {
+            //    alert('The Got Data is ' + $('#t2').val());
+            //})
+
+            //jquery set
+            $('#b1').click(function () {
+                $('#t1').text("We are setting the text");
+            })
+            $('#b2').click(function () {
+                $('#t1').html("<mark>We are setting Html Content </mark>");
+            })
+            $('#b3').click(function () {
+                $('#t2').val("Happy Day...");
+            })
+        })
+    </script>
+</head>
+<body>
+    <h2> Get and Set</h2>
+    <p id="t1">Health <i> is Wealth </i></p>
+    <br/>
+    User name : <input type="text" id="t2" />
+    <br/>
+    <button id="b1">Get/Set Text</button>
+    <button id="b2">Get/Set HTML</button>
+    <button id="b3">Get/Set Value</button>
+
+</body>
+</html>

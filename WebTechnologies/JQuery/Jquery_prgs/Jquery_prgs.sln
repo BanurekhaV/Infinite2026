@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jquery_prgs", "Jquery_prgs\Jquery_prgs.csproj", "{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jquery_Ajax", "Jquery_Ajax\Jquery_Ajax.csproj", "{D12471D7-01C5-489A-B694-A32C264A619D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12471D7-01C5-489A-B694-A32C264A619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12471D7-01C5-489A-B694-A32C264A619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12471D7-01C5-489A-B694-A32C264A619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12471D7-01C5-489A-B694-A32C264A619D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
