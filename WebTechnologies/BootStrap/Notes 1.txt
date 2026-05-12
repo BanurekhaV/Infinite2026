@@ -1,0 +1,41 @@
+BootStrap : Open free frontend framework for easier and faster web development
+ - It includes design templates for html and css (tables, forms, images, navbars, carousels,javscript plug-ins etc..)
+ - Gives the ability to create responsive designs
+ - Was developed and released as an opensource framework in 2011(By Mark Otto and Jacob at Twitter)
+
+-Easy to learn and use
+-Responsive features suits all devices
+-Compatible with all the browsers (though was primarily targeted as Mobile First Approach)
+
+Grid System : Consists of 4 classes
+ - xs extra small (for phones with screen size <760 pixels width)
+ - sm small device (for phones/tablets with screen size >=760 width)
+ - md medium device (for small laptops with screen size >=980 pixels width)
+ - lg large device (for laptops/desktops with screen size >=1200 pixels width) 
+
+How to get Bootstrap
+ - by downloading and installing
+ - by including the cdn
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+Bootstrap container classes : (wraps the content of the website) than can be used in any decice
+
+1. .container (fixed width)
+2. .container-fluid (full width)
+
+Viewport : applies features of responsive design
+
+Components : A set of re-usable, customizable aspects/objects for web development
+1. Jumbotron : making contents look bigger and larger to gain attention
+2. Alerts : predefined pop up messages
+3. Buttons : Objects responsible for events
+4. Badges : labelling components
+5. Progress Bar : Activity tracker
+6. Navigation Bar : Moving around the website with menu items
+7. Forms : Input receiver
+8. Card : extensible, flexible content component (layout)
+9. List Groups : displays a series of content (theme based)
+10. Carousels : sliding images
+11. BreadCrumbs : provides location of the current page in the navigation hierarchy
