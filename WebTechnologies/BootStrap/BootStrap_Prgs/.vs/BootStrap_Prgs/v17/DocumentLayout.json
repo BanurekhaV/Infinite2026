@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\bs_others.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\bs_others.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\carousel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\carousel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\bs2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\bs2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\bs2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\bs1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\bs1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\bs1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,19 +43,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BS_Others.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\BS_Others.html",
+              "RelativeDocumentMoniker": "BootStrap_Prgs\\BS_Others.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\BS_Others.html",
+              "RelativeToolTip": "BootStrap_Prgs\\BS_Others.html",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-12T12:48:57.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\Form.html",
+              "RelativeDocumentMoniker": "BootStrap_Prgs\\Form.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\Form.html",
+              "RelativeToolTip": "BootStrap_Prgs\\Form.html",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-12T12:37:04.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Carousel.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\Carousel.html",
               "RelativeDocumentMoniker": "BootStrap_Prgs\\Carousel.html",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\Carousel.html",
               "RelativeToolTip": "BootStrap_Prgs\\Carousel.html",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDIAAAAKAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA8AAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-05-12T11:00:04.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BS2.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\BS2.html",
               "RelativeDocumentMoniker": "BootStrap_Prgs\\BS2.html",
@@ -55,12 +93,11 @@
               "RelativeToolTip": "BootStrap_Prgs\\BS2.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T10:45:59.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T10:45:59.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BS1.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\BS1.html",
               "RelativeDocumentMoniker": "BootStrap_Prgs\\BS1.html",
@@ -68,12 +105,11 @@
               "RelativeToolTip": "BootStrap_Prgs\\BS1.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T10:26:59.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T10:26:59.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\Program.cs",
               "RelativeDocumentMoniker": "BootStrap_Prgs\\Program.cs",
@@ -81,12 +117,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T10:26:22.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2026-05-12T10:26:22.135Z"
             }
           ]
         }

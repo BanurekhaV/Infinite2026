@@ -52,7 +52,9 @@
   <ItemGroup>
     <Content Include="BS1.html" />
     <Content Include="BS2.html" />
+    <Content Include="BS_Others.html" />
     <Content Include="Carousel.html" />
+    <Content Include="Form.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
