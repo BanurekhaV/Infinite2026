@@ -7,12 +7,30 @@
     <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
 <script>
-    $(document).ready(function () {
-        $('button').click(function () {
-           // $('div').remove(); //remove the selected element and all its child elements
-            $('div').empty(); //removes all child elements only
-        });
-    });
+    // Removing elements
+    //$(document).ready(function () {
+    //    $('button').click(function () {
+    //       // $('div').remove(); //remove the selected element and all its child elements
+    //        $('div').empty(); //removes all child elements only
+    //    });
+    //});
+
+    //appending and prepending
+    //$(document).ready(function () {
+    //    $('#btn1').click(function () {
+    //        $('p').append("<b>Summers are here, stay indoors</b>")
+    //    });
+    //    $('#btn2').click(function () {
+    //        $('ol').prepend("<li> New Item </li>")
+    //    });
+    //});
+    function appendMany() {
+        var txt1 = "<p style='color:red'>New Text</p>";  //creating a text with html
+        var txt2 = $("<h2 style='color:blue'></h2>").text("It is Heading 2"); //text with jquery
+        var txt3 = document.createElement('p');
+        txt3.innerHTML = "My new Paragraph";  // creating text with DOM
+        $('body').append(txt1, txt2, txt3);
+    }
 </script>
 
 </head>
@@ -26,5 +44,20 @@
         <p> Para 2</p>
     </div>
     <button>Remove</button>
+    <hr/>
+    <h2>Append and Prepend</h2>
+    <p>Summers are really Hot</p>
+    <p>Drink plenty of water to stay hydrated</p><br/><br/>
+    <ol>
+        <li>Pens</li>
+        <li>Pencils</li>
+    </ol>
+    <button id="btn1">Append</button>
+    <button id="btn2">Prepend</button>
+    <hr/>
+    <h2>Multiple Appends</h2>
+    <p>attempt to append elements at runtime</p>
+
+    <button onclick="appendMany()">Click to append</button>
 </body>
 </html>

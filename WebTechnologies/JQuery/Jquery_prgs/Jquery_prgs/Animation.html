@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+
+    <style>
+        p{
+            width:200px;
+            padding:40px;
+            font:bold 24px sans-serif;
+            text-align:center;
+            background-color:coral;
+            border:1px solid blue;
+            box-sizing:content-box;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            // 1. Animation
+
+            //$('.start').click(function () {
+            //    $('p').animate({ width: "100%" }).animate({ fontSize: "48px" }).animate({ borderWidth: 30 });
+            //})
+            //$('.reset').click(function () {
+            //    $('p').removeAttr('style');
+            //})
+
+            //2. Delay methods
+            $('button').click(function () {
+                $('#d1').delay("slow").fadeIn();
+                $('#d2').delay("fast").fadeIn();
+                $('#d3').delay(1000).fadeIn();
+                $('#d4').delay(4000).fadeIn();
+            })
+        })
+    </script>
+</head>
+<body>
+    <p>Hello Animation</p>
+    <button class="start">Start Animation</button>
+    <button class="reset">Stop Animation</button>
+
+    <hr />
+    <h3>Delay Method Effect</h3>
+    <button>Click me</button>
+    <br />
+    <div id="d1" style="width:50px;height:50px;background-color:darkorange;display:none;"></div>
+    <br />
+    <div id="d2" style="width:50px;height:50px;background-color:fuchsia;display:none;"></div>
+    <br />
+    <div id="d3" style="width:50px;height:50px;background-color:crimson;display:none;"></div>
+    <br />
+    <div id="d4" style="width:50px;height:50px;background-color:olive;display:none;"></div>
+    <br />
+</body>
+</html>

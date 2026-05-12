@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\animation2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\animation2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\animation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\animation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\events2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\events2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\events1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\events1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\jq4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\jq4.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\jquerytraversal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\jquery_prgs\\jquerytraversal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\jquerytraversal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\jq5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\jquery_prgs\\jq5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\jq5.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\jquery\\jquery_prgs\\jquery_prgs\\jq3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\jquery_prgs\\jq3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C4F52F4-04CC-4C57-AFD9-6B115E0BE56F}|Jquery_prgs\\Jquery_prgs.csproj|solutionrelative:jquery_prgs\\jq3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -47,40 +63,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JQ4.html",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ4.html",
-              "RelativeDocumentMoniker": "Jquery_prgs\\JQ4.html",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ4.html",
-              "RelativeToolTip": "Jquery_prgs\\JQ4.html",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "Animation2.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Animation2.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\Animation2.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Animation2.html",
+              "RelativeToolTip": "Jquery_prgs\\Animation2.html",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-11T12:49:27.632Z",
+              "WhenOpened": "2026-05-12T05:43:38.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JqueryTraversal.html",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JqueryTraversal.html",
-              "RelativeDocumentMoniker": "Jquery_prgs\\JqueryTraversal.html",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JqueryTraversal.html",
-              "RelativeToolTip": "Jquery_prgs\\JqueryTraversal.html",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAABWAAAA",
+              "Title": "Animation.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Animation.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\Animation.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Animation.html",
+              "RelativeToolTip": "Jquery_prgs\\Animation.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-11T12:38:03.363Z",
+              "WhenOpened": "2026-05-12T05:24:21.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JQ5.html",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ5.html",
-              "RelativeDocumentMoniker": "Jquery_prgs\\JQ5.html",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ5.html",
-              "RelativeToolTip": "Jquery_prgs\\JQ5.html",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAABWAAAA",
+              "Title": "Events2.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Events2.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\Events2.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Events2.html",
+              "RelativeToolTip": "Jquery_prgs\\Events2.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-11T12:20:25.831Z",
+              "WhenOpened": "2026-05-12T05:03:06.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Events1.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Events1.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\Events1.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Events1.html",
+              "RelativeToolTip": "Jquery_prgs\\Events1.html",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwAgAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-12T04:37:28.176Z",
               "EditorCaption": ""
             },
             {
@@ -89,7 +118,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "JQ4.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ4.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\JQ4.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ4.html",
+              "RelativeToolTip": "Jquery_prgs\\JQ4.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-11T12:49:27.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JqueryTraversal.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JqueryTraversal.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\JqueryTraversal.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JqueryTraversal.html",
+              "RelativeToolTip": "Jquery_prgs\\JqueryTraversal.html",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-11T12:38:03.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JQ5.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ5.html",
+              "RelativeDocumentMoniker": "Jquery_prgs\\JQ5.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ5.html",
+              "RelativeToolTip": "Jquery_prgs\\JQ5.html",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-11T12:20:25.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "JQ3.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ3.html",
               "RelativeDocumentMoniker": "Jquery_prgs\\JQ3.html",
@@ -97,12 +163,11 @@
               "RelativeToolTip": "Jquery_prgs\\JQ3.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-11T11:16:15.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:16:15.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "JQ2.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ2.html",
               "RelativeDocumentMoniker": "Jquery_prgs\\JQ2.html",
@@ -114,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "JQ1.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\JQ1.html",
               "RelativeDocumentMoniker": "Jquery_prgs\\JQ1.html",
@@ -126,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\JQuery\\Jquery_prgs\\Jquery_prgs\\Program.cs",
               "RelativeDocumentMoniker": "Jquery_prgs\\Program.cs",

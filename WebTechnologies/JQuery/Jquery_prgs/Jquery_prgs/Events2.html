@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            //1. simple change on button click
+            //$('button').click(function () {
+            //    $('input').change();
+            //})
+
+            //2. on input losing focus
+            //$('.fc').change(function () {
+            //    $(this).css("background-color", "lime").css("color", "blue");
+            //})
+
+            //3. fade in/out
+            $('#b1').click(function () {
+                $('#d1').fadeIn();
+            });
+            $('#b2').click(function () {
+                $('#d1').fadeOut();
+            });
+        });
+    </script>
+
+    <style>
+        .fc{
+            padding:5px;
+        }
+        div{
+            margin:10px;
+            padding:12px;border:2px solid green;width:60px;
+        }
+    </style>
+</head>
+<body>
+    <p>Click and see the changes</p>
+    Enter Some Data : <input type="text" value="Good Morning" onchange="alert(this.value)" />
+
+    <button>click and see changes</button>
+    <hr/>
+    Enter some Value : <input class="fc" type="text" />
+
+   <hr/>
+    <h2> Fade in Fade Out</h2>
+    <button id="b1">Fade In</button>
+    <button id="b2">Fade Out</button>
+
+    <div id="d1" style="background-color:aquamarine;display:none;">Hi DIV</div>
+
+</body>
+</html>

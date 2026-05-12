@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Animation.html" />
+    <Content Include="Animation2.html" />
+    <Content Include="Events1.html" />
+    <Content Include="Events2.html" />
     <Content Include="JQ1.html" />
     <Content Include="JQ2.html" />
     <Content Include="JQ3.html" />

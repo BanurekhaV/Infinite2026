@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <srcipt src="https://code.jquery.com/jquery-4.0.0.js"></srcipt>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+<script>
+    //handling events by binding
+    //$(document).ready(function () {
+    //    //eg to bind
+    //    $('div').bind('click', function (event) {
+    //        alert("Hello " + event.target.innerHTML);
+    //    })
+    //})
+
+    //eg to bind and unbind
+    //$(document).ready(function () {
+    //    $('div').bind('click', function (event) {
+    //        alert("Hello " + event.target.innerHTML);
+    //        alert("The Event Type is : " + event.type);
+    //    });
+    //    $('button').dblclick(function () {
+    //        $('div').unbind('click');
+    //    });
+    //});
+
+    //eg for mouse events
+    $(document).ready(function () {
+        $('p').on({
+            mouseenter: function () {
+                $(this).css("background-color", "green");
+            },
+            mouseleave: function () {
+                $(this).css("background-color", "red");
+            },
+            dblclick: function () {
+                $(this).css("color", "blue").css("background-color", "beige").css("fontSize", "48px");
+            },
+        });
+    });
+</script>
+
+    <style>
+        .div{
+            margin:10px;
+            padding:12px;
+            border:2px solid blue;width:60px;
+        }
+    </style>
+</head>
+<body>
+    <p> Click on any square below and see the result</p>
+    <div class="div" style="background-color:crimson">
+        DIV 1
+    </div>
+    <div class="div" style="background-color:chartreuse">
+        DIV 2
+    </div>
+    <div class="div" style="background-color:fuchsia">
+        DIV 3
+    </div>
+    <br/>
+    <button>Unbind</button>
+    <hr/>
+    <p>Trying mouse events</p>
+</body>
+</html>
