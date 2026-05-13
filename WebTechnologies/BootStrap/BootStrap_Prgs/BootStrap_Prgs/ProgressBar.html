@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <!--link for Js-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--link for Jquery-->
+    <!--<script src="http://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>-->
+
+</head>
+<body>
+    <h3>Progress Bar - Default</h3>
+    <div class="progress">
+        <div class="progress-bar" style="width:60%"></div>
+    </div>
+    <h3>Creating Progress Bar with Labels</h3>
+    <div class="progress">
+        <div class="progress-bar" style="width:60%">65%</div>
+    </div>
+    <p class="lead">Showing labels with minimum width</p>
+    <div class="progress">
+        <div class="progress-bar" style="width:20px; width:2%">2%</div>
+    </div>
+    <h3>Alternate Progress Bar</h3>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width:60%">60%</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-info" style="width:50%">50%</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:40%">40%</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:30%">30%</div>
+    </div>
+    <h3>Striped Progress Bar</h3>
+    <div class="progress progress-striped">
+        <div class="progress-bar progress-bar-danger" style="width:50%"></div>
+    </div>
+    <h3>Animated progress bar</h3>
+    <div class="progress progress-striped active">
+        <div class="progress-bar progress-bar-success" style="width:50%"></div>
+    </div> 
+    <h3>Stacked Progress Bar</h3>
+    <div class="progress">
+        <div class="progress progress-bar-success" style="width:50%"></div>
+        <div class="progress progress-bar-warning" style="width:30%"></div>
+        <div class="progress progress-bar-danger" style="width:20%"></div>
+    </div>
+    <h3>Changing progress bar value dynamically</h3>
+    <div class="progress progress-striped active">
+    <div class="progress-bar"></div>
+</div> 
+
+    <script type="text/javascript">
+        var i = 0;
+        function makeProgress() {
+            if (i < 100) {
+                i = i + 1;
+                $(".progress-bar").css("width", i + "%").text(i + " % ");
+            }
+            setTimeout("makeProgress()", 100);
+        }
+        makeProgress();
+    </script>
+</body>
+</html>

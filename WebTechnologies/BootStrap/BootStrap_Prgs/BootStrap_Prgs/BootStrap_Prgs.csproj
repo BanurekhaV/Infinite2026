@@ -50,11 +50,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Badge.html" />
     <Content Include="BS1.html" />
     <Content Include="BS2.html" />
     <Content Include="BS_Others.html" />
+    <Content Include="Card.html" />
     <Content Include="Carousel.html" />
     <Content Include="Form.html" />
+    <Content Include="Navbar.html" />
+    <Content Include="ProgressBar.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

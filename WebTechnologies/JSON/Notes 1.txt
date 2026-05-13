@@ -1,0 +1,34 @@
+JSON : JavaScript Object Notation
+  - light weight format to store and exchange data across applications/system
+  - Is represented as a simple name value pair {"name":"AA", }
+  - language Independent
+  - Easy to use and understand as it is simple text based format
+  - Executes faster on servers
+  - Used for content negotiation
+  - Supports data structures like arrays and objects
+
+Data Type Support : string, number, boolean, null
+
+Json values cannot be function, date, undefined
+
+Eg :
+{"name": "Infinite", "age": 20, "city": "Bangalore"}
+
+Arrays:
+{
+  "Courses" :[{"CName": "CSharp", "Duration": "40hrs", "Fees": 8000},
+ {"CName": "SQL", "Duration": "30hrs", "Fees": 6500},...]
+}
+
+colors["red","blue","green"]
+
+JSON and XML
+ - both are hirearchiaca, human readable, self describing data, can be used by many programming applications
+ - Are used to fetch data from the server on request
+ - XML is parsed using XML parser, while Json is parsed using Javascript function
+ - On parsing Json gives ready to use javascript object
+ - Json does not have inbuilt security and error handling capabilities, unlike XML
+
+Methods of Json
+ - parse() - Javascript Object
+ - stringify() - json string
