@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\bs1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\bs_others.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\bs_others.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\bs_others.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\badge.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\badge.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\badge.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\navbar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\navbar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\navbar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|c:\\banu\\2026\\dotnet\\webtechnologies\\bootstrap\\bootstrap_prgs\\bootstrap_prgs\\card.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\bootstrap_prgs\\card.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E14B32D3-9EDB-4300-B1B4-D9464D592838}|BootStrap_Prgs\\BootStrap_Prgs.csproj|solutionrelative:bootstrap_prgs\\card.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -50,11 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "BootStrap_Prgs\\ProgressBar.html",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\WebTechnologies\\BootStrap\\BootStrap_Prgs\\BootStrap_Prgs\\ProgressBar.html",
               "RelativeToolTip": "BootStrap_Prgs\\ProgressBar.html",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-05-13T10:51:36.704Z",
               "EditorCaption": ""
@@ -79,8 +83,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\Badge.html",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-13T10:32:38.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T10:32:38.923Z"
             },
             {
               "$type": "Document",
@@ -92,8 +95,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\Navbar.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-13T07:24:30.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T07:24:30.868Z"
             },
             {
               "$type": "Document",
@@ -105,8 +107,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\Card.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-13T07:08:53.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T07:08:53.027Z"
             },
             {
               "$type": "Document",
@@ -118,8 +119,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\BS_Others.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T12:48:57.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:48:57.663Z"
             },
             {
               "$type": "Document",
@@ -131,8 +131,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\Form.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T12:37:04.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T12:37:04.537Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\Carousel.html",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T11:00:04.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T11:00:04.628Z"
             },
             {
               "$type": "Document",
@@ -157,8 +155,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\BS2.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T10:45:59.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T10:45:59.329Z"
             },
             {
               "$type": "Document",
@@ -170,12 +167,7 @@
               "RelativeToolTip": "BootStrap_Prgs\\BS1.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-12T10:26:59.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2026-05-12T10:26:59.952Z"
             },
             {
               "$type": "Document",
