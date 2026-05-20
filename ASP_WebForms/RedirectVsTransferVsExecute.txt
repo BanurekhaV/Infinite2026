@@ -1,0 +1,38 @@
+trace.axd - helps in tracing the activities of the request response cycle
+
+Application Events : Application_Start
+                     Application_BeginRequest
+                     Application_AuthenticateRequest
+                     Session_Start
+                     Session_End
+                     Application_Error
+
+Error Handlers in webforms:
+
+try{} catch()
+Page Error  - code behind handler
+Page Error Attribute  - Inline Code <% %>
+Application Level - event globally
+Custom Errors - enabling custom errors to handle various status codes with relevant error messages
+
+Logging the exceptions onto a file
+Logging the exceptions onto a database
+
+
+Navigation : Moving from one resource to another (within the application or across application, in the same server or different server)
+
+- Response.redirect : The object transfers to the given page permanently and ends the processing of the first page, and continues processing the new page
+ - It also sends a command back to the browser (that it stopped processing the current page and has started processing the new page - leads to unnecessary round trip)
+
+Usage : When we don't mind the users knowing the url address and resources
+        Round trips are not a concern
+        We don't want to preserve the state of the current page
+        When we are not only redirecting to a new page but also a new server
+
+Server.Transfer - Helps in navigating between pages of the same application, or pages within the applications of the same server
+   - The current/first page is still in the memory of the server, and hence we can read the values (state management)
+   - the page is not permanently redirected.
+
+Usage : 
+
+

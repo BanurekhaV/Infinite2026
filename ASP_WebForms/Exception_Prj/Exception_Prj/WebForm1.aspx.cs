@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
+using System.Security;
 
 namespace Exception_Prj
 {
@@ -12,27 +13,28 @@ namespace Exception_Prj
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //try
-            //{
+            try
+            {
                 DataSet ds = new DataSet();
                 ds.ReadXml(Server.MapPath("~/Employees.xml"));
                 Grid1.DataSource = ds;
                 Grid1.DataBind();
-            //}
-            //catch (Exception ex)
-            //{
-            //    Response.Write(ex.Message);
-            //    lblstatus.Text = "Some Error Occurred.. Try later";
-            //}
+            }
+            catch (Exception ex)
+            {
+              //  Response.Write(ex.Message);
+              ExceptionLogging.Log_Exception_toDB(ex);
+                lblstatus.Text = "Some Error Occurred.. Try later";
+            }
         }
 
         //handling page errors as events in the code behind file
-        protected void Page_Error(object sender, EventArgs e)
-        {
-            Exception ex1 = Server.GetLastError();
-            Server.ClearError(); // to avoid propogating the error to the application level
-            Response.Write(ex1.GetType());
-            Response.Redirect("~/Myerrpage.aspx");
-        }
+        //protected void Page_Error(object sender, EventArgs e)
+        //{
+        //    Exception ex1 = Server.GetLastError();
+        //    Server.ClearError(); // to avoid propogating the error to the application level
+        //    Response.Write(ex1.GetType());
+        //    Response.Redirect("~/Myerrpage.aspx");
+        //}
     }
 }
