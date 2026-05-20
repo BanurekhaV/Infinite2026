@@ -33,6 +33,11 @@ Server.Transfer - Helps in navigating between pages of the same application, or 
    - The current/first page is still in the memory of the server, and hence we can read the values (state management)
    - the page is not permanently redirected.
 
-Usage : 
+Usage : To transfer current page to another in the same server
+        To preserve server resources and avoid round trips
+        To preserve the state of the current page
+        To not disclose the url address of all navigating pages to the end users
+
+Server.Execute - same as Server.Transfer, except that the transfer() terminates the execution of the current page and starts executing the new page, whereas execute() processes the second page request without leaving the current page. Post completion, returns back to the previous page/firstpage
 
 

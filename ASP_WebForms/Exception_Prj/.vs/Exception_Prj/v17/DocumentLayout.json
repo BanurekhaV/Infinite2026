@@ -3,31 +3,47 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\transfervsexecute.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\transfervsexecute.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\webform2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\webform2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\redirectvstransfer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\redirectvstransfer.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\redirectvstransfer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\webform2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\webform2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\transfervsexecute.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\transfervsexecute.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\redirectvstransfer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\redirectvstransfer.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\exceptionlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\exceptionlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\exceptionlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\defaulterror.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\defaulterror.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\defaulterror.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -35,15 +51,15 @@
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\authentication.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\authentication.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\authentication.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\pagenotfound.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\pagenotfound.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\pagenotfound.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\exception_prj\\exception_prj\\apperror.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\exception_prj\\apperror.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F80E593-7318-47B4-9444-3BFB02804CC8}|Exception_Prj\\Exception_Prj.csproj|solutionrelative:exception_prj\\apperror.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -58,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,33 +82,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm2.aspx.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\WebForm2.aspx.cs",
+              "RelativeDocumentMoniker": "Exception_Prj\\WebForm2.aspx.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\WebForm2.aspx.cs",
+              "RelativeToolTip": "Exception_Prj\\WebForm2.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:45:53.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm2.aspx",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\WebForm2.aspx",
+              "RelativeDocumentMoniker": "Exception_Prj\\WebForm2.aspx",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\WebForm2.aspx",
+              "RelativeToolTip": "Exception_Prj\\WebForm2.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T12:41:07.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TransferVsExecute.aspx.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\TransferVsExecute.aspx.cs",
+              "RelativeDocumentMoniker": "Exception_Prj\\TransferVsExecute.aspx.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\TransferVsExecute.aspx.cs",
+              "RelativeToolTip": "Exception_Prj\\TransferVsExecute.aspx.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvxsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T12:36:40.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransferVsExecute.aspx",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\TransferVsExecute.aspx",
+              "RelativeDocumentMoniker": "Exception_Prj\\TransferVsExecute.aspx",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\TransferVsExecute.aspx",
+              "RelativeToolTip": "Exception_Prj\\TransferVsExecute.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-20T12:28:50.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RedirectVsTransfer.aspx.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\RedirectVsTransfer.aspx.cs",
               "RelativeDocumentMoniker": "Exception_Prj\\RedirectVsTransfer.aspx.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\RedirectVsTransfer.aspx.cs",
               "RelativeToolTip": "Exception_Prj\\RedirectVsTransfer.aspx.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABYAAAAMAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T11:38:35.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RedirectVsTransfer.aspx",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\RedirectVsTransfer.aspx",
               "RelativeDocumentMoniker": "Exception_Prj\\RedirectVsTransfer.aspx",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\RedirectVsTransfer.aspx",
               "RelativeToolTip": "Exception_Prj\\RedirectVsTransfer.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-05-20T11:36:50.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ExceptionLogging.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\ExceptionLogging.cs",
               "RelativeDocumentMoniker": "Exception_Prj\\ExceptionLogging.cs",
@@ -105,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "defaulterror.aspx",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\defaulterror.aspx",
               "RelativeDocumentMoniker": "Exception_Prj\\defaulterror.aspx",
@@ -118,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "PageNotFound.aspx",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\PageNotFound.aspx",
               "RelativeDocumentMoniker": "Exception_Prj\\PageNotFound.aspx",
@@ -131,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\Web.config",
               "RelativeDocumentMoniker": "Exception_Prj\\Web.config",
@@ -144,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "apperror.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\apperror.html",
               "RelativeDocumentMoniker": "Exception_Prj\\apperror.html",
@@ -157,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\Global.asax.cs",
               "RelativeDocumentMoniker": "Exception_Prj\\Global.asax.cs",
@@ -170,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "WebForm1.aspx.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\WebForm1.aspx.cs",
               "RelativeDocumentMoniker": "Exception_Prj\\WebForm1.aspx.cs",
@@ -183,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "WebForm1.aspx",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\WebForm1.aspx",
               "RelativeDocumentMoniker": "Exception_Prj\\WebForm1.aspx",
@@ -196,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Authentication.html",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\Authentication.html",
               "RelativeDocumentMoniker": "Exception_Prj\\Authentication.html",
@@ -209,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "About.aspx.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Exception_Prj\\Exception_Prj\\About.aspx.cs",
               "RelativeDocumentMoniker": "Exception_Prj\\About.aspx.cs",
