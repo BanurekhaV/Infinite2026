@@ -34,7 +34,8 @@ Action Methods : are functionalities inside a controller
   - Must be public
   - Cannot be overloaded
   - Cannot be static
-  - Every controller has one action method by default called as Index()
+  - Every controller has one action method by default called as Index() that returns a view page
+  - ActionResult is the base class 
 
 ActionResult : is the base class for all result types of action
 
@@ -49,9 +50,25 @@ Result Types :
 8. FileStreamResult : downloadble with a specified stream
 9. JavascriptResult : html result
  
+Views : is a folder structure of MVC applications
+ - contains all .cshtml files under different folders that correspond to the respective controller, along with a shared folder supporting _layout.cshtml and _error.cshtml
+ - View folder name and .cshtml files represent the controller name and the action method names respectively
+ - allows us to write razor syntax - a powerful and easier mark up syntax
+                    - way of writing the server/programming code directly on to the html based view page
+                    - Uses '@{}' block to write program code
+                    - All inline expressions, variables, functions starts with @                    
+                    - Variables are declared using var keyword and ';' is used to terminate statement
+                    - Comments in razor are given with
+                                                 @* ......  *@  -- multiline comments
+                                                 /*      */
+                                                 //  -- single line
+                    - to bind the model to the view , we use @model
+                    - to access the properties of the bound model object , we use @Model
+
+ 
 
 Folder Structures :
 
 App_Data : This folder contains data files like localdb, .mdf, xml files etc
-App_Start : This contains class files whcih gets executed when application starts
+App_Start : This contains class files which gets executed when application starts
  
