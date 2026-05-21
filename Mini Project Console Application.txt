@@ -1,0 +1,24 @@
+Mini Project Console Application :
+
+SQL, C# and ADO
+
+  case : Train Reservation System
+  Train details : Train No, Name, From, To, class, Availability, Charges
+
+class - 2AC, 3AC, Sleeper 
+
+Booking Details : Booking Id, Bookdate, Travel Date, Train No, Travel Class, Passengers(3 max), Amount      
+
+Cancellation : CId, Bookingid, notickets(1), refund amt(900)
+
+May want to have control using user types
+
+Updating tickets available after every booking and cancellation
+
+Train Ticket
+Train Details
+Booking Details
+Cancellation Details
+
+Soft delete of train
+Ensure there are no bookings while deleting a train

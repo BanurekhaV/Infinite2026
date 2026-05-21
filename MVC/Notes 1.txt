@@ -1,0 +1,57 @@
+ASP.Net MVC : is a popular framework for developing web applications
+ - is the successor of ASP.net Web forms
+
+Features of MVC Pattern :
+ - Allows clear separation of concerns (Designs and code are neatly separated)
+ - Based on Model View Controller architecture pattern
+ - Is light weight, fast and secure
+ - It uses pure Html controls or generates one thru HtmlHelpers (No server controls)
+ - It uses controller based url
+ - Implements no View State
+ - It uses Layouts in place of Master pages for consistent look and feel
+ - It uses Razor syntax for customization
+ - ASP.Net MVC is an open source framework
+
+Understanding MVC
+
+Model : responsible for keeping database operational logic
+
+View : responsible for serving the webpage to the client (UI)
+
+Controller : responsible for programming/business logic
+
+Controller :
+ - Is a Main Part of MVC
+ - It is a mediator between client side request and server side response
+ - Is like a bridge between View page and models
+ - Controller works with HTTP request that comes from the browser
+ - Even when there is a static page request, it is routed thru a controller only
+ - Each request is mapped to a controller and each controller can have many action methods to handle reuquest
+ - All controllers should be suffixed with 'controller' key word
+
+
+Action Methods : are functionalities inside a controller
+  - Must be public
+  - Cannot be overloaded
+  - Cannot be static
+  - Every controller has one action method by default called as Index()
+
+ActionResult : is the base class for all result types of action
+
+Result Types : 
+1. View Result : html with razor
+2. Empty Result - no result
+3. RedirectResult - redirecting to a new url
+4. JsonResult - Json result
+5. ContentResult : a textual or html result
+6. FileContentResult - downloadable binary content
+7. FilePathResult : downloadable with path specifications
+8. FileStreamResult : downloadble with a specified stream
+9. JavascriptResult : html result
+ 
+
+Folder Structures :
+
+App_Data : This folder contains data files like localdb, .mdf, xml files etc
+App_Start : This contains class files whcih gets executed when application starts
+ 
