@@ -1,0 +1,11 @@
+Web Services : Is a software service that makes use of xml for data transfer. exchange and messaging. Uses SOAP (Simple Object Access Protocol ) protocol for communication.
+
+- a set of open protocols and standards that allow data to be exchanged between different applications or systems
+- can be used by software programs written in different programming languages and running on a variety of platforms.
+- are language, platform and protocol independent
+- includes
+   a)XML
+   b)SOAP
+   c)WSDL (Web Service Description Language)
+   d)UDDI (Universal Description, Discovery and Integration) - helps in searching a particular registered service on the net
+- Webservices application has an extension of .asmx

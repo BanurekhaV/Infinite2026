@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE881BBA-D62C-4381-90AA-DE9B5F6C960B}|Web_Services_Prj\\Web_Services_Prj.csproj|c:\\banu\\2026\\dotnet\\webservices\\web_services_prj\\web_services_prj\\trialwebservices.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE881BBA-D62C-4381-90AA-DE9B5F6C960B}|Web_Services_Prj\\Web_Services_Prj.csproj|solutionrelative:web_services_prj\\trialwebservices.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A707ED6A-F435-4B25-96F4-94FF4B9ED230}|Web_Client\\Web_Client.csproj|c:\\banu\\2026\\dotnet\\webservices\\web_services_prj\\web_client\\clientform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A707ED6A-F435-4B25-96F4-94FF4B9ED230}|Web_Client\\Web_Client.csproj|solutionrelative:web_client\\clientform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A707ED6A-F435-4B25-96F4-94FF4B9ED230}|Web_Client\\Web_Client.csproj|c:\\banu\\2026\\dotnet\\webservices\\web_services_prj\\web_client\\clientform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A707ED6A-F435-4B25-96F4-94FF4B9ED230}|Web_Client\\Web_Client.csproj|solutionrelative:web_client\\clientform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientForm.aspx.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\Web_Client\\ClientForm.aspx.cs",
+              "RelativeDocumentMoniker": "Web_Client\\ClientForm.aspx.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\Web_Client\\ClientForm.aspx.cs",
+              "RelativeToolTip": "Web_Client\\ClientForm.aspx.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:39:37.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientForm.aspx",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\Web_Client\\ClientForm.aspx",
+              "RelativeDocumentMoniker": "Web_Client\\ClientForm.aspx",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\Web_Client\\ClientForm.aspx",
+              "RelativeToolTip": "Web_Client\\ClientForm.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T07:34:57.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrialWebServices.asmx.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\Web_Services_Prj\\TrialWebServices.asmx.cs",
+              "RelativeDocumentMoniker": "Web_Services_Prj\\TrialWebServices.asmx.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\WebServices\\Web_Services_Prj\\Web_Services_Prj\\TrialWebServices.asmx.cs",
+              "RelativeToolTip": "Web_Services_Prj\\TrialWebServices.asmx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:17:16.208Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
