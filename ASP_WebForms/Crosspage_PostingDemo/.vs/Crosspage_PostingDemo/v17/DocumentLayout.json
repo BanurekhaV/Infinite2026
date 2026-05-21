@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\crosspage_postingdemo\\crosspage_postingdemo\\display.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|solutionrelative:crosspage_postingdemo\\display.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\crosspage_postingdemo\\crosspage_postingdemo\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|solutionrelative:crosspage_postingdemo\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\crosspage_postingdemo\\crosspage_postingdemo\\display.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|solutionrelative:crosspage_postingdemo\\display.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|c:\\banu\\2026\\dotnet\\asp_webforms\\crosspage_postingdemo\\crosspage_postingdemo\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90102937-1CCD-478C-917D-3DD02910E6D5}|Crosspage_PostingDemo\\Crosspage_PostingDemo.csproj|solutionrelative:crosspage_postingdemo\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Display.aspx.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Display.aspx.cs",
+              "RelativeDocumentMoniker": "Crosspage_PostingDemo\\Display.aspx.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Display.aspx.cs",
+              "RelativeToolTip": "Crosspage_PostingDemo\\Display.aspx.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T04:40:59.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.aspx.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Index.aspx.cs",
+              "RelativeDocumentMoniker": "Crosspage_PostingDemo\\Index.aspx.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Index.aspx.cs",
+              "RelativeToolTip": "Crosspage_PostingDemo\\Index.aspx.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAIAwwBAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T04:40:03.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Display.aspx",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Display.aspx",
+              "RelativeDocumentMoniker": "Crosspage_PostingDemo\\Display.aspx",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Display.aspx",
+              "RelativeToolTip": "Crosspage_PostingDemo\\Display.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:37:46.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Index.aspx",
+              "RelativeDocumentMoniker": "Crosspage_PostingDemo\\Index.aspx",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\ASP_WebForms\\Crosspage_PostingDemo\\Crosspage_PostingDemo\\Index.aspx",
+              "RelativeToolTip": "Crosspage_PostingDemo\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-21T04:33:56.582Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
