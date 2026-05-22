@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\firstmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\views\\hr\\testview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\views\\hr\\testview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\views\\hr\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\views\\hr\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\views\\hr\\displayemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\views\\hr\\displayemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|c:\\banu\\2026\\dotnet\\mvc\\firstmvc\\firstmvc\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\firstmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\firstmvc\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\firstmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|solutionrelative:firstmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9E0C96-F4D3-4801-91E1-073A6226FBF5}|FirstMVC\\FirstMVC.csproj|C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\firstmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,12 +77,73 @@
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestView.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\HR\\TestView.cshtml",
+              "RelativeDocumentMoniker": "FirstMVC\\Views\\HR\\TestView.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\HR\\TestView.cshtml",
+              "RelativeToolTip": "FirstMVC\\Views\\HR\\TestView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T05:20:53.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeList.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\HR\\EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "FirstMVC\\Views\\HR\\EmployeeList.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\HR\\EmployeeList.cshtml",
+              "RelativeToolTip": "FirstMVC\\Views\\HR\\EmployeeList.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T04:44:43.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DisplayEmployee.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\HR\\DisplayEmployee.cshtml",
+              "RelativeDocumentMoniker": "FirstMVC\\Views\\HR\\DisplayEmployee.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\HR\\DisplayEmployee.cshtml",
+              "RelativeToolTip": "FirstMVC\\Views\\HR\\DisplayEmployee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-22T04:37:08.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HRController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\HRController.cs",
+              "RelativeDocumentMoniker": "FirstMVC\\Controllers\\HRController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\HRController.cs",
+              "RelativeToolTip": "FirstMVC\\Controllers\\HRController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:32:02.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "FirstMVC\\Models\\Department.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Models\\Department.cs",
+              "RelativeToolTip": "FirstMVC\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:30:18.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "FirstMVC\\Models\\Employee.cs",
@@ -70,12 +151,28 @@
               "RelativeToolTip": "FirstMVC\\Models\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:44:02.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T12:44:02.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FirstMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FirstMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:44:48.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ViewMethod.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\Demo\\ViewMethod.cshtml",
               "RelativeDocumentMoniker": "FirstMVC\\Views\\Demo\\ViewMethod.cshtml",
@@ -87,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\Demo\\Index.cshtml",
               "RelativeDocumentMoniker": "FirstMVC\\Views\\Demo\\Index.cshtml",
@@ -99,20 +196,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DemoController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\DemoController.cs",
               "RelativeDocumentMoniker": "FirstMVC\\Controllers\\DemoController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\DemoController.cs",
               "RelativeToolTip": "FirstMVC\\Controllers\\DemoController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEIAAAABAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAD8AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T11:05:31.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Global.asax.cs",
               "RelativeDocumentMoniker": "FirstMVC\\Global.asax.cs",
@@ -124,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "FirstMVC\\Views\\_ViewStart.cshtml",
@@ -136,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "FirstMVC\\App_Start\\RouteConfig.cs",
@@ -144,20 +241,7 @@
               "RelativeToolTip": "FirstMVC\\App_Start\\RouteConfig.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAqwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T10:50:41.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FirstMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\FirstMVC\\FirstMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FirstMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T10:44:48.139Z"
+              "WhenOpened": "2026-05-21T10:50:41.381Z"
             }
           ]
         }
