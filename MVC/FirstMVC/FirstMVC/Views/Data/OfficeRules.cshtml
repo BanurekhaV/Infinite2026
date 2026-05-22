@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "OfficeRules";
+}
+
+<h2>Office Rules displayed thru ViewBag </h2>
+@foreach(string s in ViewBag.Offrules)
+            {
+                <ol>
+                    <li>@s</li>
+                </ol>
+            }
+
+<br/>
+<hr/>
+<h2>Office Rules displayed thru ViewData</h2>
+@foreach(var x in ViewData["followrules"] as List<string>)
+            {
+              <p>@x</p>
+            }
+
+
+
+
+
+
+
+

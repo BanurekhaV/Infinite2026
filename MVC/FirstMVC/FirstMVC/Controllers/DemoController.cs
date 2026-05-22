@@ -63,5 +63,13 @@ namespace FirstMVC.Controllers
             };
             return Json(employee,JsonRequestBehavior.AllowGet);
         }
+
+        // testing the tempdata values sent form Data controllers Index method
+        public ActionResult Test_Other_Controller_Request()
+        {
+            TempData.Keep();
+            // return View(TempData["stores"]); 
+            return RedirectToAction("Contact", "Home");
+        }
     }
 }

@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DataController.cs" />
     <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HRController.cs" />
@@ -188,6 +189,12 @@
     <Content Include="Views\HR\DepartmentList.cshtml" />
     <Content Include="Views\HR\DifferentActionname.cshtml" />
     <Content Include="Views\HR\TestView.cshtml" />
+    <Content Include="Views\Data\Index.cshtml" />
+    <Content Include="Views\Data\TestDataTransfer.cshtml" />
+    <Content Include="Views\Data\OfficeRules.cshtml" />
+    <Content Include="Views\Data\FirstTempRequest.cshtml" />
+    <Content Include="Views\Data\SecondTempRequest.cshtml" />
+    <Content Include="Views\Demo\Test_Other_Controller_Request.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

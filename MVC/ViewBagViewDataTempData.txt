@@ -1,0 +1,36 @@
+ViewBag, ViewData, TempData : are objects that are used to pass information/data from the controller to the view
+
+ViewBag : Dynamic Data type 
+    - used to transfer data from controller to view
+    - has short life, meaning once the data is passed from the controller to the view, it becomes null
+    - does not need any typecasting
+
+Eg : ViewBag.Mydata = "Data One";
+
+and to access the viewbag data in the view page
+  @ViewBag.Mydata
+
+
+ViewData : is a dictionary object that is derived from ViewDataDictionary
+   - uses a key value pair for storing and retrieving data, where the key is always a string
+   - used to transfer data from controller to view
+   - has short life, meaning once the data is passed from the controller to the view, it becomes null
+   - requires typecasting
+
+Eg : ViewData["Mydata"] = "Data Two" ;
+
+to access
+   ViewData["Mydata"]
+
+
+TempData : is a dictionary object that is derived from TempDataDictionary
+    - Uses a key value pair
+    - used to transfer data from controller to view/s
+    - internally it makes use of session to store the values
+    - always check for null before using the tempdata values to avoid runtime errors
+    - requires typecasting
+    - has bigger life than viewbag and viewdata
+    - it is generally used to transfer data/values from one controller to another
+    - Tempdata is able to carry the data to further request with the help of a method keep()
+
+    - 

@@ -24,7 +24,7 @@ namespace FirstMVC.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            return View(TempData["stores"]);
         }
     }
 }
