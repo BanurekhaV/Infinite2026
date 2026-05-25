@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MVC_Database_First.Models.Order>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index showing details from multiple models</h2>
+
+@foreach(var item in Model)
+            {
+                <ul>
+                    <li> Order ID : @item.OrderID</li>
+                    <li>  Customer Name : @item.Customer.ContactName</li>
+                    <li> Employee Last Name : @item.Employee.LastName</li>
+                    <li> Shipper Company : @item.Shipper.CompanyName</li>
+                    <li style="color:navy;">Order Details
+                       <ul>
+                           @foreach(var o in item.Order_Details)
+                {
+                    <li>Product ID : @o.ProductID</li>
+                    <li>Quantity Ordered : @o.Quantity</li>
+                    <li>Unit Price : @o.UnitPrice</li>
+                }
+                       </ul>
+                    </li>
+                </ul>
+            }
+

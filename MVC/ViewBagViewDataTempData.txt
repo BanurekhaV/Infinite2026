@@ -37,7 +37,7 @@ TempData : is a dictionary object that is derived from TempDataDictionary
 -- To pass data from the view to the controller
  1. Object (model)
  2. Forms Collection
- 3. Parameter Collection
+ 3. Parameter Collection of the model/entity
  4. Request Object
 
 Http Verbs involved for any data transactions/crud operations
