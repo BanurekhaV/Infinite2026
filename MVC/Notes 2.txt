@@ -1,0 +1,66 @@
+code first : Using Repository Pattern
+
+Repository Pattern : is a structural pattern that abstracts the data access, providing a centralized way to manage operations
+ - it is an intermediary layer between an applications business logic and data storage
+ - enhanced code maintainability, testability, flexibility, and making it easier to work with different data sources
+
+for migrations
+ -- install entity framework 6.x
+
+--enable-migrations
+--add-migration "<meaningfulname>"
+--update-database -v
+
+HTML Helpers : are C# methods that are used to return HTML. using the helpers, we can render all HTML controls viz. textbox, checkbox, images, buttons, anchor etc..
+
+
+Types of HTML Helpers :
+ 1. Inline Html Helper : are used on a single view of the same page. They are created using @helper tag
+
+  Eg : @helper MyInlineHelper(string [] names)
+{
+  <ol>
+   @foreach(string s in names)
+ { 
+    <li>@s</li>
+ }
+</ol>
+}
+
+ 2. Built-in Helpers
+
+   2.1  standard html helper : are used to render typical html elements
+Eg : @Html.Action()  -- creates link tag
+     @Html.TextBox()  -
+     @Html.BeginForm()  -- to start a form action
+
+  2.2  Strongly Typed Html Helper : these take lambda expressions with parameters and informs the helper which property of the model has to be used
+ 
+ Eg : @Html.LabelFor(m => m.ID)
+      @Html.TextBoxFor(m => m.ID)
+
+  2.3  Templated Html Helper : is used for data display and data input. Generates html automatically as per the model property and also for the complete model with just a single tag. This has 2 types
+    1. Display Template :  @Html.Display(), @Html.DisplayFor(), @Html.DisplayNameFor()
+
+for single tag display template    
+        @Html.DisplayForModel();     
+
+
+    2. Editor Template : @Html.Editor(), @Html.EditorFor()
+   
+for single tag editor template    
+        @Html.EditorForModel()
+
+
+
+  3. Custom Html Helper : Users preferences in the views. These are of 2 types
+      1. Static custom helpers
+      2. Extension custom helpers
+     
+   
+
+
+
+
+
+

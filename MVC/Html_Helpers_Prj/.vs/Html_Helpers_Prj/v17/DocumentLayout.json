@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Html_Helpers_Prj\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T11:31:36.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Models\\Student.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Models\\Student.cs",
+              "RelativeToolTip": "Html_Helpers_Prj\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T11:29:41.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
