@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "StandardHelper";
+    Layout = null;
+}
+
+<!Doctype html>
+<html>
+ <head>
+     <meta name="viewport" content="width=device-width" />
+     <title>Standar Helpers</title>
+ </head>
+<body>
+    <div>
+        <h2>Standard Helpers</h2>
+        @Html.Label("name","First Name")
+        @Html.TextBox("txtname","", new {@class="form-control",placeholder="First Name"})
+        <br/>
+        @Html.Label("add", "Address")
+        @Html.TextArea("address" ,new {@class="form-control", rows=5})
+    </div>
+</body>
+</html>

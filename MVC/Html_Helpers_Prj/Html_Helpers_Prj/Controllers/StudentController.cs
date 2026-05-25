@@ -21,5 +21,36 @@ namespace Html_Helpers_Prj.Controllers
             return View();
         }
 
+        //2. Templated Helper for individual model properties
+        public ActionResult Templated_Helper()
+        {
+            return View();
+        }
+
+        //3. Templated helper for the entire Model for edit
+        public ActionResult TemplateForModel()
+        {
+            return View();
+        }
+
+        //4. Templated helper for Display of the Model 
+        public ActionResult StudentDisplay()
+        {
+            Student stud = new Student()
+            {
+                RNo = 10,
+                name = "Test",
+                Address = "Chennai",
+            };
+            return View(stud);
+        }
+
+        //5. standard helper
+
+        public ActionResult StandardHelper()
+        {
+            return View();
+        }
     }
+
 }

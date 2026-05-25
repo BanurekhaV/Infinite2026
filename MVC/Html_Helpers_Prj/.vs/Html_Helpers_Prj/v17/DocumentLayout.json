@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\views\\student\\standardhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\views\\student\\standardhelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\views\\student\\studentdisplay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\views\\student\\studentdisplay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\views\\student\\templateformodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\views\\student\\templateformodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\views\\student\\templated_helper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\views\\student\\templated_helper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\html_helpers_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\html_helpers_prj\\html_helpers_prj\\views\\student\\strongly_typed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEA00307-2BED-4E49-8022-CC0C6F99F2A2}|Html_Helpers_Prj\\Html_Helpers_Prj.csproj|solutionrelative:html_helpers_prj\\views\\student\\strongly_typed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,34 +53,99 @@
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StandardHelper.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\StandardHelper.cshtml",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Views\\Student\\StandardHelper.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\StandardHelper.cshtml",
+              "RelativeToolTip": "Html_Helpers_Prj\\Views\\Student\\StandardHelper.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T12:56:10.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDisplay.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\StudentDisplay.cshtml",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Views\\Student\\StudentDisplay.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\StudentDisplay.cshtml",
+              "RelativeToolTip": "Html_Helpers_Prj\\Views\\Student\\StudentDisplay.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T12:52:32.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TemplateForModel.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\TemplateForModel.cshtml",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Views\\Student\\TemplateForModel.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\TemplateForModel.cshtml",
+              "RelativeToolTip": "Html_Helpers_Prj\\Views\\Student\\TemplateForModel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T12:47:38.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Templated_Helper.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\Templated_Helper.cshtml",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Views\\Student\\Templated_Helper.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\Templated_Helper.cshtml",
+              "RelativeToolTip": "Html_Helpers_Prj\\Views\\Student\\Templated_Helper.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T12:38:38.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Strongly_Typed.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\Strongly_Typed.cshtml",
+              "RelativeDocumentMoniker": "Html_Helpers_Prj\\Views\\Student\\Strongly_Typed.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Views\\Student\\Strongly_Typed.cshtml",
+              "RelativeToolTip": "Html_Helpers_Prj\\Views\\Student\\Strongly_Typed.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T12:25:34.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Html_Helpers_Prj\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Html_Helpers_Prj\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAAaAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T11:31:36.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Html_Helpers_Prj\\Models\\Student.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Html_Helpers_Prj\\Html_Helpers_Prj\\Models\\Student.cs",
               "RelativeToolTip": "Html_Helpers_Prj\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T11:29:41.149Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
