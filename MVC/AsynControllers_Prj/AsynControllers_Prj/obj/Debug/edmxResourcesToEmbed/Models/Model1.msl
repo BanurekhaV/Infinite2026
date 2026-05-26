@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InfiniteDBModelStoreContainer" CdmEntityContainer="InfiniteDBEntities1">
+    <EntitySetMapping Name="Depts">
+      <EntityTypeMapping TypeName="InfiniteDBModel.Dept">
+        <MappingFragment StoreEntitySet="Dept">
+          <ScalarProperty Name="deptno" ColumnName="deptno" />
+          <ScalarProperty Name="dname" ColumnName="dname" />
+          <ScalarProperty Name="loc" ColumnName="loc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Emps">
+      <EntityTypeMapping TypeName="InfiniteDBModel.Emp">
+        <MappingFragment StoreEntitySet="Emp">
+          <ScalarProperty Name="empno" ColumnName="empno" />
+          <ScalarProperty Name="ename" ColumnName="ename" />
+          <ScalarProperty Name="job" ColumnName="job" />
+          <ScalarProperty Name="mgr_id" ColumnName="mgr-id" />
+          <ScalarProperty Name="hiredate" ColumnName="hiredate" />
+          <ScalarProperty Name="sal" ColumnName="sal" />
+          <ScalarProperty Name="comm_" ColumnName="comm." />
+          <ScalarProperty Name="deptno" ColumnName="deptno" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="InfiniteDBModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="QuantityAvailable" ColumnName="QuantityAvailable" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSales">
+      <EntityTypeMapping TypeName="InfiniteDBModel.ProductSale">
+        <MappingFragment StoreEntitySet="ProductSales">
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="PrdId" ColumnName="PrdId" />
+          <ScalarProperty Name="QuantitySold" ColumnName="QuantitySold" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="InfiniteDBModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="StdId" ColumnName="StdId" />
+          <ScalarProperty Name="SName" ColumnName="SName" />
+          <ScalarProperty Name="Marks" ColumnName="Marks" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDepartments">
+      <EntityTypeMapping TypeName="InfiniteDBModel.tblDepartment">
+        <MappingFragment StoreEntitySet="tblDepartment">
+          <ScalarProperty Name="DeptId" ColumnName="DeptId" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="DeptBudget" ColumnName="DeptBudget" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEmployees">
+      <EntityTypeMapping TypeName="InfiniteDBModel.tblEmployee">
+        <MappingFragment StoreEntitySet="tblEmployee">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cityDatas">
+      <EntityTypeMapping TypeName="InfiniteDBModel.cityData">
+        <MappingFragment StoreEntitySet="cityData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="cityname" ColumnName="cityname" />
+          <ScalarProperty Name="CityPopulation" ColumnName="CityPopulation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="empdatas">
+      <EntityTypeMapping TypeName="InfiniteDBModel.empdata">
+        <MappingFragment StoreEntitySet="empdata">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExcpetionLogDbs">
+      <EntityTypeMapping TypeName="InfiniteDBModel.ExcpetionLogDb">
+        <MappingFragment StoreEntitySet="ExcpetionLogDb">
+          <ScalarProperty Name="Logid" ColumnName="Logid" />
+          <ScalarProperty Name="ExceptionMsg" ColumnName="ExceptionMsg" />
+          <ScalarProperty Name="ExceptionType" ColumnName="ExceptionType" />
+          <ScalarProperty Name="ExceptionSource" ColumnName="ExceptionSource" />
+          <ScalarProperty Name="ExceptionUrl" ColumnName="ExceptionUrl" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stable1">
+      <EntityTypeMapping TypeName="InfiniteDBModel.Stable1">
+        <MappingFragment StoreEntitySet="Stable1">
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+          <ScalarProperty Name="sname" ColumnName="sname" />
+          <ScalarProperty Name="sgrade" ColumnName="sgrade" />
+          <ScalarProperty Name="spercentage" ColumnName="spercentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stable2">
+      <EntityTypeMapping TypeName="InfiniteDBModel.Stable2">
+        <MappingFragment StoreEntitySet="Stable2">
+          <ScalarProperty Name="s_id" ColumnName="s_id" />
+          <ScalarProperty Name="sname" ColumnName="sname" />
+          <ScalarProperty Name="sgrade" ColumnName="sgrade" />
+          <ScalarProperty Name="spercentage" ColumnName="spercentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="InfiniteDBModel.Store.fn_getAllEmpData" FunctionImportName="fn_getAllEmpData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.fn_getAllEmpData_Result">
+          <ScalarProperty Name="empno" ColumnName="empno" />
+          <ScalarProperty Name="ename" ColumnName="ename" />
+          <ScalarProperty Name="job" ColumnName="job" />
+          <ScalarProperty Name="dname" ColumnName="dname" />
+          <ScalarProperty Name="deptno" ColumnName="deptno" />
+          <ScalarProperty Name="sal" ColumnName="sal" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="InfiniteDBModel.Store.fn_GetEmpByGender" FunctionImportName="fn_GetEmpByGender">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.fn_GetEmpByGender_Result">
+          <ScalarProperty Name="EmpNumber" ColumnName="EmpNumber" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ExceptionLoggingintoDB" FunctionName="InfiniteDBModel.Store.ExceptionLoggingintoDB" />
+    <FunctionImportMapping FunctionImportName="sp_addEmployee" FunctionName="InfiniteDBModel.Store.sp_addEmployee">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.sp_addEmployee_Result">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_empdetails" FunctionName="InfiniteDBModel.Store.sp_empdetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.sp_empdetails_Result">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_employeedata" FunctionName="InfiniteDBModel.Store.sp_employeedata">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.sp_employeedata_Result">
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_errorhandler" FunctionName="InfiniteDBModel.Store.sp_errorhandler" />
+    <FunctionImportMapping FunctionImportName="sp_getdept" FunctionName="InfiniteDBModel.Store.sp_getdept" />
+    <FunctionImportMapping FunctionImportName="sp_getempCount" FunctionName="InfiniteDBModel.Store.sp_getempCount" />
+    <FunctionImportMapping FunctionImportName="sp_getEmpSalary" FunctionName="InfiniteDBModel.Store.sp_getEmpSalary" />
+    <FunctionImportMapping FunctionImportName="sp_getSalary" FunctionName="InfiniteDBModel.Store.sp_getSalary">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.sp_getSalary_Result">
+          <ScalarProperty Name="empname" ColumnName="empname" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_greetings" FunctionName="InfiniteDBModel.Store.sp_greetings" />
+    <FunctionImportMapping FunctionImportName="Sp_ProductSalesMade" FunctionName="InfiniteDBModel.Store.Sp_ProductSalesMade" />
+    <FunctionImportMapping FunctionImportName="sp_sample" FunctionName="InfiniteDBModel.Store.sp_sample">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InfiniteDBModel.sp_sample_Result">
+          <ScalarProperty Name="empno" ColumnName="empno" />
+          <ScalarProperty Name="ename" ColumnName="ename" />
+          <ScalarProperty Name="job" ColumnName="job" />
+          <ScalarProperty Name="mgr_id" ColumnName="mgr-id" />
+          <ScalarProperty Name="hiredate" ColumnName="hiredate" />
+          <ScalarProperty Name="sal" ColumnName="sal" />
+          <ScalarProperty Name="comm_" ColumnName="comm." />
+          <ScalarProperty Name="deptno" ColumnName="deptno" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_TaxCalculator" FunctionName="InfiniteDBModel.Store.sp_TaxCalculator" />
+    <FunctionImportMapping FunctionImportName="sp_Welcome" FunctionName="InfiniteDBModel.Store.sp_Welcome" />
+  </EntityContainerMapping>
+</Mapping>

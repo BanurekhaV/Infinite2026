@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InfiniteDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <ComplexType Name="fn_getAllEmpData_Result">
+    <Property Name="empno" Type="Int32" Nullable="false" />
+    <Property Name="ename" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="job" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="dname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="deptno" Type="Int32" />
+    <Property Name="sal" Type="Int32" />
+  </ComplexType>
+  <ComplexType Name="fn_GetEmpByGender_Result">
+    <Property Name="EmpNumber" Type="Int32" />
+    <Property Name="EmployeeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+  </ComplexType>
+  <EntityType Name="Dept">
+    <Key>
+      <PropertyRef Name="deptno" />
+    </Key>
+    <Property Name="deptno" Type="Int32" Nullable="false" />
+    <Property Name="dname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="loc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Emps" Relationship="Self.FK__Emp__deptno__5FB337D6" FromRole="Dept" ToRole="Emp" />
+  </EntityType>
+  <EntityType Name="Emp">
+    <Key>
+      <PropertyRef Name="empno" />
+    </Key>
+    <Property Name="empno" Type="Int32" Nullable="false" />
+    <Property Name="ename" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="job" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="mgr_id" Type="Int32" />
+    <Property Name="hiredate" Type="DateTime" Precision="0" />
+    <Property Name="sal" Type="Int32" />
+    <Property Name="comm_" Type="Int32" />
+    <Property Name="deptno" Type="Int32" />
+    <Property Name="fname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Dept" Relationship="Self.FK__Emp__deptno__5FB337D6" FromRole="Emp" ToRole="Dept" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="QuantityAvailable" Type="Int32" />
+    <NavigationProperty Name="ProductSales" Relationship="Self.FK__ProductSa__PrdId__5629CD9C" FromRole="Products" ToRole="ProductSales" />
+  </EntityType>
+  <EntityType Name="ProductSale">
+    <Key>
+      <PropertyRef Name="SaleId" />
+    </Key>
+    <Property Name="SaleId" Type="Int32" Nullable="false" />
+    <Property Name="PrdId" Type="Int32" />
+    <Property Name="QuantitySold" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__ProductSa__PrdId__5629CD9C" FromRole="ProductSales" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StdId" />
+    </Key>
+    <Property Name="StdId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Marks" Type="Double" Nullable="false" />
+    <Property Name="SchoolName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblDepartment">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="DeptName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DeptBudget" Type="Double" />
+    <NavigationProperty Name="tblEmployees" Relationship="Self.FK__tblEmploy__Depar__25869641" FromRole="tblDepartment" ToRole="tblEmployee" />
+  </EntityType>
+  <EntityType Name="tblEmployee">
+    <Key>
+      <PropertyRef Name="EmpId" />
+    </Key>
+    <Property Name="EmpId" Type="Int32" Nullable="false" />
+    <Property Name="EmpName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Gender" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="Salary" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DepartmentId" Type="Int32" />
+    <NavigationProperty Name="tblDepartment" Relationship="Self.FK__tblEmploy__Depar__25869641" FromRole="tblEmployee" ToRole="tblDepartment" />
+  </EntityType>
+  <EntityType Name="cityData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cityname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CityPopulation" Type="Int32" />
+  </EntityType>
+  <EntityType Name="empdata">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ename" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ExcpetionLogDb">
+    <Key>
+      <PropertyRef Name="Logid" />
+    </Key>
+    <Property Name="Logid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExceptionMsg" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ExceptionType" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ExceptionSource" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ExceptionUrl" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="LogDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Stable1">
+    <Key>
+      <PropertyRef Name="s_id" />
+    </Key>
+    <Property Name="s_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sgrade" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="spercentage" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Stable2">
+    <Key>
+      <PropertyRef Name="s_id" />
+    </Key>
+    <Property Name="s_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sgrade" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="spercentage" Type="Int32" />
+  </EntityType>
+  <Association Name="FK__Emp__deptno__5FB337D6">
+    <End Role="Dept" Type="Self.Dept" Multiplicity="0..1" />
+    <End Role="Emp" Type="Self.Emp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dept">
+        <PropertyRef Name="deptno" />
+      </Principal>
+      <Dependent Role="Emp">
+        <PropertyRef Name="deptno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProductSa__PrdId__5629CD9C">
+    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductSales" Type="Self.ProductSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="ProductSales">
+        <PropertyRef Name="PrdId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblEmploy__Depar__25869641">
+    <End Role="tblDepartment" Type="Self.tblDepartment" Multiplicity="0..1" />
+    <End Role="tblEmployee" Type="Self.tblEmployee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDepartment">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="tblEmployee">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="InfiniteDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Depts" EntityType="Self.Dept" />
+    <EntitySet Name="Emps" EntityType="Self.Emp" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="ProductSales" EntityType="Self.ProductSale" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="tblDepartments" EntityType="Self.tblDepartment" />
+    <EntitySet Name="tblEmployees" EntityType="Self.tblEmployee" />
+    <EntitySet Name="cityDatas" EntityType="Self.cityData" />
+    <EntitySet Name="empdatas" EntityType="Self.empdata" />
+    <EntitySet Name="ExcpetionLogDbs" EntityType="Self.ExcpetionLogDb" />
+    <EntitySet Name="Stable1" EntityType="Self.Stable1" />
+    <EntitySet Name="Stable2" EntityType="Self.Stable2" />
+    <AssociationSet Name="FK__Emp__deptno__5FB337D6" Association="Self.FK__Emp__deptno__5FB337D6">
+      <End Role="Dept" EntitySet="Depts" />
+      <End Role="Emp" EntitySet="Emps" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProductSa__PrdId__5629CD9C" Association="Self.FK__ProductSa__PrdId__5629CD9C">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductSales" EntitySet="ProductSales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblEmploy__Depar__25869641" Association="Self.FK__tblEmploy__Depar__25869641">
+      <End Role="tblDepartment" EntitySet="tblDepartments" />
+      <End Role="tblEmployee" EntitySet="tblEmployees" />
+    </AssociationSet>
+    <FunctionImport Name="fn_getAllEmpData" IsComposable="true" ReturnType="Collection(InfiniteDBModel.fn_getAllEmpData_Result)">
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="fn_GetEmpByGender" IsComposable="true" ReturnType="Collection(InfiniteDBModel.fn_GetEmpByGender_Result)">
+      <Parameter Name="gen" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ExceptionLoggingintoDB">
+      <Parameter Name="exceptionmsg" Mode="In" Type="String" />
+      <Parameter Name="exceptiontype" Mode="In" Type="String" />
+      <Parameter Name="exceptionsource" Mode="In" Type="String" />
+      <Parameter Name="exceptionurl" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_addEmployee" ReturnType="Collection(InfiniteDBModel.sp_addEmployee_Result)">
+      <Parameter Name="eid" Mode="In" Type="Int32" />
+      <Parameter Name="ename" Mode="In" Type="String" />
+      <Parameter Name="gen" Mode="In" Type="String" />
+      <Parameter Name="sal" Mode="In" Type="Decimal" />
+      <Parameter Name="did" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_empdetails" ReturnType="Collection(InfiniteDBModel.sp_empdetails_Result)">
+      <Parameter Name="did" Mode="In" Type="Int32" />
+      <Parameter Name="sal" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_employeedata" ReturnType="Collection(InfiniteDBModel.sp_employeedata_Result)" />
+    <FunctionImport Name="sp_errorhandler" ReturnType="Collection(Decimal)" />
+    <FunctionImport Name="sp_getdept">
+      <Parameter Name="eid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getempCount">
+      <Parameter Name="deptid" Mode="In" Type="Int32" />
+      <Parameter Name="totsal" Mode="InOut" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getEmpSalary">
+      <Parameter Name="empname" Mode="In" Type="String" />
+      <Parameter Name="esal" Mode="InOut" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getSalary" ReturnType="Collection(InfiniteDBModel.sp_getSalary_Result)">
+      <Parameter Name="eid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_greetings" ReturnType="Collection(String)" />
+    <FunctionImport Name="Sp_ProductSalesMade">
+      <Parameter Name="prdid" Mode="In" Type="Int32" />
+      <Parameter Name="qty_tosell" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_sample" ReturnType="Collection(InfiniteDBModel.sp_sample_Result)" />
+    <FunctionImport Name="sp_TaxCalculator">
+      <Parameter Name="eid" Mode="In" Type="Int32" />
+      <Parameter Name="annualsal" Mode="InOut" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_Welcome" ReturnType="Collection(String)">
+      <Parameter Name="name" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_addEmployee_Result">
+    <Property Type="Int32" Name="EmpId" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="7" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="DepartmentId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_empdetails_Result">
+    <Property Type="Int32" Name="EmpId" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="7" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="DepartmentId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_employeedata_Result">
+    <Property Type="Int32" Name="EmpId" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Gender" Nullable="true" MaxLength="7" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="DepartmentId" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_getSalary_Result">
+    <Property Type="String" Name="empname" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="salary" Nullable="true" Precision="18" Scale="0" />
+  </ComplexType>
+  <ComplexType Name="sp_sample_Result">
+    <Property Type="Int32" Name="empno" Nullable="false" />
+    <Property Type="String" Name="ename" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="job" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="mgr_id" Nullable="true" />
+    <Property Type="DateTime" Name="hiredate" Nullable="true" />
+    <Property Type="Int32" Name="sal" Nullable="true" />
+    <Property Type="Int32" Name="comm_" Nullable="true" />
+    <Property Type="Int32" Name="deptno" Nullable="true" />
+    <Property Type="String" Name="fname" Nullable="true" MaxLength="20" />
+  </ComplexType>
+</Schema>

@@ -1,7 +1,7 @@
 ﻿
 @{
     ViewBag.Title = "StandardHelper";
-    Layout = null;
+    //Layout = null;
 }
 
 <!Doctype html>
@@ -13,11 +13,34 @@
 <body>
     <div>
         <h2>Standard Helpers</h2>
-        @Html.Label("name","First Name")
-        @Html.TextBox("txtname","", new {@class="form-control",placeholder="First Name"})
-        <br/>
+        @Html.Label("name", "First Name")
+        @Html.TextBox("txtname", "", new { @class = "form-control", placeholder = "First Name" })
+        <br />
         @Html.Label("add", "Address")
-        @Html.TextArea("address" ,new {@class="form-control", rows=5})
+        @Html.TextArea("address", new { @class = "form-control", rows = 5 })
+        <br />
+        @Html.Label("pass", "Password")
+        @Html.Password("password", "", new { @class = "form-control" })
+        <br />
+        @Html.RadioButton("mstatus", "Married", new { id = "IsMarried" }) Married ?
+        <br />
+        @Html.CheckBox("skl1") HTML 5
+        @Html.CheckBox("skl2") CSS
+        @Html.CheckBox("skl3") DOT Net
+        @Html.CheckBox("skl4") BootStrap
+        <br/>
+        @Html.ListBox("skills", new List<SelectListItem>
+      { new SelectListItem {Text = "ASP.Net", Value="1"},
+       new SelectListItem {Text="MVC", Value="2"},
+       new SelectListItem {Text = "SQL", Value = "3" },
+       new SelectListItem {Text="React", Value="4"},
+       new SelectListItem {Text="Angular", Value="5"},}, new {@class="form-control"})
+        <br/>
+        @Html.DropDownList("gender",new List<SelectListItem>
+         { new SelectListItem{Text="Select Gender", Value="-1"},
+         new SelectListItem{Text="Male",Value="1"},
+         new SelectListItem{Text="Female", Value="2"},
+         new SelectListItem{Text="Others", Value="3"},}, new {@class="custom-select"})
     </div>
 </body>
 </html>
