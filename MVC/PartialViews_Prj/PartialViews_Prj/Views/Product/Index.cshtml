@@ -1,0 +1,21 @@
+﻿@model IEnumerable<PartialViews_Prj.Models.Product>
+@{
+    ViewBag.Title = "Index";
+}
+
+@*<h2>Generic View</h2>
+
+@foreach(var p in Model)
+            {
+                <ul>
+                    <li>@p.ProductName</li>
+                    <li>@p.Price</li>
+                </ul>
+            }*@
+
+<h2>Rendering a Partial View with all Rendering Types</h2>
+@Html.Partial("ProductDetails",Model)
+<hr/>
+@{Html.RenderPartial("ProductDetails");}
+<hr/>
+@{Html.RenderAction("GetAllProducts", "Product");}

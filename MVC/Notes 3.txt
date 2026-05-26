@@ -9,3 +9,23 @@ LayOuts : Is a view (.cshtml) for providing consistent look
           It is comparable to master page of Web Forms
 
 
+Partial Views : are views that are rendered as a part of another view
+               - have .cshtml extension like a normal view
+               - are used when we need some common view/data to be displayed as a part of many other views
+               - are also useful to divide the webpage into smaller portions (header, footer, menu, logo, images etc..)
+
+To Render a Partial View :
+ 1. Html.RenderPartial :  Is a void Method that writes the output to the response stream as a part of the current requested page (same Http Response)
+                     - is the fastest way to render partial views
+                     - since it is a void method, we should enclose the call within the '{}'
+ 
+ 2. Html.Partial : This method returns a MVC IHtmlString
+
+ 3. Html.RenderAction  : is the best choice when we want to cache the partial views
+                        - can call child actions methods and then render the partial view
+                        - As it is a void method, we should enclose the call within the '{}'
+
+ 4. Html.Action  : same as renderaction, but returns a partial view result as Ihtmlstring
+
+ 5. Jquery Load Function : Can display the partial views on load method of the Jquery
+ 

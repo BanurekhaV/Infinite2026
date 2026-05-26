@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\partialviews_prj\\partialviews_prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|solutionrelative:partialviews_prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\partialviews_prj\\partialviews_prj\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|solutionrelative:partialviews_prj\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\partialviews_prj\\partialviews_prj\\views\\shared\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|solutionrelative:partialviews_prj\\views\\shared\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\partialviews_prj\\partialviews_prj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A80C5C52-9D9B-45D7-BCD6-8B292B6E8EA8}|PartialViews_Prj\\PartialViews_Prj.csproj|solutionrelative:partialviews_prj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Views\\Shared\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "PartialViews_Prj\\Views\\Shared\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Views\\Shared\\ProductDetails.cshtml",
+              "RelativeToolTip": "PartialViews_Prj\\Views\\Shared\\ProductDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T12:46:25.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "PartialViews_Prj\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "PartialViews_Prj\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T12:37:55.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PartialViews_Prj\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PartialViews_Prj\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T12:31:31.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PartialViews_Prj\\Models\\Product.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\PartialViews_Prj\\PartialViews_Prj\\Models\\Product.cs",
+              "RelativeToolTip": "PartialViews_Prj\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T12:29:57.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

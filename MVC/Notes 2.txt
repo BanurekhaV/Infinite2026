@@ -8,7 +8,7 @@ for migrations
  -- install entity framework 6.x
 
 --enable-migrations
---add-migration "<meaningfulname>"
+--add-migration "<meaningfullname>"
 --update-database -v
 
 HTML Helpers : are C# methods that are used to return HTML. using the helpers, we can render all HTML controls viz. textbox, checkbox, images, buttons, anchor etc..
