@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\views\\shared\\_customlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\views\\shared\\_customlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\views\\home\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\views\\home\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\layouts_prj\\layouts_prj\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9124214-B813-498B-BDF4-8D75E7F76EB6}|Layouts_Prj\\Layouts_Prj.csproj|solutionrelative:layouts_prj\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Home\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Views\\Home\\Orders.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Home\\Orders.cshtml",
+              "RelativeToolTip": "Layouts_Prj\\Views\\Home\\Orders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T10:42:25.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Layouts_Prj\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T10:36:35.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Home\\Product.cshtml",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Views\\Home\\Product.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Home\\Product.cshtml",
+              "RelativeToolTip": "Layouts_Prj\\Views\\Home\\Product.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T10:35:44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Layouts_Prj\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:31:41.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Layouts_Prj\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T10:30:27.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_CustomLayout.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Shared\\_CustomLayout.cshtml",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Views\\Shared\\_CustomLayout.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Shared\\_CustomLayout.cshtml",
+              "RelativeToolTip": "Layouts_Prj\\Views\\Shared\\_CustomLayout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T10:15:52.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Layouts_Prj\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:48:58.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Layouts_Prj\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Layouts_Prj\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T10:53:45.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ProductLayout.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Shared\\_ProductLayout.cshtml",
+              "RelativeDocumentMoniker": "Layouts_Prj\\Views\\Shared\\_ProductLayout.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Layouts_Prj\\Layouts_Prj\\Views\\Shared\\_ProductLayout.cshtml",
+              "RelativeToolTip": "Layouts_Prj\\Views\\Shared\\_ProductLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T10:25:00.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

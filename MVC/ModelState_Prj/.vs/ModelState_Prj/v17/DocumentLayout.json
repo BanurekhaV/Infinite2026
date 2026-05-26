@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\modelstate_prj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelstate_prj\\modelstate_prj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelstate_prj\\modelstate_prj\\views\\user\\userstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\views\\user\\userstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelstate_prj\\modelstate_prj\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\views\\user\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelstate_prj\\modelstate_prj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelstate_prj\\modelstate_prj\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\modelstate_prj\\views\\user\\userstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BBD8EC1-7990-450A-A788-A932322CD54C}|ModelState_Prj\\ModelState_Prj.csproj|solutionrelative:modelstate_prj\\views\\user\\userstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +50,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Views\\User\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "ModelState_Prj\\Views\\User\\AddUser.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Views\\User\\AddUser.cshtml",
+              "RelativeToolTip": "ModelState_Prj\\Views\\User\\AddUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T09:55:53.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModelState_Prj\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "ModelState_Prj\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T09:55:07.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserStatus.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Views\\User\\UserStatus.cshtml",
               "RelativeDocumentMoniker": "ModelState_Prj\\Views\\User\\UserStatus.cshtml",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Views\\User\\UserStatus.cshtml",
               "RelativeToolTip": "ModelState_Prj\\Views\\User\\UserStatus.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-26T08:04:26.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ModelState_Prj\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Controllers\\UserController.cs",
               "RelativeToolTip": "ModelState_Prj\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBUAAAAJAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T08:02:27.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Models\\User.cs",
               "RelativeDocumentMoniker": "ModelState_Prj\\Models\\User.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelState_Prj\\ModelState_Prj\\Models\\User.cs",
               "RelativeToolTip": "ModelState_Prj\\Models\\User.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T07:48:04.358Z",
               "EditorCaption": ""

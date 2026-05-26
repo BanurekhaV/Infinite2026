@@ -1,0 +1,11 @@
+View Models : Is a concept of having a view that displays properties of multiple models. To achieve view models, we can create a model that consists of the models whose properties we want to access. Bind this model to the view and display which ever property values we wish to display.
+
+
+Model States : Depicts the state of a model on HttpPost. Usually validations of the model properties are represented by the modelstate's property known as 'IsValid'. Can use both built-in or user defined attributes on a model. We can also validate the state in our action methods
+
+
+LayOuts : Is a view (.cshtml) for providing consistent look 
+          It is created under the Shared folder of the view folder
+          It is comparable to master page of Web Forms
+
+

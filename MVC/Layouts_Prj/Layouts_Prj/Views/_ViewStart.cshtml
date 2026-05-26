@@ -1,0 +1,31 @@
+﻿@*1. Usual way of specifying layouts
+    @{
+//Layout = "~/Views/Shared/_Layout.cshtml";
+//Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}*@
+
+@*2. Layouts That depend on the browsers*@
+@{ 
+    Layout = Request.Browser.IsBrowser("Chrome") ? "~/Views/Shared/_CustomLayout.cshtml"
+        : "~/Views/Shared/_ProductLayout.cshtml";
+}
+
+@* 3. Layouts based on the controller
+    @{ 
+    string currentName = Convert.ToString
+        (HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"]
+        );
+    dynamic Layout;
+    switch(currentName)
+    {
+        case "Home":
+            Layout = "~/Views/Shared/_CustomLayout.cshtml";
+            break;
+        case "Employee":
+            Layout = "~/Views/Shared/_ProductLayout.cshtml";
+            break;
+        default:
+            Layout = "~/Views/Shared/_Layout.cshtml";
+            break;
+    }
+}*@

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <table border="1" style="width:800px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+        <tr>
+            <td colspan="2" style="text-align:center;background-color:darkorange;color:white">
+                <h3>Employee Portal</h3>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:200px; background-color:darkorange;color:white">
+                @Html.ActionLink("EmployeeList", "Index")
+            </td>
+
+            <td style="width:600px;">@RenderBody()</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;font-size:x-large;background-color:darkorange;color:white">
+                &copy;2026 Infinite Computers Ltd.
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

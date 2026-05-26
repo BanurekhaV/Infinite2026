@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @*@Styles.Render("~/Content")*@
+</head>
+<body>
+    <div class="row" style="background-color:crimson;">
+        Here You can have Custom Headers
+        </div>
+    <div>
+        @RenderBody()
+    </div>
+
+    <div class="row" style="background-color:gold;">
+        Here you can have footer elements
+    </div>
+    
+</body>
+</html>
