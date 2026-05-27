@@ -3,19 +3,47 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\views\\default\\bundlingmethod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\views\\default\\bundlingmethod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\scripts\\js2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\scripts\\js2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\scripts\\js3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\scripts\\js3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\scripts\\js1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\scripts\\js1.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\modelbinding_prj\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\custombindings\\custombinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\modelbinding_prj\\custombindings\\custombinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\custombindings\\custombinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\modelbinding_prj\\modelbinding_prj\\models\\custommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\modelbinding_prj\\models\\custommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{603CA02B-434E-4944-B875-7578306E2C06}|ModelBinding_Prj\\ModelBinding_Prj.csproj|solutionrelative:modelbinding_prj\\models\\custommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,6 +75,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BundlingMethod.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Views\\Default\\BundlingMethod.cshtml",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\Views\\Default\\BundlingMethod.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Views\\Default\\BundlingMethod.cshtml",
+              "RelativeToolTip": "ModelBinding_Prj\\Views\\Default\\BundlingMethod.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T10:04:36.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\Global.asax.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Global.asax.cs",
+              "RelativeToolTip": "ModelBinding_Prj\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:55:18.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JS3.js",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Scripts\\JS3.js",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\Scripts\\JS3.js",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Scripts\\JS3.js",
+              "RelativeToolTip": "ModelBinding_Prj\\Scripts\\JS3.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-27T09:54:27.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JS2.js",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Scripts\\JS2.js",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\Scripts\\JS2.js",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Scripts\\JS2.js",
+              "RelativeToolTip": "ModelBinding_Prj\\Scripts\\JS2.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-27T09:54:10.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JS1.js",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Scripts\\JS1.js",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\Scripts\\JS1.js",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Scripts\\JS1.js",
+              "RelativeToolTip": "ModelBinding_Prj\\Scripts\\JS1.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-27T09:53:16.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "ModelBinding_Prj\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:51:41.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ModelBinding_Prj\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ModelBinding_Prj\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:51:39.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "ModelBinding_Prj\\Views\\Default\\Index.cshtml",
@@ -59,20 +178,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DefaultController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Controllers\\DefaultController.cs",
               "RelativeDocumentMoniker": "ModelBinding_Prj\\Controllers\\DefaultController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Controllers\\DefaultController.cs",
               "RelativeToolTip": "ModelBinding_Prj\\Controllers\\DefaultController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAIAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T08:08:48.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "CustomBinder.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\CustomBindings\\CustomBinder.cs",
               "RelativeDocumentMoniker": "ModelBinding_Prj\\CustomBindings\\CustomBinder.cs",
@@ -80,12 +199,11 @@
               "RelativeToolTip": "ModelBinding_Prj\\CustomBindings\\CustomBinder.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:59:15.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:59:15.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "CustomModel.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\ModelBinding_Prj\\ModelBinding_Prj\\Models\\CustomModel.cs",
               "RelativeDocumentMoniker": "ModelBinding_Prj\\Models\\CustomModel.cs",
@@ -93,8 +211,7 @@
               "RelativeToolTip": "ModelBinding_Prj\\Models\\CustomModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:56:59.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:56:59.51Z"
             }
           ]
         }

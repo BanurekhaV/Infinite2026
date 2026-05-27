@@ -25,6 +25,14 @@ namespace ModelBinding_Prj
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/User").Include(
+                "~/Scripts/JS1.js",
+                "~/Scripts/JS2.js",
+                "~/Scripts/JS3.js"));
+
+            //for minification
+            BundleTable.EnableOptimizations = true;
         }
     }
 }

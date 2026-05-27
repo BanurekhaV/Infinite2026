@@ -1,0 +1,1 @@
+﻿document.writeln("Welcome to the Javascript File 3" + "<br/>")
