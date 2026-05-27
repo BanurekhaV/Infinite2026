@@ -30,6 +30,7 @@ namespace CustomValidations_Prj.Models
         [RegularExpression(@"^(0(?!\.00)|[1-9]\d{0,6})\.\d{2}$", ErrorMessage =
             "Salary should be like 60000.45")]
         public decimal expsal {  get; set; }
+        [SkillValidate(ErrorMessage ="Select a Minimum of 3 skills")]
         public List<CheckBox> Skills { get; set; }
         [Required]
         public string HavePassport {  get; set; }

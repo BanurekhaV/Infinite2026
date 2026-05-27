@@ -123,6 +123,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobApplicationController.cs" />
     <Compile Include="CustomValidations\GenderValidate.cs" />
+    <Compile Include="CustomValidations\SkillValidate.cs" />
     <Compile Include="CustomValidations\ValidBirthDate.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
