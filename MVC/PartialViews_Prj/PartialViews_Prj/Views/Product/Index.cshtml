@@ -14,8 +14,20 @@
             }*@
 
 <h2>Rendering a Partial View with all Rendering Types</h2>
-@Html.Partial("ProductDetails",Model)
+@*@Html.Partial("ProductDetails",Model)
 <hr/>
 @{Html.RenderPartial("ProductDetails");}
 <hr/>
-@{Html.RenderAction("GetAllProducts", "Product");}
+@{Html.RenderAction("GetAllProducts", "Product");}*@
+<hr/>
+@*@Html.Action("GetAllProducts")*@
+<hr/>
+<div id="partialview">
+
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#partialview").load('/Product/GetAllproducts');
+    });
+</script>

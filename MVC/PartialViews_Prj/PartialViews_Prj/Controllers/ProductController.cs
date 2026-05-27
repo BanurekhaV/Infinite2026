@@ -47,5 +47,12 @@ namespace PartialViews_Prj.Controllers
             };
             return PartialView("ProductDetails", prdlist);
         }
+
+        //normal method that takes up the list of products
+        public ActionResult JustNormalMethod()
+        {
+           // return View(productlist);
+            return View();
+        }
     }
 }
