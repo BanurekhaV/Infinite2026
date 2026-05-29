@@ -35,3 +35,44 @@ Limitations to HandleError attribute class:
 
 To overcome the above limitations, we can work with Custom Filters
  
+
+Routing : Is usually a convention based routing that goes with the controller/action/id(optional)
+Attribute Based Routing : When we define routes using the [Route] attribute. This gives more control over the URI's 
+
+Routing : Defines the URL Pattern and the handler information
+
+Conventional Routing :
+
+https://localhost/44312/  ==> search the routeconfig.cs for the pattern
+
+https://localhost/44312/home ==> (action = index, id=optional)
+
+https://localhost/44312/home/index  ==> (id=optional)
+
+https://localhost/44312/home/index/5 ==> retrieves the record 5 of the index of Home
+
+Attribute Routing : Define routes using [Route]
+
+--We have to enable attribute routing in routeconfig.cs     routes.MapMVCAttributeRoutes()
+
+--Decorate with the [Route]
+
+Advantages of attribute based routing
+ 1. It gives us more control. We can create hierarchical URL Pattern
+ (students have courses, orders have products, departments have employees)
+ 2. Reduces the chance of error
+ 3. May decouple the controller and action name 
+ 4. Easy to map 2 routes pointing to same action 
+
+RoutePrefix : is a common attribute placed on a controller, for all the action methods of a controller
+
+--To override the RoutePrefix , use a "~  symbol along with a different route)
+
+--Route Constraints : can be applied on different action methods 
+ - int  - 32 bit integer
+ - alpha - matches upper/lower alphabets
+ - bool - 
+ - datetime 
+ - guid 
+ - length - string with specified length
+ - max, min, minlength, maxlength, long, range, regex

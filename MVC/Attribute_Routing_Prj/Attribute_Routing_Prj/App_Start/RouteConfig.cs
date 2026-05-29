@@ -22,6 +22,14 @@ namespace Attribute_Routing_Prj
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            //restricting the controller and action methods
+
+            //routes.MapRoute(
+            //    name: "Default1",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "^H.*", action = "^Details$|^About$", id = UrlParameter.Optional }
+            //);
         }
     }
 }

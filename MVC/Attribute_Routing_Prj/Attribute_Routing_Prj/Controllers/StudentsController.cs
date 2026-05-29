@@ -7,15 +7,15 @@ using System.Web.Mvc;
 
 namespace Attribute_Routing_Prj.Controllers
 {
-    [RoutePrefix("students")]
+    [RoutePrefix("Data")]
     public class StudentsController : Controller
     {
         static List<Student> students = new List<Student>()
         { 
-            new Student(){ID = 1,Name ="Priyanka" },
-            new Student(){ID = 2,Name ="Vanaja" },
-            new Student(){ID = 3,Name ="Anand" },
-            new Student(){ID = 4,Name ="Aadesh" },
+            new Student(){ID = 1,Name ="priyanka" },
+            new Student(){ID = 2,Name ="vanaja" },
+            new Student(){ID = 3,Name ="anand" },
+            new Student(){ID = 4,Name ="anu" },
         };
 
         [HttpGet]
@@ -38,7 +38,7 @@ namespace Attribute_Routing_Prj.Controllers
 
 
         [HttpGet]
-        [Route("{name:alpha}")]
+        [Route("{name:alpha:maxlength(5)}")]
         public ActionResult GetStudentByName(string name)
         {
             Student std = students.FirstOrDefault(s=>s.Name == name);
@@ -69,6 +69,19 @@ namespace Attribute_Routing_Prj.Controllers
             
             ViewBag.courseList = CourseList;
             return View();
+        }
+
+        //populating second model object
+        [Route("~/technical/trainers")]  // ~ is used to override a RoutePrefix
+        public ActionResult GetTrainers()
+        {
+            List<Trainer> trainers = new List<Trainer>()
+            { 
+                new Trainer {TId = 101, Name = "Geetha"},
+                new Trainer {TId = 101, Name = "Banurekha"},
+                new Trainer {TId = 102, Name = "Williams"}
+            };
+            return View(trainers);
         }
         // GET: Students
         public ActionResult Index()

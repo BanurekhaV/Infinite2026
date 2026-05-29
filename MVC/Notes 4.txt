@@ -22,3 +22,4 @@ Validations : are model validations that help posting the valid data to the serv
              - We should engage in both client and server side validation to be safer.
 
 
+Remote Validations : Are validations that are called to perform remote validations using Ajax request. In Our Example IsMailExist is the method that gets called remotely. If it returns true, validation succeeds, else failed and the form is prevented from being submitted
