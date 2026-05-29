@@ -16,8 +16,7 @@ namespace Filters_Prj.Controllers
         public ActionResult Index()
         {
             throw new Exception("Something Went Wrong..");
-           // return View();
-           
+           // return View();           
         }
 
         public ActionResult TestNullReference()

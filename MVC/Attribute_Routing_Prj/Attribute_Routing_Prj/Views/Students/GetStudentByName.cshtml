@@ -1,0 +1,25 @@
+﻿@model Attribute_Routing_Prj.Models.Student
+@{
+    ViewBag.Title = "GetStudentByName";
+}
+
+<h2>GetStudentByName</h2>
+
+<h2>Get Student By Name</h2>
+<hr />
+<div>
+    <table>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(model=> model.ID)
+            </td>
+            <td>@Html.DisplayNameFor(model=> model.Name)</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(model =>model.ID)
+            </td>
+            <td>@Html.DisplayFor(model =>model.Name) </td>
+        </tr>
+    </table>
+</div>

@@ -95,7 +95,9 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CustomFilterController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomFilters\TrackExecutions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -110,6 +112,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\NullReference.cshtml" />
     <Content Include="Views\Shared\DivideByZero.cshtml" />
+    <Content Include="Views\CustomFilter\SafetyMethod.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="DataFolder\" />
     <Folder Include="Log\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
