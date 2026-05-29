@@ -1,0 +1,29 @@
+Filters : are framework attributes that allow some logical code on a particular action/result/exception
+ - Allows in performing certain functionalities (Caching, Logging, Authentication, Authorization etc..) during, before or after action invoked, result executed or on getting an exception
+
+Exceptions in MVC : are done in large scale
+  - try catch and finally block
+  - Overriding OnException()
+  - Using [HandleError] attribute (built-in)
+  - Setting up a global execution filter
+  - Handle Application_Error() Event
+  - Extending HandleError Attribute
+
+Available Filters :
+  1. Authentication Filter  ---> IAuthenticationFilter
+  2. Authorization          ---> IAuthorizationFilter
+  3. Action
+  4. Result
+  5. Exception
+
+Available Attributes :
+  1. ValidateInput
+  2. Authorize
+  3. HandleError   -- 
+  4. OutPutCache
+
+Apart from the above, we can create custom filters
+- A filter can be applied at 3 different levels
+   1. Global Level ( applicable to all controllers and action methods of the application)
+   2. Controller Level ( applicable to all action methods of that controller)
+   3. ActionMethod Level ( applicable to specific action methods)
