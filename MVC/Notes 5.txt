@@ -10,20 +10,28 @@ Exceptions in MVC : are done in large scale
   - Extending HandleError Attribute
 
 Available Filters :
-  1. Authentication Filter  ---> IAuthenticationFilter
-  2. Authorization          ---> IAuthorizationFilter
-  3. Action
-  4. Result
-  5. Exception
+  1. Authentication Filter  ---> IAuthenticationFilter  (OnAuthentication(), OnAuthenticationChallenge())
+  2. Authorization          ---> IAuthorizationFilter   (OnAuthorization())
+  3. Action                 ---> IActionFilter   (OnActionExecuted(), OnActionExecuting())
+  4. Result                 ---> IResultFilter  ( OnResultExecuted() , OnResultExecuting())
+  5. Exception              ---> IExceptionFilter (OnException())
 
 Available Attributes :
   1. ValidateInput
   2. Authorize
-  3. HandleError   -- 
-  4. OutPutCache
+  3. HandleError   -- Exception Filter
+  4. OutPutCache   -- example for ResultFilter
 
 Apart from the above, we can create custom filters
 - A filter can be applied at 3 different levels
    1. Global Level ( applicable to all controllers and action methods of the application)
    2. Controller Level ( applicable to all action methods of that controller)
-   3. ActionMethod Level ( applicable to specific action methods)
+   3. Action Method Level ( applicable to specific action methods)
+
+Limitations to HandleError attribute class:
+ 1. We cannot log the error
+ 2. Not possible to handle exceptions raised outside the controllers (eg. invalid url)
+ 3. Scenario-based exception handling is not possible.  (Eg ajax request and non-ajax request)
+
+To overcome the above limitations, we can work with Custom Filters
+ 

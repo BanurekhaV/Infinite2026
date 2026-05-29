@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\models\\logcustomexceptionfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\models\\logcustomexceptionfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\views\\shared\\dividebyzero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\views\\shared\\dividebyzero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\filters_prj\\filters_prj\\views\\shared\\nullreference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC6D4AE-DCC9-4202-A3D5-29A24B3679B9}|Filters_Prj\\Filters_Prj.csproj|solutionrelative:filters_prj\\views\\shared\\nullreference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogCustomExceptionFilters.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Models\\LogCustomExceptionFilters.cs",
+              "RelativeDocumentMoniker": "Filters_Prj\\Models\\LogCustomExceptionFilters.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Models\\LogCustomExceptionFilters.cs",
+              "RelativeToolTip": "Filters_Prj\\Models\\LogCustomExceptionFilters.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:58:54.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NullReference.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Views\\Shared\\NullReference.cshtml",
+              "RelativeDocumentMoniker": "Filters_Prj\\Views\\Shared\\NullReference.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Views\\Shared\\NullReference.cshtml",
+              "RelativeToolTip": "Filters_Prj\\Views\\Shared\\NullReference.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T07:39:28.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "Filters_Prj\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "Filters_Prj\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:30:47.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Filters_Prj\\Global.asax.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Global.asax.cs",
+              "RelativeToolTip": "Filters_Prj\\Global.asax.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:27:10.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Filters_Prj\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Filters_Prj\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T07:20:03.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Filters_Prj\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Filters_Prj\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:16:45.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DivideByZero.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Views\\Shared\\DivideByZero.cshtml",
+              "RelativeDocumentMoniker": "Filters_Prj\\Views\\Shared\\DivideByZero.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Filters_Prj\\Filters_Prj\\Views\\Shared\\DivideByZero.cshtml",
+              "RelativeToolTip": "Filters_Prj\\Views\\Shared\\DivideByZero.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-29T07:41:42.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
