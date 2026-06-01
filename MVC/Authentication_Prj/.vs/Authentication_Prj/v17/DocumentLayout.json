@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\Authentication_Prj\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E0EF242E-69B5-46BF-B99A-865814521156}|Authentication_Prj\\Authentication_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\authentication_prj\\authentication_prj\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{E0EF242E-69B5-46BF-B99A-865814521156}|Authentication_Prj\\Authentication_Prj.csproj|solutionrelative:authentication_prj\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,18 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\Authentication_Prj\\Authentication_Prj\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "Authentication_Prj\\Models\\Model1.edmx",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\MVC\\Authentication_Prj\\Authentication_Prj\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "Authentication_Prj\\Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-06-01T08:20:00.412Z",
-              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Bookmark",

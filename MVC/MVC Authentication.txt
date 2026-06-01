@@ -12,7 +12,7 @@ MVC Authentication and Authorization
 
   - Set the Authentication mode as Forms in the web.config file
   - We need to use FormAuthentication.SetAuthCookie for login
-  - We need to use FormsAuthenticatio.SignOut for logout
+  - We need to use FormsAuthentication.SignOut for logout
 
 
 DB for securing web application :
@@ -42,3 +42,7 @@ create table UserRolesMapping
 ( URID int primary key,
 UserId int not null references Users(UserID),
 RoleId int not null references RoleMaster(RoleID))
+
+Role Based Authentication :
+
+After Identifying a user and authenticating, we shall provide access based on the role
