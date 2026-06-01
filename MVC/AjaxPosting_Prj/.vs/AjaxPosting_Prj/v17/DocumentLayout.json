@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\ajaxposting_prj\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\ajaxposting_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\ajaxposting_prj\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\migrations\\202606010509307_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\ajaxposting_prj\\migrations\\202606010509307_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\migrations\\202606010509307_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\ajaxposting_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|c:\\banu\\2026\\dotnet\\mvc\\ajaxposting_prj\\ajaxposting_prj\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\ajaxposting_prj\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E2A1BE5D-10B8-4579-AEB5-94E358F1F57B}|AjaxPosting_Prj\\AjaxPosting_Prj.csproj|solutionrelative:ajaxposting_prj\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "202606010509307_InitialCreate.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\AjaxPosting_Prj\\Migrations\\202606010509307_InitialCreate.cs",
               "RelativeDocumentMoniker": "AjaxPosting_Prj\\Migrations\\202606010509307_InitialCreate.cs",
@@ -66,12 +66,11 @@
               "RelativeToolTip": "AjaxPosting_Prj\\Migrations\\202606010509307_InitialCreate.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAgwAkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:09:46.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T05:09:46.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\AjaxPosting_Prj\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "AjaxPosting_Prj\\Migrations\\Configuration.cs",
@@ -79,12 +78,11 @@
               "RelativeToolTip": "AjaxPosting_Prj\\Migrations\\Configuration.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T05:08:43.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T05:08:43.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\AjaxPosting_Prj\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "AjaxPosting_Prj\\Views\\Student\\Index.cshtml",
@@ -97,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\AjaxPosting_Prj\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "AjaxPosting_Prj\\Controllers\\StudentController.cs",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "AjaxPosting_Prj\\Controllers\\StudentController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:30:39.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T04:30:39.737Z"
             },
             {
               "$type": "Document",
@@ -123,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "StudentContext.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\AjaxPosting_Prj\\Models\\StudentContext.cs",
               "RelativeDocumentMoniker": "AjaxPosting_Prj\\Models\\StudentContext.cs",
@@ -136,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\MVC\\AjaxPosting_Prj\\AjaxPosting_Prj\\Models\\Student.cs",
               "RelativeDocumentMoniker": "AjaxPosting_Prj\\Models\\Student.cs",
@@ -144,8 +141,7 @@
               "RelativeToolTip": "AjaxPosting_Prj\\Models\\Student.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T04:21:40.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T04:21:40.92Z"
             }
           ]
         }
