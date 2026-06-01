@@ -1,0 +1,44 @@
+Fluent API : covers everything that data annotations can do and also more advanced configurations are possible 
+   - this approach is based on the fluent interface design pattern
+   - this uses a lot of method chaining to create code that reads like natural language
+   - Few rich Methods that are a part of the Fluent API lessthan(), must(), inclusivebetween(), exclusivebetween(), matches(), empty(), notnull()  etc..
+   - custom() - for making custom validations
+
+
+MVC Authentication and Authorization
+
+1. Forms Authentication
+ - include System.Web.Security;
+
+  - Set the Authentication mode as Forms in the web.config file
+  - We need to use FormAuthentication.SetAuthCookie for login
+  - We need to use FormsAuthenticatio.SignOut for logout
+
+
+DB for securing web application :
+
+create database Infinite_MVCSecurity
+
+create table Employee(
+ID int primary key identity,
+Name varchar(40),
+Designation varchar(40),
+Salary int)
+
+--users table
+
+create table Users
+( UserID int primary key identity,
+UserName varchar(40),
+UserPassword varchar(50))
+
+--role master table
+create table RoleMaster
+( RoleID int primary key identity,
+RoleName varchar(50))
+
+--create user role mappings
+create table UserRolesMapping
+( URID int primary key,
+UserId int not null references Users(UserID),
+RoleId int not null references RoleMaster(RoleID))
