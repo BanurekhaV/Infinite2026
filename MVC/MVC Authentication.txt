@@ -46,3 +46,18 @@ RoleId int not null references RoleMaster(RoleID))
 Role Based Authentication :
 
 After Identifying a user and authenticating, we shall provide access based on the role
+
+
+select * from Users
+select * from RoleMaster
+select * from UserRolesMapping
+
+insert into Users values('User','User@123'),('Guest','Guest@123')
+
+insert into RoleMaster values('Admin'),('User'),('Guest'),('Customer')
+
+
+insert into UserRolesMapping values(100, 1,1),(101,1,2),(102,1,3),(103,1,4),
+(104,2,2),(105,3,3)
+
+select * from UserRolesMapping
