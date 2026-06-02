@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\webapi_ef\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\webapi_ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\controllers\\empscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\controllers\\empscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\models\\dept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\webapi_ef\\models\\dept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\models\\dept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|c:\\banu\\2026\\dotnet\\web api\\webapi_ef\\webapi_ef\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\webapi_ef\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{6E4C8CB5-7F75-4213-B48B-0B61542B73B4}|WebAPI_EF\\WebAPI_EF.csproj|solutionrelative:webapi_ef\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,51 +53,77 @@
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebAPI_EF\\Models\\Product.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Product.cs",
-              "RelativeToolTip": "WebAPI_EF\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T08:03:55.307Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HtmlPage1.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\HtmlPage1.html",
+              "RelativeDocumentMoniker": "WebAPI_EF\\HtmlPage1.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\HtmlPage1.html",
+              "RelativeToolTip": "WebAPI_EF\\HtmlPage1.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-02T10:15:49.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebAPI_EF\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebAPI_EF\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T09:44:36.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebAPI_EF\\Models\\Product.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Product.cs",
+              "RelativeToolTip": "WebAPI_EF\\Models\\Product.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T08:03:55.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "WebAPI_EF\\App_Start\\WebApiConfig.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "WebAPI_EF\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T07:16:32.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EmpsController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Controllers\\EmpsController.cs",
               "RelativeDocumentMoniker": "WebAPI_EF\\Controllers\\EmpsController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Controllers\\EmpsController.cs",
               "RelativeToolTip": "WebAPI_EF\\Controllers\\EmpsController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAADoAAAANAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T07:03:30.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Dept.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Dept.cs",
               "RelativeDocumentMoniker": "WebAPI_EF\\Models\\Dept.cs",
@@ -97,20 +131,18 @@
               "RelativeToolTip": "WebAPI_EF\\Models\\Dept.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAiwBsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T07:01:21.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-02T07:01:21.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "WebAPI_EF\\Models\\Model1.edmx",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\WebAPI_EF\\WebAPI_EF\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "WebAPI_EF\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-06-02T06:59:57.278Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2026-06-02T06:59:57.278Z"
             }
           ]
         }

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.7.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulProducts = $('#ulProducts');
+            $('#btnGetProducts').click(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: "api/Product/GetProducts",
+                    dataType: 'json',
+                    success: function (data) {
+                        ulProducts.empty();
+                        $.each(data, function (index, val) {
+                            ulProducts.append('<li> Product Name -  ' + " " + val.ProductName + " " +
+                                "Price - " + val.Price + "  Quantity Available -  " + val.QuantityAvailable + '</li>');
+                        });
+                    }
+                })
+            })
+            $('#btnClear').click(function () {
+                ulProducts.empty();
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+    <div>
+        <input id="btnGetProducts" type="button" value="Get All Products" />
+        <input id="btnClear" type="button" value="Clear" />
+        <ul id="ulProducts" />
+    </div>
+</body>
+</html>
