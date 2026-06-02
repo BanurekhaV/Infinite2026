@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\web_api_prj1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\app_start\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|c:\\banu\\2026\\dotnet\\web api\\web_api_prj1\\web_api_prj1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\web_api_prj1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D318CC4-B299-4567-A6FE-B9D2A0FD6D8A}|Web_API_Prj1\\Web_API_Prj1.csproj|solutionrelative:web_api_prj1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +54,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SwaggerConfig.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\App_Start\\SwaggerConfig.cs",
-              "RelativeDocumentMoniker": "Web_API_Prj1\\App_Start\\SwaggerConfig.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\App_Start\\SwaggerConfig.cs",
-              "RelativeToolTip": "Web_API_Prj1\\App_Start\\SwaggerConfig.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBsAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "Web_API_Prj1\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "Web_API_Prj1\\Controllers\\PersonController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAwGYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T12:35:14.967Z",
+              "WhenOpened": "2026-06-02T04:43:49.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Web_API_Prj1\\Models\\Person.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Models\\Person.cs",
+              "RelativeToolTip": "Web_API_Prj1\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T04:42:43.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "Web_API_Prj1\\Controllers\\DemoController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "Web_API_Prj1\\Controllers\\DemoController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T04:24:54.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Web_API_Prj1\\Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Web_API_Prj1\\Controllers\\ValuesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T12:19:37.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Web_API_Prj1\\Controllers\\HomeController.cs",
@@ -80,18 +114,17 @@
               "RelativeToolTip": "Web_API_Prj1\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T12:19:32.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-01T12:19:32.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "Web_API_Prj1\\App_Start\\WebApiConfig.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Web API\\Web_API_Prj1\\Web_API_Prj1\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "Web_API_Prj1\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA3wBcAAAABAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T12:17:45.802Z",
               "EditorCaption": ""
