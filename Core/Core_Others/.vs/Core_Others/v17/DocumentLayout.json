@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{473B3515-6ECD-4C57-9E2D-87131E217E02}|Core_Others\\Core_Others.csproj|c:\\banu\\2026\\dotnet\\core\\core_others\\core_others\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473B3515-6ECD-4C57-9E2D-87131E217E02}|Core_Others\\Core_Others.csproj|solutionrelative:core_others\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473B3515-6ECD-4C57-9E2D-87131E217E02}|Core_Others\\Core_Others.csproj|c:\\banu\\2026\\dotnet\\core\\core_others\\core_others\\mywebroot\\mycustom.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{473B3515-6ECD-4C57-9E2D-87131E217E02}|Core_Others\\Core_Others.csproj|solutionrelative:core_others\\mywebroot\\mycustom.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473B3515-6ECD-4C57-9E2D-87131E217E02}|Core_Others\\Core_Others.csproj|c:\\banu\\2026\\dotnet\\core\\core_others\\core_others\\mywebroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{473B3515-6ECD-4C57-9E2D-87131E217E02}|Core_Others\\Core_Others.csproj|solutionrelative:core_others\\mywebroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyCustom.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\Core_Others\\MyWebRoot\\MyCustom.html",
+              "RelativeDocumentMoniker": "Core_Others\\MyWebRoot\\MyCustom.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\Core_Others\\MyWebRoot\\MyCustom.html",
+              "RelativeToolTip": "Core_Others\\MyWebRoot\\MyCustom.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-03T11:25:03.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\Core_Others\\MyWebRoot\\Index.html",
+              "RelativeDocumentMoniker": "Core_Others\\MyWebRoot\\Index.html",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\Core_Others\\MyWebRoot\\Index.html",
+              "RelativeToolTip": "Core_Others\\MyWebRoot\\Index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-03T11:15:27.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\Core_Others\\Program.cs",
+              "RelativeDocumentMoniker": "Core_Others\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Core_Others\\Core_Others\\Program.cs",
+              "RelativeToolTip": "Core_Others\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:51:56.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
