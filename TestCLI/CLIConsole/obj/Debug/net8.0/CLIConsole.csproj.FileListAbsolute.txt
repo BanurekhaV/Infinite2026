@@ -1,0 +1,15 @@
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\bin\Debug\net8.0\CLIConsole.exe
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\bin\Debug\net8.0\CLIConsole.deps.json
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\bin\Debug\net8.0\CLIConsole.runtimeconfig.json
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\bin\Debug\net8.0\CLIConsole.dll
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\bin\Debug\net8.0\CLIConsole.pdb
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.AssemblyInfoInputs.cache
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.AssemblyInfo.cs
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.csproj.CoreCompileInputs.cache
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.sourcelink.json
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.dll
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\refint\CLIConsole.dll
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.pdb
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\CLIConsole.genruntimeconfig.cache
+C:\Banu\2026\DotNet\TestCLI\CLIConsole\obj\Debug\net8.0\ref\CLIConsole.dll
