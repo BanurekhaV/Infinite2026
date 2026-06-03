@@ -1,0 +1,81 @@
+ASP.Net Core : is the modern high performance web development framework that runs on windows, Linux, mac, docker etc..
+   - Open source first released in 2016, which is a redesign of ASP.Net
+
+Why Core : Modular Architecture
+           Dependencies are included only when needed, resulting in faster efficient applications
+           Includes a built-in Dependency Injection Container
+           Support Policy and Release Life cycle
+           Command Line Interface 
+
+Versions : Post .Net 5, ther term core has been removed and it is now like .Net 6, .Net 7 etc
+   
+   - Every odd version release will have STS - short term support  ( 18 months)
+   - Every Even Version will have Long term support  ( 3 years)
+
+Global.asax file - replaced with Program. cs file (all configurations and startup process)
+Web.Config file  - replaced with appsettings.json
+HTTP Handlers  - replaced by Middleware Components that works on request pipelines
+
+appsettings.json : provides a structured way to define configuration settings such as :
+   - Database Connections
+   - Logging Configurations
+   - API Keys
+   - Authentication Settings
+   - External API URLs
+   - Application level global variables
+
+
+Compilers of .Net SDK  : Roslyn : an open source compiler with code analysis API's 
+
+The Main method of .Net does the below :
+
+ 1. Creating the Web Host and configuring the services
+ 2. Building the Application
+ 3. Setting Up the End Points
+ 4. Running the Application
+  
+CreateBuilder()- Sets Up the Webserver (IIS  or Kestrel)
+                 Hosts the application (In Process or Out of Process)
+                 Logging
+                 Configure the access
+                 Dependency Injection Containers
+
+builder.Build() - Creates an instance of the webapplication, end point setup, configure middleware and start to handle request
+
+Run() - Keeps running the application till we manually close the server instance
+
+
+Middleware components : Basic building blocks of the application
+                        determines how the request and response will be processed
+                        are used to implement functionalities like authentication, authorization, error handling, routing, logging 
+etc
+                        the order of the middleware plays a significant role in the request response pipeline
+                        Use() to call the mw of the request pipeline
+
+
+MapGet : Is specifically designed to handle HTTP GET Request
+         Used to get data from the server without modifying the state
+         Takes a route pattern and a request delegate (handler function)
+
+Map :  Is a general method to handle all types of Requests (Get,Post,Put,Delete etc.)
+       We need to use Map() when we need to setup endpoints that can handle multiple types of request or a custom logic to determine the type of request to be handled
+
+Run :  extension method terminates the middleware pipeline.
+       when Run() is called, no other middleware is executed. It only generates the response
+
+
+Request Process Pipeline : Determines the order of middleware execution
+
+wwwroot folder : is the Web Root Folder where static files are stored and served to clients. Available in the projects root
+
+Staticfiles middleware serves the static files from the root
+
+
+DefaultFiles middleware : this MW always seraches for files like index.htm, index.html, default.htm, default.html under the webrootpath folder and serves as the initial page at the root
+
+DirectoryBrowser
+
+FileServer
+
+DeveloperExceptionPage 
+
