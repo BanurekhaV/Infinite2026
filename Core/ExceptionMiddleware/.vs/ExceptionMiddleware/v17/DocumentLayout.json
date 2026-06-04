@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|solutionrelative:exceptionmiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|c:\\banu\\2026\\dotnet\\core\\exceptionmiddleware\\exceptionmiddleware\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|solutionrelative:exceptionmiddleware\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|c:\\banu\\2026\\dotnet\\core\\exceptionmiddleware\\exceptionmiddleware\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|solutionrelative:exceptionmiddleware\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|c:\\banu\\2026\\dotnet\\core\\exceptionmiddleware\\exceptionmiddleware\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D091170-6818-41D5-90E3-9B1387C83E0A}|ExceptionMiddleware\\ExceptionMiddleware.csproj|solutionrelative:exceptionmiddleware\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,8 +37,12 @@
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ExceptionMiddleware\\ExceptionMiddleware\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ExceptionMiddleware\\Properties\\launchSettings.json",
@@ -46,18 +50,17 @@
               "RelativeToolTip": "ExceptionMiddleware\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-03T12:44:11.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T12:44:11.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ExceptionMiddleware\\ExceptionMiddleware\\appsettings.json",
               "RelativeDocumentMoniker": "ExceptionMiddleware\\appsettings.json",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ExceptionMiddleware\\ExceptionMiddleware\\appsettings.json",
               "RelativeToolTip": "ExceptionMiddleware\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-03T12:44:04.427Z",
               "EditorCaption": ""
@@ -70,14 +73,10 @@
               "RelativeDocumentMoniker": "ExceptionMiddleware\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ExceptionMiddleware\\ExceptionMiddleware\\Program.cs",
               "RelativeToolTip": "ExceptionMiddleware\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAkwAsAAAANAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T12:40:31.333Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

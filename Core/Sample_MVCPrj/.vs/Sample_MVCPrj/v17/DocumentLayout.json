@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|c:\\banu\\2026\\dotnet\\core\\sample_mvcprj\\sample_mvcprj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|solutionrelative:sample_mvcprj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|c:\\banu\\2026\\dotnet\\core\\sample_mvcprj\\sample_mvcprj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|solutionrelative:sample_mvcprj\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|c:\\banu\\2026\\dotnet\\core\\sample_mvcprj\\sample_mvcprj\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|solutionrelative:sample_mvcprj\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|c:\\banu\\2026\\dotnet\\core\\sample_mvcprj\\sample_mvcprj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|solutionrelative:sample_mvcprj\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|c:\\banu\\2026\\dotnet\\core\\sample_mvcprj\\sample_mvcprj\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8075E281-61B6-40A1-B61E-A30653BD2050}|Sample_MVCPrj\\Sample_MVCPrj.csproj|solutionrelative:sample_mvcprj\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sample_MVCPrj\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Sample_MVCPrj\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T06:05:30.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Sample_MVCPrj\\Models\\User.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Models\\User.cs",
+              "RelativeToolTip": "Sample_MVCPrj\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T05:54:11.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Sample_MVCPrj\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Sample_MVCPrj\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T05:50:32.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Sample_MVCPrj\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Sample_MVCPrj\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T05:49:21.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Sample_MVCPrj\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Sample_MVCPrj\\Sample_MVCPrj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Sample_MVCPrj\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T05:46:37.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
