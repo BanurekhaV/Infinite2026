@@ -18,7 +18,7 @@ AddControllersWithViews : Controller, ModelBinding, Views, Tempdata, Tag Helpers
 
 AddMvc :  this is the middleware with most of the mvc enabled services
 
-EFCORE : .Net does not support Visual Designer for DB Model and Wizard. Hence we will have to scaffold the dbcontext using reverse engineering
+EFCORE : .Net does not support Visual Designer for DB Model and Wizard. Hence we will have to scaffold the dbcontext using reverse engineering ( where entity model classes and a dbcontext based on the existing database is created)
 
 Packages to include
  - Microsoft.EntityFrameworkCore.SqlServer  ( this package includes Microsoft.EntityFrameworkCore and Microsoft.EntityFrameworkCore.Relational)

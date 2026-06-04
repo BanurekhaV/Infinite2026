@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|c:\\banu\\2026\\dotnet\\core\\custommodelbinding\\custommodelbinding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|solutionrelative:custommodelbinding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|c:\\banu\\2026\\dotnet\\core\\custommodelbinding\\custommodelbinding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|solutionrelative:custommodelbinding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|solutionrelative:custommodelbinding\\models\\commaseparatedmodelbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|c:\\banu\\2026\\dotnet\\core\\custommodelbinding\\custommodelbinding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|solutionrelative:custommodelbinding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|c:\\banu\\2026\\dotnet\\core\\custommodelbinding\\custommodelbinding\\models\\daterangemodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB92B6C9-4A6E-4EF4-B7B4-83D3D2B36027}|CustomModelBinding\\CustomModelBinding.csproj|solutionrelative:custommodelbinding\\models\\daterangemodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,8 +49,12 @@
               "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DateRange.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\CustomModelBinding\\Models\\DateRange.cs",
               "RelativeDocumentMoniker": "CustomModelBinding\\Models\\DateRange.cs",
@@ -58,16 +62,11 @@
               "RelativeToolTip": "CustomModelBinding\\Models\\DateRange.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T10:52:40.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2026-06-04T10:52:40.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CommaSeparatedModelBinder.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\CustomModelBinding\\Models\\CommaSeparatedModelBinder.cs",
               "RelativeDocumentMoniker": "CustomModelBinding\\Models\\CommaSeparatedModelBinder.cs",
@@ -75,12 +74,11 @@
               "RelativeToolTip": "CustomModelBinding\\Models\\CommaSeparatedModelBinder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T10:49:31.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T10:49:31.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\CustomModelBinding\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CustomModelBinding\\Controllers\\HomeController.cs",
@@ -93,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CommaSeparatedModelBinderProvider.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\CustomModelBinding\\Models\\CommaSeparatedModelBinderProvider.cs",
               "RelativeDocumentMoniker": "CustomModelBinding\\Models\\CommaSeparatedModelBinderProvider.cs",
@@ -101,18 +99,17 @@
               "RelativeToolTip": "CustomModelBinding\\Models\\CommaSeparatedModelBinderProvider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T10:21:21.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T10:21:21.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\CustomModelBinding\\Program.cs",
               "RelativeDocumentMoniker": "CustomModelBinding\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\CustomModelBinding\\CustomModelBinding\\Program.cs",
               "RelativeToolTip": "CustomModelBinding\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABaAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T10:07:15.34Z",
               "EditorCaption": ""
@@ -127,8 +124,7 @@
               "RelativeToolTip": "CustomModelBinding\\Models\\DateRangeModelBinder.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T09:40:21.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T09:40:21.521Z"
             }
           ]
         }
