@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Primitives;
 using Sample_MVCPrj.Models;
 using System.Diagnostics;
 
@@ -19,19 +20,45 @@ namespace Sample_MVCPrj.Controllers
         }
 
         [HttpPost]
-        public IActionResult SubmitForm(User user)
+        //public IActionResult SubmitForm(User user)
+        //{
+        //    if(user !=null)
+        //    {
+        //        if(ModelState.IsValid)
+        //        {
+        //            ViewBag.Message = $"User Created UserName : {user.UserName}" + 
+        //                $"User Email :{user.UserEmail}";
+        //            ModelState.Clear();  // optional
+        //            return View("Index");
+        //        }                
+        //    }
+        //    return View("Index", user);
+        //}
+
+        public IActionResult SubmitForm(IFormCollection form)
         {
-            if(user !=null)
+            //use keys to get the collection of form keys
+            var keys = form.Keys;
+
+            //check if a key exists in the form and try getting the values of the key
+            if(form.ContainsKey("UserName") && form.ContainsKey("UserEmail"))
             {
-                if(ModelState.IsValid)
+               if(form.TryGetValue("UserName", out StringValues userName) &&
+                    form.TryGetValue("UserEmail", out StringValues userEmail))
+               {
+                    ViewBag.Message = $"User Created UserName:{userName}"  +
+                        $" User Email : {userEmail}";
+               }
+                else
                 {
-                    ViewBag.Message = $"User Created UserName : {user.UserName}" + 
-                        $"User Email :{user.UserEmail}";
-                    ModelState.Clear();  // optional
-                    return View("Index");
-                }                
+                    ViewBag.Message = "User Name or Email not found in the Form";
+                }
             }
-            return View("Index", user);
+            else
+            {
+                ViewBag.Message = "Form does not contain UserName and UserEmail Keys";
+            }
+            return View("Index");
         }
         public IActionResult Privacy()
         {

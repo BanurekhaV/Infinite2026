@@ -1,0 +1,55 @@
+Web Server : A physical or virtual machine that runs the server software 
+
+Hosting : a process to define how our application is to be configured, served to handle requests.
+          - depends on the performance, scalability, deployment flexibility
+          - In process
+          - out of process
+
+
+Adding MVC Services to our Empty Web Application
+  - To configure the index action of the Home controller, we will use the UseRouting() and MapDefaultControllerRoute() middlewares
+
+-Middleware MapControllerRoute() is used to map to different controllers
+
+
+AddControllers : Controller, Model Binding, Authorization, Validations, CORs, API Explorer
+
+AddControllersWithViews : Controller, ModelBinding, Views, Tempdata, Tag Helpers, Memory cache
+
+AddMvc :  this is the middleware with most of the mvc enabled services
+
+EFCORE : .Net does not support Visual Designer for DB Model and Wizard. Hence we will have to scaffold the dbcontext using reverse engineering
+
+Packages to include
+ - Microsoft.EntityFrameworkCore.SqlServer  ( this package includes Microsoft.EntityFrameworkCore and Microsoft.EntityFrameworkCore.Relational)
+ - Microsoft.EntityFrameworkCore.Tools  (design)
+
+next we need to make an entry in the appsettings.json file as below :
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DBConnection": "Server=Laptop-tjj7d977;Database=Northwind;Integrated Security=true;TrustServerCertificate=True;"
+  }
+}
+
+next move to PM console and type as below
+
+PM> Scaffold-DbContext "Server=Laptop-tjj7d977;Database=Northwind;Integrated Security=true;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Observe that the Models folder is full of model classes and the dbcontext class
+
+Note : Whenever there is any change made to the database schema, then we can use the scaffold with -F option
+
+PM> Scaffold-DbContext "Server=Laptop-tjj7d977;Database=Northwind;Integrated Security=true;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -F
+
+
+AddTransient
+AddScopped
+AddSingleton
