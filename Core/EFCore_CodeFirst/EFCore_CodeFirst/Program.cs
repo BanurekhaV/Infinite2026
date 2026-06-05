@@ -1,5 +1,6 @@
 using EFCore_CodeFirst.Models;
 using Microsoft.EntityFrameworkCore;
+using EFCore_CodeFirst.Repositories;
 
 namespace EFCore_CodeFirst
 {
@@ -15,6 +16,9 @@ namespace EFCore_CodeFirst
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("CoreCodeDB"));
             });
+
+            //Register the generic repository
+            builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\models\\efcorecodecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\models\\efcorecodecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\models\\efcorecodecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\models\\efcorecodecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|solutionrelative:efcore_codefirst\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93BD8250-DB52-49B2-A27C-97BE34A10D17}|EFCore_CodeFirst\\EFCore_CodeFirst.csproj|c:\\banu\\2026\\dotnet\\core\\efcore_codefirst\\efcore_codefirst\\efcore_codefirst.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,72 +66,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "EFCore_CodeFirst\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "EFCore_CodeFirst\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T05:13:28.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "EFCore_CodeFirst\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "EFCore_CodeFirst\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T05:10:42.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\Views\\Employees\\Index.cshtml",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Views\\Employees\\Index.cshtml",
               "RelativeToolTip": "EFCore_CodeFirst\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACwAAABEAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-04T13:01:11.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "EFCore_CodeFirst\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAADwv0QAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T12:53:58.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Program.cs",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\Program.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Program.cs",
               "RelativeToolTip": "EFCore_CodeFirst\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACYAAAAWAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T12:42:29.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EFCoreCodeContext.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Models\\EFCoreCodeContext.cs",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\Models\\EFCoreCodeContext.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Models\\EFCoreCodeContext.cs",
               "RelativeToolTip": "EFCore_CodeFirst\\Models\\EFCoreCodeContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T12:37:56.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EFCore_CodeFirst",
+              "DocumentIndex": 6,
+              "Title": "EFCore_CodeFirst.csproj",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\EFCore_CodeFirst.csproj",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\EFCore_CodeFirst.csproj",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\EFCore_CodeFirst.csproj",
               "RelativeToolTip": "EFCore_CodeFirst\\EFCore_CodeFirst.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-04T12:32:58.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T12:32:58.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\Models\\Employee.cs",
@@ -131,12 +164,11 @@
               "RelativeToolTip": "EFCore_CodeFirst\\Models\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:30:38.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T12:30:38.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\EFCore_CodeFirst\\EFCore_CodeFirst\\Models\\Department.cs",
               "RelativeDocumentMoniker": "EFCore_CodeFirst\\Models\\Department.cs",
@@ -144,8 +176,7 @@
               "RelativeToolTip": "EFCore_CodeFirst\\Models\\Department.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T12:29:26.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T12:29:26.159Z"
             }
           ]
         }
