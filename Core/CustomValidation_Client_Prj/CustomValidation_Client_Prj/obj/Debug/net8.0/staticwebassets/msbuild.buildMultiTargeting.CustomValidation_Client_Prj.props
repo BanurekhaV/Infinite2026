@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CustomValidation_Client_Prj.props" />
+</Project>

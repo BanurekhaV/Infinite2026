@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\Service_Prj.bundle.scp.css"
     },
     {
+      "Id": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\wwwroot\\Images\\Hphones.jpg",
+      "PackagePath": "staticwebassets\\Images\\Hphones.jpg"
+    },
+    {
+      "Id": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\wwwroot\\Images\\Laptops.jpg",
+      "PackagePath": "staticwebassets\\Images\\Laptops.jpg"
+    },
+    {
+      "Id": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\wwwroot\\Images\\SmartPhones.jpg",
+      "PackagePath": "staticwebassets\\Images\\SmartPhones.jpg"
+    },
+    {
       "Id": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

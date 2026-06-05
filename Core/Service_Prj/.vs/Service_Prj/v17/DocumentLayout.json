@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\service_prj.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\service_prj.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\service_prj\\service_prj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28E00C8-74D2-4698-9C57-D314C9603D03}|Service_Prj\\Service_Prj.csproj|solutionrelative:service_prj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Program.cs",
-              "RelativeDocumentMoniker": "Service_Prj\\Program.cs",
-              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Program.cs",
-              "RelativeToolTip": "Service_Prj\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T04:59:17.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "Service_Prj\\Views\\Product\\Details.cshtml",
@@ -83,25 +66,24 @@
               "RelativeToolTip": "Service_Prj\\Views\\Product\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-05T04:58:15.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T04:58:15.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Service_Prj\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Service_Prj\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-05T04:57:15.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Service_Prj\\Controllers\\ProductController.cs",
@@ -114,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProductServices.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Services\\ProductServices.cs",
               "RelativeDocumentMoniker": "Service_Prj\\Services\\ProductServices.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Services\\ProductServices.cs",
               "RelativeToolTip": "Service_Prj\\Services\\ProductServices.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB4AAAAgAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T04:39:10.564Z",
               "EditorCaption": ""
@@ -135,25 +117,23 @@
               "RelativeToolTip": "Service_Prj\\Services\\IProductServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T04:38:21.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T04:38:21.421Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Service_Prj",
+              "Title": "Service_Prj.csproj",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Service_Prj.csproj",
               "RelativeDocumentMoniker": "Service_Prj\\Service_Prj.csproj",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Service_Prj.csproj",
               "RelativeToolTip": "Service_Prj\\Service_Prj.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-05T04:37:40.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T04:37:40.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\Service_Prj\\Service_Prj\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Service_Prj\\Models\\Product.cs",
