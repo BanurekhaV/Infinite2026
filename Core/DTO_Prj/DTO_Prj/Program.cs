@@ -1,3 +1,6 @@
+using AutoMapper;
+using DTO_Prj.Mappers;
+
 namespace DTO_Prj
 {
     public class Program
@@ -6,8 +9,15 @@ namespace DTO_Prj
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            //register automapper 
+            builder.Services.AddAutoMapper(mc =>
+            {
+                mc.AddMaps(typeof(MappingProfile).Assembly);
+            });
+                       
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            
 
             var app = builder.Build();
 

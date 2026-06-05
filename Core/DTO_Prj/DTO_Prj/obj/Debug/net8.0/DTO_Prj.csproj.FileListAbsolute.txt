@@ -228,3 +228,10 @@ C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\obj\Debug\net8.0\refint\DTO_Prj.dll
 C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\obj\Debug\net8.0\DTO_Prj.pdb
 C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\obj\Debug\net8.0\DTO_Prj.genruntimeconfig.cache
 C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\obj\Debug\net8.0\ref\DTO_Prj.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\AutoMapper.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Banu\2026\DotNet\Core\DTO_Prj\DTO_Prj\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

@@ -1,0 +1,20 @@
+﻿@model EmployeeViewModel
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label asp-for="EmployeeCode"></label>
+        <input asp-for="EmployeeCode" />
+        <span asp-validation-for="EmployeeCode"></span>
+    </div>
+
+    <button type="submit">Save</button>
+
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+
+    <script src="~/js/employeecode-validation.js"></script>
+}

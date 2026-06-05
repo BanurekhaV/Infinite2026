@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|solutionrelative:customvalidation_client_prj\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|solutionrelative:customvalidation_client_prj\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\wwwroot\\js\\custom-validator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|solutionrelative:customvalidation_client_prj\\wwwroot\\js\\custom-validator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\customvalidations\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|solutionrelative:customvalidation_client_prj\\customvalidations\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|solutionrelative:customvalidation_client_prj\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|solutionrelative:customvalidation_client_prj\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C3A6BBB0-DD0C-4189-AF00-517038246B4C}|CustomValidation_Client_Prj\\CustomValidation_Client_Prj.csproj|c:\\banu\\2026\\dotnet\\core\\customvalidation_client_prj\\customvalidation_client_prj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,16 +70,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "CustomValidation_Client_Prj\\Views\\Home\\Register.cshtml",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\Views\\Home\\Register.cshtml",
               "RelativeToolTip": "CustomValidation_Client_Prj\\Views\\Home\\Register.cshtml",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAARAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-05T10:26:09.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T10:26:09.247Z"
             },
             {
               "$type": "Document",
@@ -95,31 +94,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "custom-validator.js",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\wwwroot\\js\\custom-validator.js",
               "RelativeDocumentMoniker": "CustomValidation_Client_Prj\\wwwroot\\js\\custom-validator.js",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\wwwroot\\js\\custom-validator.js",
               "RelativeToolTip": "CustomValidation_Client_Prj\\wwwroot\\js\\custom-validator.js",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-05T10:04:04.988Z"
+              "WhenOpened": "2026-06-05T10:04:04.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MinimumAgeAttribute.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\CustomValidations\\MinimumAgeAttribute.cs",
               "RelativeDocumentMoniker": "CustomValidation_Client_Prj\\CustomValidations\\MinimumAgeAttribute.cs",
               "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\CustomValidations\\MinimumAgeAttribute.cs",
               "RelativeToolTip": "CustomValidation_Client_Prj\\CustomValidations\\MinimumAgeAttribute.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAAUAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T07:40:34.062Z"
+              "WhenOpened": "2026-06-05T07:40:34.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\CustomValidation_Client_Prj\\CustomValidation_Client_Prj\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "CustomValidation_Client_Prj\\Models\\UserModel.cs",
@@ -127,8 +128,7 @@
               "RelativeToolTip": "CustomValidation_Client_Prj\\Models\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T07:39:13.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T07:39:13.158Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,21 @@
+For Custom Validations , we need
+  1. Create a server side validation attributes for the Model
+  2. Generate the necessary `data-*` attributes for client-side recognition
+  3. Write a JavaScript to implement the client side validation logic
+
+To enable client side validation of our Custom Validation Attribute
+  - Implement IClientModelValidator ( this will generate `data-*` attributes)
+  - Add Validation metatdata, so that the Jquery Unobtrusive validations recognises the rule
+  - We shall register a custom validation method with the Jquery validation
+  - Create an adapter to map the `data-*` attributes to the validation method
+
+
+DTO : Data Transfer Objects : meant to transfer data between the various layers of the application
+     - hides sensitive data
+     - prevents over posting
+     - reduces the size of the data on the network (payloads)
+
+We can manually map the model to the DTO model or use AutoMapper
+
+     
+

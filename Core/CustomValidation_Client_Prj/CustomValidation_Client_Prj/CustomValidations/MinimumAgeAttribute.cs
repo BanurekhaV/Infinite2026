@@ -10,64 +10,71 @@ namespace CustomValidation_Client_Prj.CustomValidations
         public MinimumAgeAttribute(int minimumAge)
         {
             _minimumAge = minimumAge;
-            ErrorMessage = $"You must be at least {_minimumAge} Years Old.";
+            ErrorMessage = $"You must be at least {_minimumAge} years old.";
         }
 
+        // Override IsValid to implement server-side validation
+        // Override IsValid to implement server-side validation
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            //check if the value is a valid DateTime
-            if(value is DateTime dateofBirth)
+           
+            // Check if the value is a valid DateTime
+            if (value is DateTime dateOfBirth)
             {
-                //calculate the age
-                var age = DateTime.Today.Year - dateofBirth.Year;
-
-                if(dateofBirth.Date >DateTime.Today.AddYears(-age))
+                // Calculate age
+                var age = DateTime.Today.Year - dateOfBirth.Year;
+                if (dateOfBirth.Date > DateTime.Today.AddYears(-age))
                 {
-                    age--; //adjust if birthday hasnt occurred yet in this year
+                    age--; // Adjust if birthday hasn't occurred yet this year
                 }
 
-                //validate age
-                if(age >= _minimumAge)
+                // Validate age
+                if (age >= _minimumAge)
                 {
                     return ValidationResult.Success;
                 }
                 else
                 {
+                    // Return error message (use custom message if provided)
                     return new ValidationResult(ErrorMessage);
                 }
             }
 
-            //if the value is not Datetime return an error
-            return new ValidationResult("Invalid Format for Date Of Birth");
+            // If value is not a DateTime (e.g., null), return error (handled by [Required] if needed)
+            return new ValidationResult("Invalid date of birth.");
         }
-
-        // Implement IClientModelValidators AddValidation()
-        public void AddValidation(ClientModelValidationContext context)
+        
+        
+    // Implement IClientModelValidator to add data attributes
+    public void AddValidation(ClientModelValidationContext context)
         {
-            if(context == null)
+            if (context == null)
             {
                 throw new ArgumentNullException(nameof(context));
             }
 
-            //Add data-val=true to enable validation for the field
-            MergeAttributes(context.Attributes, "data-val", "true");
+            // Add data-val="true" to enable validation for this field
+            MergeAttribute(context.Attributes, "data-val", "true");
 
-            //add mimimum age rule as data-val-mimimumage
+            // Add data-val-minimumage (rule name) with the error message
             var errorMessage = FormatErrorMessage(context.ModelMetadata.GetDisplayName());
-            MergeAttributes(context.Attributes,"data-val-minimumage",errorMessage);
+            MergeAttribute(context.Attributes, "data-val-minimumage", errorMessage);
 
-            //add data-val-minimumage-min
-            MergeAttributes(context.Attributes,"data-val-minimumage-min",_minimumAge.ToString());
+            // Add data-val-minimumage-min (parameter) to pass the minimum age to the client
+            MergeAttribute(context.Attributes, "data-val-minimumage-min", _minimumAge.ToString());
         }
 
-        private bool MergeAttributes(IDictionary<string,string> attributes, string key, string value)
+        // Helper method to merge attributes (avoids overwriting existing ones)
+        private bool MergeAttribute(IDictionary<string, string> attributes, string key, string value)
         {
-            if(attributes.ContainsKey(key))
+            if (attributes.ContainsKey(key))
             {
                 return false;
             }
+
             attributes.Add(key, value);
             return true;
         }
     }
+
 }

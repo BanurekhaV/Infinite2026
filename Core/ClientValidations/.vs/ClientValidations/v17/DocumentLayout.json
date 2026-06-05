@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|c:\\banu\\2026\\dotnet\\core\\clientvalidations\\clientvalidations\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|solutionrelative:clientvalidations\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|c:\\banu\\2026\\dotnet\\core\\clientvalidations\\clientvalidations\\wwwroot\\js\\employeecode-validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|solutionrelative:clientvalidations\\wwwroot\\js\\employeecode-validation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|c:\\banu\\2026\\dotnet\\core\\clientvalidations\\clientvalidations\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|solutionrelative:clientvalidations\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|c:\\banu\\2026\\dotnet\\core\\clientvalidations\\clientvalidations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|solutionrelative:clientvalidations\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|c:\\banu\\2026\\dotnet\\core\\clientvalidations\\clientvalidations\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|solutionrelative:clientvalidations\\models\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|c:\\banu\\2026\\dotnet\\core\\clientvalidations\\clientvalidations\\customclientvalidations\\employeecodeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18639782-A9ED-47FA-A0E9-EB9A2B36454D}|ClientValidations\\ClientValidations.csproj|solutionrelative:clientvalidations\\customclientvalidations\\employeecodeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Program.cs",
+              "RelativeDocumentMoniker": "ClientValidations\\Program.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Program.cs",
+              "RelativeToolTip": "ClientValidations\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T17:18:25.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "employeecode-validation.js",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\wwwroot\\js\\employeecode-validation.js",
+              "RelativeDocumentMoniker": "ClientValidations\\wwwroot\\js\\employeecode-validation.js",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\wwwroot\\js\\employeecode-validation.js",
+              "RelativeToolTip": "ClientValidations\\wwwroot\\js\\employeecode-validation.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-05T17:17:31.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "ClientValidations\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "ClientValidations\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T17:15:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ClientValidations\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ClientValidations\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T17:13:55.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Models\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "ClientValidations\\Models\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\Models\\EmployeeViewModel.cs",
+              "RelativeToolTip": "ClientValidations\\Models\\EmployeeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T17:12:54.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeCodeAttribute.cs",
+              "DocumentMoniker": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\CustomClientValidations\\EmployeeCodeAttribute.cs",
+              "RelativeDocumentMoniker": "ClientValidations\\CustomClientValidations\\EmployeeCodeAttribute.cs",
+              "ToolTip": "C:\\Banu\\2026\\DotNet\\Core\\ClientValidations\\ClientValidations\\CustomClientValidations\\EmployeeCodeAttribute.cs",
+              "RelativeToolTip": "ClientValidations\\CustomClientValidations\\EmployeeCodeAttribute.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T17:11:14.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

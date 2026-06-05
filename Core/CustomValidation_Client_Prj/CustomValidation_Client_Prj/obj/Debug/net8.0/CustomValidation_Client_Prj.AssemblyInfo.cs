@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomValidation_Client_Prj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0058e832515a7f7ca67318500f22cf54f369be6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e634af61570a021d859489853412f00fbb23847e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomValidation_Client_Prj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomValidation_Client_Prj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
