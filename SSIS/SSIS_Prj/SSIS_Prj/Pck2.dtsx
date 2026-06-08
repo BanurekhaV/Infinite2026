@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Pck2"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{1B1C3A19-D86A-4B90-973A-000C6A047BF6}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{9373D615-60CD-4467-A26C-7CC43E36B93D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,19 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Banu\2026\DotNet\SampleFiles\DB_Employees.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Banu\2026\DotNet\SampleFiles\DB_Employees.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[laptop-tjj7d977.SSISDB_Recepient]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{71762F54-7518-4FA3-AC63-8B78B308C369}"
+      DTS:ObjectName="laptop-tjj7d977.SSISDB_Recepient">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=laptop-tjj7d977;Initial Catalog=SSISDB_Recepient;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Pck2-{71762F54-7518-4FA3-AC63-8B78B308C369}laptop-tjj7d977.SSISDB_Recepient;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -43,6 +55,632 @@
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Derived Column Transformation"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{43194D9C-53F6-4FF7-B7B7-5A1EC0FE7B72}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Derived Column Transformation"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Derived Column Transformation\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input].Columns[CompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="CompanyName"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CompanyName]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input].Columns[ContactName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactName"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactName]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input].Columns[ContactTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactTitle"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactTitle]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="City"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Infinite"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Infinite"</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output].Columns[Upper Company Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="40"
+                      lineageId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output].Columns[Upper Company Name]"
+                      name="Upper Company Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[UPPER](#{Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CompanyName]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">UPPER(CompanyName)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output].Columns[Full Details]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="61"
+                      lineageId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output].Columns[Full Details]"
+                      name="Full Details"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactName]} + " " + #{Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactTitle]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ContactName + " " + ContactTitle</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Derived Column Transformation\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Customers]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Derived Column Transformation\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.Northwind]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.Northwind]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CustomerID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CustomerID]"
+                      length="5"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CustomerID]"
+                      name="CustomerID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CompanyName]"
+                      length="40"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CompanyName]"
+                      name="CompanyName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ContactName]"
+                      length="30"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactName]"
+                      name="ContactName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactTitle]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ContactTitle]"
+                      length="30"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactTitle]"
+                      name="ContactTitle"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Address]"
+                      length="60"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]"
+                      name="Address"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[City]"
+                      length="15"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CustomerID]"
+                      dataType="wstr"
+                      length="5"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      name="Address" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="15"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      name="PostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="24"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Fax]"
+                      dataType="wstr"
+                      length="24"
+                      name="Fax" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CustomerID]"
+                      dataType="wstr"
+                      length="5"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CustomerID]"
+                      name="CustomerID" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[CompanyName]"
+                      name="CompanyName" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ContactName]"
+                      name="ContactName" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ContactTitle]"
+                      name="ContactTitle" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Address]"
+                      name="Address" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[City]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Derived Column Transformation\Post Transformations"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Post Transformations"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[CustomerPost]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Derived Column Transformation\Post Transformations.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[laptop-tjj7d977.SSISDB_Recepient]"
+                  connectionManagerRefId="Package.ConnectionManagers[laptop-tjj7d977.SSISDB_Recepient]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[CustomerID]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="CustomerID"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CustomerID]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[CompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="CompanyName"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[CompanyName]"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[CompanyName]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[ContactName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactName"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[ContactName]"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactName]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[ContactTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactTitle"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[ContactTitle]"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[ContactTitle]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[Address]"
+                      cachedDataType="wstr"
+                      cachedLength="60"
+                      cachedName="Address"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[Address]"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[Address]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="City"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[City]"
+                      lineageId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output].Columns[City]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[Upper Company Name]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="Upper Company Name"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[Upper Comapny Name]"
+                      lineageId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output].Columns[Upper Company Name]" />
+                    <inputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].Columns[Full Details]"
+                      cachedDataType="wstr"
+                      cachedLength="61"
+                      cachedName="Full Details"
+                      externalMetadataColumnId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[Full Details]"
+                      lineageId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output].Columns[Full Details]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      dataType="wstr"
+                      length="5"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactTitle" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      name="Address" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="15"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[Upper Comapny Name]"
+                      dataType="wstr"
+                      length="40"
+                      name="Upper Comapny Name" />
+                    <externalMetadataColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input].ExternalColumns[Full Details]"
+                      dataType="wstr"
+                      length="61"
+                      name="Full Details" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Derived Column Transformation\Post Transformations.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Derived Column Transformation\Post Transformations.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Derived Column Transformation\Post Transformations.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Derived Column Transformation\Post Transformations.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Derived Column Transformation.Paths[Derived Column Output]"
+              endId="Package\Derived Column Transformation\Post Transformations.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Derived Column Transformation\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Derived Column Transformation.Paths[OLE DB Source Output]"
+              endId="Package\Derived Column Transformation\Derived Column.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Derived Column Transformation\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{21FE2DC0-7C43-43A7-841B-60B0A1112829}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{71762F54-7518-4FA3-AC63-8B78B308C369}"
+          SQLTask:SqlStatementSource="delete from customerpost" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Export DB data to Excel"
       DTS:CreationName="Microsoft.Pipeline"
@@ -743,6 +1381,16 @@
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{E66510FE-DDAF-4B88-A6F7-EDE80638B8F3}"
+      DTS:From="Package\Execute SQL Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Derived Column Transformation" />
+  </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
 <!--If you manually edit this section and make a mistake, you can delete it. -->
@@ -754,11 +1402,53 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="195,42"
           Id="Package\Export DB data to Excel"
-          TopLeft="222,40" />
+          TopLeft="43,109" />
+        <NodeLayout
+          Size="235,42"
+          Id="Package\Derived Column Transformation"
+          TopLeft="419,163" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Execute SQL Task"
+          TopLeft="461,69" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="546,111">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.5,52"
+              Start="0,0"
+              End="-9.5,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22"
+                    Point2="0,26"
+                    Point3="-4,26" />
+                  <mssgle:LineSegment
+                    End="-5.5,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.5,26"
+                    Point2="-9.5,26"
+                    Point3="-9.5,30" />
+                  <mssgle:LineSegment
+                    End="-9.5,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -813,7 +1503,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Export DB data to Excel\Northwind Employees">
+    design-time-name="Package\Export DB data to Excel\Excel Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -826,7 +1516,97 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Export DB data to Excel\Excel Destination">
+    design-time-name="Package\Export DB data to Excel\Northwind Employees">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Derived Column Transformation">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Derived Column Transformation\OLE DB Source"
+          TopLeft="168,61" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Derived Column Transformation\Derived Column"
+          TopLeft="171,200" />
+        <EdgeLayout
+          Id="Package\Derived Column Transformation.Paths[OLE DB Source Output]"
+          TopLeft="248.25,103">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,97"
+              Start="0,0"
+              End="0,89.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,89.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Derived Column Transformation\Post Transformations"
+          TopLeft="157,308" />
+        <EdgeLayout
+          Id="Package\Derived Column Transformation.Paths[Derived Column Output]"
+          TopLeft="249.25,242">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66"
+              Start="0,0"
+              End="0,58.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Derived Column Transformation\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Derived Column Transformation\Post Transformations">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

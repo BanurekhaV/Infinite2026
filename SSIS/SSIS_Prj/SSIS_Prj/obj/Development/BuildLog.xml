@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>SSIS_Prj</Name>
-    <LastWriteTime>2026-06-08T06:11:47.8119541Z</LastWriteTime>
+    <LastWriteTime>2026-06-08T12:55:09.2782575Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -13,7 +13,17 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Pck2.dtsx</Name>
-      <LastWriteTime>2026-06-08T06:11:47.7506185Z</LastWriteTime>
+      <LastWriteTime>2026-06-08T08:04:18.3688404Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pck3.dtsx</Name>
+      <LastWriteTime>2026-06-08T12:59:20.4651745Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pck4.dtsx</Name>
+      <LastWriteTime>2026-06-08T13:04:15.4363176Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
