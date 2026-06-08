@@ -1,0 +1,4 @@
+CustId, CustName, Shortname
+1, Rakshith,  rk
+2, Samson, sam
+3, Johnson, john

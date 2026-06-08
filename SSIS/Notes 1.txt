@@ -1,0 +1,22 @@
+SSIS : Is SQL Server Integration Services. 
+       It is a component of SQL Database used to perform Data Migration. 
+       It enhances data integration and work flow application
+       Provides data transformation services
+       Is an ETL tool (Extract, Transform and Load)
+
+
+Components of SSIS :
+
+1. Control Flow  - acts like a container for storing the task
+2. Data Flow  - Data Movement from source to destination involving transformation
+3. Event handlers  - for managing, messaging, emailing etc
+4. Parameters  - User interaction
+5. Package  - offers all the above
+
+Database, SSIS, SSAS, SSRS - Microsoft Business Intelligence
+
+Features : Data cleansing and profiling for better quality of data
+           Smooth data integration from disparate data sources
+           Seamless integration with other components of Microsoft SQL Products
+           Enriched studio environment and graphical tools/wizards
+           
