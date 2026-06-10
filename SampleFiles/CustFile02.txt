@@ -1,0 +1,4 @@
+CustId, CustName, Shortname
+10, Brijesh,  brij
+20, Sujesh, suj
+30, Jagadeesh, jaga

@@ -19,4 +19,8 @@ Features : Data cleansing and profiling for better quality of data
            Smooth data integration from disparate data sources
            Seamless integration with other components of Microsoft SQL Products
            Enriched studio environment and graphical tools/wizards
+
+
+
+
            

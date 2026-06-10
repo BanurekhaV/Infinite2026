@@ -1,0 +1,4 @@
+CustId, CustName, Shortname
+11, Sujatha,  suja
+12, deepika, Deeps
+13, Mullai, mul

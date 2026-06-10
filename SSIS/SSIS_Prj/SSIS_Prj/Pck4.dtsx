@@ -11,11 +11,32 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{02E79A20-C5F2-472E-9D0A-12F30DA2EC1F}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{9D5D0F2E-0FCE-4456-9B90-A4C15F4DE89C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[2026Project]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{218DD9AE-1FAD-4694-B5B8-F906595F4357}"
+      DTS:ObjectName="2026Project">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:FileUsageType="3"
+          DTS:ConnectionString="C:\2026Project" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[CustFile1.txt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{32ED83D0-CCA8-4894-8206-D9F81FE6087C}"
+      DTS:ObjectName="CustFile1.txt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Banu\2026\DotNet\SampleFiles\CustFile1.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Laptop-tjj7d977.AdventureWorks2019]"
       DTS:CreationName="OLEDB"
@@ -26,6 +47,18 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=Laptop-tjj7d977;Initial Catalog=AdventureWorks2019;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{F21823F7-59CC-431B-A509-DFA1825618A5}Laptop-tjj7d977.AdventureWorks2019;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[laptop-tjj7d977.InfiniteDB]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F53063A6-AC9C-467E-8AD2-CEAF676C4A53}"
+      DTS:ObjectName="laptop-tjj7d977.InfiniteDB">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=laptop-tjj7d977;Initial Catalog=InfiniteDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{F53063A6-AC9C-467E-8AD2-CEAF676C4A53}laptop-tjj7d977.InfiniteDB;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -41,7 +74,17 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
-  <DTS:Variables />
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{A6698676-C003-4967-B81E-CC3589E61823}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Variable">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Conditional Split Transformation"
@@ -1040,6 +1083,940 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Process Task"
+      DTS:CreationName="Microsoft.ExecuteProcess"
+      DTS:Description="Execute Process Task"
+      DTS:DTSID="{88DE1FBA-5F9D-4718-8F3C-DBEDD3FFA572}"
+      DTS:ExecutableType="Microsoft.ExecuteProcess"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Process Task"
+      DTS:TaskContact="Execute Process Task;Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecuteProcessData
+          Executable="calc.exe" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\FileCopy Task"
+      DTS:CreationName="Microsoft.FileSystemTask"
+      DTS:Description="File System Task"
+      DTS:DTSID="{2B74DDB3-034B-4FAA-BB75-8955847D7A2F}"
+      DTS:ExecutableType="Microsoft.FileSystemTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="FileCopy Task"
+      DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <FileSystemData
+          TaskSourcePath="{32ED83D0-CCA8-4894-8206-D9F81FE6087C}"
+          TaskDestinationPath="{218DD9AE-1FAD-4694-B5B8-F906595F4357}" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Sort Transformations"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{97199F13-DA74-4C6E-A87D-BCFB36193EC5}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Sort Transformations"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Sort Transformations\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Sort Transformations\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Data Conversion.Inputs[Data Conversion Input].Columns[ename]"
+                      cachedCodepage="1252"
+                      cachedComparisonFlags="1"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="ename"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[ename]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Sort Transformations\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ename]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ename]"
+                      name="Copy of ename"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[ename]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Sort Transformations\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Sort Transformations\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[EmpPost]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Sort Transformations\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[laptop-tjj7d977.SSISDB_Recepient]"
+                  connectionManagerRefId="Package.ConnectionManagers[laptop-tjj7d977.SSISDB_Recepient]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[empno]"
+                      cachedDataType="i4"
+                      cachedName="empno"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[empno]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[empno]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[job]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="job"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[job]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[job]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[mgr-id]"
+                      cachedDataType="i4"
+                      cachedName="mgr-id"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[mgr-id]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[mgr-id]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[hiredate]"
+                      cachedDataType="dbDate"
+                      cachedName="hiredate"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[hiredate]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[hiredate]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[sal]"
+                      cachedDataType="i4"
+                      cachedName="sal"
+                      cachedSortKeyPosition="-2"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sal]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[sal]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[comm.]"
+                      cachedDataType="i4"
+                      cachedName="comm."
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[comm.]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[comm.]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[deptno]"
+                      cachedDataType="i4"
+                      cachedName="deptno"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[deptno]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[deptno]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[fname]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="fname"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fname]"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[fname]" />
+                    <inputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of ename]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="Copy of ename"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ename]"
+                      lineageId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ename]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[empno]"
+                      dataType="i4"
+                      name="empno" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ename]"
+                      dataType="wstr"
+                      length="20"
+                      name="ename" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[job]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="job" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[mgr-id]"
+                      dataType="i4"
+                      name="mgr-id" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[hiredate]"
+                      dataType="dbDate"
+                      name="hiredate" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sal]"
+                      dataType="i4"
+                      name="sal" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[comm.]"
+                      dataType="i4"
+                      name="comm." />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[deptno]"
+                      dataType="i4"
+                      name="deptno" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[fname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="fname" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Sort Transformations\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Sort Transformations\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Emp]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Sort Transformations\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[laptop-tjj7d977.InfiniteDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[laptop-tjj7d977.InfiniteDB]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[empno]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[empno]"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[empno]"
+                      name="empno"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[ename]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ename]"
+                      length="20"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[ename]"
+                      name="ename"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[job]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[job]"
+                      length="20"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[job]"
+                      name="job"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[mgr-id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[mgr-id]"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[mgr-id]"
+                      name="mgr-id"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[hiredate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[hiredate]"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[hiredate]"
+                      name="hiredate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[sal]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sal]"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[sal]"
+                      name="sal"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[comm.]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[comm.]"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[comm.]"
+                      name="comm."
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[deptno]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[deptno]"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[deptno]"
+                      name="deptno"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[fname]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[fname]"
+                      length="20"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[fname]"
+                      name="fname"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[empno]"
+                      dataType="i4"
+                      name="empno" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ename]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="ename" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[job]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="job" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[mgr-id]"
+                      dataType="i4"
+                      name="mgr-id" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[hiredate]"
+                      dataType="dbDate"
+                      name="hiredate" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[sal]"
+                      dataType="i4"
+                      name="sal" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[comm.]"
+                      dataType="i4"
+                      name="comm." />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[deptno]"
+                      dataType="i4"
+                      name="deptno" />
+                    <externalMetadataColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[fname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="fname" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[empno]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[empno]"
+                      name="empno" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ename]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ename]"
+                      name="ename" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[job]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[job]"
+                      name="job" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[mgr-id]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[mgr-id]"
+                      name="mgr-id" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[hiredate]"
+                      dataType="dbDate"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[hiredate]"
+                      name="hiredate" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sal]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[sal]"
+                      name="sal" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[comm.]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[comm.]"
+                      name="comm." />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[deptno]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[deptno]"
+                      name="deptno" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[fname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[fname]"
+                      name="fname" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Sort Transformations\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Sort Transformations\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[empno]"
+                      cachedDataType="i4"
+                      cachedName="empno"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[empno]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[ename]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="ename"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[ename]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[job]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="job"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[job]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[mgr-id]"
+                      cachedDataType="i4"
+                      cachedName="mgr-id"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[mgr-id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[hiredate]"
+                      cachedDataType="dbDate"
+                      cachedName="hiredate"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[hiredate]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[sal]"
+                      cachedDataType="i4"
+                      cachedName="sal"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[sal]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">-2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[comm.]"
+                      cachedDataType="i4"
+                      cachedName="comm."
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[comm.]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[deptno]"
+                      cachedDataType="i4"
+                      cachedName="deptno"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[deptno]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Sort Transformations\Sort.Inputs[Sort Input].Columns[fname]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="fname"
+                      lineageId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[fname]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Sort Transformations\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[empno]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[empno]"
+                      name="empno">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[empno]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[ename]"
+                      codePage="1252"
+                      comparisonFlags="1"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[ename]"
+                      name="ename"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[ename]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[job]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[job]"
+                      name="job">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[job]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[mgr-id]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[mgr-id]"
+                      name="mgr-id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[mgr-id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[hiredate]"
+                      dataType="dbDate"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[hiredate]"
+                      name="hiredate">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[hiredate]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[sal]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[sal]"
+                      name="sal"
+                      sortKeyPosition="-2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[sal]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[comm.]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[comm.]"
+                      name="comm.">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[comm.]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[deptno]"
+                      dataType="i4"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[deptno]"
+                      name="deptno">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[deptno]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[fname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      lineageId="Package\Sort Transformations\Sort.Outputs[Sort Output].Columns[fname]"
+                      name="fname">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output].Columns[fname]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Sort Transformations.Paths[Data Conversion Output]"
+              endId="Package\Sort Transformations\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\Sort Transformations\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Sort Transformations.Paths[OLE DB Source Output]"
+              endId="Package\Sort Transformations\Sort.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\Sort Transformations\OLE DB Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Sort Transformations.Paths[Sort Output]"
+              endId="Package\Sort Transformations\Data Conversion.Inputs[Data Conversion Input]"
+              name="Sort Output"
+              startId="Package\Sort Transformations\Sort.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -1056,7 +2033,19 @@
         <NodeLayout
           Size="236,42"
           Id="Package\Conditional Split Transformation"
-          TopLeft="209,85" />
+          TopLeft="522,40" />
+        <NodeLayout
+          Size="188,42"
+          Id="Package\Execute Process Task"
+          TopLeft="585,104" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\FileCopy Task"
+          TopLeft="602,191" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Sort Transformations"
+          TopLeft="21.5,73.5" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -1066,47 +2055,25 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="157,42"
-          Id="Package\Conditional Split Transformation\OLE DB Source"
-          TopLeft="227,65" />
-        <NodeLayout
-          Size="159,42"
-          Id="Package\Conditional Split Transformation\Conditional Split"
-          TopLeft="227,148" />
-        <NodeLayout
           Size="110,42"
-          Id="Package\Conditional Split Transformation\Split 1"
-          TopLeft="52,245" />
-        <EdgeLayout
-          Id="Package\Conditional Split Transformation.Paths[OLE DB Source Output]"
-          TopLeft="306,107">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41"
-              Start="0,0"
-              End="0,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Id="Package\Conditional Split Transformation\Split 3"
+          TopLeft="519,242" />
         <NodeLayout
           Size="110,42"
           Id="Package\Conditional Split Transformation\Split 2"
           TopLeft="298,267" />
         <NodeLayout
           Size="110,42"
-          Id="Package\Conditional Split Transformation\Split 3"
-          TopLeft="519,242" />
+          Id="Package\Conditional Split Transformation\Split 1"
+          TopLeft="52,245" />
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Conditional Split Transformation\Conditional Split"
+          TopLeft="227,148" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Conditional Split Transformation\OLE DB Source"
+          TopLeft="227,65" />
         <EdgeLayout
           Id="Package\Conditional Split Transformation.Paths[Rows &lt; 400]"
           TopLeft="306.5,190">
@@ -1144,38 +2111,26 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Conditional Split Transformation.Paths[Rows Between 400 and 1200]"
-          TopLeft="306.5,190">
+          Id="Package\Conditional Split Transformation.Paths[OLE DB Source Output]"
+          TopLeft="306,107">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="46.5,77"
+              EndConnector="0,41"
               Start="0,0"
-              End="46.5,69.5">
+              End="0,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,34.5"
-                    Point2="0,38.5"
-                    Point3="4,38.5" />
-                  <mssgle:LineSegment
-                    End="42.5,38.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="42.5,38.5"
-                    Point2="46.5,38.5"
-                    Point3="46.5,42.5" />
-                  <mssgle:LineSegment
-                    End="46.5,69.5" />
+                    End="0,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-50.36185546875,43.5,147.2237109375,16"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -1215,9 +2170,58 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Conditional Split Transformation.Paths[Rows Between 400 and 1200]"
+          TopLeft="306.5,190">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="46.5,77"
+              Start="0,0"
+              End="46.5,69.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34.5"
+                    Point2="0,38.5"
+                    Point3="4,38.5" />
+                  <mssgle:LineSegment
+                    End="42.5,38.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="42.5,38.5"
+                    Point2="46.5,38.5"
+                    Point3="46.5,42.5" />
+                  <mssgle:LineSegment
+                    End="46.5,69.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-50.36185546875,43.5,147.2237109375,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Conditional Split Transformation\Split 2">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Conditional Split Transformation\OLE DB Source">
     <Properties>
@@ -1245,7 +2249,140 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Conditional Split Transformation\Split 2">
+    design-time-name="Package\Conditional Split Transformation\Split 3">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Sort Transformations">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Sort Transformations\OLE DB Destination"
+          TopLeft="240,319" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Sort Transformations\Sort"
+          TopLeft="243,173" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Sort Transformations\Data Conversion"
+          TopLeft="225,247" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Sort Transformations\OLE DB Source"
+          TopLeft="216,87" />
+        <EdgeLayout
+          Id="Package\Sort Transformations.Paths[Data Conversion Output]"
+          TopLeft="305.5,289">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="23,30"
+              Start="0,0"
+              End="23,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11"
+                    Point2="0,15"
+                    Point3="4,15" />
+                  <mssgle:LineSegment
+                    End="19,15" />
+                  <mssgle:CubicBezierSegment
+                    Point1="19,15"
+                    Point2="23,15"
+                    Point3="23,19" />
+                  <mssgle:LineSegment
+                    End="23,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sort Transformations.Paths[Sort Output]"
+          TopLeft="292.5,215">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13,32"
+              Start="0,0"
+              End="13,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12"
+                    Point2="0,16"
+                    Point3="4,16" />
+                  <mssgle:LineSegment
+                    End="9,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9,16"
+                    Point2="13,16"
+                    Point3="13,20" />
+                  <mssgle:LineSegment
+                    End="13,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sort Transformations.Paths[OLE DB Source Output]"
+          TopLeft="293.5,129">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Sort Transformations\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1258,7 +2395,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Conditional Split Transformation\Split 3">
+    design-time-name="Package\Sort Transformations\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
